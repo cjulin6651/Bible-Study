@@ -4,31 +4,38 @@
     "type": "split",
     "children": [
       {
-        "id": "2971101017296155",
+        "id": "c5addccefa1d9d1d",
         "type": "tabs",
+        "dimension": 45.780254777070056,
         "children": [
           {
-            "id": "17b22e576d83f9fa",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "0d37ecb5e87999a0",
+            "id": "ad0519d04248c0ab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Back up file/Templates/Theme Summary.md",
+                "file": "Back up file/Bible Study/Index/Index.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
+      },
+      {
+        "id": "ecbcd2737cfdfed4",
+        "type": "tabs",
+        "dimension": 54.219745222929944,
+        "children": [
+          {
+            "id": "83f9fc424730f4d1",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Back up file/Templates/Theme Summary.md",
+                "file": "Back up file/Bible Study/Index/Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Back up file/Templates/Theme Summary.md",
+                "file": "Back up file/Bible Study/Index/Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Back up file/Templates/Theme Summary.md"
+                "file": "Back up file/Bible Study/Index/Index.md"
               }
             }
           }
@@ -147,6 +154,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "homepage:Open homepage": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -155,11 +163,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0d37ecb5e87999a0",
+  "active": "ad0519d04248c0ab",
   "lastOpenFiles": [
+    "Back up file/Bible Study/Index/Index.md",
+    "Back up file/Bible Study/Index/People/Main People/Abel.md",
+    "Back up file/Bible Study/Index/Locations/Locations.md",
+    "Back up file/Bible Study/Index/Themes/Theme Notes/The Fall of Cain - Genesis 4.md",
+    "Back up file/Bible Study/Index/People/Main People/Cain.md",
+    "Back up file/Templates/Theme Summary.md",
+    "Test 2.md",
     "Back up file/Bible Study/Index/Testing 1.md",
-    "Untitled.md",
-    "Test Note.md",
-    "Back up file/Templates/Theme Summary.md"
+    "Test Note.md"
   ]
 }

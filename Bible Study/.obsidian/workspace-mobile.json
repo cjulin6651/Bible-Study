@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Back up file/Templates/Theme Note.md",
+                "file": "Back up file/Bible Study/Index/People/Main People/Adam.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Back up file/Templates/Theme Note.md",
+            "file": "Back up file/Bible Study/Index/People/Main People/Adam.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Back up file/Templates/Theme Note.md",
+            "file": "Back up file/Bible Study/Index/People/Main People/Adam.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -127,7 +127,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Back up file/Templates/Theme Note.md"
+            "file": "Back up file/Bible Study/Index/People/Main People/Adam.md"
           }
         }
       }
@@ -141,13 +141,17 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "homepage:Open homepage": false
     }
   },
   "active": "3bc2022864c97b12",
   "lastOpenFiles": [
-    "Back up file/Bible Study/Index/Testing 1.md",
+    "Back up file/Bible Study/Index/Index.md",
     "Back up file/Templates/Theme Note.md",
+    "Back up file/Bible Study/Index/00 - Index.md",
+    "Test 2.md",
+    "Back up file/Bible Study/Index/Testing 1.md",
     "Testing 1.md",
     "Back up file/Bible Study/Index/Themes/Theme Notes/The Fall of Cain - Genesis 4.md",
     "Back up file/Bible Study/Index/Words/English/Holy Spirit.md",
@@ -172,9 +176,6 @@
     "Back up file/Bible Study/Index/Words/Hebrew/Ruach.md",
     "Back up file/Bible Study/Index/Words/Hebrew/qayin.md",
     "Back up file/Bible Study/Index/Words/Word Notes/Ruach - Gen 1 v2.md",
-    "Back up file/Bible Study/Index/People/Main People/Eve.md",
-    "Back up file/Bible Study/Index/People/Main People/Cain.md",
-    "Back up file/Bible Study/Index/People/Main People/Abel.md",
     "Back up file/Bible Study/Index/Locations/Main Locations",
     "Back up file/Bible Study/Index/Locations/Location Notes",
     "Back up file/Bible Study/Index/Testament/Old Testament",
