@@ -1,0 +1,165 @@
+{
+  "main": {
+    "id": "c7487c067d7562d6",
+    "type": "split",
+    "children": [
+      {
+        "id": "2971101017296155",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "17b22e576d83f9fa",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "0d37ecb5e87999a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Back up file/Templates/Theme Summary.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "69a74f039210c9dc",
+    "type": "split",
+    "children": [
+      {
+        "id": "ebc982b2e1a16613",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1d8de236435975f2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d09ac61166bd73a6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "453929f687f4ebf8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a7bd4e3e8aeec26d",
+    "type": "split",
+    "children": [
+      {
+        "id": "529e17a4089d9810",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "372c9b185e5a8e4c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Back up file/Templates/Theme Summary.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3de7d04fbc9c1fb6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Back up file/Templates/Theme Summary.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "42b45d2a6a1abce1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f0939db4bbeb0387",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Back up file/Templates/Theme Summary.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "0d37ecb5e87999a0",
+  "lastOpenFiles": [
+    "Back up file/Bible Study/Index/Testing 1.md",
+    "Untitled.md",
+    "Test Note.md",
+    "Back up file/Templates/Theme Summary.md"
+  ]
+}

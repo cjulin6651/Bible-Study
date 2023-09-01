@@ -1,0 +1,4 @@
+### Strongs:
+StrongsNumber
+
+#Words 

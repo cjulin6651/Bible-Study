@@ -1,0 +1,186 @@
+{
+  "main": {
+    "id": "b0ad16de2f5785af",
+    "type": "split",
+    "children": [
+      {
+        "id": "9c8d236c1d023a0a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f0a291c644ccf288",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Back up file/Bible Study/Index/Themes/Theme Notes/The Fall of Cain - Genesis 4.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3bc2022864c97b12",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Back up file/Templates/Theme Note.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f0eb62d660c3fb64",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "a5f8ef2fb4033701",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "0d60cbffffcee461",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "fe438266067de18b",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "d3d6546a59033c90",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "a57af56501e07109",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "6d0200746cdc2b35",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Back up file/Templates/Theme Note.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "6eb33667867ab23a",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Back up file/Templates/Theme Note.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "6aa3771654b61867",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Back up file/Templates/Theme Note.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "3bc2022864c97b12",
+  "lastOpenFiles": [
+    "Back up file/Bible Study/Index/Testing 1.md",
+    "Back up file/Templates/Theme Note.md",
+    "Testing 1.md",
+    "Back up file/Bible Study/Index/Themes/Theme Notes/The Fall of Cain - Genesis 4.md",
+    "Back up file/Bible Study/Index/Words/English/Holy Spirit.md",
+    "Bible Study/Index/Testament/Old Testament/Book/Genesis/Genesis1.md",
+    "Back up file/Bible Study/Index/Testament/Old Testament/Book/Genesis/Genesis4.md",
+    "Back up file/Bible Study/Index/Testament/Old Testament/Book/Genesis/Genesis1.md",
+    "Back up file/Bible Study/Index/Testament/Old Testament/Book/Genesis/Genesis.md",
+    "Back up file/Bible Study/Index/Testament/Old Testament/Book/Genesis",
+    "Back up file/Bible Study/Index/Words/Strongs/Hebrew/H1892.md",
+    "Back up file/Bible Study/Index/Words/Strongs/Hebrew/H127.md",
+    "Back up file/Bible Study/Index/Words/Strongs/Hebrew/H7013.md",
+    "Back up file/Bible Study/Index/Words/Strongs/Hebrew/H7307.md",
+    "Back up file/Bible Study/Index/Testament/Old Testament/Book",
+    "Back up file/Bible Study/Index/Testament/Old Testament/Old Testament.md",
+    "Back up file/Bible Study/Index/Testament/New Testament/New Testament.md",
+    "Back up file/Bible Study/Index/Words/Strongs/Hebrew",
+    "Back up file/Bible Study/Index/Words/English/Spear.md",
+    "Back up file/Bible Study/Index/Words/English/Vanity.md",
+    "Back up file/Bible Study/Index/Words/English/Spirit.md",
+    "Back up file/Bible Study/Index/Words/Hebrew/Adamah.md",
+    "Back up file/Bible Study/Index/Words/Hebrew/hebel hăbêl.md",
+    "Back up file/Bible Study/Index/Words/Hebrew/Ruach.md",
+    "Back up file/Bible Study/Index/Words/Hebrew/qayin.md",
+    "Back up file/Bible Study/Index/Words/Word Notes/Ruach - Gen 1 v2.md",
+    "Back up file/Bible Study/Index/People/Main People/Eve.md",
+    "Back up file/Bible Study/Index/People/Main People/Cain.md",
+    "Back up file/Bible Study/Index/People/Main People/Abel.md",
+    "Back up file/Bible Study/Index/Locations/Main Locations",
+    "Back up file/Bible Study/Index/Locations/Location Notes",
+    "Back up file/Bible Study/Index/Testament/Old Testament",
+    "Back up file/Bible Study/Index/Testament/New Testament",
+    "Back up file/Bible Study/Index/Words/Strongs",
+    "Back up file/Bible Study/Index/Words/English",
+    "Back up file/Bible Study/Index/Words/Hebrew"
+  ]
+}
