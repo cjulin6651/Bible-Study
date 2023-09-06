@@ -1,0 +1,4 @@
+### Strongs:
+InsertNumberHere
+### Symbolism:
+InsertSymbolism

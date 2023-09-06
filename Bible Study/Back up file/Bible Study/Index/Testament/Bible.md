@@ -1,2 +1,0 @@
-[[Old Testament]]
-[[New Testament]]

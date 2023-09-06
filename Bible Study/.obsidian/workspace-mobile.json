@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "9c8d236c1d023a0a",
+        "id": "f6bf681424763a03",
         "type": "tabs",
         "children": [
           {
-            "id": "f0a291c644ccf288",
+            "id": "19fc03216cb0a3da",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Back up file/Bible Study/Index/Themes/Theme Notes/The Fall of Cain - Genesis 4.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3bc2022864c97b12",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Back up file/Bible Study/Index/People/Main People/Adam.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -41,16 +24,6 @@
     "id": "f0eb62d660c3fb64",
     "type": "mobile-drawer",
     "children": [
-      {
-        "id": "a5f8ef2fb4033701",
-        "type": "leaf",
-        "state": {
-          "type": "file-explorer",
-          "state": {
-            "sortOrder": "alphabetical"
-          }
-        }
-      },
       {
         "id": "0d60cbffffcee461",
         "type": "leaf",
@@ -84,9 +57,19 @@
           "type": "bookmarks",
           "state": {}
         }
+      },
+      {
+        "id": "b9011c49ad04dd0d",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
       }
     ],
-    "currentTab": 0
+    "currentTab": 3
   },
   "right": {
     "id": "a57af56501e07109",
@@ -98,7 +81,6 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Back up file/Bible Study/Index/People/Main People/Adam.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -115,7 +97,6 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Back up file/Bible Study/Index/People/Main People/Adam.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -126,13 +107,11 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {
-            "file": "Back up file/Bible Study/Index/People/Main People/Adam.md"
-          }
+          "state": {}
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 1
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -145,43 +124,43 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "3bc2022864c97b12",
+  "active": "19fc03216cb0a3da",
   "lastOpenFiles": [
+    "Back up file/Bible Study/Index/Words/English/Fame.md",
+    "Back up file/Bible Study/Index/Words/Strongs/Hebrew/H5903.md",
+    "Back up file/Bible Study/Index/Themes/Theme Notes/Noah's Fall - Genesis 9.md",
+    "Back up file/Bible Study/Index/Words/Hebrew/‛êyrôm ‛êrôm.md",
+    "Back up file/Bible Study/Index/Words/English/naked.md",
+    "Back up file/Bible Study/Index/Plants, Animals, Food & Objects/Food & Drink/wine.md",
+    "Back up file/Bible Study/Index/Words/Strongs/Hebrew/H3196.md",
+    "Back up file/Bible Study/Index/Words/Hebrew/yayin.md",
+    "Back up file/Bible Study/Index/Plants, Animals, Food & Objects/Plants/olive tree.md",
     "Back up file/Bible Study/Index/Index.md",
-    "Back up file/Templates/Theme Note.md",
-    "Back up file/Bible Study/Index/00 - Index.md",
-    "Test 2.md",
-    "Back up file/Bible Study/Index/Testing 1.md",
-    "Testing 1.md",
-    "Back up file/Bible Study/Index/Themes/Theme Notes/The Fall of Cain - Genesis 4.md",
-    "Back up file/Bible Study/Index/Words/English/Holy Spirit.md",
-    "Bible Study/Index/Testament/Old Testament/Book/Genesis/Genesis1.md",
-    "Back up file/Bible Study/Index/Testament/Old Testament/Book/Genesis/Genesis4.md",
-    "Back up file/Bible Study/Index/Testament/Old Testament/Book/Genesis/Genesis1.md",
-    "Back up file/Bible Study/Index/Testament/Old Testament/Book/Genesis/Genesis.md",
-    "Back up file/Bible Study/Index/Testament/Old Testament/Book/Genesis",
-    "Back up file/Bible Study/Index/Words/Strongs/Hebrew/H1892.md",
-    "Back up file/Bible Study/Index/Words/Strongs/Hebrew/H127.md",
-    "Back up file/Bible Study/Index/Words/Strongs/Hebrew/H7013.md",
-    "Back up file/Bible Study/Index/Words/Strongs/Hebrew/H7307.md",
-    "Back up file/Bible Study/Index/Testament/Old Testament/Book",
-    "Back up file/Bible Study/Index/Testament/Old Testament/Old Testament.md",
-    "Back up file/Bible Study/Index/Testament/New Testament/New Testament.md",
-    "Back up file/Bible Study/Index/Words/Strongs/Hebrew",
-    "Back up file/Bible Study/Index/Words/English/Spear.md",
-    "Back up file/Bible Study/Index/Words/English/Vanity.md",
-    "Back up file/Bible Study/Index/Words/English/Spirit.md",
-    "Back up file/Bible Study/Index/Words/Hebrew/Adamah.md",
-    "Back up file/Bible Study/Index/Words/Hebrew/hebel hăbêl.md",
-    "Back up file/Bible Study/Index/Words/Hebrew/Ruach.md",
+    "Back up file/Bible Study/Index/Plants, Animals, Food & Objects/Food & Drink",
+    "Back up file/Bible Study/Index/Words/English/pitch.md",
+    "Back up file/Bible Study/Index/Words/Strongs/Hebrew/H1588.md",
+    "Back up file/Bible Study/Index/Words/Hebrew/gan.md",
+    "Back up file/Bible Study/Index/Words/English/garden.md",
+    "Back up file/Bible Study/Index/Words/Strongs/Hebrew/H3754.md",
+    "vinyard.md",
+    "Back up file/Bible Study/Index/Words/English/vineyard.md",
+    "Back up file/Bible Study/Index/Words/Strongs/Hebrew/H2525.md",
+    "Back up file/Bible Study/Index/Words/Strongs/Hebrew/H2526.md",
+    "Back up file/Bible Study/Index/Words/Hebrew/châm.md",
+    "Back up file/Bible Study/Index/Words/Hebrew/kerem.md",
     "Back up file/Bible Study/Index/Words/Hebrew/qayin.md",
-    "Back up file/Bible Study/Index/Words/Word Notes/Ruach - Gen 1 v2.md",
-    "Back up file/Bible Study/Index/Locations/Main Locations",
-    "Back up file/Bible Study/Index/Locations/Location Notes",
-    "Back up file/Bible Study/Index/Testament/Old Testament",
-    "Back up file/Bible Study/Index/Testament/New Testament",
-    "Back up file/Bible Study/Index/Words/Strongs",
-    "Back up file/Bible Study/Index/Words/English",
-    "Back up file/Bible Study/Index/Words/Hebrew"
+    "Back up file/Bible Study/Index/People/Main People/Japheth.md",
+    "Back up file/Bible Study/Index/Words/English/hot.md",
+    "Back up file/Templates/Eng-Heb-Greek Word.md",
+    "Back up file/Bible Study/Index/Words/Greek",
+    "Back up file/Templates/Hebrew-Greek Word.md",
+    "Back up file/Bible Study/Index/Plants, Animals, & Objects/Objects",
+    "Back up file/Bible Study/Index/Plants, Animals, & Objects/Animals",
+    "Back up file/Bible Study/Index/Plants, Animals, & Objects/Plants",
+    "Back up file/Bible Study/Index/Plants, Animals, & Objects",
+    "Back up file/Bible Study/Index/Symbolic Numbers",
+    "Back up file/Bible Study/Index/Typology",
+    "Back up file/Bible Study/Index/Bible/Old Testament/Book/Song of Solomon",
+    "Back up file/Bible Study/Index/Bible/Old Testament/Book/Untitled"
   ]
 }

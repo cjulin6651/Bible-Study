@@ -1,0 +1,100 @@
+{
+  "palette": [
+    {
+      "id": "AcOiGYWjlkVonBRXGnSmu",
+      "name": "OT ",
+      "value": "#e90001"
+    },
+    {
+      "id": "fo909AWoNo4C1Pkci8udQ",
+      "name": "NT",
+      "value": "#0001fc"
+    },
+    {
+      "id": "R1RvXpnP34x3lM4sjkjju",
+      "name": "Theme",
+      "value": "#64c466"
+    },
+    {
+      "id": "nFaMa8vVw6hgqOWwGjTju",
+      "name": "Words",
+      "value": "#00f0e8"
+    },
+    {
+      "id": "uvXhY-gmOC_CgKqiu-Xtg",
+      "name": "Locations",
+      "value": "#edec00"
+    },
+    {
+      "id": "pvhgfo9jCWPbFIyNJWlRa",
+      "name": "Occupation",
+      "value": "#f600f5"
+    },
+    {
+      "id": "5_6hpBM_t0KuorAEuuXP3",
+      "name": "People",
+      "value": "#ff6e1c"
+    },
+    {
+      "id": "md_OIupCqm_8l6uMrKg-R",
+      "name": "Object ",
+      "value": "#8500c5"
+    },
+    {
+      "id": "9EYNqWTDEkLoh6lehogIr",
+      "name": "Number ",
+      "value": "#752f00"
+    },
+    {
+      "id": "O72uJxMLYzJ5hUKhCm3_Y",
+      "name": "Typolof ",
+      "value": "#ff5b5c"
+    }
+  ],
+  "fileColors": [
+    {
+      "path": "Back up file/Bible Study/Index/Bible/1 - Old Testament",
+      "color": "AcOiGYWjlkVonBRXGnSmu"
+    },
+    {
+      "path": "Back up file/Bible Study/Index/Bible/2 - New Testament",
+      "color": "fo909AWoNo4C1Pkci8udQ"
+    },
+    {
+      "path": "Back up file/Bible Study/Index/Themes",
+      "color": "R1RvXpnP34x3lM4sjkjju"
+    },
+    {
+      "path": "Back up file/Bible Study/Index/Words",
+      "color": "nFaMa8vVw6hgqOWwGjTju"
+    },
+    {
+      "path": "Back up file/Bible Study/Index/Locations & Nations",
+      "color": "uvXhY-gmOC_CgKqiu-Xtg"
+    },
+    {
+      "path": "Back up file/Bible Study/Index/Occupation",
+      "color": "pvhgfo9jCWPbFIyNJWlRa"
+    },
+    {
+      "path": "Back up file/Bible Study/Index/People",
+      "color": "5_6hpBM_t0KuorAEuuXP3"
+    },
+    {
+      "path": "Back up file/Bible Study/Index/Plants, Animals, & Objects",
+      "color": "md_OIupCqm_8l6uMrKg-R"
+    },
+    {
+      "path": "Back up file/Bible Study/Index/Symbolic Numbers",
+      "color": "9EYNqWTDEkLoh6lehogIr"
+    },
+    {
+      "path": "Back up file/Bible Study/Index/Typology",
+      "color": "O72uJxMLYzJ5hUKhCm3_Y"
+    },
+    {
+      "path": "Back up file/Bible Study/Index/Plants, Animals, Food & Objects",
+      "color": "md_OIupCqm_8l6uMrKg-R"
+    }
+  ]
+}

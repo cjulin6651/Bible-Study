@@ -3,11 +3,12 @@
   "referenceLinkPosition": "Header",
   "verseFormatting": "Paragraph",
   "verseNumberFormatting": "**^1**",
-  "collapsibleVerses": false,
-  "bibleTagging": false,
+  "collapsibleVerses": true,
   "bookTagging": false,
   "chapterTagging": false,
+  "enableBibleVerseLookupRibbon": false,
+  "optOutToEvents": false,
+  "bibleTagging": false,
   "bookBacklinking": true,
-  "chapterBacklinking": true,
-  "enableBibleVerseLookupRibbon": false
+  "chapterBacklinking": true
 }

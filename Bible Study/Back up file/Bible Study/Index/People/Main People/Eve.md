@@ -13,7 +13,7 @@
 Everyone
 
 ### General Description:
-Mother of all humanity. [[Helpmate]] to [[Adam]]. Lived in the [[Garden of Eden]]. Deceived by the [[Serpent]], gave it to Adam, received the [[Curse]], and was kicked out is the garden. 
+Mother of all humanity. [[Helpmate]] to [[Adam]]. Lived in the [[Garden of Eden]]. Deceived by the [[Serpent]], gave it to Adam, received the [[Curse]] as a result of [[The Fall]], and was kicked out is the garden. 
 
 ### Important Tags:
 #People 

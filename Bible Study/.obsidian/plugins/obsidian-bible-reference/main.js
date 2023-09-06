@@ -6228,7 +6228,7 @@ var require_browser2 = __commonJS({
       }
     }
     function transmit(logger, opts, args) {
-      const send = opts.send;
+      const send2 = opts.send;
       const ts = opts.ts;
       const methodLevel = opts.methodLevel;
       const methodValue = opts.methodValue;
@@ -6246,7 +6246,7 @@ var require_browser2 = __commonJS({
       });
       logger._logEvent.level.label = methodLevel;
       logger._logEvent.level.value = methodValue;
-      send(methodLevel, logger._logEvent, val);
+      send2(methodLevel, logger._logEvent, val);
       logger._logEvent = createLogEventShape(bindings);
     }
     function createLogEventShape(bindings) {
@@ -7739,6 +7739,695 @@ var require_build = __commonJS({
   }
 });
 
+// node_modules/.pnpm/platform@1.3.6/node_modules/platform/platform.js
+var require_platform = __commonJS({
+  "node_modules/.pnpm/platform@1.3.6/node_modules/platform/platform.js"(exports, module2) {
+    (function() {
+      "use strict";
+      var objectTypes = {
+        "function": true,
+        "object": true
+      };
+      var root = objectTypes[typeof window] && window || this;
+      var oldRoot = root;
+      var freeExports = objectTypes[typeof exports] && exports;
+      var freeModule = objectTypes[typeof module2] && module2 && !module2.nodeType && module2;
+      var freeGlobal = freeExports && freeModule && typeof global == "object" && global;
+      if (freeGlobal && (freeGlobal.global === freeGlobal || freeGlobal.window === freeGlobal || freeGlobal.self === freeGlobal)) {
+        root = freeGlobal;
+      }
+      var maxSafeInteger = Math.pow(2, 53) - 1;
+      var reOpera = /\bOpera/;
+      var thisBinding = this;
+      var objectProto = Object.prototype;
+      var hasOwnProperty = objectProto.hasOwnProperty;
+      var toString = objectProto.toString;
+      function capitalize(string) {
+        string = String(string);
+        return string.charAt(0).toUpperCase() + string.slice(1);
+      }
+      function cleanupOS(os, pattern, label) {
+        var data = {
+          "10.0": "10",
+          "6.4": "10 Technical Preview",
+          "6.3": "8.1",
+          "6.2": "8",
+          "6.1": "Server 2008 R2 / 7",
+          "6.0": "Server 2008 / Vista",
+          "5.2": "Server 2003 / XP 64-bit",
+          "5.1": "XP",
+          "5.01": "2000 SP1",
+          "5.0": "2000",
+          "4.0": "NT",
+          "4.90": "ME"
+        };
+        if (pattern && label && /^Win/i.test(os) && !/^Windows Phone /i.test(os) && (data = data[/[\d.]+$/.exec(os)])) {
+          os = "Windows " + data;
+        }
+        os = String(os);
+        if (pattern && label) {
+          os = os.replace(RegExp(pattern, "i"), label);
+        }
+        os = format(
+          os.replace(/ ce$/i, " CE").replace(/\bhpw/i, "web").replace(/\bMacintosh\b/, "Mac OS").replace(/_PowerPC\b/i, " OS").replace(/\b(OS X) [^ \d]+/i, "$1").replace(/\bMac (OS X)\b/, "$1").replace(/\/(\d)/, " $1").replace(/_/g, ".").replace(/(?: BePC|[ .]*fc[ \d.]+)$/i, "").replace(/\bx86\.64\b/gi, "x86_64").replace(/\b(Windows Phone) OS\b/, "$1").replace(/\b(Chrome OS \w+) [\d.]+\b/, "$1").split(" on ")[0]
+        );
+        return os;
+      }
+      function each(object, callback) {
+        var index = -1, length = object ? object.length : 0;
+        if (typeof length == "number" && length > -1 && length <= maxSafeInteger) {
+          while (++index < length) {
+            callback(object[index], index, object);
+          }
+        } else {
+          forOwn(object, callback);
+        }
+      }
+      function format(string) {
+        string = trim(string);
+        return /^(?:webOS|i(?:OS|P))/.test(string) ? string : capitalize(string);
+      }
+      function forOwn(object, callback) {
+        for (var key in object) {
+          if (hasOwnProperty.call(object, key)) {
+            callback(object[key], key, object);
+          }
+        }
+      }
+      function getClassOf(value) {
+        return value == null ? capitalize(value) : toString.call(value).slice(8, -1);
+      }
+      function isHostType(object, property) {
+        var type = object != null ? typeof object[property] : "number";
+        return !/^(?:boolean|number|string|undefined)$/.test(type) && (type == "object" ? !!object[property] : true);
+      }
+      function qualify(string) {
+        return String(string).replace(/([ -])(?!$)/g, "$1?");
+      }
+      function reduce(array, callback) {
+        var accumulator = null;
+        each(array, function(value, index) {
+          accumulator = callback(accumulator, value, index, array);
+        });
+        return accumulator;
+      }
+      function trim(string) {
+        return String(string).replace(/^ +| +$/g, "");
+      }
+      function parse2(ua) {
+        var context = root;
+        var isCustomContext = ua && typeof ua == "object" && getClassOf(ua) != "String";
+        if (isCustomContext) {
+          context = ua;
+          ua = null;
+        }
+        var nav = context.navigator || {};
+        var userAgent = nav.userAgent || "";
+        ua || (ua = userAgent);
+        var isModuleScope = isCustomContext || thisBinding == oldRoot;
+        var likeChrome = isCustomContext ? !!nav.likeChrome : /\bChrome\b/.test(ua) && !/internal|\n/i.test(toString.toString());
+        var objectClass = "Object", airRuntimeClass = isCustomContext ? objectClass : "ScriptBridgingProxyObject", enviroClass = isCustomContext ? objectClass : "Environment", javaClass = isCustomContext && context.java ? "JavaPackage" : getClassOf(context.java), phantomClass = isCustomContext ? objectClass : "RuntimeObject";
+        var java = /\bJava/.test(javaClass) && context.java;
+        var rhino = java && getClassOf(context.environment) == enviroClass;
+        var alpha = java ? "a" : "\u03B1";
+        var beta = java ? "b" : "\u03B2";
+        var doc = context.document || {};
+        var opera = context.operamini || context.opera;
+        var operaClass = reOpera.test(operaClass = isCustomContext && opera ? opera["[[Class]]"] : getClassOf(opera)) ? operaClass : opera = null;
+        var data;
+        var arch = ua;
+        var description = [];
+        var prerelease = null;
+        var useFeatures = ua == userAgent;
+        var version2 = useFeatures && opera && typeof opera.version == "function" && opera.version();
+        var isSpecialCasedOS;
+        var layout = getLayout([
+          { "label": "EdgeHTML", "pattern": "Edge" },
+          "Trident",
+          { "label": "WebKit", "pattern": "AppleWebKit" },
+          "iCab",
+          "Presto",
+          "NetFront",
+          "Tasman",
+          "KHTML",
+          "Gecko"
+        ]);
+        var name = getName([
+          "Adobe AIR",
+          "Arora",
+          "Avant Browser",
+          "Breach",
+          "Camino",
+          "Electron",
+          "Epiphany",
+          "Fennec",
+          "Flock",
+          "Galeon",
+          "GreenBrowser",
+          "iCab",
+          "Iceweasel",
+          "K-Meleon",
+          "Konqueror",
+          "Lunascape",
+          "Maxthon",
+          { "label": "Microsoft Edge", "pattern": "(?:Edge|Edg|EdgA|EdgiOS)" },
+          "Midori",
+          "Nook Browser",
+          "PaleMoon",
+          "PhantomJS",
+          "Raven",
+          "Rekonq",
+          "RockMelt",
+          { "label": "Samsung Internet", "pattern": "SamsungBrowser" },
+          "SeaMonkey",
+          { "label": "Silk", "pattern": "(?:Cloud9|Silk-Accelerated)" },
+          "Sleipnir",
+          "SlimBrowser",
+          { "label": "SRWare Iron", "pattern": "Iron" },
+          "Sunrise",
+          "Swiftfox",
+          "Vivaldi",
+          "Waterfox",
+          "WebPositive",
+          { "label": "Yandex Browser", "pattern": "YaBrowser" },
+          { "label": "UC Browser", "pattern": "UCBrowser" },
+          "Opera Mini",
+          { "label": "Opera Mini", "pattern": "OPiOS" },
+          "Opera",
+          { "label": "Opera", "pattern": "OPR" },
+          "Chromium",
+          "Chrome",
+          { "label": "Chrome", "pattern": "(?:HeadlessChrome)" },
+          { "label": "Chrome Mobile", "pattern": "(?:CriOS|CrMo)" },
+          { "label": "Firefox", "pattern": "(?:Firefox|Minefield)" },
+          { "label": "Firefox for iOS", "pattern": "FxiOS" },
+          { "label": "IE", "pattern": "IEMobile" },
+          { "label": "IE", "pattern": "MSIE" },
+          "Safari"
+        ]);
+        var product = getProduct([
+          { "label": "BlackBerry", "pattern": "BB10" },
+          "BlackBerry",
+          { "label": "Galaxy S", "pattern": "GT-I9000" },
+          { "label": "Galaxy S2", "pattern": "GT-I9100" },
+          { "label": "Galaxy S3", "pattern": "GT-I9300" },
+          { "label": "Galaxy S4", "pattern": "GT-I9500" },
+          { "label": "Galaxy S5", "pattern": "SM-G900" },
+          { "label": "Galaxy S6", "pattern": "SM-G920" },
+          { "label": "Galaxy S6 Edge", "pattern": "SM-G925" },
+          { "label": "Galaxy S7", "pattern": "SM-G930" },
+          { "label": "Galaxy S7 Edge", "pattern": "SM-G935" },
+          "Google TV",
+          "Lumia",
+          "iPad",
+          "iPod",
+          "iPhone",
+          "Kindle",
+          { "label": "Kindle Fire", "pattern": "(?:Cloud9|Silk-Accelerated)" },
+          "Nexus",
+          "Nook",
+          "PlayBook",
+          "PlayStation Vita",
+          "PlayStation",
+          "TouchPad",
+          "Transformer",
+          { "label": "Wii U", "pattern": "WiiU" },
+          "Wii",
+          "Xbox One",
+          { "label": "Xbox 360", "pattern": "Xbox" },
+          "Xoom"
+        ]);
+        var manufacturer = getManufacturer({
+          "Apple": { "iPad": 1, "iPhone": 1, "iPod": 1 },
+          "Alcatel": {},
+          "Archos": {},
+          "Amazon": { "Kindle": 1, "Kindle Fire": 1 },
+          "Asus": { "Transformer": 1 },
+          "Barnes & Noble": { "Nook": 1 },
+          "BlackBerry": { "PlayBook": 1 },
+          "Google": { "Google TV": 1, "Nexus": 1 },
+          "HP": { "TouchPad": 1 },
+          "HTC": {},
+          "Huawei": {},
+          "Lenovo": {},
+          "LG": {},
+          "Microsoft": { "Xbox": 1, "Xbox One": 1 },
+          "Motorola": { "Xoom": 1 },
+          "Nintendo": { "Wii U": 1, "Wii": 1 },
+          "Nokia": { "Lumia": 1 },
+          "Oppo": {},
+          "Samsung": { "Galaxy S": 1, "Galaxy S2": 1, "Galaxy S3": 1, "Galaxy S4": 1 },
+          "Sony": { "PlayStation": 1, "PlayStation Vita": 1 },
+          "Xiaomi": { "Mi": 1, "Redmi": 1 }
+        });
+        var os = getOS([
+          "Windows Phone",
+          "KaiOS",
+          "Android",
+          "CentOS",
+          { "label": "Chrome OS", "pattern": "CrOS" },
+          "Debian",
+          { "label": "DragonFly BSD", "pattern": "DragonFly" },
+          "Fedora",
+          "FreeBSD",
+          "Gentoo",
+          "Haiku",
+          "Kubuntu",
+          "Linux Mint",
+          "OpenBSD",
+          "Red Hat",
+          "SuSE",
+          "Ubuntu",
+          "Xubuntu",
+          "Cygwin",
+          "Symbian OS",
+          "hpwOS",
+          "webOS ",
+          "webOS",
+          "Tablet OS",
+          "Tizen",
+          "Linux",
+          "Mac OS X",
+          "Macintosh",
+          "Mac",
+          "Windows 98;",
+          "Windows "
+        ]);
+        function getLayout(guesses) {
+          return reduce(guesses, function(result, guess) {
+            return result || RegExp("\\b" + (guess.pattern || qualify(guess)) + "\\b", "i").exec(ua) && (guess.label || guess);
+          });
+        }
+        function getManufacturer(guesses) {
+          return reduce(guesses, function(result, value, key) {
+            return result || (value[product] || value[/^[a-z]+(?: +[a-z]+\b)*/i.exec(product)] || RegExp("\\b" + qualify(key) + "(?:\\b|\\w*\\d)", "i").exec(ua)) && key;
+          });
+        }
+        function getName(guesses) {
+          return reduce(guesses, function(result, guess) {
+            return result || RegExp("\\b" + (guess.pattern || qualify(guess)) + "\\b", "i").exec(ua) && (guess.label || guess);
+          });
+        }
+        function getOS(guesses) {
+          return reduce(guesses, function(result, guess) {
+            var pattern = guess.pattern || qualify(guess);
+            if (!result && (result = RegExp("\\b" + pattern + "(?:/[\\d.]+|[ \\w.]*)", "i").exec(ua))) {
+              result = cleanupOS(result, pattern, guess.label || guess);
+            }
+            return result;
+          });
+        }
+        function getProduct(guesses) {
+          return reduce(guesses, function(result, guess) {
+            var pattern = guess.pattern || qualify(guess);
+            if (!result && (result = RegExp("\\b" + pattern + " *\\d+[.\\w_]*", "i").exec(ua) || RegExp("\\b" + pattern + " *\\w+-[\\w]*", "i").exec(ua) || RegExp("\\b" + pattern + "(?:; *(?:[a-z]+[_-])?[a-z]+\\d+|[^ ();-]*)", "i").exec(ua))) {
+              if ((result = String(guess.label && !RegExp(pattern, "i").test(guess.label) ? guess.label : result).split("/"))[1] && !/[\d.]+/.test(result[0])) {
+                result[0] += " " + result[1];
+              }
+              guess = guess.label || guess;
+              result = format(result[0].replace(RegExp(pattern, "i"), guess).replace(RegExp("; *(?:" + guess + "[_-])?", "i"), " ").replace(RegExp("(" + guess + ")[-_.]?(\\w)", "i"), "$1 $2"));
+            }
+            return result;
+          });
+        }
+        function getVersion(patterns) {
+          return reduce(patterns, function(result, pattern) {
+            return result || (RegExp(pattern + "(?:-[\\d.]+/|(?: for [\\w-]+)?[ /-])([\\d.]+[^ ();/_-]*)", "i").exec(ua) || 0)[1] || null;
+          });
+        }
+        function toStringPlatform() {
+          return this.description || "";
+        }
+        layout && (layout = [layout]);
+        if (/\bAndroid\b/.test(os) && !product && (data = /\bAndroid[^;]*;(.*?)(?:Build|\) AppleWebKit)\b/i.exec(ua))) {
+          product = trim(data[1]).replace(/^[a-z]{2}-[a-z]{2};\s*/i, "") || null;
+        }
+        if (manufacturer && !product) {
+          product = getProduct([manufacturer]);
+        } else if (manufacturer && product) {
+          product = product.replace(RegExp("^(" + qualify(manufacturer) + ")[-_.\\s]", "i"), manufacturer + " ").replace(RegExp("^(" + qualify(manufacturer) + ")[-_.]?(\\w)", "i"), manufacturer + " $2");
+        }
+        if (data = /\bGoogle TV\b/.exec(product)) {
+          product = data[0];
+        }
+        if (/\bSimulator\b/i.test(ua)) {
+          product = (product ? product + " " : "") + "Simulator";
+        }
+        if (name == "Opera Mini" && /\bOPiOS\b/.test(ua)) {
+          description.push("running in Turbo/Uncompressed mode");
+        }
+        if (name == "IE" && /\blike iPhone OS\b/.test(ua)) {
+          data = parse2(ua.replace(/like iPhone OS/, ""));
+          manufacturer = data.manufacturer;
+          product = data.product;
+        } else if (/^iP/.test(product)) {
+          name || (name = "Safari");
+          os = "iOS" + ((data = / OS ([\d_]+)/i.exec(ua)) ? " " + data[1].replace(/_/g, ".") : "");
+        } else if (name == "Konqueror" && /^Linux\b/i.test(os)) {
+          os = "Kubuntu";
+        } else if (manufacturer && manufacturer != "Google" && (/Chrome/.test(name) && !/\bMobile Safari\b/i.test(ua) || /\bVita\b/.test(product)) || /\bAndroid\b/.test(os) && /^Chrome/.test(name) && /\bVersion\//i.test(ua)) {
+          name = "Android Browser";
+          os = /\bAndroid\b/.test(os) ? os : "Android";
+        } else if (name == "Silk") {
+          if (!/\bMobi/i.test(ua)) {
+            os = "Android";
+            description.unshift("desktop mode");
+          }
+          if (/Accelerated *= *true/i.test(ua)) {
+            description.unshift("accelerated");
+          }
+        } else if (name == "UC Browser" && /\bUCWEB\b/.test(ua)) {
+          description.push("speed mode");
+        } else if (name == "PaleMoon" && (data = /\bFirefox\/([\d.]+)\b/.exec(ua))) {
+          description.push("identifying as Firefox " + data[1]);
+        } else if (name == "Firefox" && (data = /\b(Mobile|Tablet|TV)\b/i.exec(ua))) {
+          os || (os = "Firefox OS");
+          product || (product = data[1]);
+        } else if (!name || (data = !/\bMinefield\b/i.test(ua) && /\b(?:Firefox|Safari)\b/.exec(name))) {
+          if (name && !product && /[\/,]|^[^(]+?\)/.test(ua.slice(ua.indexOf(data + "/") + 8))) {
+            name = null;
+          }
+          if ((data = product || manufacturer || os) && (product || manufacturer || /\b(?:Android|Symbian OS|Tablet OS|webOS)\b/.test(os))) {
+            name = /[a-z]+(?: Hat)?/i.exec(/\bAndroid\b/.test(os) ? os : data) + " Browser";
+          }
+        } else if (name == "Electron" && (data = (/\bChrome\/([\d.]+)\b/.exec(ua) || 0)[1])) {
+          description.push("Chromium " + data);
+        }
+        if (!version2) {
+          version2 = getVersion([
+            "(?:Cloud9|CriOS|CrMo|Edge|Edg|EdgA|EdgiOS|FxiOS|HeadlessChrome|IEMobile|Iron|Opera ?Mini|OPiOS|OPR|Raven|SamsungBrowser|Silk(?!/[\\d.]+$)|UCBrowser|YaBrowser)",
+            "Version",
+            qualify(name),
+            "(?:Firefox|Minefield|NetFront)"
+          ]);
+        }
+        if (data = layout == "iCab" && parseFloat(version2) > 3 && "WebKit" || /\bOpera\b/.test(name) && (/\bOPR\b/.test(ua) ? "Blink" : "Presto") || /\b(?:Midori|Nook|Safari)\b/i.test(ua) && !/^(?:Trident|EdgeHTML)$/.test(layout) && "WebKit" || !layout && /\bMSIE\b/i.test(ua) && (os == "Mac OS" ? "Tasman" : "Trident") || layout == "WebKit" && /\bPlayStation\b(?! Vita\b)/i.test(name) && "NetFront") {
+          layout = [data];
+        }
+        if (name == "IE" && (data = (/; *(?:XBLWP|ZuneWP)(\d+)/i.exec(ua) || 0)[1])) {
+          name += " Mobile";
+          os = "Windows Phone " + (/\+$/.test(data) ? data : data + ".x");
+          description.unshift("desktop mode");
+        } else if (/\bWPDesktop\b/i.test(ua)) {
+          name = "IE Mobile";
+          os = "Windows Phone 8.x";
+          description.unshift("desktop mode");
+          version2 || (version2 = (/\brv:([\d.]+)/.exec(ua) || 0)[1]);
+        } else if (name != "IE" && layout == "Trident" && (data = /\brv:([\d.]+)/.exec(ua))) {
+          if (name) {
+            description.push("identifying as " + name + (version2 ? " " + version2 : ""));
+          }
+          name = "IE";
+          version2 = data[1];
+        }
+        if (useFeatures) {
+          if (isHostType(context, "global")) {
+            if (java) {
+              data = java.lang.System;
+              arch = data.getProperty("os.arch");
+              os = os || data.getProperty("os.name") + " " + data.getProperty("os.version");
+            }
+            if (rhino) {
+              try {
+                version2 = context.require("ringo/engine").version.join(".");
+                name = "RingoJS";
+              } catch (e) {
+                if ((data = context.system) && data.global.system == context.system) {
+                  name = "Narwhal";
+                  os || (os = data[0].os || null);
+                }
+              }
+              if (!name) {
+                name = "Rhino";
+              }
+            } else if (typeof context.process == "object" && !context.process.browser && (data = context.process)) {
+              if (typeof data.versions == "object") {
+                if (typeof data.versions.electron == "string") {
+                  description.push("Node " + data.versions.node);
+                  name = "Electron";
+                  version2 = data.versions.electron;
+                } else if (typeof data.versions.nw == "string") {
+                  description.push("Chromium " + version2, "Node " + data.versions.node);
+                  name = "NW.js";
+                  version2 = data.versions.nw;
+                }
+              }
+              if (!name) {
+                name = "Node.js";
+                arch = data.arch;
+                os = data.platform;
+                version2 = /[\d.]+/.exec(data.version);
+                version2 = version2 ? version2[0] : null;
+              }
+            }
+          } else if (getClassOf(data = context.runtime) == airRuntimeClass) {
+            name = "Adobe AIR";
+            os = data.flash.system.Capabilities.os;
+          } else if (getClassOf(data = context.phantom) == phantomClass) {
+            name = "PhantomJS";
+            version2 = (data = data.version || null) && data.major + "." + data.minor + "." + data.patch;
+          } else if (typeof doc.documentMode == "number" && (data = /\bTrident\/(\d+)/i.exec(ua))) {
+            version2 = [version2, doc.documentMode];
+            if ((data = +data[1] + 4) != version2[1]) {
+              description.push("IE " + version2[1] + " mode");
+              layout && (layout[1] = "");
+              version2[1] = data;
+            }
+            version2 = name == "IE" ? String(version2[1].toFixed(1)) : version2[0];
+          } else if (typeof doc.documentMode == "number" && /^(?:Chrome|Firefox)\b/.test(name)) {
+            description.push("masking as " + name + " " + version2);
+            name = "IE";
+            version2 = "11.0";
+            layout = ["Trident"];
+            os = "Windows";
+          }
+          os = os && format(os);
+        }
+        if (version2 && (data = /(?:[ab]|dp|pre|[ab]\d+pre)(?:\d+\+?)?$/i.exec(version2) || /(?:alpha|beta)(?: ?\d)?/i.exec(ua + ";" + (useFeatures && nav.appMinorVersion)) || /\bMinefield\b/i.test(ua) && "a")) {
+          prerelease = /b/i.test(data) ? "beta" : "alpha";
+          version2 = version2.replace(RegExp(data + "\\+?$"), "") + (prerelease == "beta" ? beta : alpha) + (/\d+\+?/.exec(data) || "");
+        }
+        if (name == "Fennec" || name == "Firefox" && /\b(?:Android|Firefox OS|KaiOS)\b/.test(os)) {
+          name = "Firefox Mobile";
+        } else if (name == "Maxthon" && version2) {
+          version2 = version2.replace(/\.[\d.]+/, ".x");
+        } else if (/\bXbox\b/i.test(product)) {
+          if (product == "Xbox 360") {
+            os = null;
+          }
+          if (product == "Xbox 360" && /\bIEMobile\b/.test(ua)) {
+            description.unshift("mobile mode");
+          }
+        } else if ((/^(?:Chrome|IE|Opera)$/.test(name) || name && !product && !/Browser|Mobi/.test(name)) && (os == "Windows CE" || /Mobi/i.test(ua))) {
+          name += " Mobile";
+        } else if (name == "IE" && useFeatures) {
+          try {
+            if (context.external === null) {
+              description.unshift("platform preview");
+            }
+          } catch (e) {
+            description.unshift("embedded");
+          }
+        } else if ((/\bBlackBerry\b/.test(product) || /\bBB10\b/.test(ua)) && (data = (RegExp(product.replace(/ +/g, " *") + "/([.\\d]+)", "i").exec(ua) || 0)[1] || version2)) {
+          data = [data, /BB10/.test(ua)];
+          os = (data[1] ? (product = null, manufacturer = "BlackBerry") : "Device Software") + " " + data[0];
+          version2 = null;
+        } else if (this != forOwn && product != "Wii" && (useFeatures && opera || /Opera/.test(name) && /\b(?:MSIE|Firefox)\b/i.test(ua) || name == "Firefox" && /\bOS X (?:\d+\.){2,}/.test(os) || name == "IE" && (os && !/^Win/.test(os) && version2 > 5.5 || /\bWindows XP\b/.test(os) && version2 > 8 || version2 == 8 && !/\bTrident\b/.test(ua))) && !reOpera.test(data = parse2.call(forOwn, ua.replace(reOpera, "") + ";")) && data.name) {
+          data = "ing as " + data.name + ((data = data.version) ? " " + data : "");
+          if (reOpera.test(name)) {
+            if (/\bIE\b/.test(data) && os == "Mac OS") {
+              os = null;
+            }
+            data = "identify" + data;
+          } else {
+            data = "mask" + data;
+            if (operaClass) {
+              name = format(operaClass.replace(/([a-z])([A-Z])/g, "$1 $2"));
+            } else {
+              name = "Opera";
+            }
+            if (/\bIE\b/.test(data)) {
+              os = null;
+            }
+            if (!useFeatures) {
+              version2 = null;
+            }
+          }
+          layout = ["Presto"];
+          description.push(data);
+        }
+        if (data = (/\bAppleWebKit\/([\d.]+\+?)/i.exec(ua) || 0)[1]) {
+          data = [parseFloat(data.replace(/\.(\d)$/, ".0$1")), data];
+          if (name == "Safari" && data[1].slice(-1) == "+") {
+            name = "WebKit Nightly";
+            prerelease = "alpha";
+            version2 = data[1].slice(0, -1);
+          } else if (version2 == data[1] || version2 == (data[2] = (/\bSafari\/([\d.]+\+?)/i.exec(ua) || 0)[1])) {
+            version2 = null;
+          }
+          data[1] = (/\b(?:Headless)?Chrome\/([\d.]+)/i.exec(ua) || 0)[1];
+          if (data[0] == 537.36 && data[2] == 537.36 && parseFloat(data[1]) >= 28 && layout == "WebKit") {
+            layout = ["Blink"];
+          }
+          if (!useFeatures || !likeChrome && !data[1]) {
+            layout && (layout[1] = "like Safari");
+            data = (data = data[0], data < 400 ? 1 : data < 500 ? 2 : data < 526 ? 3 : data < 533 ? 4 : data < 534 ? "4+" : data < 535 ? 5 : data < 537 ? 6 : data < 538 ? 7 : data < 601 ? 8 : data < 602 ? 9 : data < 604 ? 10 : data < 606 ? 11 : data < 608 ? 12 : "12");
+          } else {
+            layout && (layout[1] = "like Chrome");
+            data = data[1] || (data = data[0], data < 530 ? 1 : data < 532 ? 2 : data < 532.05 ? 3 : data < 533 ? 4 : data < 534.03 ? 5 : data < 534.07 ? 6 : data < 534.1 ? 7 : data < 534.13 ? 8 : data < 534.16 ? 9 : data < 534.24 ? 10 : data < 534.3 ? 11 : data < 535.01 ? 12 : data < 535.02 ? "13+" : data < 535.07 ? 15 : data < 535.11 ? 16 : data < 535.19 ? 17 : data < 536.05 ? 18 : data < 536.1 ? 19 : data < 537.01 ? 20 : data < 537.11 ? "21+" : data < 537.13 ? 23 : data < 537.18 ? 24 : data < 537.24 ? 25 : data < 537.36 ? 26 : layout != "Blink" ? "27" : "28");
+          }
+          layout && (layout[1] += " " + (data += typeof data == "number" ? ".x" : /[.+]/.test(data) ? "" : "+"));
+          if (name == "Safari" && (!version2 || parseInt(version2) > 45)) {
+            version2 = data;
+          } else if (name == "Chrome" && /\bHeadlessChrome/i.test(ua)) {
+            description.unshift("headless");
+          }
+        }
+        if (name == "Opera" && (data = /\bzbov|zvav$/.exec(os))) {
+          name += " ";
+          description.unshift("desktop mode");
+          if (data == "zvav") {
+            name += "Mini";
+            version2 = null;
+          } else {
+            name += "Mobile";
+          }
+          os = os.replace(RegExp(" *" + data + "$"), "");
+        } else if (name == "Safari" && /\bChrome\b/.exec(layout && layout[1])) {
+          description.unshift("desktop mode");
+          name = "Chrome Mobile";
+          version2 = null;
+          if (/\bOS X\b/.test(os)) {
+            manufacturer = "Apple";
+            os = "iOS 4.3+";
+          } else {
+            os = null;
+          }
+        } else if (/\bSRWare Iron\b/.test(name) && !version2) {
+          version2 = getVersion("Chrome");
+        }
+        if (version2 && version2.indexOf(data = /[\d.]+$/.exec(os)) == 0 && ua.indexOf("/" + data + "-") > -1) {
+          os = trim(os.replace(data, ""));
+        }
+        if (os && os.indexOf(name) != -1 && !RegExp(name + " OS").test(os)) {
+          os = os.replace(RegExp(" *" + qualify(name) + " *"), "");
+        }
+        if (layout && !/\b(?:Avant|Nook)\b/.test(name) && (/Browser|Lunascape|Maxthon/.test(name) || name != "Safari" && /^iOS/.test(os) && /\bSafari\b/.test(layout[1]) || /^(?:Adobe|Arora|Breach|Midori|Opera|Phantom|Rekonq|Rock|Samsung Internet|Sleipnir|SRWare Iron|Vivaldi|Web)/.test(name) && layout[1])) {
+          (data = layout[layout.length - 1]) && description.push(data);
+        }
+        if (description.length) {
+          description = ["(" + description.join("; ") + ")"];
+        }
+        if (manufacturer && product && product.indexOf(manufacturer) < 0) {
+          description.push("on " + manufacturer);
+        }
+        if (product) {
+          description.push((/^on /.test(description[description.length - 1]) ? "" : "on ") + product);
+        }
+        if (os) {
+          data = / ([\d.+]+)$/.exec(os);
+          isSpecialCasedOS = data && os.charAt(os.length - data[0].length - 1) == "/";
+          os = {
+            "architecture": 32,
+            "family": data && !isSpecialCasedOS ? os.replace(data[0], "") : os,
+            "version": data ? data[1] : null,
+            "toString": function() {
+              var version3 = this.version;
+              return this.family + (version3 && !isSpecialCasedOS ? " " + version3 : "") + (this.architecture == 64 ? " 64-bit" : "");
+            }
+          };
+        }
+        if ((data = /\b(?:AMD|IA|Win|WOW|x86_|x)64\b/i.exec(arch)) && !/\bi686\b/i.test(arch)) {
+          if (os) {
+            os.architecture = 64;
+            os.family = os.family.replace(RegExp(" *" + data), "");
+          }
+          if (name && (/\bWOW64\b/i.test(ua) || useFeatures && /\w(?:86|32)$/.test(nav.cpuClass || nav.platform) && !/\bWin64; x64\b/i.test(ua))) {
+            description.unshift("32-bit");
+          }
+        } else if (os && /^OS X/.test(os.family) && name == "Chrome" && parseFloat(version2) >= 39) {
+          os.architecture = 64;
+        }
+        ua || (ua = null);
+        var platform3 = {};
+        platform3.description = ua;
+        platform3.layout = layout && layout[0];
+        platform3.manufacturer = manufacturer;
+        platform3.name = name;
+        platform3.prerelease = prerelease;
+        platform3.product = product;
+        platform3.ua = ua;
+        platform3.version = name && version2;
+        platform3.os = os || {
+          /**
+           * The CPU architecture the OS is built for.
+           *
+           * @memberOf platform.os
+           * @type number|null
+           */
+          "architecture": null,
+          /**
+           * The family of the OS.
+           *
+           * Common values include:
+           * "Windows", "Windows Server 2008 R2 / 7", "Windows Server 2008 / Vista",
+           * "Windows XP", "OS X", "Linux", "Ubuntu", "Debian", "Fedora", "Red Hat",
+           * "SuSE", "Android", "iOS" and "Windows Phone"
+           *
+           * @memberOf platform.os
+           * @type string|null
+           */
+          "family": null,
+          /**
+           * The version of the OS.
+           *
+           * @memberOf platform.os
+           * @type string|null
+           */
+          "version": null,
+          /**
+           * Returns the OS string.
+           *
+           * @memberOf platform.os
+           * @returns {string} The OS string.
+           */
+          "toString": function() {
+            return "null";
+          }
+        };
+        platform3.parse = parse2;
+        platform3.toString = toStringPlatform;
+        if (platform3.version) {
+          description.unshift(version2);
+        }
+        if (platform3.name) {
+          description.unshift(name);
+        }
+        if (os && name && !(os == String(os).split(" ")[0] && (os == name.split(" ")[0] || product))) {
+          description.push(product ? "(" + os + ")" : "on " + os);
+        }
+        if (description.length) {
+          platform3.description = description.join(" ");
+        }
+        return platform3;
+      }
+      var platform2 = parse2();
+      if (typeof define == "function" && typeof define.amd == "object" && define.amd) {
+        root.platform = platform2;
+        define(function() {
+          return platform2;
+        });
+      } else if (freeExports && freeModule) {
+        forOwn(platform2, function(value, key) {
+          freeExports[key] = value;
+        });
+      } else {
+        root.platform = platform2;
+      }
+    }).call(exports);
+  }
+});
+
 // biblejs-name-converter/lib/books.js
 var require_books = __commonJS({
   "biblejs-name-converter/lib/books.js"(exports, module2) {
@@ -8259,7 +8948,7 @@ __export(main_exports, {
   default: () => BibleReferencePlugin
 });
 module.exports = __toCommonJS(main_exports);
-var import_obsidian6 = require("obsidian");
+var import_obsidian7 = require("obsidian");
 
 // src/data/BibleApiSourceCollection.ts
 var BibleAPISourceCollection = {
@@ -8534,14 +9223,11 @@ var DEFAULT_SETTINGS = {
   verseFormatting: "Single Line" /* SingleLine */,
   verseNumberFormatting: "1. " /* Period */,
   collapsibleVerses: false,
-  bibleTagging: false,
   bookTagging: false,
   chapterTagging: false,
-  bookBacklinking: false,
-  chapterBacklinking: false,
-  enableBibleVerseLookupRibbon: false
+  enableBibleVerseLookupRibbon: false,
+  optOutToEvents: false
 };
-var API_WAITING_LABEL = "Loading...";
 
 // src/ui/BibleReferenceSettingTab.ts
 var import_obsidian = require("obsidian");
@@ -8551,10 +9237,343 @@ var import_flagsmith_nodejs = __toESM(require_build());
 var flagsmith = new import_flagsmith_nodejs.default({
   environmentKey: "NJTKgnNToZxbe6TCksAcmD"
 });
-var getFlags = async () => {
-  return flagsmith.getEnvironmentFlags();
+var FlagService = class {
+  static getInstace() {
+    if (!FlagService.instance) {
+      FlagService.instance = new FlagService();
+    }
+    return FlagService.instance;
+  }
+  async init() {
+    this.flags = await flagsmith.getEnvironmentFlags();
+  }
+  isFeatureEnabled(feature) {
+    return this.flags.isFeatureEnabled(feature);
+  }
 };
-var FeatureFlag_default = getFlags;
+
+// node_modules/.pnpm/ackee-tracker@5.1.0/node_modules/ackee-tracker/src/scripts/main.js
+var import_platform = __toESM(require_platform());
+var isBrowser = typeof window !== "undefined";
+var validate2 = function(opts = {}) {
+  const _opts = {};
+  _opts.detailed = opts.detailed === true;
+  _opts.ignoreLocalhost = opts.ignoreLocalhost !== false;
+  _opts.ignoreOwnVisits = opts.ignoreOwnVisits !== false;
+  return _opts;
+};
+var isLocalhost = function(hostname) {
+  return hostname === "" || hostname === "localhost" || hostname === "127.0.0.1" || hostname === "::1";
+};
+var isBot = function(userAgent) {
+  return /bot|crawler|spider|crawling/i.test(userAgent);
+};
+var isFakeId = function(id) {
+  return id === "88888888-8888-8888-8888-888888888888";
+};
+var isInBackground = function() {
+  return document.visibilityState === "hidden";
+};
+var source = function() {
+  const source2 = (location.search.split(`source=`)[1] || "").split("&")[0];
+  return source2 === "" ? void 0 : source2;
+};
+var attributes = function(detailed = false) {
+  const defaultData = {
+    siteLocation: window.location.href,
+    siteReferrer: document.referrer,
+    source: source()
+  };
+  const detailedData = {
+    siteLanguage: (navigator.language || navigator.userLanguage).substr(0, 2),
+    screenWidth: screen.width,
+    screenHeight: screen.height,
+    screenColorDepth: screen.colorDepth,
+    deviceName: import_platform.default.product,
+    deviceManufacturer: import_platform.default.manufacturer,
+    osName: import_platform.default.os.family,
+    osVersion: import_platform.default.os.version,
+    browserName: import_platform.default.name,
+    browserVersion: import_platform.default.version,
+    browserWidth: window.outerWidth,
+    browserHeight: window.outerHeight
+  };
+  return {
+    ...defaultData,
+    ...detailed === true ? detailedData : {}
+  };
+};
+var createRecordBody = function(domainId, input) {
+  return {
+    query: `
+			mutation createRecord($domainId: ID!, $input: CreateRecordInput!) {
+				createRecord(domainId: $domainId, input: $input) {
+					payload {
+						id
+					}
+				}
+			}
+		`,
+    variables: {
+      domainId,
+      input
+    }
+  };
+};
+var updateRecordBody = function(recordId) {
+  return {
+    query: `
+			mutation updateRecord($recordId: ID!) {
+				updateRecord(id: $recordId) {
+					success
+				}
+			}
+		`,
+    variables: {
+      recordId
+    }
+  };
+};
+var createActionBody = function(eventId, input) {
+  return {
+    query: `
+			mutation createAction($eventId: ID!, $input: CreateActionInput!) {
+				createAction(eventId: $eventId, input: $input) {
+					payload {
+						id
+					}
+				}
+			}
+		`,
+    variables: {
+      eventId,
+      input
+    }
+  };
+};
+var updateActionBody = function(actionId, input) {
+  return {
+    query: `
+			mutation updateAction($actionId: ID!, $input: UpdateActionInput!) {
+				updateAction(id: $actionId, input: $input) {
+					success
+				}
+			}
+		`,
+    variables: {
+      actionId,
+      input
+    }
+  };
+};
+var endpoint = function(server) {
+  const hasTrailingSlash = server.substr(-1) === "/";
+  return server + (hasTrailingSlash === true ? "" : "/") + "api";
+};
+var send = function(url, body, opts, next) {
+  const xhr = new XMLHttpRequest();
+  xhr.open("POST", url);
+  xhr.onload = () => {
+    if (xhr.status !== 200) {
+      throw new Error("Server returned with an unhandled status");
+    }
+    let json = null;
+    try {
+      json = JSON.parse(xhr.responseText);
+    } catch (e) {
+      throw new Error("Failed to parse response from server");
+    }
+    if (json.errors != null) {
+      throw new Error(json.errors[0].message);
+    }
+    if (typeof next === "function") {
+      return next(json);
+    }
+  };
+  xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+  xhr.withCredentials = opts.ignoreOwnVisits;
+  xhr.send(JSON.stringify(body));
+};
+var detect = function() {
+  const elem = document.querySelector("[data-ackee-domain-id]");
+  if (elem == null)
+    return;
+  const server = elem.getAttribute("data-ackee-server") || "";
+  const domainId = elem.getAttribute("data-ackee-domain-id");
+  const opts = elem.getAttribute("data-ackee-opts") || "{}";
+  create(server, JSON.parse(opts)).record(domainId);
+};
+var create = function(server, opts) {
+  opts = validate2(opts);
+  const url = endpoint(server);
+  const noop = () => {
+  };
+  const fakeInstance = {
+    record: () => ({ stop: noop }),
+    updateRecord: () => ({ stop: noop }),
+    action: noop,
+    updateAction: noop
+  };
+  if (opts.ignoreLocalhost === true && isLocalhost(location.hostname) === true) {
+    console.warn("Ackee ignores you because you are on localhost");
+    return fakeInstance;
+  }
+  if (isBot(navigator.userAgent) === true) {
+    console.warn("Ackee ignores you because you are a bot");
+    return fakeInstance;
+  }
+  const _record = (domainId, attrs = attributes(opts.detailed), next) => {
+    let isStopped = false;
+    const stop = () => {
+      isStopped = true;
+    };
+    send(url, createRecordBody(domainId, attrs), opts, (json) => {
+      const recordId = json.data.createRecord.payload.id;
+      if (isFakeId(recordId) === true) {
+        return console.warn("Ackee ignores you because this is your own site");
+      }
+      const interval = setInterval(() => {
+        if (isStopped === true) {
+          clearInterval(interval);
+          return;
+        }
+        if (isInBackground() === true)
+          return;
+        send(url, updateRecordBody(recordId), opts);
+      }, 15e3);
+      if (typeof next === "function") {
+        return next(recordId);
+      }
+    });
+    return { stop };
+  };
+  const _updateRecord = (recordId) => {
+    let isStopped = false;
+    const stop = () => {
+      isStopped = true;
+    };
+    if (isFakeId(recordId) === true) {
+      console.warn("Ackee ignores you because this is your own site");
+      return { stop };
+    }
+    const interval = setInterval(() => {
+      if (isStopped === true) {
+        clearInterval(interval);
+        return;
+      }
+      if (isInBackground() === true)
+        return;
+      send(url, updateRecordBody(recordId), opts);
+    }, 15e3);
+    return { stop };
+  };
+  const _action = (eventId, attrs, next) => {
+    send(url, createActionBody(eventId, attrs), opts, (json) => {
+      const actionId = json.data.createAction.payload.id;
+      if (isFakeId(actionId) === true) {
+        return console.warn("Ackee ignores you because this is your own site");
+      }
+      if (typeof next === "function") {
+        return next(actionId);
+      }
+    });
+  };
+  const _updateAction = (actionId, attrs) => {
+    if (isFakeId(actionId) === true) {
+      return console.warn("Ackee ignores you because this is your own site");
+    }
+    send(url, updateActionBody(actionId, attrs), opts);
+  };
+  return {
+    record: _record,
+    updateRecord: _updateRecord,
+    action: _action,
+    updateAction: _updateAction
+  };
+};
+if (isBrowser === true) {
+  detect();
+}
+
+// src/provider/EventStats.ts
+var EVENTS = {
+  // key:count value 1
+  settingsOpen: "2b5c608e-a773-4e99-8253-ae466e34ea3c",
+  vodModalOpen: "d109ceb7-c654-4450-b4c7-b258845dbe6d",
+  vodEditorOpen: "f814103b-d147-498d-8024-ec9285c5c6c7",
+  lookupEditorOpen: "42abd468-3d86-45de-99bb-856267b6ce61",
+  // got triggered in the editor
+  lookupModalOpen: "63e6a132-2113-4363-8337-e8716c5bcb13",
+  // key:john1:1 value: 1
+  verseLookUp: "1e25a766-e81c-4241-aae9-16cfdadf3bd5",
+  vodLookUp: "ca89d404-8953-4e8a-96aa-bc9dc5f3b12d",
+  // settings, NIV 1
+  changeVersion: "4504d174-6535-426e-8d54-c6e49d27d537",
+  changeVerseFormatting: "af3fb034-a428-4a52-a2c4-556d61f95602",
+  others: "e5751880-71c9-4dc5-9ba6-2d6d81828463"
+  // changeLinkPosition: '',
+  // changeVerseNumberFormatting: '',
+  // changeCollapsible: '',
+  // changeBookTagging: '',
+  // changeChapterTagging: '',
+};
+var Logger = class {
+  constructor() {
+    this.getEventId = (eventName) => {
+      try {
+        return EVENTS[eventName];
+      } catch (e) {
+        const msg = `EventStats: ${eventName} is not a valid event name`;
+        console.error(msg);
+        throw new Error(msg);
+      }
+    };
+  }
+  static getInstance() {
+    if (!Logger.instance) {
+      Logger.instance = new Logger();
+    }
+    return Logger.instance;
+  }
+  init(server, domainId) {
+    this.server = server;
+    this.domainId = domainId;
+    this.ackeeTracker = create(server, {
+      ignoreLocalhost: true,
+      detailed: true
+    });
+  }
+  async logRecord(optOut) {
+    if (!optOut) {
+      this.record = Logger.instance.ackeeTracker.record(this.domainId);
+      this.record.stop();
+    }
+  }
+  async logSettingChange(eventName, actionAttributes, optOut) {
+    if (!optOut) {
+      this.fireEvent(this.getEventId(eventName), actionAttributes);
+    }
+  }
+  async logLookup(eventName, actionAttributes, optOut) {
+    if (!optOut) {
+      this.fireEvent(this.getEventId(eventName), actionAttributes);
+    }
+  }
+  async logUIOpen(eventName, actionAttributes, optOut) {
+    if (!optOut) {
+      this.fireEvent(this.getEventId(eventName), actionAttributes);
+    }
+  }
+  async fireEvent(eventId, actionAttributes) {
+    Logger.instance.ackeeTracker.action(eventId, actionAttributes);
+  }
+};
+var tracker = Logger.getInstance();
+tracker.init(
+  "https://log.techtim42.com",
+  "f73c4c66-05ae-4c79-921e-fd0848d15d35"
+);
+var EventStats = tracker;
 
 // src/ui/BibleReferenceSettingTab.ts
 var BibleReferenceSettingTab = class extends import_obsidian.PluginSettingTab {
@@ -8573,16 +9592,17 @@ var BibleReferenceSettingTab = class extends import_obsidian.PluginSettingTab {
     this.getAllBibleVersionsWithLanguageName = () => {
       return BibleVersionCollection;
     };
-    this.setUpVersionSettingsAndVersionOptions = (containerEl, disableBibleAPI) => {
+    this.setUpVersionSettingsAndVersionOptions = (containerEl) => {
       let allAvailableVersionOptions = this.getAllBibleVersionsWithLanguageNameAlphabetically();
+      const disableBibleAPI = FlagService.instance.isFeatureEnabled("disable-bible-api");
       if (disableBibleAPI) {
-        allAvailableVersionOptions = allAvailableVersionOptions.filter(
-          (v) => {
-            return v.apiSource.name !== BibleAPISourceCollection.bibleApi.name;
-          }
-        );
+        allAvailableVersionOptions = allAvailableVersionOptions.filter((v) => {
+          return v.apiSource.name !== BibleAPISourceCollection.bibleApi.name;
+        });
       }
-      if (disableBibleAPI && !allAvailableVersionOptions.find((v) => v.key === this.plugin.settings.bibleVersion)) {
+      if (disableBibleAPI && !allAvailableVersionOptions.find(
+        (v) => v.key === this.plugin.settings.bibleVersion
+      )) {
         this.plugin.settings.bibleVersion = DEFAULT_BIBLE_VERSION.key;
       }
       new import_obsidian.Setting(containerEl).setName("Default Bible Version").setDesc("Choose the Bible version you prefer").addDropdown((dropdown) => {
@@ -8596,7 +9616,12 @@ var BibleReferenceSettingTab = class extends import_obsidian.PluginSettingTab {
           this.plugin.settings.bibleVersion = value;
           console.debug("Default Bible Version: " + value);
           await this.plugin.saveSettings();
-          new import_obsidian.Notice("Bible Reference Settings Updated ");
+          new import_obsidian.Notice(`Bible Reference - use Version ${value.toUpperCase()}`);
+          EventStats.logSettingChange(
+            "changeVersion",
+            { key: value, value: 1 },
+            this.plugin.settings.optOutToEvents
+          );
         });
       });
     };
@@ -8615,6 +9640,11 @@ var BibleReferenceSettingTab = class extends import_obsidian.PluginSettingTab {
           console.debug("Bible Verse Reference Link Position: " + value);
           await this.plugin.saveSettings();
           new import_obsidian.Notice("Bible Reference Settings Updated ");
+          EventStats.logSettingChange(
+            "changeVerseFormatting",
+            { key: `link-position-${value}`, value: 1 },
+            this.plugin.settings.optOutToEvents
+          );
         });
       });
     };
@@ -8633,6 +9663,11 @@ var BibleReferenceSettingTab = class extends import_obsidian.PluginSettingTab {
           console.debug("Bible Verse Format To: " + value);
           await this.plugin.saveSettings();
           new import_obsidian.Notice("Bible Verse Format Settings Updated");
+          EventStats.logSettingChange(
+            "changeVerseFormatting",
+            { key: `verse-format-${value}`, value: 1 },
+            this.plugin.settings.optOutToEvents
+          );
         });
       });
     };
@@ -8649,6 +9684,11 @@ var BibleReferenceSettingTab = class extends import_obsidian.PluginSettingTab {
           console.debug("Bible Verse Number Format To: " + value);
           await this.plugin.saveSettings();
           new import_obsidian.Notice("Bible Verse Format Number Settings Updated");
+          EventStats.logSettingChange(
+            "changeVerseFormatting",
+            { key: `verse-number-format-${value}`, value: 1 },
+            this.plugin.settings.optOutToEvents
+          );
         });
       });
     };
@@ -8656,20 +9696,14 @@ var BibleReferenceSettingTab = class extends import_obsidian.PluginSettingTab {
       new import_obsidian.Setting(containerEl).setName("Make Verses Collapsible").setDesc("Make the rendered verses collapsible").addToggle(
         (toggle) => {
           var _a;
-          return toggle.setValue(!!((_a = this.plugin.settings) == null ? void 0 : _a.collapsibleVerses)).onChange((value) => {
+          return toggle.setValue(!!((_a = this.plugin.settings) == null ? void 0 : _a.collapsibleVerses)).onChange(async (value) => {
             this.plugin.settings.collapsibleVerses = value;
-            this.plugin.saveData(this.plugin.settings);
-          });
-        }
-      );
-    };
-    this.setUpBibleTagging = (containerEl) => {
-      new import_obsidian.Setting(containerEl).setName("Add a #bible tag").setDesc("Add a hidden bible tag at bottom, i.e. #bible").addToggle(
-        (toggle) => {
-          var _a;
-          return toggle.setValue(!!((_a = this.plugin.settings) == null ? void 0 : _a.bibleTagging)).onChange((value) => {
-            this.plugin.settings.bibleTagging = value;
-            this.plugin.saveData(this.plugin.settings);
+            await this.plugin.saveSettings();
+            EventStats.logSettingChange(
+              "changeVerseFormatting",
+              { key: `collapsible-${value}`, value: 1 },
+              this.plugin.settings.optOutToEvents
+            );
           });
         }
       );
@@ -8678,9 +9712,14 @@ var BibleReferenceSettingTab = class extends import_obsidian.PluginSettingTab {
       new import_obsidian.Setting(containerEl).setName("Add a Book Tag").setDesc("Add a hidden book tag at bottom, for example #John").addToggle(
         (toggle) => {
           var _a;
-          return toggle.setValue(!!((_a = this.plugin.settings) == null ? void 0 : _a.bookTagging)).onChange((value) => {
+          return toggle.setValue(!!((_a = this.plugin.settings) == null ? void 0 : _a.bookTagging)).onChange(async (value) => {
             this.plugin.settings.bookTagging = value;
-            this.plugin.saveData(this.plugin.settings);
+            await this.plugin.saveSettings();
+            EventStats.logSettingChange(
+              "changeVerseFormatting",
+              { key: `book-tagging-${value}`, value: 1 },
+              this.plugin.settings.optOutToEvents
+            );
           });
         }
       );
@@ -8689,31 +9728,41 @@ var BibleReferenceSettingTab = class extends import_obsidian.PluginSettingTab {
       new import_obsidian.Setting(containerEl).setName("Add a Chapter Tag").setDesc("Add a hidden chapter tag at bottom, for example #John1").addToggle(
         (toggle) => {
           var _a;
-          return toggle.setValue(!!((_a = this.plugin.settings) == null ? void 0 : _a.chapterTagging)).onChange((value) => {
+          return toggle.setValue(!!((_a = this.plugin.settings) == null ? void 0 : _a.chapterTagging)).onChange(async (value) => {
             this.plugin.settings.chapterTagging = value;
-            this.plugin.saveData(this.plugin.settings);
+            await this.plugin.saveSettings();
+            EventStats.logSettingChange(
+              "changeVerseFormatting",
+              { key: `chapter-tagging-${value}`, value: 1 },
+              this.plugin.settings.optOutToEvents
+            );
           });
         }
       );
     };
-    this.setUpBookOutgoingLinking = (containerEl) => {
-      new import_obsidian.Setting(containerEl).setName("Add a Book Outgoing Link").setDesc("Makes an outgoing link for the book, for example [[John]]").addToggle(
+    this.setUpOptOutEventsOptions = (containerEl) => {
+      new import_obsidian.Setting(containerEl).setName("Opt Out of Events Logging").setDesc(
+        "We used events logging to improve the plugin, this is very helpful for us, but if you want to opt out, you can do it here"
+      ).addToggle(
         (toggle) => {
           var _a;
-          return toggle.setValue(!!((_a = this.plugin.settings) == null ? void 0 : _a.bookBacklinking)).onChange((value) => {
-            this.plugin.settings.bookBacklinking = value;
-            this.plugin.saveData(this.plugin.settings);
-          });
-        }
-      );
-    };
-    this.setUpChapterOutgoingLinking = (containerEl) => {
-      new import_obsidian.Setting(containerEl).setName("Add a Chapter Outgoing Links").setDesc("Makes an outgoing link for the chaper, for example [[John1]] ").addToggle(
-        (toggle) => {
-          var _a;
-          return toggle.setValue(!!((_a = this.plugin.settings) == null ? void 0 : _a.chapterBacklinking)).onChange((value) => {
-            this.plugin.settings.chapterBacklinking = value;
-            this.plugin.saveData(this.plugin.settings);
+          return toggle.setValue(!!((_a = this.plugin.settings) == null ? void 0 : _a.optOutToEvents)).onChange(async (value) => {
+            EventStats.logSettingChange(
+              "others",
+              { key: `opt-${value ? "out" : "in"}`, value: 1 },
+              this.plugin.settings.optOutToEvents
+            );
+            this.plugin.settings.optOutToEvents = value;
+            await this.plugin.saveSettings();
+            if (value) {
+              new import_obsidian.Notice(
+                "You have opted out of events logging, we will not log any events from now on"
+              );
+            } else {
+              new import_obsidian.Notice(
+                "Thanks for opting in to events logging, this is really valuable for us to improve the plugin"
+              );
+            }
           });
         }
       );
@@ -8727,9 +9776,8 @@ var BibleReferenceSettingTab = class extends import_obsidian.PluginSettingTab {
     headingSection.innerHTML = `
         <iframe src="https://github.com/sponsors/tim-hub/button" title="Sponsor Obsidian Bible Reference" width="116" height="32px" style="margin-right: 2em"/>
     `;
-    const flags = await FeatureFlag_default();
     containerEl.createEl("h2", { text: "General Settings" });
-    this.setUpVersionSettingsAndVersionOptions(containerEl, flags.isFeatureEnabled("disable-bible-api"));
+    this.setUpVersionSettingsAndVersionOptions(containerEl);
     containerEl.createEl("h2", { text: "Verses Rendering" });
     this.setUpReferenceLinkPositionOptions(containerEl);
     this.setUpVerseFormatOptions(containerEl);
@@ -8741,24 +9789,28 @@ var BibleReferenceSettingTab = class extends import_obsidian.PluginSettingTab {
         <small>Only if you want to add tags at the bottom of verses</small>
       `;
     });
-    this.setUpBibleTagging(containerEl);
     this.setUpBookTagging(containerEl);
     this.setUpChapterTagging(containerEl);
-    this.setUpBookOutgoingLinking(containerEl);
-    this.setUpChapterOutgoingLinking(containerEl);
-    if (flags.isFeatureEnabled("vod")) {
+    if (FlagService.instance.isFeatureEnabled("vod")) {
     }
-    containerEl.createEl("h2", { text: "About" });
+    containerEl.createEl("h2", { text: "Others" });
+    this.setUpOptOutEventsOptions(containerEl);
     containerEl.createSpan({}, (span) => {
       span.innerHTML = `
-        <a href="https://github.com/tim-hub/obsidian-bible-reference">Github Repo</a>
+        <a href="https://github.com/tim-hub/obsidian-bible-reference">Github Repo</a> |
+        <a href="https://github.com/tim-hub/obsidian-bible-reference/blob/master/docs/privacy.md">Privacy Policy</a>
       `;
     });
+    EventStats.logUIOpen(
+      "settingsOpen",
+      { key: "open", value: 1 },
+      this.plugin.settings.optOutToEvents
+    );
   }
 };
 
 // src/suggesetor/VerseEditorSuggester.ts
-var import_obsidian2 = require("obsidian");
+var import_obsidian3 = require("obsidian");
 
 // src/utils/regs.ts
 var SHORT_REG = /-{2}([123])*\s*[A-z]{3,}\s*\d{1,3}:\d{1,3}(-\d{1,3})*/;
@@ -8776,6 +9828,7 @@ var verseMatch = (verse, isFromModal = false) => {
 };
 
 // src/provider/BaseBibleAPIProvider.ts
+var import_obsidian2 = require("obsidian");
 var BaseBibleAPIProvider = class {
   /**
    * Get the Key Identity for the Bible version
@@ -8843,6 +9896,7 @@ var BaseBibleAPIProvider = class {
       );
     } catch (e) {
       console.error("error while querying", e);
+      new import_obsidian2.Notice(`Error while querying ${url}`);
       return await Promise.reject(e);
     }
   }
@@ -8983,7 +10037,7 @@ var BaseVerseFormatter = class {
     if (verseNumberEnd && verseNumberEnd - verseNumber !== (verseTexts == null ? void 0 : verseTexts.length)) {
       console.error("Verse text length does not match verse numbers");
     }
-    const verses = verseTexts == null ? void 0 : verseTexts.map((verse, index) => {
+    this.verses = verseTexts == null ? void 0 : verseTexts.map((verse, index) => {
       return {
         book_name: bookName,
         chapter: chapterNumber,
@@ -8991,12 +10045,11 @@ var BaseVerseFormatter = class {
         text: verse
       };
     });
-    this.verses = verses;
   }
   /**
    * To get the content of the bible verses
    */
-  get allFormatedContent() {
+  get allFormattedContent() {
     var _a;
     if (!((_a = this.verses) == null ? void 0 : _a.length)) {
       console.error("No verses found");
@@ -9030,7 +10083,7 @@ var BaseVerseFormatter = class {
     var _a;
     let head = `> [!Bible]`;
     if ((_a = this.settings) == null ? void 0 : _a.collapsibleVerses) {
-      head += "-";
+      head += "+";
     }
     if (this.settings.referenceLinkPosition === "Header" /* Header */ || this.settings.referenceLinkPosition === "Both" /* AllAbove */) {
       head += this.getVerseReferenceLink();
@@ -9091,27 +10144,13 @@ var VerseSuggesting = class extends BaseVerseFormatter {
     });
     this.bibleVersion = settings.bibleVersion;
   }
-  get head() {
-    var _a, _b;
-    let head = super.head;
-    if ((_a = this.settings) == null ? void 0 : _a.bookBacklinking) {
-      head += ` [[${this.verseReference.bookName}]]`;
-    }
-    if ((_b = this.settings) == null ? void 0 : _b.chapterBacklinking) {
-      head += ` [[${this.verseReference.bookName + this.verseReference.chapterNumber}]]`;
-    }
-    return head;
-  }
   get bottom() {
-    var _a, _b, _c, _d, _e, _f;
+    var _a, _b;
     let bottom = super.bottom;
-    if (((_a = this.settings) == null ? void 0 : _a.bibleTagging) || ((_b = this.settings) == null ? void 0 : _b.bookTagging) || ((_c = this.settings) == null ? void 0 : _c.chapterTagging)) {
-      bottom += " %%";
-      bottom += ((_d = this.settings) == null ? void 0 : _d.bibleTagging) ? " #bible" : "";
-      bottom += ((_e = this.settings) == null ? void 0 : _e.bookTagging) ? ` #${this.verseReference.bookName}` : "";
-      bottom += ((_f = this.settings) == null ? void 0 : _f.chapterTagging) ? ` #${this.verseReference.bookName + this.verseReference.chapterNumber}` : "";
-      bottom += " %%";
-    }
+    bottom += " %%";
+    bottom += ((_a = this.settings) == null ? void 0 : _a.bookTagging) ? ` #${this.verseReference.bookName}` : "";
+    bottom += ((_b = this.settings) == null ? void 0 : _b.chapterTagging) ? ` #${this.verseReference.bookName + this.verseReference.chapterNumber}` : "";
+    bottom += " %%";
     return bottom;
   }
   /**
@@ -9186,7 +10225,7 @@ var getSuggestionsFromQuery = async (query, settings) => {
 };
 
 // src/suggesetor/VerseEditorSuggester.ts
-var VerseEditorSuggester = class extends import_obsidian2.EditorSuggest {
+var VerseEditorSuggester = class extends import_obsidian3.EditorSuggest {
   constructor(plugin, settings) {
     super(plugin.app);
     this.plugin = plugin;
@@ -9199,12 +10238,15 @@ var VerseEditorSuggester = class extends import_obsidian2.EditorSuggest {
    * @param _
    */
   onTrigger(cursor, editor, _) {
-    const suggestEl = this.suggestEl;
-    suggestEl.createDiv({ cls: "obr-loading-container" }).hide();
     const currentContent = editor.getLine(cursor.line).substring(0, cursor.ch);
     const match = verseMatch(currentContent, false);
     if (match) {
       console.debug("trigger on", currentContent);
+      EventStats.logUIOpen(
+        "lookupEditorOpen",
+        { key: `${this.settings.bibleVersion}-match`, value: 1 },
+        this.settings.optOutToEvents
+      );
       return {
         end: cursor,
         start: {
@@ -9221,20 +10263,15 @@ var VerseEditorSuggester = class extends import_obsidian2.EditorSuggest {
    * @param context
    */
   async getSuggestions(context) {
-    const suggestEl = this.suggestEl;
-    const suggestionsEl = this.suggestions.containerEl;
-    suggestionsEl.hide();
-    const loadingContainer = suggestEl.getElementsByClassName(
-      "obr-loading-container"
-    )[0];
-    loadingContainer.setText(API_WAITING_LABEL);
-    loadingContainer.show();
     const suggestions = await getSuggestionsFromQuery(
       context.query,
       this.settings
     );
-    loadingContainer.hide();
-    suggestionsEl.show();
+    EventStats.logLookup(
+      "verseLookUp",
+      { key: `${this.settings.bibleVersion}-${context.query}`, value: 1 },
+      this.settings.optOutToEvents
+    );
     return suggestions;
   }
   renderSuggestion(suggestion, el) {
@@ -9243,7 +10280,7 @@ var VerseEditorSuggester = class extends import_obsidian2.EditorSuggest {
   selectSuggestion(suggestion) {
     if (this.context) {
       this.context.editor.replaceRange(
-        suggestion.allFormatedContent,
+        suggestion.allFormattedContent,
         this.context.start,
         this.context.end
       );
@@ -9252,8 +10289,8 @@ var VerseEditorSuggester = class extends import_obsidian2.EditorSuggest {
 };
 
 // src/suggesetor/VerseLookupSuggestModal.ts
-var import_obsidian3 = require("obsidian");
-var VerseLookupSuggestModal = class extends import_obsidian3.SuggestModal {
+var import_obsidian4 = require("obsidian");
+var VerseLookupSuggestModal = class extends import_obsidian4.SuggestModal {
   constructor(plugin, settings) {
     super(plugin.app);
     this.settings = settings;
@@ -9261,10 +10298,18 @@ var VerseLookupSuggestModal = class extends import_obsidian3.SuggestModal {
       { command: "", purpose: "Select verses to insert, ex: John1:1-3" }
     ]);
   }
+  onOpen() {
+    super.onOpen();
+  }
   async getSuggestions(query) {
     const match = verseMatch(query, true);
     if (match) {
       console.debug("trigger on", query);
+      EventStats.logLookup(
+        "verseLookUp",
+        { key: `${this.settings.bibleVersion}-${match}`, value: 1 },
+        this.settings.optOutToEvents
+      );
       return getSuggestionsFromQuery(`--${query}`, this.settings);
     }
     return [];
@@ -9274,16 +10319,16 @@ var VerseLookupSuggestModal = class extends import_obsidian3.SuggestModal {
   }
   onChooseSuggestion(item, evt) {
     var _a;
-    const editor = (_a = this.app.workspace.getActiveViewOfType(import_obsidian3.MarkdownView)) == null ? void 0 : _a.editor;
+    const editor = (_a = this.app.workspace.getActiveViewOfType(import_obsidian4.MarkdownView)) == null ? void 0 : _a.editor;
     if (!editor) {
       return;
     }
-    editor.replaceRange(item.allFormatedContent, editor.getCursor());
+    editor.replaceRange(item.allFormattedContent, editor.getCursor());
   }
 };
 
 // src/suggesetor/VerseOfDayEditorSuggester.ts
-var import_obsidian4 = require("obsidian");
+var import_obsidian5 = require("obsidian");
 
 // src/provider/VODProvider.ts
 var getVod = async () => {
@@ -9324,7 +10369,7 @@ var splitBibleReference = (reference) => {
 };
 
 // src/suggesetor/VerseOfDayEditorSuggester.ts
-var VerseOfDayEditorSuggester = class extends import_obsidian4.EditorSuggest {
+var VerseOfDayEditorSuggester = class extends import_obsidian5.EditorSuggest {
   constructor(plugin, settings) {
     super(plugin.app);
     this.plugin = plugin;
@@ -9339,6 +10384,11 @@ var VerseOfDayEditorSuggester = class extends import_obsidian4.EditorSuggest {
       reference,
       verseTexts
     );
+    EventStats.logLookup(
+      "vodLookUp",
+      { key: `${this.settings.bibleVersion}-vod`, value: 1 },
+      this.settings.optOutToEvents
+    );
     return [vodSuggesting];
   }
   /**
@@ -9352,6 +10402,11 @@ var VerseOfDayEditorSuggester = class extends import_obsidian4.EditorSuggest {
   onTrigger(cursor, editor, file) {
     const currentContent = editor.getLine(cursor.line).substring(0, cursor.ch);
     if (currentContent === "--vod") {
+      EventStats.logUIOpen(
+        "vodEditorOpen",
+        { key: `${this.settings.bibleVersion}-vod`, value: 1 },
+        this.settings.optOutToEvents
+      );
       return {
         end: cursor,
         start: {
@@ -9370,7 +10425,7 @@ var VerseOfDayEditorSuggester = class extends import_obsidian4.EditorSuggest {
   selectSuggestion(suggestion, evt) {
     if (this.context) {
       this.context.editor.replaceRange(
-        suggestion.allFormatedContent,
+        suggestion.allFormattedContent,
         this.context.start,
         this.context.end
       );
@@ -9379,8 +10434,8 @@ var VerseOfDayEditorSuggester = class extends import_obsidian4.EditorSuggest {
 };
 
 // src/suggesetor/VerseOfDayModal.ts
-var import_obsidian5 = require("obsidian");
-var VerseOfDayModal = class extends import_obsidian5.Modal {
+var import_obsidian6 = require("obsidian");
+var VerseOfDayModal = class extends import_obsidian6.Modal {
   constructor(plugin, settings) {
     super(plugin.app);
     this.settings = settings;
@@ -9397,11 +10452,48 @@ var VerseOfDayModal = class extends import_obsidian5.Modal {
     contentEl.setText(`${item.verse.details.text}
 -- ${item.verse.details.reference}    
     `);
+    EventStats.logLookup(
+      "vodLookUp",
+      { key: `${this.settings.bibleVersion}-vod`, value: 1 },
+      this.settings.optOutToEvents
+    );
   }
 };
 
 // src/main.ts
-var BibleReferencePlugin = class extends import_obsidian6.Plugin {
+var BibleReferencePlugin = class extends import_obsidian7.Plugin {
+  async onload() {
+    console.log("loading plugin -", APP_NAMING.appName);
+    await this.loadSettings();
+    this.addSettingTab(new BibleReferenceSettingTab(this.app, this));
+    this.registerEditorSuggest(new VerseEditorSuggester(this, this.settings));
+    this.verseLookUpModal = new VerseLookupSuggestModal(this, this.settings);
+    this.addVerseLookupCommand();
+    this.verseOfDayModal = new VerseOfDayModal(this, this.settings);
+    const flagService = FlagService.getInstace();
+    await flagService.init();
+    if (FlagService.instance.isFeatureEnabled("vod")) {
+      console.debug("vod feature flag enabled");
+      this.registerEditorSuggest(
+        new VerseOfDayEditorSuggester(this, this.settings)
+      );
+      this.addVerseOfDayCommands();
+      if (this.settings.enableBibleVerseLookupRibbon) {
+        this.addRibbonButton();
+      }
+    }
+    EventStats.logRecord(this.settings.optOutToEvents);
+  }
+  onunload() {
+    console.log("unloading plugin", APP_NAMING.appName);
+  }
+  async loadSettings() {
+    this.settings = Object.assign({}, DEFAULT_SETTINGS, await this.loadData());
+    console.debug("settings is loaded");
+  }
+  async saveSettings() {
+    await this.saveData(this.settings);
+  }
   async getAndCachedVerseOfDay() {
     const { ttl, timestamp, verseOfDaySuggesting } = (this == null ? void 0 : this.cachedVerseOfDaySuggesting) || {};
     if (!verseOfDaySuggesting || timestamp + ttl > Date.now()) {
@@ -9421,42 +10513,16 @@ var BibleReferencePlugin = class extends import_obsidian6.Plugin {
     }
     return this.cachedVerseOfDaySuggesting.verseOfDaySuggesting;
   }
-  async onload() {
-    console.log("loading plugin -", APP_NAMING.appName);
-    await this.loadSettings();
-    this.addSettingTab(new BibleReferenceSettingTab(this.app, this));
-    this.registerEditorSuggest(new VerseEditorSuggester(this, this.settings));
-    this.verseLookUpModal = new VerseLookupSuggestModal(this, this.settings);
-    this.addVerseLookupCommand();
-    this.verseOfDayModal = new VerseOfDayModal(this, this.settings);
-    const flags = await FeatureFlag_default();
-    console.debug(flags, flags.isFeatureEnabled("vod"));
-    if (flags.isFeatureEnabled("vod")) {
-      console.debug("vod feature flag enabled");
-      this.registerEditorSuggest(
-        new VerseOfDayEditorSuggester(this, this.settings)
-      );
-      this.addVerseOfDayCommands();
-      if (this.settings.enableBibleVerseLookupRibbon) {
-        this.addRibbonButton();
-      }
-    }
-  }
-  onunload() {
-    console.log("unloading plugin", APP_NAMING.appName);
-  }
-  async loadSettings() {
-    this.settings = Object.assign({}, DEFAULT_SETTINGS, await this.loadData());
-    console.debug("settings is loaded");
-  }
-  async saveSettings() {
-    await this.saveData(this.settings);
-  }
   addVerseLookupCommand() {
     this.addCommand({
       id: "obr-lookup",
       name: "Verse Lookup",
       callback: () => {
+        EventStats.logUIOpen(
+          "lookupModalOpen",
+          { key: `command-lookup`, value: 1 },
+          this.settings.optOutToEvents
+        );
         this.verseLookUpModal.open();
       }
     });
@@ -9468,7 +10534,12 @@ var BibleReferencePlugin = class extends import_obsidian6.Plugin {
       callback: async () => {
         var _a;
         const verse = await this.getAndCachedVerseOfDay();
-        new import_obsidian6.Notice(
+        EventStats.logUIOpen(
+          "vodEditorOpen",
+          { key: `command-vod`, value: 1 },
+          this.settings.optOutToEvents
+        );
+        new import_obsidian7.Notice(
           `${(_a = verse.verseTexts) == null ? void 0 : _a.join("")} -- ${verse.verseReference.bookName} ${verse.verseReference.chapterNumber}:${verse.verseReference.verseNumber}`,
           1e3 * 10
         );
@@ -9479,7 +10550,12 @@ var BibleReferencePlugin = class extends import_obsidian6.Plugin {
       name: "Verse Of The Day - Insert To Current Note",
       editorCallback: async (editor, view) => {
         const vodSuggesting = await this.getAndCachedVerseOfDay();
-        editor.replaceSelection(vodSuggesting.allFormatedContent);
+        EventStats.logUIOpen(
+          "vodEditorOpen",
+          { key: `command-vod-insert`, value: 1 },
+          this.settings.optOutToEvents
+        );
+        editor.replaceSelection(vodSuggesting.allFormattedContent);
       }
     });
   }
@@ -9488,6 +10564,11 @@ var BibleReferencePlugin = class extends import_obsidian6.Plugin {
       "book-open",
       "Bible Verse Lookup",
       (_evt) => {
+        EventStats.logUIOpen(
+          "lookupModalOpen",
+          { key: `ribbon-click`, value: 1 },
+          this.settings.optOutToEvents
+        );
         this.verseLookUpModal.open();
       }
     );
@@ -9495,6 +10576,11 @@ var BibleReferencePlugin = class extends import_obsidian6.Plugin {
   removeRibbonButton() {
     var _a;
     if (this.ribbonButton) {
+      EventStats.logUIOpen(
+        "lookupModalOpen",
+        { key: `ribbon-remove`, value: 1 },
+        this.settings.optOutToEvents
+      );
       (_a = this.ribbonButton.parentNode) == null ? void 0 : _a.removeChild(this.ribbonButton);
     }
   }
@@ -9507,5 +10593,13 @@ is-buffer/index.js:
    *
    * @author   Feross Aboukhadijeh <https://feross.org>
    * @license  MIT
+   *)
+
+platform/platform.js:
+  (*!
+   * Platform.js v1.3.6
+   * Copyright 2014-2020 Benjamin Tan
+   * Copyright 2011-2013 John-David Dalton
+   * Available under MIT license
    *)
 */
