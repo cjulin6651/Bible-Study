@@ -26,42 +26,24 @@
       "id": "editor:set-heading-1",
       "icon": "heading-glyph",
       "name": "Set as heading 1",
-      "mode": "any"
+      "mode": "desktop"
     },
     {
       "id": "editor:set-heading-2",
       "icon": "heading-glyph",
       "name": "Set as heading 2",
-      "mode": "any"
+      "mode": "desktop"
     },
     {
       "id": "editor:set-heading-3",
       "icon": "heading-glyph",
       "name": "Set as heading 3",
-      "mode": "any"
+      "mode": "desktop"
     },
     {
       "id": "obsidian-bible-reference:obr-lookup",
       "icon": "book",
       "name": "Bible Reference: Verse Lookup",
-      "mode": "any"
-    },
-    {
-      "id": "workspace:close",
-      "icon": "lucide-x",
-      "name": "Close current tab",
-      "mode": "any"
-    },
-    {
-      "id": "workspace:close",
-      "icon": "lucide-x",
-      "name": "Close current tab",
-      "mode": "any"
-    },
-    {
-      "id": "workspace:close-window",
-      "icon": "lucide-x",
-      "name": "Close window",
       "mode": "any"
     }
   ],

@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": false,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "path:\"Back up file/Bible Study/Index/Bible/1 - Old Testament\"  ",
@@ -88,6 +88,6 @@
   "repelStrength": 10.1692708333333,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.9649257149241235,
+  "scale": 5.174696045899652,
   "close": true
 }

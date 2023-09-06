@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "f6bf681424763a03",
+        "id": "05648f1522aae87d",
         "type": "tabs",
         "children": [
           {
-            "id": "19fc03216cb0a3da",
+            "id": "28717fdf5a8c32cd",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Back up file/Bible Study/Index/Themes/Sin/sin.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "Back up file/Bible Study/Index/Themes/Sin/sin.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "Back up file/Bible Study/Index/Themes/Sin/sin.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -107,7 +113,9 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {}
+          "state": {
+            "file": "Back up file/Bible Study/Index/Themes/Sin/sin.md"
+          }
         }
       }
     ],
@@ -115,6 +123,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-bible-reference:Bible Verse Lookup": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -124,43 +133,43 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "19fc03216cb0a3da",
+  "active": "28717fdf5a8c32cd",
   "lastOpenFiles": [
+    "Back up file/Bible Study/Index/Bible/1 - Old Testament/Old Testament.md",
+    "Back up file/Bible Study/Index/People/Main People/Noah.md",
+    "Back up file/Bible Study/Index/Themes/The Fall/Noah's Fall - Genesis 9.md",
+    "Back up file/Bible Study/Index/Themes/Chaos Waters/Chaos Waters.md",
+    "Back up file/Templates/Hebrew-Greek Word.md",
+    "Back up file/Bible Study/Index/Themes/De-Creation/De-Creation.md",
+    "Back up file/Bible Study/Index/Themes/De-Creation",
+    "Back up file/Bible Study/Index/Themes/The Test/The Test.md",
+    "Back up file/Bible Study/Index/Themes/The Test",
+    "Back up file/Bible Study/Index/Themes/The Fall/The Fall of Cain - Genesis 4.md",
+    "Back up file/Bible Study/Index/Themes/The Fall/The Fall.md",
+    "Back up file/Bible Study/Index/Themes/The Fall",
+    "Back up file/Bible Study/Index/Themes/Covenant/God's Covenant with Noah - Genesis 9.md",
+    "Back up file/Bible Study/Index/Themes/Covenant/Covenant.md",
+    "Back up file/Bible Study/Index/Themes/Covenant",
+    "Back up file/Bible Study/Index/Themes/Sin/sin.md",
+    "Back up file/Bible Study/Index/Themes/Sin",
+    "Back up file/Bible Study/Index/Themes/Creation Account/Creation Account.md",
+    "Back up file/Bible Study/Index/Themes/Creation Account/Noah and the command to Adam - Genesis 9.md",
+    "Back up file/Bible Study/Index/Themes/Creation Account",
+    "Back up file/Bible Study/Index/Themes/Creation Account/Re-creation - Genesis 8.md",
+    "Back up file/Bible Study/Index/Themes/Chaos Waters/Ruach and the Flood - Genesis 8.md",
+    "Back up file/Bible Study/Index/Themes/Chaos Waters",
+    "Back up file/Bible Study/Index/Themes/Chaos Waters/Flood Waters - Genesis 6.md",
+    "Back up file/Bible Study/Index/Themes/Curse/Curse.md",
+    "Back up file/Bible Study/Index/Themes/Curse",
+    "Back up file/Bible Study/Index/Themes/Untitled",
+    "Back up file/Templates/Typology Note.md",
+    "Back up file/Templates/Word Note.md",
+    "Back up file/Templates/Person Name.md",
+    "Back up file/Templates/Theme Note.md",
+    "Back up file/Templates/Theme Summary.md",
+    "Back up file/Bible Study/Index/Index.md",
     "Back up file/Bible Study/Index/Words/English/Fame.md",
     "Back up file/Bible Study/Index/Words/Strongs/Hebrew/H5903.md",
-    "Back up file/Bible Study/Index/Themes/Theme Notes/Noah's Fall - Genesis 9.md",
-    "Back up file/Bible Study/Index/Words/Hebrew/‛êyrôm ‛êrôm.md",
-    "Back up file/Bible Study/Index/Words/English/naked.md",
-    "Back up file/Bible Study/Index/Plants, Animals, Food & Objects/Food & Drink/wine.md",
-    "Back up file/Bible Study/Index/Words/Strongs/Hebrew/H3196.md",
-    "Back up file/Bible Study/Index/Words/Hebrew/yayin.md",
-    "Back up file/Bible Study/Index/Plants, Animals, Food & Objects/Plants/olive tree.md",
-    "Back up file/Bible Study/Index/Index.md",
-    "Back up file/Bible Study/Index/Plants, Animals, Food & Objects/Food & Drink",
-    "Back up file/Bible Study/Index/Words/English/pitch.md",
-    "Back up file/Bible Study/Index/Words/Strongs/Hebrew/H1588.md",
-    "Back up file/Bible Study/Index/Words/Hebrew/gan.md",
-    "Back up file/Bible Study/Index/Words/English/garden.md",
-    "Back up file/Bible Study/Index/Words/Strongs/Hebrew/H3754.md",
-    "vinyard.md",
-    "Back up file/Bible Study/Index/Words/English/vineyard.md",
-    "Back up file/Bible Study/Index/Words/Strongs/Hebrew/H2525.md",
-    "Back up file/Bible Study/Index/Words/Strongs/Hebrew/H2526.md",
-    "Back up file/Bible Study/Index/Words/Hebrew/châm.md",
-    "Back up file/Bible Study/Index/Words/Hebrew/kerem.md",
-    "Back up file/Bible Study/Index/Words/Hebrew/qayin.md",
-    "Back up file/Bible Study/Index/People/Main People/Japheth.md",
-    "Back up file/Bible Study/Index/Words/English/hot.md",
-    "Back up file/Templates/Eng-Heb-Greek Word.md",
-    "Back up file/Bible Study/Index/Words/Greek",
-    "Back up file/Templates/Hebrew-Greek Word.md",
-    "Back up file/Bible Study/Index/Plants, Animals, & Objects/Objects",
-    "Back up file/Bible Study/Index/Plants, Animals, & Objects/Animals",
-    "Back up file/Bible Study/Index/Plants, Animals, & Objects/Plants",
-    "Back up file/Bible Study/Index/Plants, Animals, & Objects",
-    "Back up file/Bible Study/Index/Symbolic Numbers",
-    "Back up file/Bible Study/Index/Typology",
-    "Back up file/Bible Study/Index/Bible/Old Testament/Book/Song of Solomon",
-    "Back up file/Bible Study/Index/Bible/Old Testament/Book/Untitled"
+    "Back up file/Bible Study/Index/Plants, Animals, Food & Objects/Food & Drink"
   ]
 }

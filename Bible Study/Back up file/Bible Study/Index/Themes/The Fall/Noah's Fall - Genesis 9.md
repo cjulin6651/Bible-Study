@@ -13,7 +13,7 @@
  %% %%
 
 ### Notes
-Noah plants a [[vinyard]] (The word [[kerem]] also translates to "[[garden]]"). That vineyard produces fruit which he makes into [[wine]] and gets drunk with. Just like [[Adam]] and [[Eve]] sinned with a [[fruit]] from the [[Tree of the Knowledge of Good and Evil]] planted in a Garden, so Noah sins with fruit of the vine.
+Noah plants a [[vineyard]] (The word [[kerem]] also translates to "[[garden]]"). That vineyard produces fruit which he makes into [[wine]] and gets drunk with. Just like [[Adam]] and [[Eve]] sinned with a [[fruit]] from the [[Tree of the Knowledge of Good and Evil]] planted in a Garden, so Noah sins with fruit of the vine.
 
 In his [[sin]], he winds up [[naked]], just as Adam and Eve's sin reveals their own nakedness. Adam and Eve's sin leads to them needing a covering for their nakedness. In the same way, Shem and Japheth cover their father with a cloak.
 

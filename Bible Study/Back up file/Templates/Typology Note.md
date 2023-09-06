@@ -7,3 +7,5 @@ InsertPassage
 Insert notes
 
 #Typology
+
+{{date}}

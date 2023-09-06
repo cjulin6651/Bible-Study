@@ -9776,7 +9776,7 @@ var BibleReferenceSettingTab = class extends import_obsidian.PluginSettingTab {
     headingSection.innerHTML = `
         <iframe src="https://github.com/sponsors/tim-hub/button" title="Sponsor Obsidian Bible Reference" width="116" height="32px" style="margin-right: 2em"/>
     `;
-    containerEl.createEl("h2", { text: "General Settings" });
+    containerEl.createEl("h1", { text: APP_NAMING.appName });
     this.setUpVersionSettingsAndVersionOptions(containerEl);
     containerEl.createEl("h2", { text: "Verses Rendering" });
     this.setUpReferenceLinkPositionOptions(containerEl);
@@ -9791,8 +9791,6 @@ var BibleReferenceSettingTab = class extends import_obsidian.PluginSettingTab {
     });
     this.setUpBookTagging(containerEl);
     this.setUpChapterTagging(containerEl);
-    if (FlagService.instance.isFeatureEnabled("vod")) {
-    }
     containerEl.createEl("h2", { text: "Others" });
     this.setUpOptOutEventsOptions(containerEl);
     containerEl.createSpan({}, (span) => {
@@ -10244,7 +10242,7 @@ var VerseEditorSuggester = class extends import_obsidian3.EditorSuggest {
       console.debug("trigger on", currentContent);
       EventStats.logUIOpen(
         "lookupEditorOpen",
-        { key: `${this.settings.bibleVersion}-match`, value: 1 },
+        { key: `${this.settings.bibleVersion}`, value: 1 },
         this.settings.optOutToEvents
       );
       return {
@@ -10269,7 +10267,7 @@ var VerseEditorSuggester = class extends import_obsidian3.EditorSuggest {
     );
     EventStats.logLookup(
       "verseLookUp",
-      { key: `${this.settings.bibleVersion}-${context.query}`, value: 1 },
+      { key: `${this.settings.bibleVersion}-${context.query.toLowerCase()}`, value: 1 },
       this.settings.optOutToEvents
     );
     return suggestions;
@@ -10307,7 +10305,7 @@ var VerseLookupSuggestModal = class extends import_obsidian4.SuggestModal {
       console.debug("trigger on", query);
       EventStats.logLookup(
         "verseLookUp",
-        { key: `${this.settings.bibleVersion}-${match}`, value: 1 },
+        { key: `${this.settings.bibleVersion}-${match.toLowerCase()}`, value: 1 },
         this.settings.optOutToEvents
       );
       return getSuggestionsFromQuery(`--${query}`, this.settings);
@@ -10469,6 +10467,7 @@ var BibleReferencePlugin = class extends import_obsidian7.Plugin {
     this.registerEditorSuggest(new VerseEditorSuggester(this, this.settings));
     this.verseLookUpModal = new VerseLookupSuggestModal(this, this.settings);
     this.addVerseLookupCommand();
+    this.addRibbonButton();
     this.verseOfDayModal = new VerseOfDayModal(this, this.settings);
     const flagService = FlagService.getInstace();
     await flagService.init();
@@ -10478,9 +10477,6 @@ var BibleReferencePlugin = class extends import_obsidian7.Plugin {
         new VerseOfDayEditorSuggester(this, this.settings)
       );
       this.addVerseOfDayCommands();
-      if (this.settings.enableBibleVerseLookupRibbon) {
-        this.addRibbonButton();
-      }
     }
     EventStats.logRecord(this.settings.optOutToEvents);
   }

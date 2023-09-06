@@ -203,25 +203,24 @@
 	- [[8]]
 	- [[40]]
 - **Themes**
-	- **Main Themes**
-		- [[Chaos Waters]]
-		- [[Covenant]]
-		- [[Creation Account]]
-		- [[Curse]]
-		- [[De-Creation]]
-		- [[sin]]
-		- [[The Fall]]
-		- [[The Test]]
-	- **Theme Notes**
+	- **[[Chaos Waters]]**
 		- [[Flood Waters - Genesis 6]]
-		- [[God's Covenant with Noah - Genesis 9]]
-		- [[Noah and the command to Adam - Genesis 9]]
-		- [[Noah's Fall - Genesis 9]]
-		- [[Re-creation - Genesis 8]]
 		- [[Ruach and the Flood - Genesis 8]]
+	- **[[Covenant]]**
+		- [[God's Covenant with Noah - Genesis 9]]
+	- **[[Creation Account]]**
+		- [[Noah and the command to Adam - Genesis 9]]
+		- [[Re-creation - Genesis 8]]
+	- **[[Curse]]**
+	- **[[De-Creation]]**
+	- **Sin**
+		- [[sin]]
+	- **[[The Fall]]**
+		- [[Noah's Fall - Genesis 9]]
 		- [[The Fall of Cain - Genesis 4]]
+	- **[[The Test]]**
 - **Typology**
-	- [[Noah —> Jesus]]
+	- [[Noah —_ Jesus]]
 - **Words**
 	- **English**
 		- [[atonement]]
@@ -235,7 +234,7 @@
 		- [[Spear]]
 		- [[Spirit]]
 		- [[Vanity]]
-		- [[vinyard]]
+		- [[vineyard]]
 	- **Greek**
 	- **Hebrew**
 		- [[‛êyrôm ‛êrôm]]
