@@ -14,7 +14,7 @@
         "enabled": true,
         "folders": [
           "",
-          "Back up file/Bible Study/Index/Themes/Main Themes"
+          "Back up file/Bible Study/Index/Themes"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
@@ -44,7 +44,15 @@
       "folder": {
         "enabled": true,
         "folders": [
-          "Back up file/Bible Study/Index/Themes/Theme Notes"
+          "Back up file/Bible Study/Index/Themes/Chaos Waters",
+          "Back up file/Bible Study/Index/Themes/Covenant",
+          "Back up file/Bible Study/Index/Themes/Creation Account",
+          "Back up file/Bible Study/Index/Themes/Sin",
+          "Back up file/Bible Study/Index/Themes/The Fall",
+          "Back up file/Bible Study/Index/Themes/Curse",
+          "Back up file/Bible Study/Index/Themes/De-Creation",
+          "Back up file/Bible Study/Index/Themes/The Test",
+          "Back up file/Bible Study/Index/Themes/The East"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,

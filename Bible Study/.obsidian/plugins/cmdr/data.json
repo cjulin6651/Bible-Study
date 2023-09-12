@@ -2,14 +2,7 @@
   "confirmDeletion": false,
   "showAddCommand": true,
   "debug": false,
-  "editorMenu": [
-    {
-      "id": "editor:set-heading-1",
-      "icon": "heading-glyph",
-      "name": "Set as heading 1",
-      "mode": "d575eefd9a7cf362"
-    }
-  ],
+  "editorMenu": [],
   "fileMenu": [],
   "leftRibbon": [],
   "rightRibbon": [],

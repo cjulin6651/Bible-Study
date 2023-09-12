@@ -19,7 +19,7 @@
 19. [[Psalms]]
 20. [[Proverbs]]
 21. [[Ecclesiastes]]
-22. [[Song of Solomon]]
+22. [[SongofSongs]]
 23. [[Isaiah]]
 24. [[Jeremiah]]
 25. [[Lamentations]]

@@ -1,7 +1,7 @@
 %% Begin Waypoint %%
 - **[[Bible]]**
 	- **1 - Old Testament**
-		- **Book**
+		- **Books**
 			- **1 - Genesis**
 				- [[Genesis]]
 				- [[Genesis1]]
@@ -12,6 +12,8 @@
 				- [[Genesis7]]
 				- [[Genesis8]]
 				- [[Genesis9]]
+				- [[Genesis11]]
+				- [[Genesis12]]
 			- **2 - Exodus**
 				- [[Exodus]]
 				- [[Exodus12]]
@@ -59,8 +61,8 @@
 				- [[Proverbs]]
 			- **21 - Ecclesiastes**
 				- [[Ecclesiastes]]
-			- **22 - Song of Solomon**
-				- [[Song of Solomon]]
+			- **22 - Song of Solo 22 - Song of Solomon mon**
+				- [[SongofSongs]]
 			- **23 - Isaiah**
 				- [[Isaiah]]
 			- **24 - Jeremiah**
@@ -166,10 +168,13 @@
 				- [[Revelation]]
 		- [[New Testament]]
 - **Locations & Nations**
+	- **Abraham’s Journey**
+		- [[Order of Cities]]
 	- **Locations**
 		- **Location Notes**
 		- **Main Locations**
 			- [[Garden of Eden]]
+		- [[Shecham]]
 	- **Nations**
 		- **Main Nations**
 			- [[Israelite]]
@@ -209,12 +214,15 @@
 	- **[[Covenant]]**
 		- [[God's Covenant with Noah - Genesis 9]]
 	- **[[Creation Account]]**
+		- [[Creation of Babel - Genesis 11]]
 		- [[Noah and the command to Adam - Genesis 9]]
 		- [[Re-creation - Genesis 8]]
 	- **[[Curse]]**
 	- **[[De-Creation]]**
 	- **Sin**
 		- [[sin]]
+	- **[[The East]]**
+		- [[Babel in The East - Genesis 11]]
 	- **[[The Fall]]**
 		- [[Noah's Fall - Genesis 9]]
 		- [[The Fall of Cain - Genesis 4]]
