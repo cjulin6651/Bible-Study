@@ -17,3 +17,8 @@ Sets up camp on a mountain on [[The East]] of [[Bethel]] and west of [[Ai]]
  %% %%
 
 Heads toward [[The Negev]] but a [[famine]] hits and he leaves for [[Egypt]]
+
+
+Heads back for the Negev after Egypt
+
+Retraces steps from there back to his altar 

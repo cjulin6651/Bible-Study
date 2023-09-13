@@ -14,6 +14,7 @@
 				- [[Genesis9]]
 				- [[Genesis11]]
 				- [[Genesis12]]
+				- [[Genesis13]]
 			- **2 - Exodus**
 				- [[Exodus]]
 				- [[Exodus12]]
@@ -231,6 +232,7 @@
 	- **[[Seeing and Taking]]**
 		- [[God Sees Creation - Genesis 1]]
 		- [[Ham Seeing Noah's Nakedness - Genesis 9]]
+		- [[Lot saw the land - Genesis 13]]
 		- [[Pharaoh saw Sarai - Genesis 12]]
 		- [[Seeing and Taking the Fruit - Genesis 3]]
 	- **Sin**
