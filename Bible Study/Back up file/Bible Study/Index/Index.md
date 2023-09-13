@@ -173,8 +173,11 @@
 	- **Locations**
 		- **Location Notes**
 		- **Main Locations**
+			- [[Egypt]]
 			- [[Garden of Eden]]
-		- [[Shecham]]
+			- [[Harlan]]
+			- [[Shecham]]
+			- [[Ur]]
 	- **Nations**
 		- **Main Nations**
 			- [[Israelite]]
@@ -183,16 +186,22 @@
 - **People**
 	- **Main People**
 		- [[Abel]]
+		- [[Abraham]]
 		- [[Adam]]
 		- [[Cain]]
 		- [[Eve]]
 		- [[God the Father]]
 		- [[God]]
+		- [[Hagar]]
 		- [[Ham]]
 		- [[Holy Spirit]]
+		- [[Isaac]]
+		- [[Ishmael]]
 		- [[Japheth]]
 		- [[Jesus]]
+		- [[Lot]]
 		- [[Noah]]
+		- [[Sarah]]
 		- [[Serpent]]
 		- [[Shem]]
 		- [[The Trinity]]
@@ -219,10 +228,17 @@
 		- [[Re-creation - Genesis 8]]
 	- **[[Curse]]**
 	- **[[De-Creation]]**
+	- **[[Seeing and Taking]]**
+		- [[God Sees Creation - Genesis 1]]
+		- [[Ham Seeing Noah's Nakedness - Genesis 9]]
+		- [[Pharaoh saw Sarai - Genesis 12]]
+		- [[Seeing and Taking the Fruit - Genesis 3]]
 	- **Sin**
 		- [[sin]]
 	- **[[The East]]**
 		- [[Babel in The East - Genesis 11]]
+		- [[Promised Land West of Ur - Genesis 12]]
+		- [[Separated from sin - Psalm 103]]
 	- **[[The Fall]]**
 		- [[Noah's Fall - Genesis 9]]
 		- [[The Fall of Cain - Genesis 4]]
@@ -232,12 +248,18 @@
 - **Words**
 	- **English**
 		- [[atonement]]
+		- [[Covering]]
 		- [[Fame]]
+		- [[Father of a Multitude]]
 		- [[garden]]
+		- [[God will hear]]
+		- [[High Father]]
 		- [[hot]]
+		- [[Laughter]]
 		- [[naked]]
 		- [[Name]]
 		- [[pitch]]
+		- [[Princess]]
 		- [[Rest]]
 		- [[Spear]]
 		- [[Spirit]]
@@ -257,6 +279,8 @@
 	- **Strongs**
 		- **Greek**
 		- **Hebrew**
+			- [[H85]]
+			- [[H87]]
 			- [[H127]]
 			- [[H705]]
 			- [[H1588]]
@@ -264,8 +288,11 @@
 			- [[H2525]]
 			- [[H2526]]
 			- [[H3196]]
+			- [[H3327]]
+			- [[H3458]]
 			- [[H3724]]
 			- [[H3754]]
+			- [[H3875]]
 			- [[H5118]]
 			- [[H5903]]
 			- [[H7013]]
@@ -274,6 +301,7 @@
 			- [[H8034]]
 			- [[H8082]]
 			- [[H8083]]
+			- [[H8282]]
 	- **Word Notes**
 		- [[Ruach - Gen 1 v2]]
 

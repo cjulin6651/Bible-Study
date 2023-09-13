@@ -17,7 +17,7 @@ Noah plants a [[vineyard]] (The word [[kerem]] also translates to "[[garden]]").
 
 In his [[sin]], he winds up [[naked]], just as Adam and Eve's sin reveals their own nakedness. Adam and Eve's sin leads to them needing a covering for their nakedness. In the same way, Shem and Japheth cover their father with a cloak.
 
-Ham, is the one who discovers Noah naked and it is unclear if he just made fun of his dad to his brothers or if more was going on. This continues the theme that starts with the fall of [[seeing something]]. Just as Eve "saw that the fruit was good" in Genesis 3.
+Ham, is the one who discovers Noah naked and it is unclear if he just made fun of his dad to his brothers or if more was going on. This continues the theme that starts with the fall of [[Seeing and Taking]]. Just as Eve "saw that the fruit was good" in Genesis 3.
 
 > [!Bible]+ [Genesis 3:6 - NIV](https://bolls.life/NIV/1/3/) [[Genesis]] [[Genesis3]]
 >  <sup> **6** </sup>When the woman **saw** that the fruit of the tree was good for food and pleasing to the eye, and also desirable for gaining wisdom, she took some and ate it. She also gave some to her husband, who was with her, and he ate it.
@@ -27,6 +27,16 @@ In the same way, Ham "saw the nakedness", but his brothers walked in backwards  
 
 > [!Bible]+ [Genesis 9:23 - NIV](https://bolls.life/NIV/1/9/)
 >  <sup> **23** </sup>But Shem and Japheth took a garment and laid it across their shoulders; then they walked in backward and covered their father’s nakedness. Their faces were turned the other way so that they would not see their father’s nakedness.
+ %% %%
+
+Adam and Eve's sin led to them seeing their own nakedness and providing a covering, but God provides them with a better one.
+
+> [!Bible]+ [Genesis 3:7 - NIV](https://bolls.life/NIV/1/3/) [[Genesis]] [[Genesis3]]
+>  <sup> **7** </sup>Then the eyes of both of them were opened, and they realized they were naked; so they sewed fig leaves together and made coverings for themselves.
+ %% %%
+
+> [!Bible]+ [Genesis 3:21 - NIV](https://bolls.life/NIV/1/3/) [[Genesis]] [[Genesis3]]
+>  <sup> **21** </sup>The Lord God made garments of skin for Adam and his wife and clothed them.
  %% %%
 
 In the same way that [[The Fall]] leads to the [[Curse]] for Adam and Eve, Noah curses Ham. Adam and Eve's curse leads to being a slave to sin and the ground, Ham's curse leads him to become a slave to his brothers.
@@ -42,6 +52,6 @@ Unlike in the [[Genesis3]] Fall narrative, this curse is accompanied by a blessi
  %% %%
 
 ### Relevant Tags:
-#TheFall #Curse #SeeingSomething #Themes 
+#TheFall #Curse #SeeingAndTaking  #Themes 
 
 2023-09-05

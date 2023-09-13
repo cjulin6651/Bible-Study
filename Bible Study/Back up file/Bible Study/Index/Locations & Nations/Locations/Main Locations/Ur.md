@@ -1,0 +1,1 @@
+The place [[Abraham]], [[Lot]], and [[Sarah]] were from.

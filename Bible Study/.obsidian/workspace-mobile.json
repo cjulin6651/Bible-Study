@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "0a3f1ef58c2652fc",
+        "id": "0a58f3cb13c658aa",
         "type": "tabs",
         "children": [
           {
-            "id": "8796d97c7f21c3dd",
+            "id": "6483c9cce410b563",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Back up file/Bible Study/Index/Locations & Nations/Abraham’s Journey/Order of Cities.md",
+                "file": "Back up file/Bible Study/Index/Index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a361609f36aeffc9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Back up file/Bible Study/Index/Words/Strongs/Hebrew/H3875.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Back up file/Bible Study/Index/Locations & Nations/Abraham’s Journey/Order of Cities.md",
+            "file": "Back up file/Bible Study/Index/Words/Strongs/Hebrew/H3875.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Back up file/Bible Study/Index/Locations & Nations/Abraham’s Journey/Order of Cities.md",
+            "file": "Back up file/Bible Study/Index/Words/Strongs/Hebrew/H3875.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +127,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Back up file/Bible Study/Index/Locations & Nations/Abraham’s Journey/Order of Cities.md"
+            "file": "Back up file/Bible Study/Index/Words/Strongs/Hebrew/H3875.md"
           }
         }
       }
@@ -133,43 +146,43 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "b9011c49ad04dd0d",
+  "active": "a361609f36aeffc9",
   "lastOpenFiles": [
-    "Back up file/Bible Study/Index/Locations & Nations/Locations/Shecham.md",
-    "Back up file/Bible Study/Index/Locations & Nations/Abraham’s Journey/Order of Cities.md",
     "Back up file/Bible Study/Index/Index.md",
-    "Back up file/Bible Study/Index/Themes/Chaos Waters/Ruach and the Flood - Genesis 8.md",
-    "Back up file/Bible Study/Index/Words/Hebrew/Ruach.md",
-    "Back up file/Bible Study/Index/Bible/1 - Old Testament/Books/1 - Genesis/Genesis12.md",
+    "Back up file/Bible Study/Index/Words/Strongs/Hebrew/H3875.md",
+    "Back up file/Bible Study/Index/Words/English/Covering.md",
+    "Back up file/Bible Study/Index/People/Main People/Lot.md",
+    "Back up file/Bible Study/Index/Locations & Nations/Locations/Main Locations/Ur.md",
+    "Back up file/Bible Study/Index/Themes/The East/The East.md",
+    "Back up file/Bible Study/Index/Themes/The East/Separated from sin - Psalm 103.md",
+    "The Garden of Eden.md",
+    "Back up file/Bible Study/Index/Themes/The East/Promised Land West of Ur - Genesis 12.md",
+    "Back up file/Bible Study/Index/Themes/Seeing and Taking/Ham Seeing Noah's Nakedness - Genesis 9.md",
+    "Back up file/Bible Study/Index/Themes/Seeing and Taking/Seeing and Taking the Fruit - Genesis 3.md",
+    "Back up file/Bible Study/Index/Themes/Seeing and Taking/Pharaoh saw Sarai - Genesis 12.md",
+    "Back up file/Bible Study/Index/Themes/Seeing and Taking/Seeing and Taking.md",
+    "Back up file/Bible Study/Index/People/Main People/Abraham.md",
+    "Back up file/Bible Study/Index/Words/Strongs/Hebrew/H3458.md",
+    "Back up file/Bible Study/Index/Words/English/God will hear.md",
+    "Back up file/Bible Study/Index/People/Main People/Ishmael.md",
+    "Back up file/Bible Study/Index/Words/Strongs/Hebrew/H8282.md",
+    "Back up file/Bible Study/Index/Words/Strongs/Hebrew/H3327.md",
+    "Back up file/Bible Study/Index/Words/English/Laughter.md",
+    "Back up file/Bible Study/Index/People/Main People/Isaac.md",
+    "Back up file/Bible Study/Index/Words/Strongs/Hebrew/H87.md",
+    "Back up file/Bible Study/Index/Words/English/Princess.md",
+    "Back up file/Bible Study/Index/People/Main People/Sarah.md",
+    "Back up file/Bible Study/Index/Words/Strongs/Hebrew/H85.md",
+    "Back up file/Bible Study/Index/Words/English/Father of a Multitude.md",
+    "Back up file/Bible Study/Index/Themes/Seeing and Taking",
     "Back up file/Bible Study/Index/Locations & Nations/Abraham’s Journey",
-    "Back up file/Bible Study/Index/Themes/Creation Account/Creation of Babel - Genesis 11.md",
-    "Back up file/Bible Study/Index/Themes/The East/Babel in The East - Genesis 11.md",
-    "Back up file/Bible Study/Index/Bible/1 - Old Testament/Books/1 - Genesis/Genesis11.md",
-    "Back up file/Bible Study/Index/Words/Hebrew/châm.md",
-    "Back up file/Bible Study/Index/Themes/Sin/sin.md",
-    "Back up file/Bible Study/Index/Themes/Chaos Waters/Chaos Waters.md",
-    "Back up file/Bible Study/Index/Bible/1 - Old Testament/Old Testament.md",
-    "Back up file/Bible Study/Index/People/Main People/Noah.md",
-    "Back up file/Bible Study/Index/Themes/The Fall/Noah's Fall - Genesis 9.md",
-    "Back up file/Templates/Hebrew-Greek Word.md",
-    "Back up file/Bible Study/Index/Themes/De-Creation/De-Creation.md",
     "Back up file/Bible Study/Index/Themes/De-Creation",
-    "Back up file/Bible Study/Index/Themes/The Test/The Test.md",
     "Back up file/Bible Study/Index/Themes/The Test",
-    "Back up file/Bible Study/Index/Themes/The Fall/The Fall of Cain - Genesis 4.md",
-    "Back up file/Bible Study/Index/Themes/The Fall/The Fall.md",
     "Back up file/Bible Study/Index/Themes/The Fall",
-    "Back up file/Bible Study/Index/Themes/Covenant/God's Covenant with Noah - Genesis 9.md",
-    "Back up file/Bible Study/Index/Themes/Covenant/Covenant.md",
     "Back up file/Bible Study/Index/Themes/Covenant",
     "Back up file/Bible Study/Index/Themes/Sin",
-    "Back up file/Bible Study/Index/Themes/Creation Account/Creation Account.md",
-    "Back up file/Bible Study/Index/Themes/Creation Account/Noah and the command to Adam - Genesis 9.md",
     "Back up file/Bible Study/Index/Themes/Creation Account",
-    "Back up file/Bible Study/Index/Themes/Creation Account/Re-creation - Genesis 8.md",
     "Back up file/Bible Study/Index/Themes/Chaos Waters",
-    "Back up file/Bible Study/Index/Themes/Chaos Waters/Flood Waters - Genesis 6.md",
-    "Back up file/Bible Study/Index/Themes/Curse",
-    "Back up file/Bible Study/Index/Themes/Untitled"
+    "Back up file/Bible Study/Index/Themes/Curse"
   ]
 }

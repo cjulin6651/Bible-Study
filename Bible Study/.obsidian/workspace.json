@@ -11,12 +11,8 @@
             "id": "cd5615240bc60f91",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Back up file/Bible Study/Index/Index.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Back up file/Bible Study/Index/Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Back up file/Bible Study/Index/Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Back up file/Bible Study/Index/Index.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -148,35 +140,36 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "cd5615240bc60f91",
+  "active": "1d8de236435975f2",
   "lastOpenFiles": [
-    "Back up file/Bible Study/Index/Locations & Nations/Locations/Shecham.md",
-    "Shecham.md",
-    "Back up file/Bible Study/Index/Themes/The East/Babel in The East - Genesis 11.md",
-    "Back up file/Bible Study/Index/Themes/Creation Account/Creation of Babel - Genesis 11.md",
-    "Back up file/Bible Study/Index/Themes/The East/The East.md",
-    "Back up file/Bible Study/Index/Bible/1 - Old Testament/Books/1 - Genesis/Genesis11.md",
-    "Back up file/Bible Study/Index/Bible/1 - Old Testament/Books/1 - Genesis/Genesis12.md",
-    "Back up file/Bible Study/Index/Bible/1 - Old Testament/Books/22 - Song of Solo 22 - Song of Solomon mon/SongofSongs.md",
-    "Back up file/Bible Study/Index/Locations & Nations/Abraham’s Journey/Order of Cities.md",
-    "Back up file/Bible Study/Index/Bible/1 - Old Testament/Books/22 - Song of Solo 22 - Song of Solomon mon/Song of Solomon.md",
+    "Back up file/Bible Study/Index/Themes/Seeing and Taking/Pharaoh saw Sarai - Genesis 12.md",
+    "Back up file/Bible Study/Index/Words/Strongs/Hebrew/H3458.md",
+    "Back up file/Bible Study/Index/Words/Strongs/Hebrew/H8282.md",
+    "Back up file/Bible Study/Index/Themes/The East/Separated from sin - Psalm 103.md",
+    "Back up file/Bible Study/Index/Words/Strongs/Hebrew/H85.md",
+    "Back up file/Bible Study/Index/Themes/Seeing and Taking/Ham Seeing Noah's Nakedness - Genesis 9.md",
+    "Back up file/Bible Study/Index/Words/English/Laughter.md",
+    "Back up file/Bible Study/Index/Themes/Seeing and Taking/Seeing and Taking.md",
+    "Back up file/Bible Study/Index/Words/English/God will hear.md",
+    "Back up file/Bible Study/Index/Words/English/Covering.md",
+    "Back up file/Bible Study/Index/Locations & Nations/Locations/Main Locations/Shecham.md",
+    "Back up file/Bible Study/Index/Locations & Nations/Locations/Main Locations/Egypt.md",
+    "Back up file/Bible Study/Index/Words/English/Father of a Multitude.md",
+    "Back up file/Bible Study/Index/Words/English/Princess.md",
+    "Back up file/Bible Study/Index/Words/Strongs/Hebrew/H3327.md",
+    "Back up file/Bible Study/Index/Words/English/High Father.md",
+    "Back up file/Bible Study/Index/Themes/Seeing and Taking/Seeing and Taking the Fruit - Genesis 3.md",
+    "Back up file/Bible Study/Index/Locations & Nations/Locations/Main Locations/Ur.md",
+    "Back up file/Bible Study/Index/Themes/Seeing and Taking/God Sees Creation - Genesis 1.md",
+    "Back up file/Bible Study/Index/Themes/The East/Promised Land West of Ur - Genesis 12.md",
+    "Back up file/Bible Study/Index/Locations & Nations/Locations/Main Locations/Harlan.md",
+    "Back up file/Bible Study/Index/Words/Strongs/Hebrew/H3875.md",
+    "Back up file/Bible Study/Index/Words/Strongs/Hebrew/H87.md",
+    "Back up file/Bible Study/Index/People/Main People/Sarah.md",
+    "Back up file/Bible Study/Index/Themes/Seeing and Taking",
+    "Back up file/Bible Study/Index/People/Main People/Hagar.md",
+    "Back up file/Bible Study/Index/People/Main People/Ishmael.md",
     "Back up file/Bible Study/Index/Bible/1 - Old Testament/Books/22 - Song of Solo 22 - Song of Solomon mon",
-    "Back up file/Bible Study/Index/Bible/1 - Old Testament/Books/9 - 1 Samuel/1Samuel.md",
-    "Back up file/Bible Study/Index/Bible/1 - Old Testament/Books/8 - Ruth/Ruth3.md",
-    "Back up file/Bible Study/Index/Bible/1 - Old Testament/Books/8 - Ruth/Ruth.md",
-    "Back up file/Bible Study/Index/Bible/1 - Old Testament/Books/7 - Judges/Judges.md",
-    "Back up file/Bible Study/Index/Bible/1 - Old Testament/Books/6 - Joshua/Joshua.md",
-    "Back up file/Bible Study/Index/Bible/1 - Old Testament/Books/5 - Deuteronomy/Deuteronomy.md",
-    "Back up file/Bible Study/Index/Bible/1 - Old Testament/Books/4 - Numbers/Numbers.md",
-    "Back up file/Bible Study/Index/Bible/1 - Old Testament/Books/39 - Malachi/Malachi.md",
-    "Back up file/Bible Study/Index/Bible/1 - Old Testament/Books/38 - Zechariah/Zechariah.md",
-    "Back up file/Bible Study/Index/Bible/1 - Old Testament/Books/37 - Haggai/Haggai.md",
-    "Back up file/Bible Study/Index/Bible/1 - Old Testament/Books/36 - Zephaniah/Zephaniah.md",
-    "Back up file/Bible Study/Index/Bible/1 - Old Testament/Books/35 - Habakkuk/Habakkuk.md",
-    "Back up file/Bible Study/Index/Bible/1 - Old Testament/Books/33 - Micah/Micah.md",
-    "Back up file/Bible Study/Index/Bible/1 - Old Testament/Books/34 - Nahum/Nahum.md",
-    "Back up file/Bible Study/Index/Bible/1 - Old Testament/Books/32 - Jonah/Jonah.md",
-    "Back up file/Bible Study/Index/Bible/1 - Old Testament/Books/31 - Obadiah/Obadiah.md",
     "Back up file/Bible Study/Index/Bible/1 - Old Testament/Books/9 - 1 Samuel",
     "Back up file/Bible Study/Index/Bible/1 - Old Testament/Books/8 - Ruth",
     "Back up file/Bible Study/Index/Bible/1 - Old Testament/Books/7 - Judges",
@@ -184,7 +177,6 @@
     "Back up file/Bible Study/Index/Bible/1 - Old Testament/Books/5 - Deuteronomy",
     "Back up file/Bible Study/Index/Bible/1 - Old Testament/Books/4 - Numbers",
     "Back up file/Bible Study/Index/Bible/1 - Old Testament/Books/39 - Malachi",
-    "Back up file/Bible Study/Index/Bible/1 - Old Testament/Books/38 - Zechariah",
-    "Back up file/Bible Study/Index/Bible/1 - Old Testament/Books/37 - Haggai"
+    "Back up file/Bible Study/Index/Bible/1 - Old Testament/Books/38 - Zechariah"
   ]
 }

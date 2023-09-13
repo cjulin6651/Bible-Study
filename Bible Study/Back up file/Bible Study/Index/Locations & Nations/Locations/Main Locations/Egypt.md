@@ -1,0 +1,1 @@
+Equated to Babylon. The land where people flee to or are exiled to. The land that enslaved the Nation of [[Israel]].
