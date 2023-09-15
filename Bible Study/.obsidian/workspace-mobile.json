@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3c07877c7e4ce42d",
+        "id": "14550ae133971947",
         "type": "tabs",
         "children": [
           {
-            "id": "edd65304ae5bbcf1",
+            "id": "600eefcbf039ab4e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Back up file/Bible Study/Index/Locations & Nations/Locations/Main Locations/Egypt.md",
+                "file": "Back up file/Bible Study/Index/Index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Back up file/Bible Study/Index/Locations & Nations/Locations/Main Locations/Egypt.md",
+            "file": "Back up file/Bible Study/Index/Index.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Back up file/Bible Study/Index/Locations & Nations/Locations/Main Locations/Egypt.md",
+            "file": "Back up file/Bible Study/Index/Index.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Back up file/Bible Study/Index/Locations & Nations/Locations/Main Locations/Egypt.md"
+            "file": "Back up file/Bible Study/Index/Index.md"
           }
         }
       }
@@ -133,8 +133,11 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "edd65304ae5bbcf1",
+  "active": "600eefcbf039ab4e",
   "lastOpenFiles": [
+    "Back up file/Attachments/Red Thread.png",
+    "Back up file/Bible Study/Index/Themes/The East/Genesis 13 - Abram Dividing Up Land.md",
+    "Back up file/Attachments/Elevation Map of Israel.png",
     "Back up file/Bible Study/Index/Index.md",
     "Back up file/Bible Study/Index/Bible/1 - Old Testament/Books/1 - Genesis/Genesis13.md",
     "Back up file/Bible Study/Index/Themes/Seeing and Taking/Lot saw the land - Genesis 13.md",
@@ -159,8 +162,6 @@
     "Back up file/Bible Study/Index/Words/Strongs/Hebrew/H3327.md",
     "Back up file/Bible Study/Index/Words/English/Laughter.md",
     "Back up file/Bible Study/Index/People/Main People/Isaac.md",
-    "Back up file/Bible Study/Index/Words/Strongs/Hebrew/H87.md",
-    "Back up file/Bible Study/Index/Words/English/Princess.md",
     "Back up file/Bible Study/Index/Themes/Seeing and Taking",
     "Back up file/Bible Study/Index/Locations & Nations/Abraham’s Journey",
     "Back up file/Bible Study/Index/Themes/De-Creation",

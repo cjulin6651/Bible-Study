@@ -1,3 +1,4 @@
+![[Red Thread.png]]
 %% Begin Waypoint %%
 - **[[Bible]]**
 	- **1 - Old Testament**
@@ -170,14 +171,14 @@
 		- [[New Testament]]
 - **Locations & Nations**
 	- **Abraham’s Journey**
-		- [[Order of Cities]]
+		- [[Abraham's Journey]]
 	- **Locations**
 		- **Location Notes**
 		- **Main Locations**
 			- [[Egypt]]
 			- [[Garden of Eden]]
 			- [[Harlan]]
-			- [[Shecham]]
+			- [[Shechem]]
 			- [[Ur]]
 	- **Nations**
 		- **Main Nations**
@@ -214,36 +215,39 @@
 	- **Plants**
 		- [[olive tree]]
 - **Symbolic Numbers**
-	- [[7]]
-	- [[8]]
-	- [[40]]
+	- **Number Notes**
+	- **Numbers**
+		- [[7]]
+		- [[8]]
+		- [[40]]
 - **Themes**
 	- **[[Chaos Waters]]**
-		- [[Flood Waters - Genesis 6]]
-		- [[Ruach and the Flood - Genesis 8]]
+		- [[Genesis 6 - Flood Waters]]
+		- [[Genesis 8 - Ruach and the Flood]]
 	- **[[Covenant]]**
-		- [[God's Covenant with Noah - Genesis 9]]
+		- [[Genesis 9 - God's Covenant with Noah]]
 	- **[[Creation Account]]**
-		- [[Creation of Babel - Genesis 11]]
-		- [[Noah and the command to Adam - Genesis 9]]
-		- [[Re-creation - Genesis 8]]
+		- [[Genesis 8 - Re-creation]]
+		- [[Genesis 9 - Noah and the command to Adam]]
+		- [[Genesis 11 - Creation of Babel]]
 	- **[[Curse]]**
 	- **[[De-Creation]]**
 	- **[[Seeing and Taking]]**
-		- [[God Sees Creation - Genesis 1]]
-		- [[Ham Seeing Noah's Nakedness - Genesis 9]]
-		- [[Lot saw the land - Genesis 13]]
-		- [[Pharaoh saw Sarai - Genesis 12]]
-		- [[Seeing and Taking the Fruit - Genesis 3]]
+		- [[Genesis 1 - God Sees Creation]]
+		- [[Genesis 3 - Seeing and Taking the Fruit]]
+		- [[Genesis 9 - Ham Seeing Noah's Nakedness]]
+		- [[Genesis 12 - Pharaoh saw Sarai]]
+		- [[Genesis 13 - Lot saw the land]]
 	- **Sin**
 		- [[sin]]
 	- **[[The East]]**
-		- [[Babel in The East - Genesis 11]]
-		- [[Promised Land West of Ur - Genesis 12]]
-		- [[Separated from sin - Psalm 103]]
+		- [[Genesis 11 - Babel in The East]]
+		- [[Genesis 12 - Promised Land West of Ur]]
+		- [[Genesis 13 - Abram Dividing Up Land]]
+		- [[Psalm 103 - Separated from sin]]
 	- **[[The Fall]]**
-		- [[Noah's Fall - Genesis 9]]
-		- [[The Fall of Cain - Genesis 4]]
+		- [[Genesis 4 - The Fall of Cain]]
+		- [[Genesis 9 - Noah's Fall]]
 	- **[[The Test]]**
 - **Typology**
 	- [[Noah —_ Jesus]]

@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "081e155d18da4f57",
+        "id": "8434b5b26bcf877f",
         "type": "tabs",
         "children": [
           {
-            "id": "cd5615240bc60f91",
+            "id": "d2322611b1450d28",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Back up file/Bible Study/Index/Themes/Seeing and Taking/Genesis 3 - Seeing and Taking the Fruit.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 354.5
   },
   "right": {
     "id": "a7bd4e3e8aeec26d",
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Back up file/Bible Study/Index/Themes/Seeing and Taking/Genesis 3 - Seeing and Taking the Fruit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Back up file/Bible Study/Index/Themes/Seeing and Taking/Genesis 3 - Seeing and Taking the Fruit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,19 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Back up file/Bible Study/Index/Themes/Seeing and Taking/Genesis 3 - Seeing and Taking the Fruit.md"
+              }
+            }
+          },
+          {
+            "id": "62c5b1c66f295d89",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
             }
           }
         ]
@@ -140,43 +158,45 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "1d8de236435975f2",
+  "active": "d2322611b1450d28",
   "lastOpenFiles": [
+    "Back up file/Bible Study/Index/Themes/Seeing and Taking/Genesis 13 - Lot saw the land.md",
+    "Back up file/Bible Study/Index/Index.md",
+    "Back up file/Bible Study/Index/Themes/The East/Genesis 13 - Abram Dividing Up Land.md",
+    "Back up file/Bible Study/Index/Themes/The East/Psalm 103 - Separated from sin.md",
+    "Back up file/Bible Study/Index/Themes/The East/Genesis 12 - Promised Land West of Ur.md",
+    "Back up file/Bible Study/Index/Locations & Nations/Locations/Main Locations/Shechem.md",
+    "Back up file/Bible Study/Index/Themes/The East/Genesis 11 - Babel in The East.md",
+    "Back up file/Attachments/Elevation Map of Israel.png",
+    "Back up file/Bible Study/Index/Symbolic Numbers/Numbers/8.md",
+    "Back up file/Bible Study/Index/Symbolic Numbers/Numbers/40.md",
+    "Back up file/Bible Study/Index/Symbolic Numbers/Numbers/7.md",
+    "Back up file/Bible Study/Index/Symbolic Numbers/Number Notes",
+    "Back up file/Attachments/Red Thread.png",
+    "Back up file/Bible Study/Index/Symbolic Numbers/Numbers",
+    "Back up file/Bible Study/Index/Locations & Nations/Abraham’s Journey/Abraham's Journey.md",
+    "Back up file/Attachments",
+    "Back up file/Bible Study/Index/Themes/Seeing and Taking/Genesis 9 - Ham Seeing Noah's Nakedness.md",
+    "Back up file/Bible Study/Index/Themes/Seeing and Taking/Genesis 12 - Pharaoh saw Sarai.md",
+    "Back up file/Bible Study/Index/Themes/Seeing and Taking/Genesis 1 - God Sees Creation.md",
+    "Back up file/Bible Study/Index/Themes/Seeing and Taking/Genesis 3 - Seeing and Taking the Fruit.md",
+    "Back up file/Bible Study/Index/Themes/Creation Account/Genesis 11 - Creation of Babel.md",
+    "Back up file/Bible Study/Index/Themes/Creation Account/Genesis 9 - Noah and the command to Adam.md",
+    "Back up file/Bible Study/Index/Themes/The Fall/Genesis 9 - Noah's Fall.md",
+    "Back up file/Bible Study/Index/Themes/Covenant/Genesis 9 - God's Covenant with Noah.md",
+    "Back up file/Bible Study/Index/Themes/Creation Account/Genesis 8 - Re-creation.md",
+    "Back up file/Bible Study/Index/Themes/Chaos Waters/Genesis 8 - Ruach and the Flood.md",
+    "Back up file/Bible Study/Index/Themes/Chaos Waters/Genesis 6 - Flood Waters.md",
+    "Back up file/Bible Study/Index/Themes/The Fall/Genesis 4 - The Fall of Cain.md",
+    "Back up file/Bible Study/Index/Themes/Chaos Waters/Chaos Waters.md",
+    "Back up file/Bible Study/Index/People/Main People/Abraham.md",
     "Back up file/Bible Study/Index/Bible/1 - Old Testament/Books/1 - Genesis/Genesis13.md",
-    "Back up file/Bible Study/Index/Themes/Seeing and Taking/Lot saw the land - Genesis 13.md",
-    "Back up file/Bible Study/Index/Themes/Seeing and Taking/Pharaoh saw Sarai - Genesis 12.md",
-    "Back up file/Bible Study/Index/Words/Strongs/Hebrew/H3458.md",
-    "Back up file/Bible Study/Index/Words/Strongs/Hebrew/H8282.md",
-    "Back up file/Bible Study/Index/Themes/The East/Separated from sin - Psalm 103.md",
-    "Back up file/Bible Study/Index/Words/Strongs/Hebrew/H85.md",
-    "Back up file/Bible Study/Index/Themes/Seeing and Taking/Ham Seeing Noah's Nakedness - Genesis 9.md",
-    "Back up file/Bible Study/Index/Words/English/Laughter.md",
-    "Back up file/Bible Study/Index/Themes/Seeing and Taking/Seeing and Taking.md",
-    "Back up file/Bible Study/Index/Words/English/God will hear.md",
-    "Back up file/Bible Study/Index/Words/English/Covering.md",
-    "Back up file/Bible Study/Index/Locations & Nations/Locations/Main Locations/Shecham.md",
-    "Back up file/Bible Study/Index/Locations & Nations/Locations/Main Locations/Egypt.md",
-    "Back up file/Bible Study/Index/Words/English/Father of a Multitude.md",
-    "Back up file/Bible Study/Index/Words/English/Princess.md",
-    "Back up file/Bible Study/Index/Words/Strongs/Hebrew/H3327.md",
-    "Back up file/Bible Study/Index/Words/English/High Father.md",
-    "Back up file/Bible Study/Index/Themes/Seeing and Taking/Seeing and Taking the Fruit - Genesis 3.md",
-    "Back up file/Bible Study/Index/Locations & Nations/Locations/Main Locations/Ur.md",
-    "Back up file/Bible Study/Index/Themes/Seeing and Taking/God Sees Creation - Genesis 1.md",
-    "Back up file/Bible Study/Index/Themes/The East/Promised Land West of Ur - Genesis 12.md",
-    "Back up file/Bible Study/Index/Locations & Nations/Locations/Main Locations/Harlan.md",
-    "Back up file/Bible Study/Index/Words/Strongs/Hebrew/H3875.md",
-    "Back up file/Bible Study/Index/Words/Strongs/Hebrew/H87.md",
-    "Back up file/Bible Study/Index/People/Main People/Sarah.md",
-    "Back up file/Bible Study/Index/Themes/Seeing and Taking",
     "Back up file/Bible Study/Index/Bible/1 - Old Testament/Books/22 - Song of Solo 22 - Song of Solomon mon",
     "Back up file/Bible Study/Index/Bible/1 - Old Testament/Books/9 - 1 Samuel",
     "Back up file/Bible Study/Index/Bible/1 - Old Testament/Books/8 - Ruth",
     "Back up file/Bible Study/Index/Bible/1 - Old Testament/Books/7 - Judges",
     "Back up file/Bible Study/Index/Bible/1 - Old Testament/Books/6 - Joshua",
     "Back up file/Bible Study/Index/Bible/1 - Old Testament/Books/5 - Deuteronomy",
-    "Back up file/Bible Study/Index/Bible/1 - Old Testament/Books/4 - Numbers",
-    "Back up file/Bible Study/Index/Bible/1 - Old Testament/Books/39 - Malachi",
-    "Back up file/Bible Study/Index/Bible/1 - Old Testament/Books/38 - Zechariah"
+    "Back up file/Bible Study/Index/Bible/1 - Old Testament/Books/4 - Numbers"
   ]
 }
