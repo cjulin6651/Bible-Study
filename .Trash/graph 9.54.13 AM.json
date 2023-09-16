@@ -8,70 +8,70 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:\"Back up file/Bible Study/Master Map/Bible/1 - Old Testament\"  ",
+      "query": "path:\"Back up file/Bible Study/Index/Bible/1 - Old Testament\"  ",
       "color": {
         "a": 1,
         "rgb": 15865880
       }
     },
     {
-      "query": "path:\"Back up file/Bible Study/Master Map/Bible/2 - New Testament\"  ",
+      "query": "path:\"Back up file/Bible Study/Index/Bible/2 - New Testament\"  ",
       "color": {
         "a": 1,
         "rgb": 1067769
       }
     },
     {
-      "query": "path:\"Back up file/Bible Study/Master Map/Locations & Nations\"  ",
+      "query": "path:\"Back up file/Bible Study/Index/Locations\"  ",
       "color": {
         "a": 1,
         "rgb": 16769311
       }
     },
     {
-      "query": "path:\"Back up file/Bible Study/Master Map/Occupation\"  ",
+      "query": "path:\"Back up file/Bible Study/Index/Occupation\"  ",
       "color": {
         "a": 1,
         "rgb": 16732921
       }
     },
     {
-      "query": "path:\"Back up file/Bible Study/Master Map/People\"  ",
+      "query": "path: \"Back up file/Bible Study/Index/People\"  ",
       "color": {
         "a": 1,
         "rgb": 14774793
       }
     },
     {
-      "query": "path:\"Back up file/Bible Study/Master Map/Plants, Animals, Food & Objects\"  ",
+      "query": "path:\"Back up file/Bible Study/Index/Plants, Animals, Food & Objects\"  ",
       "color": {
         "a": 1,
         "rgb": 9308902
       }
     },
     {
-      "query": "path:\"Back up file/Bible Study/Master Map/Symbolic Numbers\"  ",
+      "query": "path:\"Back up file/Bible Study/Index/Symbolic Numbers\"  ",
       "color": {
         "a": 1,
         "rgb": 8736297
       }
     },
     {
-      "query": "path:\"Back up file/Bible Study/Master Map/Themes\"  ",
+      "query": "path:\"Back up file/Bible Study/Index/Themes\"  ",
       "color": {
         "a": 1,
         "rgb": 514658
       }
     },
     {
-      "query": "path:\"Back up file/Bible Study/Master Map/Typology\"  ",
+      "query": "path:\"Back up file/Bible Study/Index/Typology\"  ",
       "color": {
         "a": 1,
         "rgb": 14645111
       }
     },
     {
-      "query": "path:\"Back up file/Bible Study/Master Map/Words\"  ",
+      "query": "path:\"Back up file/Bible Study/Index/Words\"  ",
       "color": {
         "a": 1,
         "rgb": 5429216
