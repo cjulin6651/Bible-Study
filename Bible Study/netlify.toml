@@ -8,7 +8,7 @@ LANDING_BUTTON = "Browse Notes"
 # (Optional) Site description on landing page
 LANDING_DESCRIPTION = "My personal Bible Study Notes."
 # (REQUIRED) The Markdown page linked to landing page button (e.g. put home for ./home.md)
-LANDING_PAGE = "\Back-up-file\Bible-Study\Back-up-file\Bible-Study\Master-Index/Master-Index.md"
+LANDING_PAGE = "./Master-Index.md"
 # (Optional) Site title on landing page
 LANDING_TITLE = "Master Index"
 PYTHON_VERSION = "3.8"
