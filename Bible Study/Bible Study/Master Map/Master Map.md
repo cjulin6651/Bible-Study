@@ -251,7 +251,7 @@
 		- [[Genesis 9 - Noah's Fall]]
 	- **[[The Test]]**
 - **Typology**
-	- [[Noah —> Jesus]]
+	- [[Noah —_ Jesus]]
 - **Words**
 	- **English**
 		- [[atonement]]
