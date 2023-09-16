@@ -11,7 +11,7 @@
  %% #bible #Genesis #Genesis4 %%
 
 ### Notes
-Cain falls because of a fruit. He is the embodiment of the curse because he is one who “Toils the Ground”. He is given a choice ([[The Test]])and chooses to kill his brother, sending him back to the dust where his blood cries out. His curse is that the ground wouldn’t yield him more fruit (a ground related curse). He is exiled to [[The East]]  where he “knows his wife” just as [[Adam]] did [[Eve]], after the fall. 
+Cain falls because of a fruit. He is the embodiment of the curse because he is one who “Toils the Ground”. He is given a choice ([[The Test]]) and chooses to kill his brother, sending him back to the dust where his blood cries out. His curse is that the ground wouldn’t yield him more fruit (a ground related curse). He is exiled to [[The East]]  where he “knows his wife” just as [[Adam]] did [[Eve]], after the fall. 
 
 This chapter shows humanities descent into sin because [[Lamech]] takes 2 wives rather than one and kills a man but brags about how his sin was 7 times as bad as Cain’s. 
 

@@ -8,7 +8,7 @@
 ### Notable Relatives:
 [[Adam]]
 [[Eve]]
-[[Cain]]
+[[Abel]]
 
 ### General Description:
 The first murder in the Bible. Killed his [[twin]] brother, Abel because God accepted Abel’s sacrifice and not Cain’s. Cain was marked so nobody would kill him and exiled to [[The East]].
