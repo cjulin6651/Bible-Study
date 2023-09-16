@@ -8,7 +8,7 @@ LANDING_BUTTON = "Browse Notes"
 # (Optional) Site description on landing page
 LANDING_DESCRIPTION = "My personal Bible Study notes."
 # (REQUIRED) The Markdown page linked to landing page button (e.g. put home for ./home.md)
-LANDING_PAGE = "Bible-Study\Back-up-file\Bible-Study\Master-Map\Master-Map"
+LANDING_PAGE = "Bible-Study\Back-up-file\Bible-Study\Master-Map/Master-Map"
 # (Optional) Site title on landing page
 LANDING_TITLE = "Master Map"
 PYTHON_VERSION = "3.8"
@@ -21,7 +21,7 @@ SITE_TITLE_TAB = "Caleb's Bible Study Notes"
 # (REQUIRED) Netlify site URL
 SITE_URL = "https://cjbiblestudynotes.netlify.app/"
 # (Optional) Site Timezone
-TIMEZONE = "New York"
+TIMEZONE = "New_York"
 ZOLA_VERSION = "0.15.2"
 # (Optional, default title) How to sort notes inside each section on the right sidebar ("date" or "title"). Subsections on side bar are sorted by title, the sort order cannot be changed.
 SORT_BY = "title"
@@ -36,7 +36,7 @@ PAGE_GRAPH = ""
 # (Optional, default true) Shows local graph on every page. Put "" to disable.
 LOCAL_GRAPH = "y"
 # (Optional, default false) Whether sidebar sections should be collapsed by default.
-SIDEBAR_COLLAPSED = "y"
+SIDEBAR_COLLAPSED = ""
 # (Optional, default blank) Additional footer content.
 FOOTER = ""
 # (Optional, default main) Root section name.
