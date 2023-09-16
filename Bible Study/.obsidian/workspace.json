@@ -20,6 +20,20 @@
             }
           }
         ]
+      },
+      {
+        "id": "a71521d04587b0fa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dacb69d447410026",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -85,7 +99,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bible Study/Master Map/Master Map.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bible Study/Master Map/Master Map.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +136,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Bible Study/Master Map/Master Map.md"
-              }
+              "state": {}
             }
           },
           {
@@ -158,10 +168,10 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "fe2f96d6d4f4b594",
+  "active": "dacb69d447410026",
   "lastOpenFiles": [
-    "Bible Study/Master Map/Themes/The East/Genesis 13 - Abram Dividing Up Land.md",
     "Bible Study/Master Map/Master Map.md",
+    "Bible Study/Master Map/Themes/The East/Genesis 13 - Abram Dividing Up Land.md",
     "netlify.toml",
     "Bible Study/Master Map/Locations & Nations/Locations/Main Locations/Canaan.md",
     "Back up file/netlify.toml",
