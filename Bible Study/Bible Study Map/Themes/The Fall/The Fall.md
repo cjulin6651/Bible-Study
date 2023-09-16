@@ -3,6 +3,7 @@ The theme of seeing the [[Genesis3]] fall narrative retold and rebranded alongsi
 
 ### Often Seen Alongside of:
 [[sin]]
+[[Seeing and Taking]]
 
 ### Tags:
 #TheFall  #Themes 

@@ -1,4 +1,4 @@
-The [[olive tree]] represents [[peace]]. The dove bringing a fresh olive leaf is symbolic of God making peace with man after the judgment has passed.
+The olive tree represents [[peace]]. The dove bringing a fresh olive leaf is symbolic of God making peace with man after the judgment has passed.
 
 The olive tree also represents the Holy Spirit. Olive oil was used in the sacrificial system as the carrier for the spices in the holy anointing oil which was used to make things [[Holy]].
 
