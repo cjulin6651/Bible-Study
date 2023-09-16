@@ -11,11 +11,62 @@
  %% %%
 
 ### Notes
-Abram and Lot are having trouble with each other because their flocks have gotten too big. Abraham gives Lot the first choice of what part of the land to take (he wouldn’t have had to do this if Abram had listened to God and left his family). Lot “looked up and saw” the land by the [[Jordan River]] and saw that it was watered well to the point of being like The [[Garden of Eden]]. So he takes that land for himself. Lot saw and took what was good in his own eyes. 
+Abram has come north out of [[Egypt]] and is finally going to settle down into the Land God provided for him, but both his flocks and Lot's flocks are too big so they are getting in each other's way and it is causing conflict so they decide to part amicably. He travels to [[Shechem]] where he first was promised [[The Promised Land]] by God.
+
+Here, we have another creation account as we see the Nation of [[Israel]] begin to be formed. Instead of the land and waters being separated, people groups are separated and ordered. 
+
+Abram gives Lot his choice of the land and Lot selfishly takes the best land for himself. Lot participates in the theme of Seeing and Taking when he "Looks up" and sees the fertile land in the Jordan River valley to the East.
+
+> [!Bible]+ [Genesis 13:10-11 - NIV](https://bolls.life/NIV/1/13/)
+>  <sup> **10** </sup>Lot *looked up and saw* that the whole plain of the Jordan was well watered, like the garden of the Lord, like the land of Egypt, toward Zoar. (This was before the Lord destroyed Sodom and Gomorrah.) <sup> **11** </sup>So Lot chose for himself the whole plain of the Jordan and set out toward the east. The two men parted company:
+ %% %%
+
+Lot sees how fertile the land is to the point it is even described like The [[Garden of Eden]]. The author interjects and we also know from the story later, that the place was going to be destroyed by [[sin]]. 
+
+Abram, is then left with the much less fertile, more arid wilderness land to the west. Much of the significance of what is happening here comes from understanding the geography.
+
+![[Elevation Map of Israel.png]]
+[Source](https://www.biblecartoons.co.uk/maps/map-of-southern-israel-showing-bethel)
+
+Lot moved towards [[Soddom and Gomorrah]] we are told which is to the east of Shechem in the valley by [[the Jordan River]]. As we know from this theme, East is where you go when you are exiled or moving away from God.
+
+Abram moved to the west of Lot (following the theme of the east, that means he moved toward Eden). Not only that, but he moved up on top of a mountain - Just as Eden was a mountain garden according to [[Ezekiel28]]. Not only that, but where does he settle? On top of a mountain in a cluster of trees called [[The Oaks of Mamre]] - in a garden.
+
+While Lot saw and took for himself what looked to be good - like Eden, Abram only looked when God told him to. 
+
+> [!Bible]+ [Genesis 13:14 - NIV](https://bolls.life/NIV/1/13/)
+>  <sup> **14** </sup>The Lord said to Abram after Lot had parted from him, “Lift up your eyes from where you are and look north and south, east and west.
+ %% %%
 
 Abram waits for Yahweh to tell him to look up and see. Yahweh tells him to look in all directions and promises him all the Land for his descendants. Abram moves his tent to [[Hebron]] by the [[Oaks of Mamre]].
 
-Abram got the worse end of the deal in Lot’s eyes but God blesses the land wherever the righteous sets foot and can turn even the wilderness into a blessed land like Eden. Whereas we see that man’s sin leads the region where Lot picked by the Jordan and [[Soddom and Gomorrah]] to die and be desolate. 
+When Abram looked at what God saw was good, we see God's ability to form Eden even in the middle of a barren wilderness if we are willing to follow Him.  Abram got the worse end of the deal in Lot’s eyes but God blesses the land wherever the righteous sets foot and can turn even the wilderness into a blessed land like Eden. Whereas we see that man’s sin leads the region where Lot picked by the Jordan and [[Soddom and Gomorrah]] to die and be desolate. 
+
+### Bonus Related Note
+God tells Abram to walk through the land that God gave him.
+
+> [!Bible]+ [Genesis 13:15-17 - NIV](https://bolls.life/NIV/1/13/)
+>  <sup> **15** </sup>All the land that you see I will give to you and your offspring forever. <sup> **16** </sup>I will make your offspring like the dust of the earth, so that if anyone could count the dust, then your offspring could be counted. <sup> **17** </sup>Go, walk through the length and breadth of the land, for I am giving it to you.”
+ %% %%
+
+I believe this parallels God walking through the garden.
+
+> [!Bible]+ [Genesis 3:8 - NIV](https://bolls.life/NIV/1/3/) [[Genesis]] [[Genesis3]]
+>  <sup> **8** </sup>Then the man and his wife heard the sound of the Lord God as he was walking in the garden in the cool of the day, and they hid from the Lord God among the trees of the garden.
+ %% %%
+
+In addition, we see God reverses the concept of the [[Curse]]. The curse being:
+
+> [!Bible]+ [Genesis 3:19 - NIV](https://bolls.life/NIV/1/3/)
+>  <sup> **19** </sup>By the sweat of your brow<br/>you will eat your food<br/>until you return to the ground,<br/>since from it you were taken;<br/>**for dust you are<br/>and to dust you will return.**”
+ %% %%
+
+Instead of returning to [[dust]], God promises Abram that his descendants will be so numerous they will be "like the dust of the land".
+
+> [!Bible]+ [Genesis 13:16 - NIV](https://bolls.life/NIV/1/13/)
+>  <sup> **16** </sup>I will make your offspring like the dust of the earth, so that if anyone could count the dust, then your offspring could be counted.
+ %% %%
+
 ### Relevant Tags:
 #SeeingAndTaking #Themes 
 
