@@ -18,7 +18,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Bible Study Map/Themes/The Fall/Genesis 4 - The Fall of Cain.md",
+                    "file": "Bible Study Map/Words/Strongs/Hebrew/H8083.md",
                     "mode": "source",
                     "source": false
                   }
@@ -36,7 +36,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "Bible Study Map/Themes/The Fall/Genesis 4 - The Fall of Cain.md",
+                    "file": "Bible Study Map/Words/Strongs/Hebrew/H8083.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -149,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bible Study Map/Themes/The Fall/Genesis 4 - The Fall of Cain.md",
+                "file": "Bible Study Map/Words/Strongs/Hebrew/H8083.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +166,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bible Study Map/Themes/The Fall/Genesis 4 - The Fall of Cain.md",
+                "file": "Bible Study Map/Words/Strongs/Hebrew/H8083.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bible Study Map/Themes/The Fall/Genesis 4 - The Fall of Cain.md"
+                "file": "Bible Study Map/Words/Strongs/Hebrew/H8083.md"
               }
             }
           },
@@ -222,8 +222,10 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "d0e9c5f4204de6a1",
+  "active": "1d8de236435975f2",
   "lastOpenFiles": [
+    "Bible Study Map/Words/Strongs/Hebrew/H8082.md",
+    "Bible Study Map/Themes/The Fall/Genesis 4 - The Fall of Cain.md",
     "Bible Study Map/People/Main People/Cain.md",
     "Bible Study Map/Typology/Noah — Jesus.md",
     "Bible Study Map/Bible Study Map.md",
@@ -249,8 +251,6 @@
     "Bible Study Map/Themes/The East/The East.md",
     "Bible Study Map/Themes/sin/sin.md",
     "Bible Study Map/Themes/Seeing and Taking/Seeing and Taking.md",
-    "Bible Study Map/Themes/De-Creation/De-Creation.md",
-    "Bible Study Map/Themes/Curse/Curse.md",
     "gitignore.txt",
     "Templates/gitignore.txt",
     "Templates/gitignore.txt.crdownload",

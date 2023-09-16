@@ -4,20 +4,63 @@
     "type": "split",
     "children": [
       {
-        "id": "e78b666218283285",
+        "id": "de4c0b0cc5fe1b3f",
         "type": "tabs",
         "children": [
           {
-            "id": "d13f172f157b7825",
+            "id": "291db296add25ca2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bible Study Map/Plants, Animals, Food & Objects/Plants/olive tree.md",
+                "file": "Bible Study Map/Words/Strongs/Hebrew/H8282.md",
                 "mode": "source",
                 "source": false
               }
-            }
+            },
+            "group": "f00a14b019e292c7"
+          }
+        ]
+      },
+      {
+        "id": "8d06dcf37dfca52e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "31dbe5e5018e0ea5",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Bible Study Map/Words/Strongs/Hebrew/H8282.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 2.127882660154132,
+                  "close": false
+                }
+              }
+            },
+            "group": "f00a14b019e292c7"
           }
         ]
       }
@@ -85,7 +128,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Bible Study Map/Plants, Animals, Food & Objects/Plants/olive tree.md",
+            "file": "Bible Study Map/Words/Strongs/Hebrew/H8282.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +145,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Bible Study Map/Plants, Animals, Food & Objects/Plants/olive tree.md",
+            "file": "Bible Study Map/Words/Strongs/Hebrew/H8282.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +157,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Bible Study Map/Plants, Animals, Food & Objects/Plants/olive tree.md"
+            "file": "Bible Study Map/Words/Strongs/Hebrew/H8282.md"
           }
         }
       }
@@ -133,35 +176,35 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "d13f172f157b7825",
+  "active": "b9011c49ad04dd0d",
   "lastOpenFiles": [
+    "Bible Study Map/Words/Strongs/Hebrew/H8083.md",
+    "Bible Study Map/Words/Strongs/Hebrew/H8082.md",
+    "Bible Study Map/Words/Strongs/Hebrew/H8034.md",
+    "Bible Study Map/Words/Strongs/Hebrew/H7651.md",
+    "Bible Study Map/Words/Strongs/Hebrew/H7307.md",
+    "Bible Study Map/Words/Strongs/Hebrew/H7013.md",
+    "Bible Study Map/Words/Strongs/Hebrew/H5903.md",
+    "Bible Study Map/Words/Strongs/Hebrew/H5118.md",
+    "Bible Study Map/Words/Strongs/Hebrew/H3875.md",
+    "Bible Study Map/Words/Strongs/Hebrew/H3754.md",
+    "Bible Study Map/Words/Strongs/Hebrew/H3724.md",
+    "Bible Study Map/Words/Strongs/Hebrew/H3458.md",
+    "Bible Study Map/Words/Strongs/Hebrew/H3327.md",
+    "Bible Study Map/Words/Strongs/Hebrew/H3196.md",
+    "Bible Study Map/Words/Strongs/Hebrew/H2526.md",
+    "Bible Study Map/Words/Strongs/Hebrew/H2525.md",
+    "Bible Study Map/Words/Strongs/Hebrew/H1892.md",
+    "Bible Study Map/Words/Strongs/Hebrew/H1588.md",
+    "Bible Study Map/Words/Strongs/Hebrew/H705.md",
+    "Bible Study Map/Words/Strongs/Hebrew/H127.md",
+    "Bible Study Map/Words/Strongs/Hebrew/H87.md",
+    "Bible Study Map/Words/Strongs/Hebrew/H85.md",
+    "Bible Study Map/Words/Hebrew/Adamah.md",
+    "Bible Study Map/Words/Hebrew/‛êyrôm ‛êrôm.md",
+    "Bible Study Map/Words/Hebrew/châm.md",
     "Bible Study Map/Bible Study Map.md",
-    "Bible Study Map/Locations & Nations/Locations & Nations.md",
-    "Bible Study Map/Words/Strongs/Strongs.md",
-    "Back up file/Bible Study/Master Map/Themes/Seeing and Taking/Genesis 13 - Lot saw the land.md",
-    "Templates/Typology Note.md",
-    "Templates/Person Name.md",
-    "Templates/Theme Note.md",
-    "Templates/Word Note.md",
-    "Templates/Hebrew-Greek Word.md",
-    "Templates/Eng-Heb-Greek Word.md",
-    "Templates/Number Template.md",
-    "Templates/Theme Summary.md",
     "Templates",
-    "Bible Study Map/Zz - Bible/1 - Old Testament/Books/31 - Obadiah/Obadiah.md",
-    "Bible Study Map/Zz - Bible/1 - Old Testament/Books/23 - Isaiah/Isaiah.md",
-    "Bible Study Map/Zz - Bible/1 - Old Testament/Books/2 - Exodus/Exodus12.md",
-    "Bible Study Map/Zz - Bible/1 - Old Testament/Books/2 - Exodus/Exodus.md",
-    "Bible Study Map/Zz - Bible/1 - Old Testament/Books/9 - 1 Samuel/1Samuel.md",
-    "Bible Study Map/Zz - Bible/1 - Old Testament/Books/17 - Esther/Esther.md",
-    "Bible Study Map/Zz - Bible/1 - Old Testament/Books/30 - Amos/Amos.md",
-    "Bible Study Map/Zz - Bible/1 - Old Testament/Books/38 - Zechariah/Zechariah.md",
-    "Bible Study Map/Zz - Bible/1 - Old Testament/Books/36 - Zephaniah/Zephaniah.md",
-    "Bible Study Map/Zz - Bible/1 - Old Testament/Books/7 - Judges/Judges.md",
-    "Bible Study Map/Zz - Bible/1 - Old Testament/Books/28 - Hosea/Hosea.md",
-    "Bible Study Map/Zz - Bible/1 - Old Testament/Books/27 - Daniel/Daniel.md",
-    "Bible Study Map/Zz - Bible/1 - Old Testament/Books/37 - Haggai/Haggai.md",
-    "Bible Study Map/Zz - Bible/1 - Old Testament/Books/13 - 1 Chronicles/1Chronicles.md",
     "Bible Study Map/Zz - Bible/1 - Old Testament/Books/31 - Obadiah",
     "Bible Study Map/Zz - Bible/1 - Old Testament/Books/23 - Isaiah",
     "Bible Study Map/Zz - Bible/1 - Old Testament/Books/2 - Exodus",
