@@ -8,7 +8,7 @@ LANDING_BUTTON = "Browse Notes"
 # (Optional) Site description on landing page
 LANDING_DESCRIPTION = "My personal Bible Study notes."
 # (REQUIRED) The Markdown page linked to landing page button (e.g. put home for ./home.md)
-LANDING_PAGE = "Master-Map"
+LANDING_PAGE = "Bible-Study\Master-Map\Master-Map"
 # (Optional) Site title on landing page
 LANDING_TITLE = "Master Map"
 PYTHON_VERSION = "3.8"
@@ -33,8 +33,9 @@ SLUGIFY = "y"
 HOME_GRAPH = "y"
 # (Optional, default true) Shows knowledge graph on every page. Put "" to disable.
 PAGE_GRAPH = "y"
+LOCAL_GRAPH = "y"
 # (Optional, default false) Whether sidebar sections should be collapsed by default.
-SIDEBAR_COLLAPSED = ""
+SIDEBAR_COLLAPSED = "y"
 # (Optional, default blank) Additional footer content.
 FOOTER = ""
 # (Optional, default main) Root section name.
