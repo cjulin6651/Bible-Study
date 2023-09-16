@@ -1,6 +1,6 @@
 ### Name Meaning:
 Sarai - unknown for sure, possibly princess possibly "My princess". See [article](https://armstronginstitute.org/818-what-does-the-name-sarai-really-mean)
-Sarah - [[princess]]
+Sarah - [[Princess]]
 
 ### Found in:
 [[Genesis]]

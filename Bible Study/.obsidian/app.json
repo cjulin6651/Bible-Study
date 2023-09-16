@@ -24,5 +24,6 @@
   ],
   "newFileLocation": "root",
   "alwaysUpdateLinks": true,
-  "promptDelete": false
+  "promptDelete": false,
+  "attachmentFolderPath": "Back up file/Attachments"
 }
