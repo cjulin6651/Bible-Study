@@ -1,6 +1,148 @@
 ![[Red Thread.png]]
 %% Begin Waypoint %%
-- **[[Bible]]**
+- **Locations & Nations**
+	- **Abraham’s Journey**
+		- [[Abraham's Journey]]
+	- **Locations**
+		- **Location Notes**
+		- **Main Locations**
+			- [[Canaan]]
+			- [[Egypt]]
+			- [[Garden of Eden]]
+			- [[Harlan]]
+			- [[Shechem]]
+			- [[Ur]]
+	- **Nations**
+		- **Main Nations**
+			- [[Israelite]]
+		- **Nation Notes**
+- **Occupation**
+- **People**
+	- **Main People**
+		- [[Abel]]
+		- [[Abraham]]
+		- [[Adam]]
+		- [[Cain]]
+		- [[Eve]]
+		- [[God the Father]]
+		- [[God]]
+		- [[Hagar]]
+		- [[Ham]]
+		- [[Holy Spirit]]
+		- [[Isaac]]
+		- [[Ishmael]]
+		- [[Japheth]]
+		- [[Jesus]]
+		- [[Lot]]
+		- [[Noah]]
+		- [[Sarah]]
+		- [[Serpent]]
+		- [[Shem]]
+		- [[The Trinity]]
+- **Plants, Animals, Food & Objects**
+	- **Animals**
+	- **Food & Drink**
+		- [[wine]]
+	- **Objects**
+	- **Plants**
+		- [[olive tree]]
+- **Symbolic Numbers**
+	- **Number Notes**
+	- **Numbers**
+		- [[7]]
+		- [[8]]
+		- [[40]]
+- **Themes**
+	- **[[Chaos Waters]]**
+		- [[Genesis 6 - Flood Waters]]
+		- [[Genesis 8 - Ruach and the Flood]]
+	- **[[Covenant]]**
+		- [[Genesis 9 - God's Covenant with Noah]]
+	- **[[Creation Account]]**
+		- [[Genesis 8 - Re-creation]]
+		- [[Genesis 9 - Noah and the command to Adam]]
+		- [[Genesis 11 - Creation of Babel]]
+	- **[[Curse]]**
+	- **[[De-Creation]]**
+	- **[[Seeing and Taking]]**
+		- [[Genesis 1 - God Sees Creation]]
+		- [[Genesis 3 - Seeing and Taking the Fruit]]
+		- [[Genesis 9 - Ham Seeing Noah's Nakedness]]
+		- [[Genesis 12 - Pharaoh saw Sarai]]
+		- [[Genesis 13 - Lot saw the land]]
+	- **Sin**
+		- [[sin]]
+	- **[[The East]]**
+		- [[Genesis 11 - Babel in The East]]
+		- [[Genesis 12 - Promised Land West of Ur]]
+		- [[Genesis 13 - Abram Dividing Up Land]]
+		- [[Psalm 103 - Separated from sin]]
+	- **[[The Fall]]**
+		- [[Genesis 4 - The Fall of Cain]]
+		- [[Genesis 9 - Noah's Fall]]
+	- **[[The Test]]**
+- **Typology**
+	- [[Noah —_ Jesus]]
+- **Words**
+	- **English**
+		- [[atonement]]
+		- [[Covering]]
+		- [[Fame]]
+		- [[Father of a Multitude]]
+		- [[garden]]
+		- [[God will hear]]
+		- [[High Father]]
+		- [[hot]]
+		- [[Laughter]]
+		- [[naked]]
+		- [[Name]]
+		- [[pitch]]
+		- [[Princess]]
+		- [[Rest]]
+		- [[Spear]]
+		- [[Spirit]]
+		- [[Vanity]]
+		- [[vineyard]]
+	- **Greek**
+	- **Hebrew**
+		- [[‛êyrôm ‛êrôm]]
+		- [[Adamah]]
+		- [[châm]]
+		- [[gan]]
+		- [[hebel hăbêl]]
+		- [[kerem]]
+		- [[qayin]]
+		- [[Ruach]]
+		- [[yayin]]
+	- **Strongs**
+		- **Greek**
+		- **Hebrew**
+			- [[H85]]
+			- [[H87]]
+			- [[H127]]
+			- [[H705]]
+			- [[H1588]]
+			- [[H1892]]
+			- [[H2525]]
+			- [[H2526]]
+			- [[H3196]]
+			- [[H3327]]
+			- [[H3458]]
+			- [[H3724]]
+			- [[H3754]]
+			- [[H3875]]
+			- [[H5118]]
+			- [[H5903]]
+			- [[H7013]]
+			- [[H7307]]
+			- [[H7651]]
+			- [[H8034]]
+			- [[H8082]]
+			- [[H8083]]
+			- [[H8282]]
+	- **Word Notes**
+		- [[Ruach - Gen 1 v2]]
+- **Zz - Bible**
 	- **1 - Old Testament**
 		- **Books**
 			- **1 - Genesis**
@@ -169,147 +311,6 @@
 			- **66 - Revelation**
 				- [[Revelation]]
 		- [[New Testament]]
-- **Locations & Nations**
-	- **Abraham’s Journey**
-		- [[Abraham's Journey]]
-	- **Locations**
-		- **Location Notes**
-		- **Main Locations**
-			- [[Canaan]]
-			- [[Egypt]]
-			- [[Garden of Eden]]
-			- [[Harlan]]
-			- [[Shechem]]
-			- [[Ur]]
-	- **Nations**
-		- **Main Nations**
-			- [[Israelite]]
-		- **Nation Notes**
-- **Occupation**
-- **People**
-	- **Main People**
-		- [[Abel]]
-		- [[Abraham]]
-		- [[Adam]]
-		- [[Cain]]
-		- [[Eve]]
-		- [[God the Father]]
-		- [[God]]
-		- [[Hagar]]
-		- [[Ham]]
-		- [[Holy Spirit]]
-		- [[Isaac]]
-		- [[Ishmael]]
-		- [[Japheth]]
-		- [[Jesus]]
-		- [[Lot]]
-		- [[Noah]]
-		- [[Sarah]]
-		- [[Serpent]]
-		- [[Shem]]
-		- [[The Trinity]]
-- **Plants, Animals, Food & Objects**
-	- **Animals**
-	- **Food & Drink**
-		- [[wine]]
-	- **Objects**
-	- **Plants**
-		- [[olive tree]]
-- **Symbolic Numbers**
-	- **Number Notes**
-	- **Numbers**
-		- [[7]]
-		- [[8]]
-		- [[40]]
-- **Themes**
-	- **[[Chaos Waters]]**
-		- [[Genesis 6 - Flood Waters]]
-		- [[Genesis 8 - Ruach and the Flood]]
-	- **[[Covenant]]**
-		- [[Genesis 9 - God's Covenant with Noah]]
-	- **[[Creation Account]]**
-		- [[Genesis 8 - Re-creation]]
-		- [[Genesis 9 - Noah and the command to Adam]]
-		- [[Genesis 11 - Creation of Babel]]
-	- **[[Curse]]**
-	- **[[De-Creation]]**
-	- **[[Seeing and Taking]]**
-		- [[Genesis 1 - God Sees Creation]]
-		- [[Genesis 3 - Seeing and Taking the Fruit]]
-		- [[Genesis 9 - Ham Seeing Noah's Nakedness]]
-		- [[Genesis 12 - Pharaoh saw Sarai]]
-		- [[Genesis 13 - Lot saw the land]]
-	- **Sin**
-		- [[sin]]
-	- **[[The East]]**
-		- [[Genesis 11 - Babel in The East]]
-		- [[Genesis 12 - Promised Land West of Ur]]
-		- [[Genesis 13 - Abram Dividing Up Land]]
-		- [[Psalm 103 - Separated from sin]]
-	- **[[The Fall]]**
-		- [[Genesis 4 - The Fall of Cain]]
-		- [[Genesis 9 - Noah's Fall]]
-	- **[[The Test]]**
-- **Typology**
-	- [[Noah —_ Jesus]]
-- **Words**
-	- **English**
-		- [[atonement]]
-		- [[Covering]]
-		- [[Fame]]
-		- [[Father of a Multitude]]
-		- [[garden]]
-		- [[God will hear]]
-		- [[High Father]]
-		- [[hot]]
-		- [[Laughter]]
-		- [[naked]]
-		- [[Name]]
-		- [[pitch]]
-		- [[Princess]]
-		- [[Rest]]
-		- [[Spear]]
-		- [[Spirit]]
-		- [[Vanity]]
-		- [[vineyard]]
-	- **Greek**
-	- **Hebrew**
-		- [[‛êyrôm ‛êrôm]]
-		- [[Adamah]]
-		- [[châm]]
-		- [[gan]]
-		- [[hebel hăbêl]]
-		- [[kerem]]
-		- [[qayin]]
-		- [[Ruach]]
-		- [[yayin]]
-	- **Strongs**
-		- **Greek**
-		- **Hebrew**
-			- [[H85]]
-			- [[H87]]
-			- [[H127]]
-			- [[H705]]
-			- [[H1588]]
-			- [[H1892]]
-			- [[H2525]]
-			- [[H2526]]
-			- [[H3196]]
-			- [[H3327]]
-			- [[H3458]]
-			- [[H3724]]
-			- [[H3754]]
-			- [[H3875]]
-			- [[H5118]]
-			- [[H5903]]
-			- [[H7013]]
-			- [[H7307]]
-			- [[H7651]]
-			- [[H8034]]
-			- [[H8082]]
-			- [[H8083]]
-			- [[H8282]]
-	- **Word Notes**
-		- [[Ruach - Gen 1 v2]]
+	- [[Bible]]
 
 %% End Waypoint %%
