@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Back up file/Bible Study/Index/Themes/The East/Genesis 13 - Abram Dividing Up Land.md",
+                "file": "Back up file/Bible Study/Master Map/Themes/Seeing and Taking/Genesis 13 - Lot saw the land.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Back up file/Bible Study/Index/Themes/The East/Genesis 13 - Abram Dividing Up Land.md",
+            "file": "Back up file/Bible Study/Master Map/Themes/Seeing and Taking/Genesis 13 - Lot saw the land.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Back up file/Bible Study/Index/Themes/The East/Genesis 13 - Abram Dividing Up Land.md",
+            "file": "Back up file/Bible Study/Master Map/Themes/Seeing and Taking/Genesis 13 - Lot saw the land.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Back up file/Bible Study/Index/Themes/The East/Genesis 13 - Abram Dividing Up Land.md"
+            "file": "Back up file/Bible Study/Master Map/Themes/Seeing and Taking/Genesis 13 - Lot saw the land.md"
           }
         }
       }
@@ -133,8 +133,10 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "b9011c49ad04dd0d",
+  "active": "d13f172f157b7825",
   "lastOpenFiles": [
+    "Back up file/Bible Study/Master Map/Master Map.md",
+    "netlify.toml",
     "Back up file/Bible Study/Index/Index.md",
     "Back up file/Attachments/Red Thread.png",
     "Back up file/Bible Study/Index/Themes/The East/Genesis 13 - Abram Dividing Up Land.md",
@@ -170,7 +172,6 @@
     "Back up file/Bible Study/Index/Themes/Covenant",
     "Back up file/Bible Study/Index/Themes/Sin",
     "Back up file/Bible Study/Index/Themes/Creation Account",
-    "Back up file/Bible Study/Index/Themes/Chaos Waters",
-    "Back up file/Bible Study/Index/Themes/Curse"
+    "Back up file/Bible Study/Index/Themes/Chaos Waters"
   ]
 }

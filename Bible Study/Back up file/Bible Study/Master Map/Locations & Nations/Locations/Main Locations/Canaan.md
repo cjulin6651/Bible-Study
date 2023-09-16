@@ -1,0 +1,1 @@
+The land occupied by the [[Canaanite]] people. Became [[The Promised Land]] for the [[Israelite]] people.

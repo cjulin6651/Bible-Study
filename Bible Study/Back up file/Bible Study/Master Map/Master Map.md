@@ -175,6 +175,7 @@
 	- **Locations**
 		- **Location Notes**
 		- **Main Locations**
+			- [[Canaan]]
 			- [[Egypt]]
 			- [[Garden of Eden]]
 			- [[Harlan]]
@@ -250,7 +251,7 @@
 		- [[Genesis 9 - Noah's Fall]]
 	- **[[The Test]]**
 - **Typology**
-	- [[Noah —_ Jesus]]
+	- [[Noah —> Jesus]]
 - **Words**
 	- **English**
 		- [[atonement]]
