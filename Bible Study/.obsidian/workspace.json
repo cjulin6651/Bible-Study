@@ -4,24 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "a71521d04587b0fa",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "dacb69d447410026",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bible Study/Master Map/Master Map.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "baab93248f75551f",
         "type": "tabs",
         "children": [
@@ -29,8 +11,12 @@
             "id": "dbc05b36a9c1ab71",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Bible Study Map/Bible Study Map.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -99,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bible Study/Master Map/Master Map.md",
+                "file": "Bible Study Map/Bible Study Map.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bible Study/Master Map/Master Map.md",
+                "file": "Bible Study Map/Bible Study Map.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bible Study/Master Map/Master Map.md"
+                "file": "Bible Study Map/Bible Study Map.md"
               }
             }
           },
@@ -174,43 +160,42 @@
   },
   "active": "1d8de236435975f2",
   "lastOpenFiles": [
+    "Bible Study Map/Bible Study Map.md",
     "gitignore.txt",
     "Templates/gitignore.txt",
     "Templates/gitignore.txt.crdownload",
-    "Bible Study/Master Map/Master Map.md",
     "netlify.toml",
-    "Bible Study/Master Map/Themes/The East/Genesis 13 - Abram Dividing Up Land.md",
-    "Bible Study/Master Map/Locations & Nations/Locations/Main Locations/Canaan.md",
+    "Bible Study Map/Themes/The East/Genesis 13 - Abram Dividing Up Land.md",
+    "Bible Study Map/Locations & Nations/Locations/Main Locations/Canaan.md",
     "Back up file/netlify.toml",
     "Back up file/Bible Study/Master Index/Untitled.md",
     "netlify.example.toml",
     "Unconfirmed 177658.crdownload",
-    "Bible Study/Master Map/Themes/Seeing and Taking/Genesis 3 - Seeing and Taking the Fruit.md",
-    "Bible Study/Master Map/Themes/Seeing and Taking/Genesis 13 - Lot saw the land.md",
-    "Bible Study/Master Map/Themes/The East/Psalm 103 - Separated from sin.md",
-    "Bible Study/Master Map/Themes/The East/Genesis 12 - Promised Land West of Ur.md",
-    "Bible Study/Master Map/Locations & Nations/Locations/Main Locations/Shechem.md",
-    "Bible Study/Master Map/Themes/The East/Genesis 11 - Babel in The East.md",
+    "Bible Study Map/Themes/Seeing and Taking/Genesis 3 - Seeing and Taking the Fruit.md",
+    "Bible Study Map/Themes/Seeing and Taking/Genesis 13 - Lot saw the land.md",
+    "Bible Study Map/Themes/The East/Psalm 103 - Separated from sin.md",
+    "Bible Study Map/Themes/The East/Genesis 12 - Promised Land West of Ur.md",
+    "Bible Study Map/Locations & Nations/Locations/Main Locations/Shechem.md",
+    "Bible Study Map/Themes/The East/Genesis 11 - Babel in The East.md",
     "Attachments/Elevation Map of Israel.png",
-    "Bible Study/Master Map/Symbolic Numbers/Numbers/8.md",
-    "Bible Study/Master Map/Symbolic Numbers/Numbers/40.md",
-    "Bible Study/Master Map/Symbolic Numbers/Numbers/7.md",
-    "Bible Study/Master Map/Symbolic Numbers/Number Notes",
+    "Bible Study Map/Symbolic Numbers/Numbers/8.md",
+    "Bible Study Map/Symbolic Numbers/Numbers/40.md",
+    "Bible Study Map/Symbolic Numbers/Numbers/7.md",
+    "Bible Study Map/Symbolic Numbers/Number Notes",
     "Attachments/Red Thread.png",
-    "Bible Study/Master Map/Symbolic Numbers/Numbers",
-    "Bible Study/Master Map/Locations & Nations/Abraham’s Journey/Abraham's Journey.md",
+    "Bible Study Map/Symbolic Numbers/Numbers",
+    "Bible Study Map/Locations & Nations/Abraham’s Journey/Abraham's Journey.md",
     "Attachments",
-    "Bible Study/Master Map/Themes/Seeing and Taking/Genesis 9 - Ham Seeing Noah's Nakedness.md",
-    "Bible Study/Master Map/Themes/Seeing and Taking/Genesis 12 - Pharaoh saw Sarai.md",
-    "Bible Study/Master Map/Themes/Seeing and Taking/Genesis 1 - God Sees Creation.md",
-    "Bible Study/Master Map/Themes/Creation Account/Genesis 11 - Creation of Babel.md",
-    "Bible Study/Master Map/Themes/Creation Account/Genesis 9 - Noah and the command to Adam.md",
-    "Bible Study/Master Map/Themes/The Fall/Genesis 9 - Noah's Fall.md",
-    "Bible Study/Master Map/Themes/Covenant/Genesis 9 - God's Covenant with Noah.md",
-    "Bible Study/Master Map/Themes/Creation Account/Genesis 8 - Re-creation.md",
-    "Bible Study/Master Map/Themes/Chaos Waters/Genesis 8 - Ruach and the Flood.md",
-    "Bible Study/Master Map/Themes/Chaos Waters/Genesis 6 - Flood Waters.md",
-    "Bible Study/Master Map/Themes/The Fall/Genesis 4 - The Fall of Cain.md",
-    "Bible Study/Master Map/Zz - Bible/1 - Old Testament/Books/22 - Song of Solo 22 - Song of Solomon mon"
+    "Bible Study Map/Themes/Seeing and Taking/Genesis 9 - Ham Seeing Noah's Nakedness.md",
+    "Bible Study Map/Themes/Seeing and Taking/Genesis 12 - Pharaoh saw Sarai.md",
+    "Bible Study Map/Themes/Seeing and Taking/Genesis 1 - God Sees Creation.md",
+    "Bible Study Map/Themes/Creation Account/Genesis 11 - Creation of Babel.md",
+    "Bible Study Map/Themes/Creation Account/Genesis 9 - Noah and the command to Adam.md",
+    "Bible Study Map/Themes/The Fall/Genesis 9 - Noah's Fall.md",
+    "Bible Study Map/Themes/Covenant/Genesis 9 - God's Covenant with Noah.md",
+    "Bible Study Map/Themes/Creation Account/Genesis 8 - Re-creation.md",
+    "Bible Study Map/Themes/Chaos Waters/Genesis 8 - Ruach and the Flood.md",
+    "Bible Study Map/Themes/Chaos Waters/Genesis 6 - Flood Waters.md",
+    "Bible Study Map/Themes/The Fall/Genesis 4 - The Fall of Cain.md"
   ]
 }

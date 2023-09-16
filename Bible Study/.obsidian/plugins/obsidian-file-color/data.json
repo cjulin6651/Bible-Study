@@ -51,46 +51,5 @@
       "value": "#ff5b5c"
     }
   ],
-  "fileColors": [
-    {
-      "path": "Bible Study/Master Map/Zz - Bible/1 - Old Testament",
-      "color": "AcOiGYWjlkVonBRXGnSmu"
-    },
-    {
-      "path": "Bible Study/Master Map/Zz - Bible/2 - New Testament",
-      "color": "fo909AWoNo4C1Pkci8udQ"
-    },
-    {
-      "path": "Bible Study/Master Map/Themes",
-      "color": "R1RvXpnP34x3lM4sjkjju"
-    },
-    {
-      "path": "Bible Study/Master Map/Words",
-      "color": "nFaMa8vVw6hgqOWwGjTju"
-    },
-    {
-      "path": "Bible Study/Master Map/Locations & Nations",
-      "color": "uvXhY-gmOC_CgKqiu-Xtg"
-    },
-    {
-      "path": "Bible Study/Master Map/Occupation",
-      "color": "pvhgfo9jCWPbFIyNJWlRa"
-    },
-    {
-      "path": "Bible Study/Master Map/People",
-      "color": "5_6hpBM_t0KuorAEuuXP3"
-    },
-    {
-      "path": "Bible Study/Master Map/Symbolic Numbers",
-      "color": "9EYNqWTDEkLoh6lehogIr"
-    },
-    {
-      "path": "Bible Study/Master Map/Typology",
-      "color": "O72uJxMLYzJ5hUKhCm3_Y"
-    },
-    {
-      "path": "Bible Study/Master Map/Plants, Animals, Food & Objects",
-      "color": "md_OIupCqm_8l6uMrKg-R"
-    }
-  ]
+  "fileColors": []
 }
