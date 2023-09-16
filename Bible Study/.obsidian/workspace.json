@@ -172,8 +172,10 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "dacb69d447410026",
+  "active": "1d8de236435975f2",
   "lastOpenFiles": [
+    "Templates/gitignore.txt",
+    "Templates/gitignore.txt.crdownload",
     "Bible Study/Master Map/Master Map.md",
     "netlify.toml",
     "Bible Study/Master Map/Themes/The East/Genesis 13 - Abram Dividing Up Land.md",
@@ -209,7 +211,6 @@
     "Bible Study/Master Map/Themes/Chaos Waters/Genesis 6 - Flood Waters.md",
     "Bible Study/Master Map/Themes/The Fall/Genesis 4 - The Fall of Cain.md",
     "Bible Study/Master Map/Zz - Bible/1 - Old Testament/Books/22 - Song of Solo 22 - Song of Solomon mon",
-    "Bible Study/Master Map/Zz - Bible/1 - Old Testament/Books/9 - 1 Samuel",
-    "Bible Study/Master Map/Zz - Bible/1 - Old Testament/Books/8 - Ruth"
+    "Bible Study/Master Map/Zz - Bible/1 - Old Testament/Books/9 - 1 Samuel"
   ]
 }
