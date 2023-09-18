@@ -49,7 +49,57 @@
       "id": "O72uJxMLYzJ5hUKhCm3_Y",
       "name": "Typolof ",
       "value": "#ff5b5c"
+    },
+    {
+      "id": "qgU2J2p7wHD97dq7wGoYS",
+      "name": "Lit Structure",
+      "value": "#04f000"
     }
   ],
-  "fileColors": []
+  "fileColors": [
+    {
+      "path": "Bible Study Map/Locations & Nations",
+      "color": "uvXhY-gmOC_CgKqiu-Xtg"
+    },
+    {
+      "path": "Bible Study Map/Occupation",
+      "color": "pvhgfo9jCWPbFIyNJWlRa"
+    },
+    {
+      "path": "Bible Study Map/People",
+      "color": "5_6hpBM_t0KuorAEuuXP3"
+    },
+    {
+      "path": "Bible Study Map/Plants, Animals, Food & Objects",
+      "color": "md_OIupCqm_8l6uMrKg-R"
+    },
+    {
+      "path": "Bible Study Map/Symbolic Numbers",
+      "color": "9EYNqWTDEkLoh6lehogIr"
+    },
+    {
+      "path": "Bible Study Map/Themes",
+      "color": "R1RvXpnP34x3lM4sjkjju"
+    },
+    {
+      "path": "Bible Study Map/Typology",
+      "color": "O72uJxMLYzJ5hUKhCm3_Y"
+    },
+    {
+      "path": "Bible Study Map/Words",
+      "color": "nFaMa8vVw6hgqOWwGjTju"
+    },
+    {
+      "path": "Bible Study Map/Zz - Bible/1 - Old Testament",
+      "color": "AcOiGYWjlkVonBRXGnSmu"
+    },
+    {
+      "path": "Bible Study Map/Zz - Bible/2 - New Testament",
+      "color": "fo909AWoNo4C1Pkci8udQ"
+    },
+    {
+      "path": "Bible Study Map/Literary Structure",
+      "color": "qgU2J2p7wHD97dq7wGoYS"
+    }
+  ]
 }

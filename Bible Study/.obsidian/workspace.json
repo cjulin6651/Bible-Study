@@ -4,83 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "38ebe9670dd675c6",
-        "type": "split",
-        "dimension": 47.8369384359401,
-        "children": [
-          {
-            "id": "77aa1cb8efd80a88",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "d0e9c5f4204de6a1",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Bible Study Map/Words/Strongs/Hebrew/H8083.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          },
-          {
-            "id": "845f6aefbdb3861d",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "be55d62866e23bd3",
-                "type": "leaf",
-                "state": {
-                  "type": "localgraph",
-                  "state": {
-                    "file": "Bible Study Map/Words/Strongs/Hebrew/H8083.md",
-                    "options": {
-                      "collapse-filter": true,
-                      "search": "",
-                      "localJumps": 1,
-                      "localBacklinks": true,
-                      "localForelinks": true,
-                      "localInterlinks": false,
-                      "showTags": false,
-                      "showAttachments": false,
-                      "hideUnresolved": false,
-                      "collapse-color-groups": true,
-                      "colorGroups": [],
-                      "collapse-display": true,
-                      "showArrow": false,
-                      "textFadeMultiplier": 0,
-                      "nodeSizeMultiplier": 1,
-                      "lineSizeMultiplier": 1,
-                      "collapse-forces": true,
-                      "centerStrength": 0.518713248970312,
-                      "repelStrength": 10,
-                      "linkStrength": 1,
-                      "linkDistance": 250,
-                      "scale": 0.5812947839618221,
-                      "close": true
-                    }
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal"
-      },
-      {
-        "id": "b83fad80caf1355a",
+        "id": "5bc2378e60c98fb0",
         "type": "tabs",
-        "dimension": 52.1630615640599,
         "children": [
           {
-            "id": "6ff5c4830a643029",
+            "id": "e94b22b3548e956c",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Bible Study Map/Bible Study Map.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -149,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bible Study Map/Words/Strongs/Hebrew/H8083.md",
+                "file": "Bible Study Map/Bible Study Map.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bible Study Map/Words/Strongs/Hebrew/H8083.md",
+                "file": "Bible Study Map/Bible Study Map.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bible Study Map/Words/Strongs/Hebrew/H8083.md"
+                "file": "Bible Study Map/Bible Study Map.md"
               }
             }
           },
@@ -222,46 +158,50 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "1d8de236435975f2",
+  "active": "e94b22b3548e956c",
   "lastOpenFiles": [
-    "Bible Study Map/Words/Strongs/Hebrew/H8082.md",
-    "Bible Study Map/Themes/The Fall/Genesis 4 - The Fall of Cain.md",
-    "Bible Study Map/People/Main People/Cain.md",
-    "Bible Study Map/Typology/Noah — Jesus.md",
     "Bible Study Map/Bible Study Map.md",
-    "Bible Study Map/Zz - Bible/Bible.md",
-    "Bible Study Map/Zz - Bible/1 - Old Testament/Old Testament.md",
-    "Bible Study Map/Locations & Nations/Locations & Nations.md",
-    "Pasted image 20230916120728.png",
-    "Bible Study Map/Occupation/Occupation.md",
-    "Bible Study Map/People/People.md",
-    "Bible Study Map/Plants, Animals, Food & Objects/Objects/Objects.md",
-    "Bible Study Map/Plants, Animals, Food & Objects/Animals/Animals.md",
-    "Bible Study Map/Symbolic Numbers/Number Notes/Number Notes.md",
-    "Bible Study Map/Symbolic Numbers/Numbers/Numbers.md",
-    "Bible Study Map/Words/Words.md",
-    "Bible Study Map/Typology/Typology.md",
-    "Bible Study Map/Words/Word Notes/Word Notes.md",
-    "Bible Study Map/Words/Hebrew/Hebrew.md",
-    "Bible Study Map/Words/Greek/Greek.md",
-    "Bible Study Map/Words/English/English.md",
-    "Bible Study Map/Themes/Themes.md",
-    "Bible Study Map/Themes/The Test/The Test.md",
+    "Bible Study Map/Literary Structure/Literary Structure.md",
+    "Bible Study Map/Literary Structure/Genesis/Genesis 1 - Chiasm of God's Image.md",
+    "Bible Study Map/Literary Structure/Genesis/Genesis 1 - Triads of Creation.md",
+    "Bible Study Map/Literary Structure/Genesis 1 - Chiasm of God's Image.md",
+    "Bible Study Map/Literary Structure/Genesis 1 - Triads of Creation.md",
+    "Attachments/Chiasm of God's Image.png",
+    "Attachments/Pasted image 20230917085732.png",
+    "Attachments/Genesis Triads.png",
+    "Templates/Literary Structure.md",
+    "Bible Study Map/Literary Structure/Genesis",
+    "Bible Study Map/Literary Structure",
     "Bible Study Map/Themes/The Fall/The Fall.md",
-    "Bible Study Map/Themes/The East/The East.md",
-    "Bible Study Map/Themes/sin/sin.md",
-    "Bible Study Map/Themes/Seeing and Taking/Seeing and Taking.md",
-    "gitignore.txt",
-    "Templates/gitignore.txt",
-    "Templates/gitignore.txt.crdownload",
-    "netlify.toml",
-    "Back up file/netlify.toml",
-    "netlify.example.toml",
-    "Unconfirmed 177658.crdownload",
-    "Attachments/Elevation Map of Israel.png",
-    "Bible Study Map/Symbolic Numbers/Number Notes",
+    "Bible Study Map/People/Main People/Abraham.md",
+    "Back up file/Bible Study/Master Map/Master Map.md",
+    "Bible Study Map/Typology/Typology.md",
+    "Bible Study Map/Words/Strongs/Hebrew/Hebrew.md",
+    "Bible Study Map/Words/Strongs/Greek/Greek.md",
+    "Bible Study Map/Symbolic Numbers/Symbolic Numbers.md",
+    "Bible Study Map/Words/Words.md",
+    "Bible Study Map/Themes/Themes.md",
+    "Bible Study Map/Occupation/Occupation.md",
+    "Bible Study Map/Plants, Animals, Food & Objects/Plants, Animals, Food & Objects.md",
+    "Bible Study Map/People/People.md",
+    "Bible Study Map/Locations & Nations/Locations & Nations.md",
+    "Bible Study Map/Words/Strongs/Strongs.md",
+    "Bible Study Map/Zz - Bible/2 - New Testament/Books/65 - Jude/Jude.md",
+    "Bible Study Map/Zz - Bible/2 - New Testament/Books/66 - Revelation/Revelation.md",
+    "Bible Study Map/Zz - Bible/2 - New Testament/Books/64 - 3 John/3John.md",
+    "Bible Study Map/Zz - Bible/2 - New Testament/Books/63 - 2 John/2John.md",
+    "Bible Study Map/Zz - Bible/2 - New Testament/Books/62 - 1 John/1John.md",
+    "Bible Study Map/Zz - Bible/2 - New Testament/Books/66 - Revelation",
+    "Bible Study Map/Zz - Bible/2 - New Testament/Books/65 - Jude",
+    "Bible Study Map/Zz - Bible/2 - New Testament/Books/64 - 3 John",
+    "Bible Study Map/Zz - Bible/2 - New Testament/Books/63 - 2 John",
+    "Bible Study Map/Zz - Bible/2 - New Testament/Books/62 - 1 John",
+    "Bible Study Map/Zz - Bible/2 - New Testament/Books/61 - 2 Peter",
+    "Bible Study Map/Zz - Bible/2 - New Testament/Books/60 - 1 Peter",
+    "Bible Study Map/Zz - Bible/2 - New Testament/Books/59 - James",
     "Attachments/Red Thread.png",
-    "Bible Study Map/Symbolic Numbers/Numbers",
-    "Attachments"
+    "Attachments/Elevation Map of Israel.png",
+    "Back up file/Attachments/Elevation Map of Israel.png",
+    "Back up file/Attachments/Red Thread.png"
   ]
 }

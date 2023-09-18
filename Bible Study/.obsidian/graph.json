@@ -76,9 +76,16 @@
         "a": 1,
         "rgb": 5429216
       }
+    },
+    {
+      "query": "path:\"Bible Study Map/Literary Structure\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 4521728
+      }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": true,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
@@ -88,6 +95,6 @@
   "repelStrength": 10.1692708333333,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.36403182017731367,
+  "scale": 0.9646462767420056,
   "close": true
 }

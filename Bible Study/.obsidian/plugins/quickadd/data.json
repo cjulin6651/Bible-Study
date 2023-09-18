@@ -252,12 +252,42 @@
       "openFileInMode": "default",
       "fileExistsMode": "Increment the file name",
       "setFileExistsBehavior": false
+    },
+    {
+      "id": "426eb8e6-0d95-43dd-b7f9-3adb4e0b8868",
+      "name": "Literary Structure",
+      "type": "Template",
+      "command": false,
+      "templatePath": "Templates/Literary Structure.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "Bible Study Map/Literary Structure"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
     }
   ],
   "macros": [],
   "inputPrompt": "single-line",
   "devMode": false,
-  "templateFolderPath": "Back up file/Templates",
+  "templateFolderPath": "Templates",
   "announceUpdates": false,
   "version": "1.2.1",
   "disableOnlineFeatures": false,
