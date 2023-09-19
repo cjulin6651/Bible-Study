@@ -13,7 +13,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Bible Study Map/Bible Study Map.md",
+                "file": "Bible Study Map/Themes/People and Trees/People and Trees.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -43,12 +43,12 @@
             }
           },
           {
-            "id": "34659c06209e4044",
+            "id": "425b047e8ffd90f7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bible Study Map/Bible Study Map.md",
+                "file": "Bible Study Map/Themes/People and Trees/People and Trees.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +121,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Bible Study Map/Bible Study Map.md",
+            "file": "Bible Study Map/Themes/People and Trees/People and Trees.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Bible Study Map/Bible Study Map.md",
+            "file": "Bible Study Map/Themes/People and Trees/People and Trees.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -150,7 +150,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Bible Study Map/Bible Study Map.md"
+            "file": "Bible Study Map/Themes/People and Trees/People and Trees.md"
           }
         }
       }
@@ -169,10 +169,11 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "34659c06209e4044",
+  "active": "425b047e8ffd90f7",
   "lastOpenFiles": [
-    "Bible Study Map/Literary Structure/Literary Structure.md",
     "Bible Study Map/Bible Study Map.md",
+    "Bible Study Map/Themes/People and Trees/People and Trees.md",
+    "Bible Study Map/Literary Structure/Literary Structure.md",
     "Bible Study Map/Words/Strongs/Hebrew/H8083.md",
     "Bible Study Map/Words/Strongs/Hebrew/H8082.md",
     "Bible Study Map/Words/Strongs/Hebrew/H8034.md",
@@ -196,7 +197,6 @@
     "Bible Study Map/Words/Strongs/Hebrew/H87.md",
     "Bible Study Map/Words/Strongs/Hebrew/H85.md",
     "Bible Study Map/Words/Hebrew/Adamah.md",
-    "Bible Study Map/Words/Hebrew/‛êyrôm ‛êrôm.md",
     "Templates",
     "Bible Study Map/Zz - Bible/1 - Old Testament/Books/31 - Obadiah",
     "Bible Study Map/Zz - Bible/1 - Old Testament/Books/23 - Isaiah",

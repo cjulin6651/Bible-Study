@@ -4,8 +4,8 @@
  %% %%
 
 ### Notes:
-This chiasm points to a crucial part of God's image and nature being to "rule." This aspect of God's nature is passed down to humans.
+This chiasm points to a crucial part of [[The Image of God]] and an important aspect of His nature being to "rule." This aspect of God's nature is passed down to humans.
 
-The peek of the Chiasm is God creating human and then dividing them into male and female. This indicates an element of God's nature that is somehow expressed in the duality of gender.
+The peek of the [[chiasm]] is God creating human and then dividing them into male and female. This indicates an element of God's nature that is somehow expressed in the duality of gender.
 ### Chart:
 ![[Chiasm of God's Image.png]]*Source Tim Mackie from the Bible Project - Class: Adam to Noah*

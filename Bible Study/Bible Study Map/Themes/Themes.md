@@ -10,13 +10,18 @@
 	- [[Genesis 11 - Creation of Babel]]
 - **[[Curse]]**
 - **[[De-Creation]]**
+- **[[People and Trees]]**
+	- [[Genesis 1 - Creation of People & Trees]]
+	- [[Genesis 2 - Planted in the Garden]]
+	- [[Genesis 3 - The Seed of the Woman]]
+	- [[Psalm 1 - Meditating on God's Word like a Tree]]
 - **[[Seeing and Taking]]**
 	- [[Genesis 1 - God Sees Creation]]
 	- [[Genesis 3 - Seeing and Taking the Fruit]]
 	- [[Genesis 9 - Ham Seeing Noah's Nakedness]]
 	- [[Genesis 12 - Pharaoh saw Sarai]]
 	- [[Genesis 13 - Lot saw the land]]
-- **sin**
+- **[[sin]]**
 - **[[The East]]**
 	- [[Genesis 11 - Babel in The East]]
 	- [[Genesis 12 - Promised Land West of Ur]]

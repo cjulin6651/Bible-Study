@@ -1,9 +1,6 @@
 ![[Red Thread.png]]
 %% Begin Waypoint %%
-- **Literary Structure**
-	- **Genesis**
-		- [[Genesis 1 - Chiasm of God's Image]]
-		- [[Genesis 1 - Triads of Creation]]
+- **[[Literary Structure]]**
 - **[[Locations & Nations]]**
 - **[[Occupation]]**
 - **[[People]]**
@@ -71,6 +68,7 @@
 				- [[Job1]]
 			- **19 - Psalms**
 				- [[Psalms]]
+				- [[Psalms1]]
 			- **20 - Proverbs**
 				- [[Proverbs]]
 			- **21 - Ecclesiastes**

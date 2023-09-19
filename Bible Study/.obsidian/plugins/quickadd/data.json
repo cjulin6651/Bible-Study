@@ -36,7 +36,7 @@
       "name": "Theme Note",
       "type": "Template",
       "command": false,
-      "templatePath": "Back up file/Templates/Theme Note.md",
+      "templatePath": "Templates/Theme Note.md",
       "fileNameFormat": {
         "enabled": false,
         "format": ""
@@ -44,16 +44,17 @@
       "folder": {
         "enabled": true,
         "folders": [
-          "Back up file/Bible Study/Index/Themes/Chaos Waters",
-          "Back up file/Bible Study/Index/Themes/Covenant",
-          "Back up file/Bible Study/Index/Themes/Creation Account",
-          "Back up file/Bible Study/Index/Themes/Sin",
-          "Back up file/Bible Study/Index/Themes/The Fall",
-          "Back up file/Bible Study/Index/Themes/Curse",
-          "Back up file/Bible Study/Index/Themes/De-Creation",
-          "Back up file/Bible Study/Index/Themes/The Test",
-          "Back up file/Bible Study/Index/Themes/The East",
-          "Back up file/Bible Study/Index/Themes/Seeing and Taking"
+          "Bible Study Map/Themes/Chaos Waters",
+          "Bible Study Map/Themes/Covenant",
+          "Bible Study Map/Themes/Creation Account",
+          "Bible Study Map/Themes/Curse",
+          "Bible Study Map/Themes/De-Creation",
+          "Bible Study Map/Themes/Seeing and Taking",
+          "Bible Study Map/Themes/sin",
+          "Bible Study Map/Themes/The East",
+          "Bible Study Map/Themes/The Fall",
+          "Bible Study Map/Themes/The Test",
+          "Bible Study Map/Themes/People and Trees"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
