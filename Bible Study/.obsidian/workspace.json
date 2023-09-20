@@ -4,70 +4,83 @@
     "type": "split",
     "children": [
       {
-        "id": "785a7317e1028bdb",
+        "id": "4d3e50faf871d491",
+        "type": "split",
+        "children": [
+          {
+            "id": "5bc2378e60c98fb0",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "28fc81a8bee2beb1",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Bible Study Map/Themes/Covenant/Genesis 4 - God's Covenant with Cain.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "6683c17c252ec5ec",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "602a9fc876d16e33",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "options": {
+                      "collapse-filter": true,
+                      "search": "",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [],
+                      "collapse-display": true,
+                      "showArrow": false,
+                      "textFadeMultiplier": 0,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 1,
+                      "close": true
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal"
+      },
+      {
+        "id": "f1d8bc8330d4423e",
         "type": "tabs",
         "children": [
           {
-            "id": "76fa32a9a833e505",
+            "id": "7594b53a501f0280",
             "type": "leaf",
             "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "Bible Study Map/Themes/Covenant/Genesis 4 - God's Covenant with Cain.md",
-                "options": {
-                  "collapse-filter": true,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": false,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 0.6115160280988867,
-                  "close": true
-                }
-              }
-            }
-          },
-          {
-            "id": "54aecd536ce5f40a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bible Study Map/Bible Study Map.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "60599061d6cbe96e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bible Study Map/Themes/Covenant/Genesis 4 - God's Covenant with Cain.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -133,7 +146,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bible Study Map/Themes/Covenant/Genesis 4 - God's Covenant with Cain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +162,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bible Study Map/Themes/Covenant/Genesis 4 - God's Covenant with Cain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,9 +183,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Bible Study Map/Themes/Covenant/Genesis 4 - God's Covenant with Cain.md"
-              }
+              "state": {}
             }
           },
           {
@@ -206,46 +215,47 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "60599061d6cbe96e",
+  "active": "7594b53a501f0280",
   "lastOpenFiles": [
-    "Bible Study Map/Themes/sin/sin.md",
-    "Bible Study Map/Bible Study Map.md",
-    "Bible Study Map/Bible Books/Bible Books.md",
-    "Bible Study Map/Bible Books/1 - Old Testament/1 - Old Testament.md",
-    "Back up file/Bible Study(1)/Index/Themes",
-    "Back up file/Bible Study(1)/Index/Locations",
-    "Back up file/Bible Study(1)/Index/Locations & Nations/Nations",
-    "Back up file/Bible Study(1)/Index/Locations & Nations",
-    "Back up file/Bible Study(1)/Index/Symbolic Numbers",
-    "Back up file/Bible Study(1)/Index/Plants, Animals, Food & Objects",
-    "Back up file/Bible Study(1)/Index/Words/Strongs",
-    "Back up file/Bible Study(1)/Index/Plants, Animals, & Objects",
-    "Back up file/Bible Study(1)/Index/Bible/Old Testament/Book",
-    "Back up file/Bible Study(1)/Index/Bible/Old Testament",
-    "Bible Study Map/Words/English/sign.md",
-    "Bible Study Map/Words/Strongs/Hebrew/H226.md",
-    "Bible Study Map/Words/Hebrew/'ôth.md",
     "Bible Study Map/Themes/Covenant/Genesis 4 - God's Covenant with Cain.md",
-    "Bible Study Map/Themes/The East/Genesis 4 - Cain Exiled East.md",
-    "Bible Study Map/Themes/Seeing and Taking/Genesis 13 - Lot saw the land.md",
-    "Bible Study Map/Themes/The East/Genesis 13 - Abram Dividing Up Land.md",
+    "Bible Study Map/Bible Study Map.md",
+    "Bible Study Map/Words/Strongs/Hebrew/H226.md",
+    "Bible Study Map/Words/English/sign.md",
+    "Bible Study Map/Themes/sin/sin.md",
+    "Bible Study Map/Words/Hebrew/'ôth.md",
     "Bible Study Map/Themes/Covenant/Genesis 1 - Stars as Signs.md",
-    "Bible Study Map/Bible Books/1 - Old Testament/Books/1 - Genesis/Genesis26.md",
-    "Bible Study Map/Themes/The Fall/Genesis 4 - The Fall of Cain.md",
-    "Bible Study Map/Words/English/atonement.md",
-    "Bible Study Map/Words/Strongs/Hebrew/H85.md",
-    "Bible Study Map/Bible Books/2 - New Testament/Books/41 - Mark/Mark.md",
-    "Bible Study Map/Bible Books/2 - New Testament/Books/45 - Romans/Romans6.md",
-    "Bible Study Map/Bible Books/1 - Old Testament/Books/19 - Psalms/Psalm49.md",
-    "Bible Study Map/Themes/Covenant/Genesis 9 - God's Covenant with Noah.md",
-    "Bible Study Map/Themes/sin/sin(1).md",
-    "Bible Study Map/Themes/People and Trees/Genesis 1 - Creation of People & Trees.md",
+    "Bible Study Map/Themes/The East/Genesis 4 - Cain Exiled East.md",
+    "Back up file/Bible Study/Index/Bible/Old Testament/Book",
+    "Back up file/Bible Study/Index/Locations & Nations/Nations",
+    "Back up file/Bible Study/Index/Bible/Old Testament",
+    "Back up file/Bible Study/Index/Words/Strongs",
+    "Back up file/Bible Study/Index/Words/Word Notes",
+    "Back up file/Bible Study/Index/Words/English",
+    "Back up file/Bible Study/Index/Plants, Animals, & Objects",
+    "Back up file/Bible Study/Index/Plants, Animals, Food & Objects",
+    "Back up file/Bible Study/Index/Locations",
+    "Back up file/Bible Study/Index/Words",
+    "Bible Study Map/Themes/Themes.md",
+    "Bible Study Map/Bible Books/Bible Books.md",
     "Bible Study Map/Bible Books/2 - New Testament/2 - New Testament.md",
-    "Bible Study Map/Bible Books/1 - Old Testament/Books/9 - 1 Samuel/1Samuel.md",
-    "Bible Study Map/Bible Books/1 - Old Testament/Books/8 - Ruth/Ruth3.md",
+    "Bible Study Map/Bible Books/1 - Old Testament/1 - Old Testament.md",
+    "Bible Study Map/Themes/People and Trees/Genesis 3 - The Seed of the Woman.md",
+    "Bible Study Map/Themes/People and Trees/Psalm 1 - Meditating on God's Word like a Tree.md",
+    "Bible Study Map/Themes/People and Trees/Genesis 2 - Planted in the Garden.md",
+    "Bible Study Map/Themes/People and Trees/Genesis 1 - Creation of People & Trees.md",
+    "Bible Study Map/Themes/People and Trees/People and Trees.md",
+    "Bible Study Map/Literary Structure/Literary Structure.md",
+    "Bible Study Map/Literary Structure/Genesis/Genesis 1 - Chiasm of God's Image.md",
+    "Bible Study Map/Literary Structure/Genesis/Genesis 1 - Triads of Creation.md",
+    "Bible Study Map/Literary Structure/Genesis 1 - Chiasm of God's Image.md",
+    "Bible Study Map/Literary Structure/Genesis 1 - Triads of Creation.md",
     "Attachments/Chiasm of God's Image.png",
     "Attachments/Pasted image 20230917085732.png",
     "Attachments/Genesis Triads.png",
+    "Templates/Literary Structure.md",
+    "Bible Study Map/Themes/The Fall/The Fall.md",
+    "Bible Study Map/People/Main People/Abraham.md",
+    "Back up file/Bible Study/Master Map/Master Map.md",
     "Attachments/Red Thread.png",
     "Attachments/Elevation Map of Israel.png",
     "Back up file/Attachments/Elevation Map of Israel.png",

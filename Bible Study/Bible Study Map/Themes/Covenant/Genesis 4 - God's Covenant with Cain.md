@@ -9,8 +9,8 @@
 >  <sup> **13** </sup>Cain said to the Lord, ***“My punishment is more than I can bear.*** <sup> **14** </sup>Today you are driving me from the land, and I will be hidden from your presence; I will be a restless wanderer on the earth, and whoever finds me will kill me.” <sup> **15** </sup>But the Lord said to him, “Not so; if anyone kills Cain, he will suffer vengeance seven times over.” Then the Lord put a ***mark*** on Cain so that no one who found him would kill him.
  %% %%
 
-### Notes
-Here we see a foreshadowing of [[mercy]] and [[the gospel]]. Cain says that the punishment for his [[sin]] is greater than he can bear because everyone will want to kill him. 
+### Notes:
+Here we see a foreshadowing of [[mercy]] and [[The Gospel]]. Cain says that the punishment for his [[sin]] is greater than he can bear because everyone will want to kill him. 
 
 We too face a punishment greater than we can bear for our own sin.
 
@@ -22,7 +22,7 @@ We too face a punishment greater than we can bear for our own sin.
 >  <sup> **23** </sup>For the wages of sin is death, but the gift of God is eternal life in Christ Jesus our Lord.
  %% %%
 
-Instead of allowing him to die, God gives him a [[sign]] to set him apart. Anyone who harms him will be cursed 70 times. The word for sign is often used alongside covenantal language. "This shall be a sign to you".
+Instead of allowing him to die, God gives him a [[sign]]/mark to set him apart. Anyone who harms him will be cursed [[7]] times. The word for sign is often used alongside covenantal language. "This shall be a sign to you".
 ### Relevant Tags:
 #Covenant  #Themes 
 

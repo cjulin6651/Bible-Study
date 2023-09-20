@@ -8,14 +8,14 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:\"Bible Study Map/Bible Books/1 - Old Testament\"  ",
+      "query": "path: \"Bible Study Map/Bible Books/1 - Old Testament\"  ",
       "color": {
         "a": 1,
         "rgb": 15865880
       }
     },
     {
-      "query": "path:\"Bible Study Map/Bible Books/2 - New Testament\"  ",
+      "query": "path: \"Bible Study Map/Bible Books/2 - New Testament\"  ",
       "color": {
         "a": 1,
         "rgb": 1067769
@@ -91,10 +91,10 @@
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
   "collapse-forces": false,
-  "centerStrength": 0.340901692708333,
-  "repelStrength": 10.1692708333333,
-  "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 0.26119385547259505,
+  "centerStrength": 0.2762451171875,
+  "repelStrength": 9.87467447916667,
+  "linkStrength": 0.848795572916667,
+  "linkDistance": 281,
+  "scale": 0.2957534389307941,
   "close": true
 }
