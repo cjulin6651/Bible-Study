@@ -1,16 +1,7 @@
 ![[Red Thread.png]]
 %% Begin Waypoint %%
-- **[[Literary Structure]]**
-- **[[Locations & Nations]]**
-- **[[Occupation]]**
-- **[[People]]**
-- **[[Plants, Animals, Food & Objects]]**
-- **[[Symbolic Numbers]]**
-- **[[Themes]]**
-- **[[Typology]]**
-- **[[Words]]**
-- **Zz - Bible**
-	- **1 - Old Testament**
+- **[[Bible Books]]**
+	- **[[1 - Old Testament]]**
 		- **Books**
 			- **1 - Genesis**
 				- [[Genesis]]
@@ -110,8 +101,7 @@
 				- [[Zechariah]]
 			- **39 - Malachi**
 				- [[Malachi]]
-		- [[Old Testament]]
-	- **2 - New Testament**
+	- **[[2 - New Testament]]**
 		- **Books**
 			- **40 - Matthew**
 				- [[Matthew]]
@@ -178,7 +168,14 @@
 				- [[Jude]]
 			- **66 - Revelation**
 				- [[Revelation]]
-		- [[New Testament]]
-	- [[Bible]]
+- **[[Literary Structure]]**
+- **[[Locations & Nations]]**
+- **[[Occupation]]**
+- **[[People]]**
+- **[[Plants, Animals, Food & Objects]]**
+- **[[Symbolic Numbers]]**
+- **[[Themes]]**
+- **[[Typology]]**
+- **[[Words]]**
 
 %% End Waypoint %%

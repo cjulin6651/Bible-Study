@@ -1,5 +1,0 @@
-[[Ruth1]]
-[[Ruth2]]
-[[Ruth3]]
-[[Ruth4]]
-[[Old Testament]]

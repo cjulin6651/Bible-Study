@@ -3,7 +3,7 @@
 
 ### Found in:
 [[Genesis]] [[Genesis4]]
-[[Old Testament]]
+[[1 - Old Testament]]
 
 ### Notable Relatives:
 [[Adam]]

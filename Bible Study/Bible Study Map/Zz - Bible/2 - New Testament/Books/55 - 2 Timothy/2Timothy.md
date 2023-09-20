@@ -1,5 +1,0 @@
-[[2Timothy1]]
-[[2Timothy2]]
-[[2Timothy3]]
-[[2Timothy4]]
-[[New Testament]]

@@ -1,0 +1,70 @@
+%% Begin Waypoint %%
+- **Books**
+	- **40 - Matthew**
+		- [[Matthew]]
+		- [[Matthew11]]
+	- **41 - Mark**
+		- [[Mark]]
+		- [[Mark1]]
+	- **42 - Luke**
+		- [[Luke]]
+		- [[Luke4]]
+	- **43 - John**
+		- [[John]]
+		- [[John10]]
+	- **44 - Acts**
+		- [[Acts]]
+		- [[Acts10]]
+	- **45 - Romans**
+		- [[Romans]]
+		- [[Romans3]]
+		- [[Romans5]]
+		- [[Romans6]]
+	- **46 - 1 Corinthians**
+		- [[1Corinthians]]
+	- **47 - 2 Corinthians**
+		- [[2Corinthians]]
+		- [[2Corinthians5]]
+	- **48 - Galatians**
+		- [[Galatians]]
+		- [[Galatians1]]
+	- **49 - Ephesians**
+		- [[Ephesians]]
+	- **50 - Philippians**
+		- [[Philippians]]
+	- **51 - Colossians**
+		- [[Colossians]]
+	- **52 - 1 Thessalonians**
+		- [[1Thessalonians]]
+	- **53 - 2 Thessalonians**
+		- [[2Thessalonians]]
+	- **54 - 1 Timothy**
+		- [[1Timothy]]
+	- **55 - 2 Timothy**
+		- [[2Timothy]]
+	- **56 - Titus**
+		- [[Titus]]
+		- [[Titus3]]
+	- **57 - Philemon**
+		- [[Philemon]]
+	- **58 - Hebrews**
+		- [[Hebrews]]
+	- **59 - James**
+		- [[James]]
+	- **60 - 1 Peter**
+		- [[1Peter]]
+		- [[1Peter3]]
+	- **61 - 2 Peter**
+		- [[2Peter]]
+	- **62 - 1 John**
+		- [[1John]]
+	- **63 - 2 John**
+		- [[2John]]
+	- **64 - 3 John**
+		- [[3John]]
+	- **65 - Jude**
+		- [[Jude]]
+	- **66 - Revelation**
+		- [[Revelation]]
+
+%% End Waypoint %%

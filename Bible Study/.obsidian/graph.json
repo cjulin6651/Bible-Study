@@ -8,14 +8,14 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:\"Bible Study Map/Zz - Bible/1 - Old Testament\"  ",
+      "query": "path:\"Bible Study Map/Bible Books/1 - Old Testament\"  ",
       "color": {
         "a": 1,
         "rgb": 15865880
       }
     },
     {
-      "query": "path:\"Bible Study Map/Zz - Bible/2 - New Testament\"  ",
+      "query": "path:\"Bible Study Map/Bible Books/2 - New Testament\"  ",
       "color": {
         "a": 1,
         "rgb": 1067769

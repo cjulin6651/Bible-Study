@@ -2,7 +2,7 @@
 The Lord saves. Variation of [[Joshua]]. 
 
 ### Found in:
-[[Matthew]] [[Mark]] [[Luke]] [[John]] and mentioned in the rest of the [[New Testament]]. 
+[[Matthew]] [[Mark]] [[Luke]] [[John]] and mentioned in the rest of the [[2 - New Testament]]. 
 
 ### Notable Relatives:
 [[David]]

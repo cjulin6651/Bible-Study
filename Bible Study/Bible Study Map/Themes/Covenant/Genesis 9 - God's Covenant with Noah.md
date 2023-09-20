@@ -9,7 +9,7 @@
  %% %%
 
 ### Notes
-God forms the first covenant in scripture with Noah and all the animals. It is a one-sided covenant that he will not flood the earth again 
+God forms the first of many covenants made with God's chosen people in scripture with Noah and all the animals. It is a one-sided covenant that he will not flood the earth again 
 
 ### Relevant Tags:
 #Covenant  #Themes 

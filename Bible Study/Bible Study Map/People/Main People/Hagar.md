@@ -3,7 +3,7 @@ Unknown but possibly "Flight" see this [article](https://www.abarim-publications
 
 ### Found in:
 [[Genesis]]
-[[Old Testament]]
+[[1 - Old Testament]]
 
 ### Notable Relatives:
 [[Ishmael]] - son

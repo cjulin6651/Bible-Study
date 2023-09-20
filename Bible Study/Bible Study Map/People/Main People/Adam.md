@@ -3,7 +3,7 @@ Human, Man
 
 ### Found in:
 [[Genesis]]
-[[Old Testament]]
+[[1 - Old Testament]]
 
 ### Notable Relatives:
 [[Eve]]

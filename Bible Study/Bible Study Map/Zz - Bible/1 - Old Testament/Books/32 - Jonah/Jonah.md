@@ -1,5 +1,0 @@
-[[Jonah1]]
-[[Jonah2]]
-[[Jonah3]]
-[[Jonah4]]
-[[Old Testament]]

@@ -1,0 +1,104 @@
+%% Begin Waypoint %%
+- **Books**
+	- **1 - Genesis**
+		- [[Genesis]]
+		- [[Genesis1]]
+		- [[Genesis2]]
+		- [[Genesis3]]
+		- [[Genesis4]]
+		- [[Genesis6]]
+		- [[Genesis7]]
+		- [[Genesis8]]
+		- [[Genesis9]]
+		- [[Genesis11]]
+		- [[Genesis12]]
+		- [[Genesis13]]
+		- [[Genesis26]]
+	- **2 - Exodus**
+		- [[Exodus]]
+		- [[Exodus12]]
+	- **3 - Leviticus**
+		- [[Leviticus]]
+		- [[Leviticus17]]
+	- **4 - Numbers**
+		- [[Numbers]]
+	- **5 - Deuteronomy**
+		- [[Deuteronomy]]
+	- **6 - Joshua**
+		- [[Joshua]]
+	- **7 - Judges**
+		- [[Judges]]
+	- **8 - Ruth**
+		- [[Ruth]]
+		- [[Ruth3]]
+	- **9 - 1 Samuel**
+		- [[1Samuel]]
+	- **10 - 2 Samuel**
+		- [[2Samuel]]
+	- **11 - 1 Kings**
+		- [[1Kings]]
+	- **12 - 2 Kings**
+		- [[2Kings]]
+		- [[2Kings16]]
+	- **13 - 1 Chronicles**
+		- [[1Chronicles]]
+	- **14 - 2 Chronicles**
+		- [[2Chronicles]]
+	- **15 - Ezra**
+		- [[Ezra]]
+		- [[Ezra1]]
+		- [[Ezra2]]
+	- **16 - Nehemiah**
+		- [[Nehemiah]]
+	- **17 - Esther**
+		- [[Esther]]
+	- **18 - Job**
+		- [[Job]]
+		- [[Job1]]
+	- **19 - Psalms**
+		- [[Psalm49]]
+		- [[Psalms]]
+		- [[Psalms1]]
+	- **20 - Proverbs**
+		- [[Proverbs]]
+	- **21 - Ecclesiastes**
+		- [[Ecclesiastes]]
+	- **22 - Song of Solo 22 - Song of Solomon mon**
+		- [[SongofSongs]]
+	- **23 - Isaiah**
+		- [[Isaiah]]
+	- **24 - Jeremiah**
+		- [[Jeremiah]]
+	- **25 - Lamentations**
+		- [[Lamentations]]
+	- **26 - Ezekiel**
+		- [[Ezekiel]]
+		- [[Ezekiel28]]
+	- **27 - Daniel**
+		- [[Daniel]]
+	- **28 - Hosea**
+		- [[Hosea]]
+	- **29 - Joel**
+		- [[Joel]]
+	- **30 - Amos**
+		- [[Amos]]
+	- **31 - Obadiah**
+		- [[Obadiah]]
+	- **32 - Jonah**
+		- [[Jonah]]
+	- **33 - Micah**
+		- [[Micah]]
+	- **34 - Nahum**
+		- [[Nahum]]
+	- **35 - Habakkuk**
+		- [[Habakkuk]]
+	- **36 - Zephaniah**
+		- [[Zephaniah]]
+	- **37 - Haggai**
+		- [[Haggai]]
+	- **38 - Zechariah**
+		- [[Zechariah]]
+	- **39 - Malachi**
+		- [[Malachi]]
+
+%% End Waypoint %%

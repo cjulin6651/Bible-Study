@@ -1,6 +1,0 @@
-[[James1]]
-[[James2]]
-[[James3]]
-[[James4]]
-[[James5]]
-[[New Testament]]

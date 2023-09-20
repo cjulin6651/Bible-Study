@@ -1,6 +1,0 @@
-[[1Thessalonians1]]
-[[1Thessalonians2]]
-[[1Thessalonians3]]
-[[1Thessalonians4]]
-[[1Thessalonians5]]
-[[New Testament]]

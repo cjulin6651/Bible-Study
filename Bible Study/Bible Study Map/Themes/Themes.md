@@ -3,6 +3,8 @@
 	- [[Genesis 6 - Flood Waters]]
 	- [[Genesis 8 - Ruach and the Flood]]
 - **[[Covenant]]**
+	- [[Genesis 1 - Stars as Signs]]
+	- [[Genesis 4 - God's Covenant with Cain]]
 	- [[Genesis 9 - God's Covenant with Noah]]
 - **[[Creation Account]]**
 	- [[Genesis 8 - Re-creation]]
@@ -21,11 +23,11 @@
 	- [[Genesis 9 - Ham Seeing Noah's Nakedness]]
 	- [[Genesis 12 - Pharaoh saw Sarai]]
 	- [[Genesis 13 - Lot saw the land]]
-- **sin**
+- **[[sin]]**
 - **[[The East]]**
+	- [[Genesis 4 - Cain Exiled East]]
 	- [[Genesis 11 - Babel in The East]]
 	- [[Genesis 12 - Promised Land West of Ur]]
-	- [[Genesis 13 - Abram Dividing Up Land]]
 	- [[Psalm 103 - Separated from sin]]
 - **[[The Fall]]**
 	- [[Genesis 4 - The Fall of Cain]]

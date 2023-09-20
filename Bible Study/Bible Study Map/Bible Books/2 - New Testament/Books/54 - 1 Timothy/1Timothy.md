@@ -1,0 +1,7 @@
+[[1Timothy1]]
+[[1Timothy2]]
+[[1Timothy3]]
+[[1Timothy4]]
+[[1Timothy5]]
+[[1Timothy6]]
+[[2 - New Testament]]

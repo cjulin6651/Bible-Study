@@ -4,84 +4,58 @@
     "type": "split",
     "children": [
       {
-        "id": "51f8e250434f1090",
-        "type": "split",
-        "children": [
-          {
-            "id": "dd63a58a4900c093",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "2eca8256ff0c39a8",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Bible Study Map/Themes/People and Trees/Genesis 1 - Creation of People & Trees.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          },
-          {
-            "id": "785a7317e1028bdb",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "76fa32a9a833e505",
-                "type": "leaf",
-                "state": {
-                  "type": "localgraph",
-                  "state": {
-                    "file": "Bible Study Map/Themes/People and Trees/Genesis 1 - Creation of People & Trees.md",
-                    "options": {
-                      "collapse-filter": true,
-                      "search": "",
-                      "localJumps": 1,
-                      "localBacklinks": true,
-                      "localForelinks": true,
-                      "localInterlinks": false,
-                      "showTags": false,
-                      "showAttachments": false,
-                      "hideUnresolved": false,
-                      "collapse-color-groups": true,
-                      "colorGroups": [],
-                      "collapse-display": true,
-                      "showArrow": false,
-                      "textFadeMultiplier": 0,
-                      "nodeSizeMultiplier": 1,
-                      "lineSizeMultiplier": 1,
-                      "collapse-forces": true,
-                      "centerStrength": 0.518713248970312,
-                      "repelStrength": 10,
-                      "linkStrength": 1,
-                      "linkDistance": 250,
-                      "scale": 0.6115160280988867,
-                      "close": true
-                    }
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal"
-      },
-      {
-        "id": "5255184e8904a5c0",
+        "id": "785a7317e1028bdb",
         "type": "tabs",
         "children": [
           {
-            "id": "819b6948051dd82c",
+            "id": "76fa32a9a833e505",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "localgraph",
+              "state": {
+                "file": "Bible Study Map/Bible Study Map.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.6115160280988867,
+                  "close": true
+                }
+              }
+            }
+          },
+          {
+            "id": "71facfdaa419427b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bible Study Map/Bible Study Map.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -147,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bible Study Map/Themes/People and Trees/Genesis 1 - Creation of People & Trees.md",
+                "file": "Bible Study Map/Bible Study Map.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bible Study Map/Themes/People and Trees/Genesis 1 - Creation of People & Trees.md",
+                "file": "Bible Study Map/Bible Study Map.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bible Study Map/Themes/People and Trees/Genesis 1 - Creation of People & Trees.md"
+                "file": "Bible Study Map/Bible Study Map.md"
               }
             }
           },
@@ -220,47 +194,47 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "2eca8256ff0c39a8",
+  "active": "71facfdaa419427b",
   "lastOpenFiles": [
-    "Bible Study Map/Themes/People and Trees/Genesis 3 - The Seed of the Woman.md",
-    "Bible Study Map/Themes/People and Trees/Psalm 1 - Meditating on God's Word like a Tree.md",
-    "Bible Study Map/Zz - Bible/1 - Old Testament/Books/19 - Psalms/Psalms1.md",
-    "Bible Study Map/Zz - Bible/1 - Old Testament/Books/19 - Psalms/Psalms.md",
-    "Bible Study Map/Themes/People and Trees/Genesis 2 - Planted in the Garden.md",
-    "Bible Study Map/Themes/People and Trees/Genesis 1 - Creation of People & Trees.md",
+    "Bible Study Map/Themes/Covenant/Genesis 4 - God's Covenant with Cain.md",
     "Bible Study Map/Bible Study Map.md",
-    "Bible Study Map/Themes/De-Creation/De-Creation.md",
-    "Bible Study Map/Themes/People and Trees/People and Trees.md",
-    "Bible Study Map/Literary Structure/Genesis/Genesis 1 - Chiasm of God's Image.md",
-    "Bible Study Map/Themes/People and Trees",
-    "Bible Study Map/Literary Structure/Literary Structure.md",
-    "Bible Study Map/Literary Structure/Genesis/Genesis 1 - Triads of Creation.md",
-    "Bible Study Map/Literary Structure/Genesis 1 - Chiasm of God's Image.md",
-    "Bible Study Map/Literary Structure/Genesis 1 - Triads of Creation.md",
+    "Bible Study Map/Themes/The East/Genesis 4 - Cain Exiled East.md",
+    "Bible Study Map/Themes/Seeing and Taking/Genesis 13 - Lot saw the land.md",
+    "Bible Study Map/Themes/The East/Genesis 13 - Abram Dividing Up Land.md",
+    "Bible Study Map/Themes/Covenant/Genesis 1 - Stars as Signs.md",
+    "Bible Study Map/Bible Books/1 - Old Testament/Books/1 - Genesis/Genesis26.md",
+    "Bible Study Map/Themes/The Fall/Genesis 4 - The Fall of Cain.md",
+    "Bible Study Map/Words/English/atonement.md",
+    "Bible Study Map/Words/Strongs/Hebrew/H85.md",
+    "Bible Study Map/Bible Books/2 - New Testament/Books/41 - Mark/Mark.md",
+    "Bible Study Map/Bible Books/2 - New Testament/Books/45 - Romans/Romans6.md",
+    "Bible Study Map/Bible Books/1 - Old Testament/Books/19 - Psalms/Psalm49.md",
+    "Bible Study Map/Themes/Covenant/Genesis 9 - God's Covenant with Noah.md",
+    "Bible Study Map/Themes/sin/sin.md",
+    "Bible Study Map/Themes/sin/sin(1).md",
+    "Bible Study Map/Themes/People and Trees/Genesis 1 - Creation of People & Trees.md",
+    "Bible Study Map/Bible Books/1 - Old Testament/1 - Old Testament.md",
+    "Bible Study Map/Bible Books/2 - New Testament/2 - New Testament.md",
+    "Bible Study Map/Bible Books/Bible Books.md",
+    "Bible Study Map/Bible Books/1 - Old Testament/Books/9 - 1 Samuel/1Samuel.md",
+    "Bible Study Map/Bible Books/1 - Old Testament/Books/8 - Ruth/Ruth3.md",
+    "Bible Study Map/Bible Books/1 - Old Testament/Books/8 - Ruth/Ruth.md",
+    "Bible Study Map/Bible Books/1 - Old Testament/Books/7 - Judges/Judges.md",
+    "Bible Study Map/Bible Books/1 - Old Testament/Books/6 - Joshua/Joshua.md",
+    "Bible Study Map/Bible Books/1 - Old Testament/Books/5 - Deuteronomy/Deuteronomy.md",
+    "Bible Study Map/Bible Books/1 - Old Testament/Books/9 - 1 Samuel",
+    "Bible Study Map/Bible Books/1 - Old Testament/Books/8 - Ruth",
+    "Bible Study Map/Bible Books/1 - Old Testament/Books/7 - Judges",
+    "Bible Study Map/Bible Books/1 - Old Testament/Books/6 - Joshua",
+    "Bible Study Map/Bible Books/1 - Old Testament/Books/5 - Deuteronomy",
+    "Bible Study Map/Bible Books/1 - Old Testament/Books/4 - Numbers",
+    "Bible Study Map/Bible Books/1 - Old Testament/Books/39 - Malachi",
+    "Bible Study Map/Bible Books/1 - Old Testament/Books/38 - Zechariah",
+    "Bible Study Map/Bible Books/1 - Old Testament/Books/37 - Haggai",
+    "Bible Study Map/Bible Books/1 - Old Testament/Books/36 - Zephaniah",
     "Attachments/Chiasm of God's Image.png",
     "Attachments/Pasted image 20230917085732.png",
     "Attachments/Genesis Triads.png",
-    "Templates/Literary Structure.md",
-    "Bible Study Map/Literary Structure/Genesis",
-    "Bible Study Map/Literary Structure",
-    "Bible Study Map/Themes/The Fall/The Fall.md",
-    "Bible Study Map/People/Main People/Abraham.md",
-    "Back up file/Bible Study/Master Map/Master Map.md",
-    "Bible Study Map/Typology/Typology.md",
-    "Bible Study Map/Words/Strongs/Hebrew/Hebrew.md",
-    "Bible Study Map/Words/Strongs/Greek/Greek.md",
-    "Bible Study Map/Symbolic Numbers/Symbolic Numbers.md",
-    "Bible Study Map/Words/Words.md",
-    "Bible Study Map/Themes/Themes.md",
-    "Bible Study Map/Occupation/Occupation.md",
-    "Bible Study Map/Plants, Animals, Food & Objects/Plants, Animals, Food & Objects.md",
-    "Bible Study Map/Zz - Bible/2 - New Testament/Books/66 - Revelation",
-    "Bible Study Map/Zz - Bible/2 - New Testament/Books/65 - Jude",
-    "Bible Study Map/Zz - Bible/2 - New Testament/Books/64 - 3 John",
-    "Bible Study Map/Zz - Bible/2 - New Testament/Books/63 - 2 John",
-    "Bible Study Map/Zz - Bible/2 - New Testament/Books/62 - 1 John",
-    "Bible Study Map/Zz - Bible/2 - New Testament/Books/61 - 2 Peter",
-    "Bible Study Map/Zz - Bible/2 - New Testament/Books/60 - 1 Peter",
     "Attachments/Red Thread.png",
     "Attachments/Elevation Map of Israel.png",
     "Back up file/Attachments/Elevation Map of Israel.png",

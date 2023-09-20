@@ -4,7 +4,7 @@ Abraham - [[Father of a Multitude]]
 
 ### Found in:
 [[Genesis]]
-[[Old Testament]]
+[[1 - Old Testament]]
 
 ### Notable Relatives:
 [[Sarah]] - wife
