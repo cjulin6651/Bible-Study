@@ -10,7 +10,7 @@
  %% %%
 
 ### Notes
-Here we see a foreshadowing of [[grace]] and [[the gospel]]. Cain says that the punishment for his [[sin]] is greater than he can bear because everyone will want to kill him. 
+Here we see a foreshadowing of [[mercy]] and [[the gospel]]. Cain says that the punishment for his [[sin]] is greater than he can bear because everyone will want to kill him. 
 
 We too face a punishment greater than we can bear for our own sin.
 

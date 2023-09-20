@@ -1,7 +1,7 @@
 ### Theme: 
 [[Covenant]]
 ### Passage:
-InsertPassageHere> [!Bible]+ [Genesis 1:14 - NIV](https://bolls.life/NIV/1/1/) [[Genesis]] [[Genesis1]]
+> [!Bible]+ [Genesis 1:14 - NIV](https://bolls.life/NIV/1/1/) [[Genesis]] [[Genesis1]]
 >  <sup> **14** </sup>And God said, “Let there be lights in the expanse of the sky to separate the day from the night, and let them serve as ***signs*** to mark seasons and days and years,
  %% %%
 
