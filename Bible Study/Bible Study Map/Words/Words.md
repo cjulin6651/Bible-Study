@@ -14,12 +14,14 @@
 	- [[pitch]]
 	- [[Princess]]
 	- [[Rest]]
+	- [[sign]]
 	- [[Spear]]
 	- [[Spirit]]
 	- [[Vanity]]
 	- [[vineyard]]
 - **Greek**
 - **Hebrew**
+	- [['ôth]]
 	- [[‛êyrôm ‛êrôm]]
 	- [[Adamah]]
 	- [[châm]]
