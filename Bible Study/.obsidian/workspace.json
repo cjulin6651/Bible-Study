@@ -13,7 +13,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Bible Study Map/Bible Study Map.md",
+                "file": "Bible Study Map/Locations & Nations/Abraham’s Journey/Abraham's Journey.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -54,7 +54,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bible Study Map/Bible Study Map.md",
+                "file": "Bible Study Map/Locations & Nations/Abraham’s Journey/Abraham's Journey.md",
                 "mode": "source",
                 "source": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bible Study Map/Bible Study Map.md",
+                "file": "Bible Study Map/Locations & Nations/Abraham’s Journey/Abraham's Journey.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bible Study Map/Bible Study Map.md",
+                "file": "Bible Study Map/Locations & Nations/Abraham’s Journey/Abraham's Journey.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bible Study Map/Bible Study Map.md"
+                "file": "Bible Study Map/Locations & Nations/Abraham’s Journey/Abraham's Journey.md"
               }
             }
           },
@@ -201,8 +201,8 @@
   },
   "active": "7594b53a501f0280",
   "lastOpenFiles": [
-    "Bible Study Map/Themes/Covenant/Genesis 4 - God's Covenant with Cain.md",
     "Bible Study Map/Bible Study Map.md",
+    "Bible Study Map/Themes/Covenant/Genesis 4 - God's Covenant with Cain.md",
     "Bible Study Map/Words/Strongs/Hebrew/H226.md",
     "Bible Study Map/Words/English/sign.md",
     "Bible Study Map/Themes/sin/sin.md",
