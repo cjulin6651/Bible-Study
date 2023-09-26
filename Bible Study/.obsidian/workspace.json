@@ -8,41 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "602a9fc876d16e33",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "Bible Study Map/Bible Study Map.md",
-                "options": {
-                  "collapse-filter": true,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": false,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 1,
-                  "close": true
-                }
-              }
-            }
-          },
-          {
             "id": "d65ae8852a9a8658",
             "type": "leaf",
             "state": {
@@ -54,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -194,7 +158,7 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "d65ae8852a9a8658",
+  "active": "1d8de236435975f2",
   "lastOpenFiles": [
     "Bible Study Map/Bible Study Map.md",
     "Bible Study Map/Themes/Covenant/Genesis 4 - God's Covenant with Cain.md",
