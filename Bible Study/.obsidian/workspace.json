@@ -13,7 +13,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Bible Study Map/Locations & Nations/Abraham’s Journey/Abraham's Journey.md",
+                "file": "Bible Study Map/Bible Study Map.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -41,26 +41,21 @@
                 }
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "f1d8bc8330d4423e",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "7594b53a501f0280",
+            "id": "d65ae8852a9a8658",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bible Study Map/Locations & Nations/Abraham’s Journey/Abraham's Journey.md",
+                "file": "Bible Study Map/Bible Study Map.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -126,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bible Study Map/Locations & Nations/Abraham’s Journey/Abraham's Journey.md",
+                "file": "Bible Study Map/Bible Study Map.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bible Study Map/Locations & Nations/Abraham’s Journey/Abraham's Journey.md",
+                "file": "Bible Study Map/Bible Study Map.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bible Study Map/Locations & Nations/Abraham’s Journey/Abraham's Journey.md"
+                "file": "Bible Study Map/Bible Study Map.md"
               }
             }
           },
@@ -199,7 +194,7 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "7594b53a501f0280",
+  "active": "d65ae8852a9a8658",
   "lastOpenFiles": [
     "Bible Study Map/Bible Study Map.md",
     "Bible Study Map/Themes/Covenant/Genesis 4 - God's Covenant with Cain.md",
