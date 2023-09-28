@@ -1,5 +1,5 @@
 ### Theme Summary:
-Starting with [[Genesis1]] what God sees is good but what humans see without thought of God, they take, just like Eve took the fruit.
+Starting with [[Genesis1]] what God sees and gives is good but what humans see, desire, and take leads to destruction. Just like God saw creation as good 7 times and gave Adam and Eve access to [The Garden of Eden] and [[The Tree of Life]]. [[Eve]] took the fruit.
 
 ### Often Seen Alongside of:
 [[The Fall]] 

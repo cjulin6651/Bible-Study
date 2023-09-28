@@ -28,7 +28,7 @@ Abram, is then left with the much less fertile, more arid wilderness land to the
 ![[Elevation Map of Israel.png]]
 [Source](https://www.biblecartoons.co.uk/maps/map-of-southern-israel-showing-bethel)
 
-Lot moved towards [[Soddom and Gomorrah]] we are told which is to the east of Shechem in the valley by [[the Jordan River]]. As we know from this theme, East is where you go when you are exiled or moving away from God.
+Lot moved towards [[Sodom]] and [[Gomorrah]] we are told which is to the east of Shechem in the valley by [[the Jordan River]]. As we know from this theme, East is where you go when you are exiled or moving away from God.
 
 Abram moved to the west of Lot (following the theme of the east, that means he moved toward Eden). Not only that, but he moved up on top of a mountain - Just as Eden was a mountain garden according to [[Ezekiel28]]. Not only that, but where does he settle? On top of a mountain in a cluster of trees called [[The Oaks of Mamre]] - in a garden.
 

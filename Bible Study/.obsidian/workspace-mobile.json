@@ -4,58 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "8d06dcf37dfca52e",
+        "id": "4b9fff06834d5382",
         "type": "tabs",
         "children": [
           {
-            "id": "31dbe5e5018e0ea5",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "Bible Study Map/Themes/Covenant/Genesis 1 - Stars as Signs.md",
-                "options": {
-                  "collapse-filter": true,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": false,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 2.127882660154132,
-                  "close": false
-                }
-              }
-            }
-          },
-          {
-            "id": "7a8c90085fa1c276",
+            "id": "b68b72ec57060e73",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bible Study Map/Themes/Covenant/Genesis 1 - Stars as Signs.md",
+                "file": "Bible Study Map/People/Main People/Rephaim.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -121,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Bible Study Map/Themes/Covenant/Genesis 1 - Stars as Signs.md",
+            "file": "Bible Study Map/People/Main People/Rephaim.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -138,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Bible Study Map/Themes/Covenant/Genesis 1 - Stars as Signs.md",
+            "file": "Bible Study Map/People/Main People/Rephaim.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -150,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Bible Study Map/Themes/Covenant/Genesis 1 - Stars as Signs.md"
+            "file": "Bible Study Map/People/Main People/Rephaim.md"
           }
         }
       }
@@ -169,40 +133,43 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "b9011c49ad04dd0d",
+  "active": "b68b72ec57060e73",
   "lastOpenFiles": [
+    "Og King of Bashan.md",
+    "Bible Study Map/People/Main People/Rephaim.md",
     "Bible Study Map/Bible Study Map.md",
+    "Bible Study Map/Locations & Nations/Abraham’s Journey/Understanding Genesis 14.md",
+    "Bible Study Map/Locations & Nations/Locations/Main Locations/The Valley of Siddim.md",
+    "Bible Study Map/Locations & Nations/Locations & Nations.md",
+    "Bible Study Map/Locations & Nations/Abraham’s Journey/Abraham's Journey.md",
+    "Bible Study Map/Locations & Nations/Locations/Main Locations/Zoar.md",
+    "Bible Study Map/Locations & Nations/Locations/Main Locations/Sodom.md",
+    "Bible Study Map/Locations & Nations/Locations/Main Locations/Gomorrah.md",
+    "Bible Study Map/Locations & Nations/Locations/Main Locations/Ellaser.md",
+    "Bible Study Map/Locations & Nations/Locations/Main Locations/Elam.md",
+    "Bible Study Map/Locations & Nations/Locations/Main Locations/Admah.md",
+    "Bible Study Map/Locations & Nations/Locations/Main Locations/Zeboyim.md",
+    "Bible Study Map/Themes/Seeing and Taking/Genesis 13 - Lot saw the land.md",
+    "Bible Study Map/Locations & Nations/Locations/Sodom and Gomorrah.md",
+    "Attachments/Gen 14 Map 2.png",
+    "Bible Study Map/Bible Books/1 - Old Testament/Books/1 - Genesis/Genesis19.md",
+    "Bible Study Map/Locations & Nations/Nations/Main Nations/Babylon.md",
+    "Attachments/Babylonian Empire.png",
+    "Bible Study Map/Locations & Nations/Locations/Main Locations/Goiim.md",
+    "Templates/Location Note.md",
+    "Attachments/Gen 14 Map.png",
+    "Bible Study Map/Locations & Nations/Locations/Main Locations/Shinar.md",
+    "Bible Study Map/Bible Books/1 - Old Testament/Books/6 - Joshua/Joshua23.md",
+    "Bible Study Map/Bible Books/1 - Old Testament/Books/1 - Genesis/Genesis14.md",
+    "Bible Study Map/Bible Books/1 - Old Testament/Books/1 - Genesis/Genesis10.md",
     "Bible Study Map/Themes/sin/sin.md",
     "Bible Study Map/Themes/Covenant/Genesis 4 - God's Covenant with Cain.md",
-    "Bible Study Map/Themes/Covenant/Genesis 9 - God's Covenant with Noah.md",
-    "Bible Study Map/Words/Hebrew/'ôth.md",
-    "Bible Study Map/Words/Strongs/Hebrew/H226.md",
-    "Bible Study Map/Words/English/sign.md",
     "Back up file/Bible Study/Index/Words/English",
     "Back up file",
     "Back up file/Bible Study/Index",
     "Back up file/Bible Study",
     "Back up file/Bible Study/Index/Words",
     "Back up file/Bible Study/Index/Words/Word Notes",
-    "Bible Study Map/Themes/People and Trees/People and Trees.md",
-    "Bible Study Map/Literary Structure/Literary Structure.md",
-    "Bible Study Map/Words/Strongs/Hebrew/H8083.md",
-    "Bible Study Map/Words/Strongs/Hebrew/H8082.md",
-    "Bible Study Map/Words/Strongs/Hebrew/H8034.md",
-    "Bible Study Map/Words/Strongs/Hebrew/H7651.md",
-    "Bible Study Map/Words/Strongs/Hebrew/H7307.md",
-    "Bible Study Map/Words/Strongs/Hebrew/H7013.md",
-    "Bible Study Map/Words/Strongs/Hebrew/H5903.md",
-    "Bible Study Map/Words/Strongs/Hebrew/H5118.md",
-    "Bible Study Map/Words/Strongs/Hebrew/H3875.md",
-    "Bible Study Map/Words/Strongs/Hebrew/H3754.md",
-    "Bible Study Map/Words/Strongs/Hebrew/H3724.md",
-    "Bible Study Map/Words/Strongs/Hebrew/H3458.md",
-    "Bible Study Map/Words/Strongs/Hebrew/H3327.md",
-    "Bible Study Map/Words/Strongs/Hebrew/H3196.md",
-    "Bible Study Map/Words/Strongs/Hebrew/H2526.md",
-    "Bible Study Map/Words/Strongs/Hebrew/H2525.md",
-    "Bible Study Map/Words/Strongs/Hebrew/H1892.md",
     "Templates",
     "Bible Study Map/Zz - Bible/1 - Old Testament/Books/31 - Obadiah",
     "Bible Study Map/Zz - Bible/1 - Old Testament/Books/23 - Isaiah",

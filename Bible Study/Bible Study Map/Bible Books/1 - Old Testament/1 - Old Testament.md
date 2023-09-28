@@ -10,10 +10,12 @@
 		- [[Genesis7]]
 		- [[Genesis8]]
 		- [[Genesis9]]
+		- [[Genesis10]]
 		- [[Genesis11]]
 		- [[Genesis12]]
 		- [[Genesis13]]
-		- [[Genesis26]]
+		- [[Genesis14]]
+		- [[Genesis19]]
 	- **2 - Exodus**
 		- [[Exodus]]
 		- [[Exodus12]]
@@ -24,8 +26,10 @@
 		- [[Numbers]]
 	- **5 - Deuteronomy**
 		- [[Deuteronomy]]
+		- [[Deuteronomy3]]
 	- **6 - Joshua**
 		- [[Joshua]]
+		- [[Joshua23]]
 	- **7 - Judges**
 		- [[Judges]]
 	- **8 - Ruth**
@@ -56,9 +60,7 @@
 		- [[Job]]
 		- [[Job1]]
 	- **19 - Psalms**
-		- [[Psalm49]]
 		- [[Psalms]]
-		- [[Psalms1]]
 	- **20 - Proverbs**
 		- [[Proverbs]]
 	- **21 - Ecclesiastes**

@@ -76,7 +76,7 @@
       "name": "Person",
       "type": "Template",
       "command": false,
-      "templatePath": "Back up file/Templates/Person Name.md",
+      "templatePath": "Templates/Person Name.md",
       "fileNameFormat": {
         "enabled": false,
         "format": ""
@@ -84,7 +84,7 @@
       "folder": {
         "enabled": true,
         "folders": [
-          "Back up file/Bible Study/Index/People/Main People"
+          "Bible Study Map/People/Main People"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
@@ -228,7 +228,7 @@
       "name": "Strongs Note",
       "type": "Template",
       "command": false,
-      "templatePath": "Back up file/Templates/Hebrew-Greek Word.md",
+      "templatePath": "Templates/Hebrew-Greek Word.md",
       "fileNameFormat": {
         "enabled": false,
         "format": ""
@@ -236,8 +236,8 @@
       "folder": {
         "enabled": true,
         "folders": [
-          "Back up file/Bible Study/Index/Words/Strongs/Greek",
-          "Back up file/Bible Study/Index/Words/Strongs/Hebrew"
+          "Bible Study Map/Words/Strongs/Greek",
+          "Bible Study Map/Words/Strongs/Hebrew"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
@@ -268,6 +268,36 @@
         "enabled": true,
         "folders": [
           "Bible Study Map/Literary Structure"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    },
+    {
+      "id": "6f67e5b7-2eb0-4feb-bd76-4a9fe158d49c",
+      "name": "Location Note",
+      "type": "Template",
+      "command": false,
+      "templatePath": "Templates/Location Note.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "Bible Study Map/Locations & Nations/Locations/Main Locations"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
