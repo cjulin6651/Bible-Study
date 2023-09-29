@@ -16,6 +16,7 @@
 		- [[Genesis13]]
 		- [[Genesis14]]
 		- [[Genesis19]]
+		- [[Genesis26]]
 	- **2 - Exodus**
 		- [[Exodus]]
 		- [[Exodus12]]
@@ -24,11 +25,15 @@
 		- [[Leviticus17]]
 	- **4 - Numbers**
 		- [[Numbers]]
+		- [[Numbers13]]
 	- **5 - Deuteronomy**
 		- [[Deuteronomy]]
+		- [[Deuteronomy2]]
 		- [[Deuteronomy3]]
 	- **6 - Joshua**
 		- [[Joshua]]
+		- [[Joshua15]]
+		- [[Joshua21]]
 		- [[Joshua23]]
 	- **7 - Judges**
 		- [[Judges]]
@@ -59,8 +64,14 @@
 	- **18 - Job**
 		- [[Job]]
 		- [[Job1]]
+		- [[Job38]]
 	- **19 - Psalms**
+		- [[Psalm49]]
 		- [[Psalms]]
+		- [[Psalms1]]
+		- [[Psalms29]]
+		- [[Psalms82]]
+		- [[Psalms89]]
 	- **20 - Proverbs**
 		- [[Proverbs]]
 	- **21 - Ecclesiastes**
@@ -69,8 +80,11 @@
 		- [[SongofSongs]]
 	- **23 - Isaiah**
 		- [[Isaiah]]
+		- [[Isaiah14]]
+		- [[Isaiah24]]
 	- **24 - Jeremiah**
 		- [[Jeremiah]]
+		- [[Jeremiah23]]
 	- **25 - Lamentations**
 		- [[Lamentations]]
 	- **26 - Ezekiel**

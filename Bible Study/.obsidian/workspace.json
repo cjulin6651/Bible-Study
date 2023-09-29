@@ -4,22 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "89786b91301d739c",
+        "id": "f369f9731f089a8c",
         "type": "split",
-        "dimension": 45.00780031201248,
         "children": [
           {
-            "id": "6683c17c252ec5ec",
+            "id": "c2fd00cfb95a9f59",
             "type": "tabs",
-            "dimension": 57.23809523809524,
             "children": [
               {
-                "id": "e803d98d1d369395",
+                "id": "80b40e27e1e580e6",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Bible Study Map/People/Main People/Rephaim.md",
+                    "file": "Bible Study Map/People - Characters/Main People/Rephaim.md",
                     "mode": "source",
                     "source": false
                   }
@@ -28,109 +26,29 @@
             ]
           },
           {
-            "id": "3156a2a99a140f23",
+            "id": "18533e5b6354a85e",
             "type": "tabs",
-            "dimension": 42.76190476190476,
             "children": [
               {
-                "id": "8b4e2827b79124f1",
+                "id": "19671f197916bd18",
                 "type": "leaf",
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "Bible Study Map/People/Main People/Rephaim.md",
                     "options": {
-                      "collapse-filter": false,
+                      "collapse-filter": true,
                       "search": "",
                       "localJumps": 1,
                       "localBacklinks": true,
                       "localForelinks": true,
-                      "localInterlinks": true,
+                      "localInterlinks": false,
                       "showTags": false,
                       "showAttachments": false,
                       "hideUnresolved": false,
                       "collapse-color-groups": true,
-                      "colorGroups": [
-                        {
-                          "query": "path:\"Bible Study Map/Bible Books/1 - Old Testament\"  ",
-                          "color": {
-                            "a": 1,
-                            "rgb": 15865880
-                          }
-                        },
-                        {
-                          "query": "path:\"Bible Study Map/Bible Books/2 - New Testament\"  ",
-                          "color": {
-                            "a": 1,
-                            "rgb": 1067769
-                          }
-                        },
-                        {
-                          "query": "path:\"Bible Study Map/Locations & Nations\"  ",
-                          "color": {
-                            "a": 1,
-                            "rgb": 16769311
-                          }
-                        },
-                        {
-                          "query": "path:\"Bible Study Map/Occupation\"  ",
-                          "color": {
-                            "a": 1,
-                            "rgb": 16732921
-                          }
-                        },
-                        {
-                          "query": "path:\"Bible Study Map/People\"  ",
-                          "color": {
-                            "a": 1,
-                            "rgb": 16746522
-                          }
-                        },
-                        {
-                          "query": "path:\"Bible Study Map/Plants, Animals, Food & Objects\"  ",
-                          "color": {
-                            "a": 1,
-                            "rgb": 9308902
-                          }
-                        },
-                        {
-                          "query": "path:\"Bible Study Map/Symbolic Numbers\"  ",
-                          "color": {
-                            "a": 1,
-                            "rgb": 8734761
-                          }
-                        },
-                        {
-                          "query": "path:\"Bible Study Map/Themes\"  ",
-                          "color": {
-                            "a": 1,
-                            "rgb": 514658
-                          }
-                        },
-                        {
-                          "query": "path:\"Bible Study Map/Typology\"  ",
-                          "color": {
-                            "a": 1,
-                            "rgb": 14645111
-                          }
-                        },
-                        {
-                          "query": "path:\"Bible Study Map/Words\"  ",
-                          "color": {
-                            "a": 1,
-                            "rgb": 5560288
-                          }
-                        },
-                        {
-                          "query": "path:\"Bible Study Map/Literary Structure\"  ",
-                          "color": {
-                            "a": 1,
-                            "rgb": 4521728
-                          }
-                        }
-                      ],
+                      "colorGroups": [],
                       "collapse-display": true,
-                      "showArrow": true,
+                      "showArrow": false,
                       "textFadeMultiplier": 0,
                       "nodeSizeMultiplier": 1,
                       "lineSizeMultiplier": 1,
@@ -139,7 +57,7 @@
                       "repelStrength": 10,
                       "linkStrength": 1,
                       "linkDistance": 250,
-                      "scale": 1.0821996732595731,
+                      "scale": 0.14464572768403916,
                       "close": true
                     }
                   }
@@ -151,12 +69,11 @@
         "direction": "horizontal"
       },
       {
-        "id": "f1d8bc8330d4423e",
+        "id": "b2a8057e8953a4da",
         "type": "tabs",
-        "dimension": 54.99219968798752,
         "children": [
           {
-            "id": "7594b53a501f0280",
+            "id": "f3dba99dcb519401",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -229,7 +146,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bible Study Map/People/Main People/Rephaim.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -246,7 +162,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bible Study Map/People/Main People/Rephaim.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -268,9 +183,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Bible Study Map/People/Main People/Rephaim.md"
-              }
+              "state": {}
             }
           },
           {
@@ -302,36 +215,39 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e803d98d1d369395",
+  "active": "f3dba99dcb519401",
   "lastOpenFiles": [
-    "Bible Study Map/Bible Books/1 - Old Testament/Books/5 - Deuteronomy/Deuteronomy3.md",
-    "Bible Study Map/People/Main People/Rephaim.md",
-    "Og King of Bashan.md",
-    "Bible Study Map/Locations & Nations/Abraham’s Journey/Understanding Genesis 14.md",
+    "Bible Study Map/People - Characters/Main People/Rephaim.md",
+    "Bible Study Map/Bible Study Map.md",
+    "Bible Study Map/People - Characters/Main People/The Divine Council.md",
+    "Bible Study Map/People - Characters/Main People/sons of God.md",
+    "Bible Study Map/Words/Strongs/Hebrew/H7496.md",
+    "Bible Study Map/Words/Strongs/Greek/G1142.md",
+    "Bible Study Map/Bible Books/1 - Old Testament/Books/4 - Numbers/Numbers13.md",
+    "Bible Study Map/Bible Books/2 - New Testament/Books/65 - Jude/Jude1.md",
+    "Bible Study Map/Bible Books/2 - New Testament/Books/61 - 2 Peter/2Peter2.md",
+    "Bible Study Map/Bible Books/1 - Old Testament/Books/6 - Joshua/Joshua21.md",
+    "Bible Study Map/Bible Books/1 - Old Testament/Books/23 - Isaiah/Isaiah14.md",
+    "Bible Study Map/Bible Books/1 - Old Testament/Books/24 - Jeremiah/Jeremiah23.md",
+    "Bible Study Map/Bible Books/1 - Old Testament/Books/19 - Psalms/Psalms29.md",
+    "Bible Study Map/Bible Books/1 - Old Testament/Books/18 - Job/Job38.md",
+    "Bible Study Map/Bible Books/1 - Old Testament/Books/5 - Deuteronomy/Deuteronomy2.md",
+    "Bible Study Map/Bible Books/1 - Old Testament/Books/6 - Joshua/Joshua15.md",
+    "Bible Study Map/Bible Books/1 - Old Testament/Books/19 - Psalms/Psalms82.md",
+    "Bible Study Map/Bible Books/1 - Old Testament/Books/19 - Psalms/Psalms89.md",
+    "Bible Study Map/Bible Books/1 - Old Testament/Books/23 - Isaiah/Isaiah24.md",
+    "Bible Study Map/Words/Greek/daimōn.md",
+    "Bible Study Map/Bible Books/2 - New Testament/Books/51 - Colossians/Colossians1.md",
+    "Bible Study Map/Bible Books/2 - New Testament/Books/40 - Matthew/Matthew16.md",
+    "Bible Study Map/Bible Books/2 - New Testament/Books/40 - Matthew/Matthew17.md",
+    "Bible Study Map/People - Characters/Main People/Zamzummim.md",
+    "Bible Study Map/Words/English/demon.md",
+    "Bible Study Map/People - Characters/Main People/Nephilim.md",
+    "Bible Study Map/People - Characters/Main People",
+    "Bible Study Map/People - Characters",
+    "Bible Study Map/Misc",
     "Attachments/Gen 14 Map.png",
-    "Bible Study Map/Locations & Nations/Locations/Main Locations/The Valley of Siddim.md",
     "Attachments/Gen 14 Map 2.png",
-    "Bible Study Map/Locations & Nations/Locations/Main Locations/Admah.md",
-    "Bible Study Map/Locations & Nations/Locations/Main Locations/Zoar.md",
-    "Bible Study Map/Locations & Nations/Locations/Main Locations/Gomorrah.md",
-    "Bible Study Map/Locations & Nations/Locations/Main Locations/Zeboyim.md",
-    "Bible Study Map/Locations & Nations/Locations/Main Locations/Sodom.md",
-    "Sodom and Gomorrah.md",
-    "Gomorrah.md",
-    "Bible Study Map/Bible Books/1 - Old Testament/Books/1 - Genesis/Genesis19.md",
-    "Bible Study Map/Themes/Seeing and Taking/Genesis 13 - Lot saw the land.md",
-    "Zoar.md",
-    "Bible Study Map/Themes/The East/Psalm 103 - Separated from sin.md",
-    "Bible Study Map/Themes/The East/Genesis 11 - Babel in The East.md",
-    "Bible Study Map/Themes/The East/Genesis 4 - Cain Exiled East.md",
-    "Bible Study Map/Themes/Seeing and Taking/Genesis 12 - Pharaoh saw Sarai.md",
-    "Bible Study Map/Themes/Seeing and Taking/Genesis 9 - Ham Seeing Noah's Nakedness.md",
-    "Bible Study Map/Themes/Seeing and Taking/Seeing and Taking.md",
-    "Bible Study Map/Themes/Chaos Waters/Chaos Waters.md",
-    "Bible Study Map/Literary Structure/Genesis/Genesis 1 - Triads of Creation.md",
-    "Bible Study Map/Bible Books/1 - Old Testament/1 - Old Testament.md",
-    "Bible Study Map/Bible Books/1 - Old Testament/Books/1 - Genesis/Genesis.md",
-    "Bible Study Map/Bible Books/1 - Old Testament/Books/1 - Genesis/Genesis1.md",
     "Attachments/Babylonian Empire.png",
     "Back up file/Bible Study/Index/Bible/Old Testament/Book",
     "Back up file/Bible Study/Index/Locations & Nations/Nations",
@@ -340,9 +256,6 @@
     "Back up file/Bible Study/Index/Words/Word Notes",
     "Back up file/Bible Study/Index/Words/English",
     "Back up file/Bible Study/Index/Plants, Animals, & Objects",
-    "Back up file/Bible Study/Index/Plants, Animals, Food & Objects",
-    "Back up file/Bible Study/Index/Locations",
-    "Back up file/Bible Study/Index/Words",
     "Attachments/Chiasm of God's Image.png",
     "Attachments/Pasted image 20230917085732.png",
     "Attachments/Genesis Triads.png",

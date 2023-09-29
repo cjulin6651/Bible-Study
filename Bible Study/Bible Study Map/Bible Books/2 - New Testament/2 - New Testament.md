@@ -3,6 +3,8 @@
 	- **40 - Matthew**
 		- [[Matthew]]
 		- [[Matthew11]]
+		- [[Matthew16]]
+		- [[Matthew17]]
 	- **41 - Mark**
 		- [[Mark]]
 		- [[Mark1]]
@@ -19,7 +21,6 @@
 		- [[Romans]]
 		- [[Romans3]]
 		- [[Romans5]]
-		- [[Romans6]]
 	- **46 - 1 Corinthians**
 		- [[1Corinthians]]
 	- **47 - 2 Corinthians**
@@ -34,6 +35,7 @@
 		- [[Philippians]]
 	- **51 - Colossians**
 		- [[Colossians]]
+		- [[Colossians1]]
 	- **52 - 1 Thessalonians**
 		- [[1Thessalonians]]
 	- **53 - 2 Thessalonians**
@@ -56,6 +58,7 @@
 		- [[1Peter3]]
 	- **61 - 2 Peter**
 		- [[2Peter]]
+		- [[2Peter2]]
 	- **62 - 1 John**
 		- [[1John]]
 	- **63 - 2 John**
@@ -64,6 +67,7 @@
 		- [[3John]]
 	- **65 - Jude**
 		- [[Jude]]
+		- [[Jude1]]
 	- **66 - Revelation**
 		- [[Revelation]]
 

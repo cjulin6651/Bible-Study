@@ -84,7 +84,7 @@
       "folder": {
         "enabled": true,
         "folders": [
-          "Bible Study Map/People/Main People"
+          "Bible Study Map/People - Characters/Main People"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
@@ -174,9 +174,9 @@
       "folder": {
         "enabled": true,
         "folders": [
-          "Back up file/Bible Study/Index/Words/English",
-          "Back up file/Bible Study/Index/Words/Hebrew",
-          "Back up file/Bible Study/Index/Words/Greek"
+          "Bible Study Map/Words/English",
+          "Bible Study Map/Words/Hebrew",
+          "Bible Study Map/Words/Greek"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
@@ -320,7 +320,7 @@
   "devMode": false,
   "templateFolderPath": "Templates",
   "announceUpdates": false,
-  "version": "1.2.1",
+  "version": "1.3.0",
   "disableOnlineFeatures": false,
   "ai": {
     "OpenAIApiKey": "",

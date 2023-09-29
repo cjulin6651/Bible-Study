@@ -2,6 +2,7 @@
 - **English**
 	- [[atonement]]
 	- [[Covering]]
+	- [[demon]]
 	- [[Fame]]
 	- [[Father of a Multitude]]
 	- [[garden]]
@@ -20,6 +21,7 @@
 	- [[Vanity]]
 	- [[vineyard]]
 - **Greek**
+	- [[daimōn]]
 - **Hebrew**
 	- [['ôth]]
 	- [[‛êyrôm ‛êrôm]]
@@ -29,6 +31,7 @@
 	- [[hebel hăbêl]]
 	- [[kerem]]
 	- [[qayin]]
+	- [[râphâ']]
 	- [[Ruach]]
 	- [[yayin]]
 - **[[Strongs]]**

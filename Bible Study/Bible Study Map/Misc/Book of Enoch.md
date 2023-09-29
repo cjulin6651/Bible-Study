@@ -1,0 +1,1 @@
+Apocryphal book about the supposed [[sons of God]]. The book calls them "The Watchers". After they come down to earth to sleep with human women, they fathered the [[Nephilim]]. The book surrounds the story of The Watchers asking Enoch to take their case before God. 

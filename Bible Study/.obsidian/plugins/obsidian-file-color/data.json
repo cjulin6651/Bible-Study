@@ -54,6 +54,11 @@
       "id": "qgU2J2p7wHD97dq7wGoYS",
       "name": "Lit Structure",
       "value": "#04f000"
+    },
+    {
+      "id": "6e2Z6S5ZkCAQYAzEleguT",
+      "name": "Misc.",
+      "value": "#7079bd"
     }
   ],
   "fileColors": [
@@ -66,7 +71,7 @@
       "color": "pvhgfo9jCWPbFIyNJWlRa"
     },
     {
-      "path": "Bible Study Map/People",
+      "path": "Bible Study Map/People - Characters",
       "color": "5_6hpBM_t0KuorAEuuXP3"
     },
     {
@@ -92,6 +97,18 @@
     {
       "path": "Bible Study Map/Literary Structure",
       "color": "qgU2J2p7wHD97dq7wGoYS"
+    },
+    {
+      "path": "Bible Study Map/Misc.",
+      "color": "6e2Z6S5ZkCAQYAzEleguT"
+    },
+    {
+      "path": "Bible Study Map/Bible Books/1 - Old Testament",
+      "color": "AcOiGYWjlkVonBRXGnSmu"
+    },
+    {
+      "path": "Bible Study Map/Bible Books/2 - New Testament",
+      "color": "fo909AWoNo4C1Pkci8udQ"
     }
   ]
 }

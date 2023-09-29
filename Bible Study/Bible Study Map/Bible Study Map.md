@@ -3,8 +3,40 @@
 - **[[Bible Books]]**
 - **[[Literary Structure]]**
 - **[[Locations & Nations]]**
+- **Misc**
+	- [[Book of Enoch]]
 - **[[Occupation]]**
-- **[[People]]**
+- **People - Characters**
+	- **Main People**
+		- [[Abel]]
+		- [[Abraham]]
+		- [[Adam]]
+		- [[Anakim]]
+		- [[Cain]]
+		- [[Emim]]
+		- [[Eve]]
+		- [[God the Father]]
+		- [[God]]
+		- [[Hagar]]
+		- [[Ham]]
+		- [[Holy Spirit]]
+		- [[Isaac]]
+		- [[Ishmael]]
+		- [[Japheth]]
+		- [[Jesus]]
+		- [[Lot]]
+		- [[Nephilim]]
+		- [[Noah]]
+		- [[Rephaim]]
+		- [[Sarah]]
+		- [[Serpent]]
+		- [[Shem]]
+		- [[sons of God]]
+		- [[The Divine Council]]
+		- [[The Trinity]]
+		- [[Zamzummim]]
+		- [[Zuzim]]
+	- [[People]]
 - **[[Plants, Animals, Food & Objects]]**
 - **[[Symbolic Numbers]]**
 - **[[Themes]]**

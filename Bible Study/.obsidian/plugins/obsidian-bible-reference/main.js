@@ -5922,9 +5922,9 @@ var require_quick_format_unescaped = __commonJS({
   }
 });
 
-// node_modules/.pnpm/pino@8.15.0/node_modules/pino/browser.js
+// node_modules/.pnpm/pino@8.15.1/node_modules/pino/browser.js
 var require_browser2 = __commonJS({
-  "node_modules/.pnpm/pino@8.15.0/node_modules/pino/browser.js"(exports, module2) {
+  "node_modules/.pnpm/pino@8.15.1/node_modules/pino/browser.js"(exports, module2) {
     "use strict";
     var format = require_quick_format_unescaped();
     module2.exports = pino;
@@ -5963,8 +5963,7 @@ var require_browser2 = __commonJS({
     function setupBaseLogFunctions(logger, levels, proto) {
       const logFunctions = {};
       levels.forEach((level) => {
-        var _a;
-        logFunctions[level] = proto[level] ? proto[level] : _console[level] || _console[(_a = logFallbackMap[level]) != null ? _a : "log"] || noop;
+        logFunctions[level] = proto[level] ? proto[level] : _console[level] || _console[logFallbackMap[level] || "log"] || noop;
       });
       logger[baseLogFunctionSymbol] = logFunctions;
     }
@@ -8428,517 +8427,3285 @@ var require_platform = __commonJS({
   }
 });
 
-// biblejs-name-converter/lib/books.js
-var require_books = __commonJS({
-  "biblejs-name-converter/lib/books.js"(exports, module2) {
-    function generateOrdinalNameVariations(number, names) {
-      var variations = [];
-      var numerals;
-      if (number === 1) {
+// node_modules/.pnpm/bible-book-names-intl@2.1.4/node_modules/bible-book-names-intl/dist/utils/utils.js
+var require_utils3 = __commonJS({
+  "node_modules/.pnpm/bible-book-names-intl@2.1.4/node_modules/bible-book-names-intl/dist/utils/utils.js"(exports) {
+    "use strict";
+    var __importDefault = exports && exports.__importDefault || function(mod) {
+      return mod && mod.__esModule ? mod : { "default": mod };
+    };
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.readJSONFilesInDirectory = exports.generateOrdinalNameVariations = void 0;
+    var fs_1 = __importDefault(require("fs"));
+    var path_1 = __importDefault(require("path"));
+    var generateOrdinalNameVariations = (startNumber, names) => {
+      const variations = [];
+      let numerals;
+      if (startNumber === 1) {
         numerals = ["1", "I", "First"];
-      } else if (number === 2) {
+      } else if (startNumber === 2) {
         numerals = ["2", "II", "Second"];
-      } else if (number === 3) {
+      } else if (startNumber === 3) {
         numerals = ["3", "III", "Third"];
       }
-      names.forEach(function(name) {
+      names.forEach((name) => {
         numerals.forEach(function(numeral) {
           variations.push(numeral + name);
           variations.push(numeral + " " + name);
         });
       });
       return variations;
-    }
-    module2.exports = [
-      {
-        names: "Genesis Ge Gen".split(" "),
-        verses: [31, 25, 24, 26, 32, 22, 24, 22, 29, 32, 32, 20, 18, 24, 21, 16, 27, 33, 38, 18, 34, 24, 20, 67, 34, 35, 46, 22, 35, 43, 55, 32, 20, 31, 29, 43, 36, 30, 23, 23, 57, 38, 34, 34, 28, 34, 31, 22, 33, 26]
-      },
-      {
-        names: "Exodus Ex Exo".split(" "),
-        verses: [22, 25, 22, 31, 23, 30, 25, 32, 35, 29, 10, 51, 22, 31, 27, 36, 16, 27, 25, 26, 36, 31, 33, 18, 40, 37, 21, 43, 46, 38, 18, 35, 23, 35, 35, 38, 29, 31, 43, 38]
-      },
-      {
-        names: "Leviticus Le Lev".split(" "),
-        verses: [17, 16, 17, 35, 19, 30, 38, 36, 24, 20, 47, 8, 59, 57, 33, 34, 16, 30, 37, 27, 24, 33, 44, 23, 55, 46, 34]
-      },
-      {
-        names: "Numbers Nu Num".split(" "),
-        verses: [54, 34, 51, 49, 31, 27, 89, 26, 23, 36, 35, 16, 33, 45, 41, 50, 13, 32, 22, 29, 35, 41, 30, 25, 18, 65, 23, 31, 40, 16, 54, 42, 56, 29, 34, 13]
-      },
-      {
-        names: "Deuteronomy Dt Deut Deu De".split(" "),
-        verses: [46, 37, 29, 49, 33, 25, 26, 20, 29, 22, 32, 32, 18, 29, 23, 22, 20, 22, 21, 20, 23, 30, 25, 22, 19, 19, 26, 68, 29, 20, 30, 52, 29, 12]
-      },
-      {
-        names: "Joshua Js Jos Jos Josh".split(" "),
-        verses: [18, 24, 17, 24, 15, 27, 26, 35, 27, 43, 23, 24, 33, 15, 63, 10, 18, 28, 51, 9, 45, 34, 16, 33]
-      },
-      {
-        names: "Judges Jg Jud Jdg Ju Jdgs Judg".split(" "),
-        verses: [36, 23, 31, 24, 31, 40, 25, 35, 57, 18, 40, 15, 25, 20, 20, 31, 13, 31, 30, 48, 25]
-      },
-      {
-        names: "Ruth Ru Rut".split(" "),
-        verses: [22, 23, 18, 22]
-      },
-      {
-        names: generateOrdinalNameVariations(1, "Samuel Sa Sam".split(" ")),
-        verses: [28, 36, 21, 22, 12, 21, 17, 22, 27, 27, 15, 25, 23, 52, 35, 23, 58, 30, 24, 42, 15, 23, 29, 22, 44, 25, 12, 25, 11, 31, 13]
-      },
-      {
-        names: generateOrdinalNameVariations(2, "Samuel Sa Sam".split(" ")),
-        verses: [27, 32, 39, 12, 25, 23, 29, 18, 13, 19, 27, 31, 39, 33, 37, 23, 29, 33, 43, 26, 22, 51, 39, 25]
-      },
-      {
-        names: generateOrdinalNameVariations(1, "Kings Ki King Kin Kngs".split(" ")),
-        verses: [53, 46, 28, 34, 18, 38, 51, 66, 28, 29, 43, 33, 34, 31, 34, 34, 24, 46, 21, 43, 29, 53]
-      },
-      {
-        names: generateOrdinalNameVariations(2, "Kings Ki King Kin Kngs".split(" ")),
-        verses: [18, 25, 27, 44, 27, 33, 20, 29, 37, 36, 21, 21, 25, 29, 38, 20, 41, 37, 37, 21, 26, 20, 37, 20, 30]
-      },
-      {
-        names: generateOrdinalNameVariations(1, "Chronicles Ch Chr Chron".split(" ")),
-        verses: [54, 55, 24, 43, 26, 81, 40, 40, 44, 14, 47, 40, 14, 17, 29, 43, 27, 17, 19, 8, 30, 19, 32, 31, 31, 32, 34, 21, 30]
-      },
-      {
-        names: generateOrdinalNameVariations(2, "Chronicles Ch Chr Chron".split(" ")),
-        verses: [17, 18, 17, 22, 14, 42, 22, 18, 31, 19, 23, 16, 22, 15, 19, 14, 19, 34, 11, 37, 20, 12, 21, 27, 28, 23, 9, 27, 36, 27, 21, 33, 25, 33, 27, 23]
-      },
-      {
-        names: "Ezra Ez Ezr".split(" "),
-        verses: [11, 70, 13, 24, 17, 22, 28, 36, 15, 44]
-      },
-      {
-        names: "Nehemiah Ne Neh Neh Ne".split(" "),
-        verses: [11, 20, 32, 23, 19, 19, 73, 18, 38, 39, 36, 47, 31]
-      },
-      {
-        names: "Esther Es Est Esth Ester".split(" "),
-        verses: [22, 23, 15, 17, 14, 14, 10, 17, 32, 3]
-      },
-      {
-        names: "Job Jb Job".split(" "),
-        verses: [22, 13, 26, 21, 27, 30, 21, 22, 35, 22, 20, 25, 28, 22, 35, 22, 16, 21, 29, 29, 34, 30, 17, 25, 6, 14, 23, 28, 25, 31, 40, 22, 33, 37, 16, 33, 24, 41, 30, 24, 34, 17]
-      },
-      {
-        names: "Psalm Ps Psa Pss Psalms".split(" "),
-        verses: [6, 12, 8, 8, 12, 10, 17, 9, 20, 18, 7, 8, 6, 7, 5, 11, 15, 50, 14, 9, 13, 31, 6, 10, 22, 12, 14, 9, 11, 12, 24, 11, 22, 22, 28, 12, 40, 22, 13, 17, 13, 11, 5, 26, 17, 11, 9, 14, 20, 23, 19, 9, 6, 7, 23, 13, 11, 11, 17, 12, 8, 12, 11, 10, 13, 20, 7, 35, 36, 5, 24, 20, 28, 23, 10, 12, 20, 72, 13, 19, 16, 8, 18, 12, 13, 17, 7, 18, 52, 17, 16, 15, 5, 23, 11, 13, 12, 9, 9, 5, 8, 28, 22, 35, 45, 48, 43, 13, 31, 7, 10, 10, 9, 8, 18, 19, 2, 29, 176, 7, 8, 9, 4, 8, 5, 6, 5, 6, 8, 8, 3, 18, 3, 3, 21, 26, 9, 8, 24, 13, 10, 7, 12, 15, 21, 10, 20, 14, 9, 6]
-      },
-      {
-        names: "Proverbs Pr Prov Pro".split(" "),
-        verses: [33, 22, 35, 27, 23, 35, 27, 36, 18, 32, 31, 28, 25, 35, 33, 33, 28, 24, 29, 30, 31, 29, 35, 34, 28, 28, 27, 28, 27, 33, 31]
-      },
-      {
-        names: "Ecclesiastes Ec Ecc".split(" "),
-        verses: [18, 26, 22, 16, 20, 12, 29, 17, 18, 20, 10, 14]
-      },
-      {
-        names: ["Song of Solomon", "SOS", "Song of Songs", "SongOfSongs"],
-        verses: [17, 17, 11, 16, 16, 13, 13, 14]
-      },
-      {
-        names: "Isaiah Isa".split(" "),
-        verses: [31, 22, 26, 6, 30, 13, 25, 22, 21, 34, 16, 6, 22, 32, 9, 14, 14, 7, 25, 6, 17, 25, 18, 23, 12, 21, 13, 29, 24, 33, 9, 20, 24, 17, 10, 22, 38, 22, 8, 31, 29, 25, 28, 28, 25, 13, 15, 22, 26, 11, 23, 15, 12, 17, 13, 12, 21, 14, 21, 22, 11, 12, 19, 12, 25, 24]
-      },
-      {
-        names: "Jeremiah Je Jer".split(" "),
-        verses: [19, 37, 25, 31, 31, 30, 34, 22, 26, 25, 23, 17, 27, 22, 21, 21, 27, 23, 15, 18, 14, 30, 40, 10, 38, 24, 22, 17, 32, 24, 40, 44, 26, 22, 19, 32, 21, 28, 18, 16, 18, 22, 13, 30, 5, 28, 7, 47, 39, 46, 64, 34]
-      },
-      {
-        names: "Lamentations La Lam Lament".split(" "),
-        verses: [22, 22, 66, 22, 22]
-      },
-      {
-        names: "Ezekiel Ek Ezek Eze".split(" "),
-        verses: [28, 10, 27, 17, 17, 14, 27, 18, 11, 22, 25, 28, 23, 23, 8, 63, 24, 32, 14, 49, 32, 31, 49, 27, 17, 21, 36, 26, 21, 26, 18, 32, 33, 31, 15, 38, 28, 23, 29, 49, 26, 20, 27, 31, 25, 24, 23, 35]
-      },
-      {
-        names: "Daniel Da Dan Dl Dnl".split(" "),
-        verses: [21, 49, 30, 37, 31, 28, 28, 27, 27, 21, 45, 13]
-      },
-      {
-        names: "Hosea Ho Hos".split(" "),
-        verses: [11, 23, 5, 19, 15, 11, 16, 14, 17, 15, 12, 14, 16, 9]
-      },
-      {
-        names: "Joel Jl Joel Joe".split(" "),
-        verses: [20, 32, 21]
-      },
-      {
-        names: "Amos Am Amos Amo".split(" "),
-        verses: [15, 16, 15, 13, 27, 14, 17, 14, 15]
-      },
-      {
-        names: "Obadiah Ob Oba Obd Odbh".split(" "),
-        verses: [21]
-      },
-      {
-        names: "Jonah Jh Jon Jnh".split(" "),
-        verses: [17, 10, 10, 11]
-      },
-      {
-        names: "Micah Mi Mic".split(" "),
-        verses: [16, 13, 12, 13, 15, 16, 20]
-      },
-      {
-        names: "Nahum Na Nah Na".split(" "),
-        verses: [15, 13, 19]
-      },
-      {
-        names: "Habakkuk Hb Hab Hk Habk".split(" "),
-        verses: [17, 20, 19]
-      },
-      {
-        names: "Zephaniah Zp Zep Zeph Ze".split(" "),
-        verses: [18, 15, 20]
-      },
-      {
-        names: "Haggai Ha Hag Hagg".split(" "),
-        verses: [15, 23]
-      },
-      {
-        names: "Zechariah Zc Zech Zec".split(" "),
-        verses: [21, 13, 10, 14, 11, 15, 14, 23, 17, 12, 17, 14, 9, 21]
-      },
-      {
-        names: "Malachi Ml Mal Mlc".split(" "),
-        verses: [14, 17, 18, 6]
-      },
-      {
-        names: "Matthew Mt Matt Mat".split(" "),
-        verses: [25, 23, 17, 25, 48, 34, 29, 34, 38, 42, 30, 50, 58, 36, 39, 28, 27, 35, 30, 34, 46, 46, 39, 51, 46, 75, 66, 20]
-      },
-      {
-        names: "Mark Mk Mrk".split(" "),
-        verses: [45, 28, 35, 41, 43, 56, 37, 38, 50, 52, 33, 44, 37, 72, 47, 20]
-      },
-      {
-        names: "Luke Lk Luk Lu".split(" "),
-        verses: [80, 52, 38, 44, 39, 49, 50, 56, 62, 42, 54, 59, 35, 35, 32, 31, 37, 43, 48, 47, 38, 71, 56, 53]
-      },
-      {
-        names: "John Jn Joh Jo".split(" "),
-        verses: [51, 25, 36, 54, 47, 71, 53, 59, 41, 42, 57, 50, 38, 31, 27, 33, 26, 40, 42, 31, 25]
-      },
-      {
-        names: "Acts Ac Act".split(" "),
-        verses: [26, 47, 26, 37, 42, 15, 60, 40, 43, 48, 30, 25, 52, 28, 41, 40, 34, 28, 41, 38, 40, 30, 35, 27, 27, 32, 44, 31]
-      },
-      {
-        names: "Romans Ro Rom Rmn Rmns".split(" "),
-        verses: [32, 29, 31, 25, 21, 23, 25, 39, 33, 21, 36, 21, 14, 23, 33, 27]
-      },
-      {
-        names: generateOrdinalNameVariations(1, "Corinthians Co Cor".split(" ")),
-        verses: [31, 16, 23, 21, 13, 20, 40, 13, 27, 33, 34, 31, 13, 40, 58, 24]
-      },
-      {
-        names: generateOrdinalNameVariations(2, "Corinthians Co Cor".split(" ")),
-        verses: [24, 17, 18, 18, 21, 18, 16, 24, 15, 18, 33, 21, 14]
-      },
-      {
-        names: "Galatians Ga Gal Gltns".split(" "),
-        verses: [24, 21, 29, 31, 26, 18]
-      },
-      {
-        names: "Ephesians Ep Eph Ephn".split(" "),
-        verses: [23, 22, 21, 32, 33, 24]
-      },
-      {
-        names: "Philippians Phi Phil Phi".split(" "),
-        verses: [30, 30, 21, 23]
-      },
-      {
-        names: "Colossians Co Col Colo Cln Clns".split(" "),
-        verses: [29, 23, 25, 18]
-      },
-      {
-        names: generateOrdinalNameVariations(1, "Thessalonians Th Thess Thes".split(" ")),
-        verses: [10, 20, 13, 18, 28]
-      },
-      {
-        names: generateOrdinalNameVariations(2, "Thessalonians Th Thess Thes".split(" ")),
-        verses: [12, 17, 18]
-      },
-      {
-        names: generateOrdinalNameVariations(1, "Timothy Ti Tim".split(" ")),
-        verses: [20, 15, 16, 16, 25, 21]
-      },
-      {
-        names: generateOrdinalNameVariations(2, "Timothy Ti Tim".split(" ")),
-        verses: [18, 26, 17, 22]
-      },
-      {
-        names: "Titus Ti Tit Tt Ts".split(" "),
-        verses: [16, 15, 15]
-      },
-      {
-        names: "Philemon Pm Phile Philm Pm".split(" "),
-        verses: [25]
-      },
-      {
-        names: "Hebrews He Heb Hw".split(" "),
-        verses: [14, 18, 19, 16, 14, 20, 28, 13, 28, 39, 40, 29, 25]
-      },
-      {
-        names: "James Jm Jam Jas Ja".split(" "),
-        verses: [27, 26, 18, 17, 20]
-      },
-      {
-        names: generateOrdinalNameVariations(1, "Peter Pe Pet P".split(" ")),
-        verses: [25, 25, 22, 19, 14]
-      },
-      {
-        names: generateOrdinalNameVariations(2, "Peter Pe Pet P".split(" ")),
-        verses: [21, 22, 18]
-      },
-      {
-        names: generateOrdinalNameVariations(1, "John Joh Jo Jn J".split(" ")),
-        verses: [10, 29, 24, 21, 21]
-      },
-      {
-        names: generateOrdinalNameVariations(2, "John Joh Jo Jn J".split(" ")),
-        verses: [13]
-      },
-      {
-        names: generateOrdinalNameVariations(3, "John Joh Jo Jn J".split(" ")),
-        verses: [14]
-      },
-      {
-        names: "Jude Jude".split(" "),
-        verses: [25]
-      },
-      {
-        names: "Revelation Re Rev Rvltn".split(" "),
-        verses: [20, 29, 22, 11, 14, 17, 17, 13, 21, 11, 19, 17, 18, 20, 8, 21, 18, 24, 21, 15, 27, 21]
-      }
-    ];
-  }
-});
-
-// biblejs-name-converter/lib/reference.js
-var require_reference = __commonJS({
-  "biblejs-name-converter/lib/reference.js"(exports, module2) {
-    var books = require_books();
-    function Reference3(reference) {
-      if (!reference) {
-        throw new Error('You must supply a Bible reference, either a string (i.e. "Mark 2") or an object (i.e. { book: 1, chapter: 2, verse: 1 })');
-      }
-      if (typeof reference === "string") {
-        reference = reference.replace(/\./g, "");
-        this.source = reference;
-        var referenceParts = reference.match(/(.+[A-Za-z])\s+(.+)/);
-        var bookName = referenceParts[1];
-        var chapterAndVerse = referenceParts[2];
-        this.book = Reference3.bookIdFromName(bookName);
-        var chapterAndVerseParts = chapterAndVerse.split(":");
-        this.chapter = Number(chapterAndVerseParts[0]);
-        this.verse = chapterAndVerseParts[1] ? Number(chapterAndVerseParts[1]) : null;
-      } else {
-        if (!reference.book) {
-          throw new Error('The object you supplied does not seem to be a Bible reference (there is no "book" property)');
-        }
-        var hasBook = typeof reference.book === "number";
-        var hasChapter = typeof reference.chapter === "number";
-        var validVerseIfPresent = reference.verse == null || typeof reference.verse === "number";
-        if (hasBook && hasChapter && validVerseIfPresent) {
-          this.book = reference.book;
-          this.chapter = reference.chapter;
-          this.verse = reference.verse;
-        }
-      }
-    }
-    Reference3.prototype.isChapter = function isChapter() {
-      return this.verse == null;
     };
-    Reference3.prototype.startOf = function startOf(unit) {
-      if (unit === "chapter") {
-        this.verse = 1;
-      } else if (unit === "book") {
-        this.verse = 1;
-        this.chapter = 1;
-      } else {
-        throw new Error("Unknown unit " + unit + ' supplied to startOf() - supported units are: "book", "chapter"');
-      }
-      return this;
-    };
-    Reference3.prototype.clone = function clone() {
-      return new Reference3(this);
-    };
-    Reference3.prototype.toString = function toString() {
-      var bookName = books[this.book - 1].names[0];
-      var stringified = bookName + " " + this.chapter;
-      if (this.verse != null) {
-        stringified += ":" + this.verse;
-      }
-      return stringified;
-    };
-    Reference3.prototype.toVerseId = function toVerseId() {
-      var verseCount = 0;
-      var bookIndex = this.book - 1;
-      while (bookIndex >= 1) {
-        verseCount += Reference3.versesInBookId(bookIndex);
-        bookIndex -= 1;
-      }
-      var chapterIndex = this.chapter - 1;
-      while (chapterIndex >= 1) {
-        verseCount += Reference3.versesInBookId(bookIndex);
-        verseCount += books[this.book - 1].verses[chapterIndex];
-      }
-      if (this.verse != null) {
-        verseCount += this.verse;
-      }
-      return verseCount;
-    };
-    Reference3.prototype.toChapterId = function toChapterId() {
-      var previousBookChapters = Reference3.chaptersUpToBookId(this.book);
-      return previousBookChapters + this.chapter;
-    };
-    Reference3.prototype.toBookId = function toBookId() {
-      return this.book;
-    };
-    Reference3.prototype.valueOf = function valueOf() {
-      return this.toVerseId();
-    };
-    Reference3.bookIdFromName = function bookIdFromName(name) {
-      name = name.toLowerCase();
-      var book = books.find(function(book2) {
-        var bookNames = book2.names.map(function(n) {
-          return n.toLowerCase();
+    exports.generateOrdinalNameVariations = generateOrdinalNameVariations;
+    var readJSONFilesInDirectory = (directoryPath) => {
+      try {
+        const files = fs_1.default.readdirSync(directoryPath);
+        const jsonFiles = files.filter((file) => path_1.default.extname(file) === ".json");
+        return jsonFiles.map((jsonFile) => {
+          const filePath = path_1.default.join(directoryPath, jsonFile);
+          const data = fs_1.default.readFileSync(filePath);
+          return JSON.parse(data.toString());
         });
-        return bookNames.indexOf(name) > -1;
-      });
-      if (book) {
-        return books.indexOf(book) + 1;
-      }
-      throw new Error('No book matched "' + name + '"');
-    };
-    Reference3.bookNameFromId = function bookNameFromId(id) {
-      var book = books[id - 1];
-      if (!book) {
-        throw new Error("Book id out of range (no such book)");
-      }
-      return book.names[0];
-    };
-    Reference3.fromChapterId = function fromChapterId(chapterId) {
-      var chaptersRemaining = chapterId;
-      var bookIndex = 0;
-      while (chaptersRemaining > 0) {
-        var chaptersInThisBook = books[bookIndex].verses.length;
-        if (chaptersRemaining - chaptersInThisBook <= 0) {
-          return new Reference3({ book: bookIndex + 1, chapter: chaptersRemaining });
-        }
-        chaptersRemaining -= chaptersInThisBook;
-        bookIndex += 1;
-      }
-      throw new Error("There was a problem creating the a reference from chapter id " + chapterId);
-    };
-    Reference3.fromVerseId = function fromVerseId(verseId) {
-      var versesRemaining = verseId;
-      var bookIndex = 0;
-      while (versesRemaining > 0) {
-        var versesInThisBook = Reference3.versesInBookId(bookIndex + 1);
-        if (versesRemaining - versesInThisBook < 0) {
-          var book = books[bookIndex];
-          var chapterIndex = 0;
-          while (versesRemaining > 0) {
-            var versesInThisChapter = book.verses[chapterIndex];
-            if (versesRemaining - versesInThisChapter < 0) {
-              return new Reference3({ book: bookIndex + 1, chapter: chapterIndex + 1, verse: versesRemaining });
-            }
-            versesRemaining -= versesInThisChapter;
-            chapterIndex += 1;
-          }
-        }
-        versesRemaining -= versesInThisBook;
-        bookIndex += 1;
+      } catch (err) {
+        console.error("Error reading JSON files:", err);
+        throw err;
       }
     };
-    Reference3.versesInBookId = function versesInBookId(bookId) {
-      return books[bookId - 1].verses.reduce(function sum(a, b) {
-        return a + b;
-      });
-    };
-    Reference3.versesInChapterId = function versesInChapterId(chapterId) {
-      var reference = Reference3.fromChapterId(chapterId);
-      return books[reference.book - 1].verses[reference.chapter - 1];
-    };
-    Reference3.chaptersInBookId = function chaptersInBookId(bookId) {
-      return books[bookId - 1].verses.length;
-    };
-    Reference3.versesUpToBookId = function versesUpToBookId(bookId) {
-      var count = 0;
-      var booksLeft = bookId - 1;
-      while (booksLeft > 0) {
-        count += Reference3.versesInBookId(booksLeft);
-        booksLeft -= 1;
-      }
-      return count;
-    };
-    Reference3.versesUpToChapterId = function versesUpToChapterId(chapterId) {
-      var count = 0;
-      var chaptersLeft = chapterId - 1;
-      while (chaptersLeft > 0) {
-        count += Reference3.versesInChapterId(chaptersLeft);
-        chaptersLeft -= 1;
-      }
-      return count;
-    };
-    Reference3.chaptersUpToBookId = function chaptersUpToBookId(bookId) {
-      var count = 0;
-      var booksLeft = bookId - 1;
-      while (booksLeft > 0) {
-        count += Reference3.chaptersInBookId(booksLeft);
-        booksLeft -= 1;
-      }
-      return count;
-    };
-    module2.exports = Reference3;
+    exports.readJSONFilesInDirectory = readJSONFilesInDirectory;
   }
 });
 
-// biblejs-name-converter/lib/range.js
-var require_range2 = __commonJS({
-  "biblejs-name-converter/lib/range.js"(exports, module2) {
-    var Reference3 = require_reference();
-    function Range(start, end) {
-      if (!(start instanceof Reference3)) {
-        start = new Reference3(start);
-      }
-      if (!(end instanceof Reference3)) {
-        end = new Reference3(end);
-      }
-      this.start = start;
-      this.end = end;
-      if (start > end) {
-        this.start = end;
-        this.end = start;
-      }
-    }
-    Range.prototype.distance = function distance() {
-      return {
-        verses: this.end.toVerseId() - this.start.toVerseId(),
-        chapters: this.end.toChapterId() - this.start.toChapterId(),
-        books: this.end.toBookId() - this.start.toBookId()
-      };
-    };
-    Range.isRange = function isRange(value) {
-      return value instanceof Range || value.indexOf("-") > -1;
-    };
-    module2.exports = Range;
-  }
-});
-
-// biblejs-name-converter/index.js
-var require_biblejs_name_converter = __commonJS({
-  "biblejs-name-converter/index.js"(exports, module2) {
+// node_modules/.pnpm/bible-book-names-intl@2.1.4/node_modules/bible-book-names-intl/dist/data/base.json
+var require_base = __commonJS({
+  "node_modules/.pnpm/bible-book-names-intl@2.1.4/node_modules/bible-book-names-intl/dist/data/base.json"(exports, module2) {
     module2.exports = {
-      Reference: require_reference(),
-      Range: require_range2(),
-      Books: require_books()
+      "1": {
+        verses: [
+          31,
+          25,
+          24,
+          26,
+          32,
+          22,
+          24,
+          22,
+          29,
+          32,
+          32,
+          20,
+          18,
+          24,
+          21,
+          16,
+          27,
+          33,
+          38,
+          18,
+          34,
+          24,
+          20,
+          67,
+          34,
+          35,
+          46,
+          22,
+          35,
+          43,
+          55,
+          32,
+          20,
+          31,
+          29,
+          43,
+          36,
+          30,
+          23,
+          23,
+          57,
+          38,
+          34,
+          34,
+          28,
+          34,
+          31,
+          22,
+          33,
+          26
+        ]
+      },
+      "2": {
+        verses: [
+          22,
+          25,
+          22,
+          31,
+          23,
+          30,
+          25,
+          32,
+          35,
+          29,
+          10,
+          51,
+          22,
+          31,
+          27,
+          36,
+          16,
+          27,
+          25,
+          26,
+          36,
+          31,
+          33,
+          18,
+          40,
+          37,
+          21,
+          43,
+          46,
+          38,
+          18,
+          35,
+          23,
+          35,
+          35,
+          38,
+          29,
+          31,
+          43,
+          38
+        ]
+      },
+      "3": {
+        verses: [
+          17,
+          16,
+          17,
+          35,
+          19,
+          30,
+          38,
+          36,
+          24,
+          20,
+          47,
+          8,
+          59,
+          57,
+          33,
+          34,
+          16,
+          30,
+          37,
+          27,
+          24,
+          33,
+          44,
+          23,
+          55,
+          46,
+          34
+        ]
+      },
+      "4": {
+        verses: [
+          54,
+          34,
+          51,
+          49,
+          31,
+          27,
+          89,
+          26,
+          23,
+          36,
+          35,
+          16,
+          33,
+          45,
+          41,
+          50,
+          13,
+          32,
+          22,
+          29,
+          35,
+          41,
+          30,
+          25,
+          18,
+          65,
+          23,
+          31,
+          40,
+          16,
+          54,
+          42,
+          56,
+          29,
+          34,
+          13
+        ]
+      },
+      "5": {
+        verses: [
+          46,
+          37,
+          29,
+          49,
+          33,
+          25,
+          26,
+          20,
+          29,
+          22,
+          32,
+          32,
+          18,
+          29,
+          23,
+          22,
+          20,
+          22,
+          21,
+          20,
+          23,
+          30,
+          25,
+          22,
+          19,
+          19,
+          26,
+          68,
+          29,
+          20,
+          30,
+          52,
+          29,
+          12
+        ]
+      },
+      "6": {
+        verses: [
+          18,
+          24,
+          17,
+          24,
+          15,
+          27,
+          26,
+          35,
+          27,
+          43,
+          23,
+          24,
+          33,
+          15,
+          63,
+          10,
+          18,
+          28,
+          51,
+          9,
+          45,
+          34,
+          16,
+          33
+        ]
+      },
+      "7": {
+        verses: [
+          36,
+          23,
+          31,
+          24,
+          31,
+          40,
+          25,
+          35,
+          57,
+          18,
+          40,
+          15,
+          25,
+          20,
+          20,
+          31,
+          13,
+          31,
+          30,
+          48,
+          25
+        ]
+      },
+      "8": {
+        verses: [
+          22,
+          23,
+          18,
+          22
+        ]
+      },
+      "9": {
+        verses: [
+          28,
+          36,
+          21,
+          22,
+          12,
+          21,
+          17,
+          22,
+          27,
+          27,
+          15,
+          25,
+          23,
+          52,
+          35,
+          23,
+          58,
+          30,
+          24,
+          42,
+          15,
+          23,
+          29,
+          22,
+          44,
+          25,
+          12,
+          25,
+          11,
+          31,
+          13
+        ],
+        startNumber: 1
+      },
+      "10": {
+        verses: [
+          27,
+          32,
+          39,
+          12,
+          25,
+          23,
+          29,
+          18,
+          13,
+          19,
+          27,
+          31,
+          39,
+          33,
+          37,
+          23,
+          29,
+          33,
+          43,
+          26,
+          22,
+          51,
+          39,
+          25
+        ],
+        startNumber: 2
+      },
+      "11": {
+        verses: [
+          53,
+          46,
+          28,
+          34,
+          18,
+          38,
+          51,
+          66,
+          28,
+          29,
+          43,
+          33,
+          34,
+          31,
+          34,
+          34,
+          24,
+          46,
+          21,
+          43,
+          29,
+          53
+        ],
+        startNumber: 1
+      },
+      "12": {
+        verses: [
+          18,
+          25,
+          27,
+          44,
+          27,
+          33,
+          20,
+          29,
+          37,
+          36,
+          21,
+          21,
+          25,
+          29,
+          38,
+          20,
+          41,
+          37,
+          37,
+          21,
+          26,
+          20,
+          37,
+          20,
+          30
+        ],
+        startNumber: 2
+      },
+      "13": {
+        verses: [
+          54,
+          55,
+          24,
+          43,
+          26,
+          81,
+          40,
+          40,
+          44,
+          14,
+          47,
+          40,
+          14,
+          17,
+          29,
+          43,
+          27,
+          17,
+          19,
+          8,
+          30,
+          19,
+          32,
+          31,
+          31,
+          32,
+          34,
+          21,
+          30
+        ],
+        startNumber: 1
+      },
+      "14": {
+        verses: [
+          17,
+          18,
+          17,
+          22,
+          14,
+          42,
+          22,
+          18,
+          31,
+          19,
+          23,
+          16,
+          22,
+          15,
+          19,
+          14,
+          19,
+          34,
+          11,
+          37,
+          20,
+          12,
+          21,
+          27,
+          28,
+          23,
+          9,
+          27,
+          36,
+          27,
+          21,
+          33,
+          25,
+          33,
+          27,
+          23
+        ],
+        startNumber: 2
+      },
+      "15": {
+        verses: [
+          11,
+          70,
+          13,
+          24,
+          17,
+          22,
+          28,
+          36,
+          15,
+          44
+        ]
+      },
+      "16": {
+        verses: [
+          11,
+          20,
+          32,
+          23,
+          19,
+          19,
+          73,
+          18,
+          38,
+          39,
+          36,
+          47,
+          31
+        ]
+      },
+      "17": {
+        verses: [
+          22,
+          23,
+          15,
+          17,
+          14,
+          14,
+          10,
+          17,
+          32,
+          3
+        ]
+      },
+      "18": {
+        verses: [
+          22,
+          13,
+          26,
+          21,
+          27,
+          30,
+          21,
+          22,
+          35,
+          22,
+          20,
+          25,
+          28,
+          22,
+          35,
+          22,
+          16,
+          21,
+          29,
+          29,
+          34,
+          30,
+          17,
+          25,
+          6,
+          14,
+          23,
+          28,
+          25,
+          31,
+          40,
+          22,
+          33,
+          37,
+          16,
+          33,
+          24,
+          41,
+          30,
+          24,
+          34,
+          17
+        ]
+      },
+      "19": {
+        verses: [
+          6,
+          12,
+          8,
+          8,
+          12,
+          10,
+          17,
+          9,
+          20,
+          18,
+          7,
+          8,
+          6,
+          7,
+          5,
+          11,
+          15,
+          50,
+          14,
+          9,
+          13,
+          31,
+          6,
+          10,
+          22,
+          12,
+          14,
+          9,
+          11,
+          12,
+          24,
+          11,
+          22,
+          22,
+          28,
+          12,
+          40,
+          22,
+          13,
+          17,
+          13,
+          11,
+          5,
+          26,
+          17,
+          11,
+          9,
+          14,
+          20,
+          23,
+          19,
+          9,
+          6,
+          7,
+          23,
+          13,
+          11,
+          11,
+          17,
+          12,
+          8,
+          12,
+          11,
+          10,
+          13,
+          20,
+          7,
+          35,
+          36,
+          5,
+          24,
+          20,
+          28,
+          23,
+          10,
+          12,
+          20,
+          72,
+          13,
+          19,
+          16,
+          8,
+          18,
+          12,
+          13,
+          17,
+          7,
+          18,
+          52,
+          17,
+          16,
+          15,
+          5,
+          23,
+          11,
+          13,
+          12,
+          9,
+          9,
+          5,
+          8,
+          28,
+          22,
+          35,
+          45,
+          48,
+          43,
+          13,
+          31,
+          7,
+          10,
+          10,
+          9,
+          8,
+          18,
+          19,
+          2,
+          29,
+          176,
+          7,
+          8,
+          9,
+          4,
+          8,
+          5,
+          6,
+          5,
+          6,
+          8,
+          8,
+          3,
+          18,
+          3,
+          3,
+          21,
+          26,
+          9,
+          8,
+          24,
+          13,
+          10,
+          7,
+          12,
+          15,
+          21,
+          10,
+          20,
+          14,
+          9,
+          6
+        ]
+      },
+      "20": {
+        verses: [
+          33,
+          22,
+          35,
+          27,
+          23,
+          35,
+          27,
+          36,
+          18,
+          32,
+          31,
+          28,
+          25,
+          35,
+          33,
+          33,
+          28,
+          24,
+          29,
+          30,
+          31,
+          29,
+          35,
+          34,
+          28,
+          28,
+          27,
+          28,
+          27,
+          33,
+          31
+        ]
+      },
+      "21": {
+        verses: [
+          18,
+          26,
+          22,
+          16,
+          20,
+          12,
+          29,
+          17,
+          18,
+          20,
+          10,
+          14
+        ]
+      },
+      "22": {
+        verses: [
+          17,
+          17,
+          11,
+          16,
+          16,
+          13,
+          13,
+          14
+        ]
+      },
+      "23": {
+        verses: [
+          31,
+          22,
+          26,
+          6,
+          30,
+          13,
+          25,
+          22,
+          21,
+          34,
+          16,
+          6,
+          22,
+          32,
+          9,
+          14,
+          14,
+          7,
+          25,
+          6,
+          17,
+          25,
+          18,
+          23,
+          12,
+          21,
+          13,
+          29,
+          24,
+          33,
+          9,
+          20,
+          24,
+          17,
+          10,
+          22,
+          38,
+          22,
+          8,
+          31,
+          29,
+          25,
+          28,
+          28,
+          25,
+          13,
+          15,
+          22,
+          26,
+          11,
+          23,
+          15,
+          12,
+          17,
+          13,
+          12,
+          21,
+          14,
+          21,
+          22,
+          11,
+          12,
+          19,
+          12,
+          25,
+          24
+        ]
+      },
+      "24": {
+        verses: [
+          19,
+          37,
+          25,
+          31,
+          31,
+          30,
+          34,
+          22,
+          26,
+          25,
+          23,
+          17,
+          27,
+          22,
+          21,
+          21,
+          27,
+          23,
+          15,
+          18,
+          14,
+          30,
+          40,
+          10,
+          38,
+          24,
+          22,
+          17,
+          32,
+          24,
+          40,
+          44,
+          26,
+          22,
+          19,
+          32,
+          21,
+          28,
+          18,
+          16,
+          18,
+          22,
+          13,
+          30,
+          5,
+          28,
+          7,
+          47,
+          39,
+          46,
+          64,
+          34
+        ]
+      },
+      "25": {
+        verses: [
+          22,
+          22,
+          66,
+          22,
+          22
+        ]
+      },
+      "26": {
+        verses: [
+          28,
+          10,
+          27,
+          17,
+          17,
+          14,
+          27,
+          18,
+          11,
+          22,
+          25,
+          28,
+          23,
+          23,
+          8,
+          63,
+          24,
+          32,
+          14,
+          49,
+          32,
+          31,
+          49,
+          27,
+          17,
+          21,
+          36,
+          26,
+          21,
+          26,
+          18,
+          32,
+          33,
+          31,
+          15,
+          38,
+          28,
+          23,
+          29,
+          49,
+          26,
+          20,
+          27,
+          31,
+          25,
+          24,
+          23,
+          35
+        ]
+      },
+      "27": {
+        verses: [
+          21,
+          49,
+          30,
+          37,
+          31,
+          28,
+          28,
+          27,
+          27,
+          21,
+          45,
+          13
+        ]
+      },
+      "28": {
+        verses: [
+          11,
+          23,
+          5,
+          19,
+          15,
+          11,
+          16,
+          14,
+          17,
+          15,
+          12,
+          14,
+          16,
+          9
+        ]
+      },
+      "29": {
+        verses: [
+          20,
+          32,
+          21
+        ]
+      },
+      "30": {
+        verses: [
+          15,
+          16,
+          15,
+          13,
+          27,
+          14,
+          17,
+          14,
+          15
+        ]
+      },
+      "31": {
+        verses: [
+          21
+        ]
+      },
+      "32": {
+        verses: [
+          17,
+          10,
+          10,
+          11
+        ]
+      },
+      "33": {
+        verses: [
+          16,
+          13,
+          12,
+          13,
+          15,
+          16,
+          20
+        ]
+      },
+      "34": {
+        verses: [
+          15,
+          13,
+          19
+        ]
+      },
+      "35": {
+        verses: [
+          17,
+          20,
+          19
+        ]
+      },
+      "36": {
+        verses: [
+          18,
+          15,
+          20
+        ]
+      },
+      "37": {
+        verses: [
+          15,
+          23
+        ]
+      },
+      "38": {
+        verses: [
+          21,
+          13,
+          10,
+          14,
+          11,
+          15,
+          14,
+          23,
+          17,
+          12,
+          17,
+          14,
+          9,
+          21
+        ]
+      },
+      "39": {
+        verses: [
+          14,
+          17,
+          18,
+          6
+        ]
+      },
+      "40": {
+        verses: [
+          25,
+          23,
+          17,
+          25,
+          48,
+          34,
+          29,
+          34,
+          38,
+          42,
+          30,
+          50,
+          58,
+          36,
+          39,
+          28,
+          27,
+          35,
+          30,
+          34,
+          46,
+          46,
+          39,
+          51,
+          46,
+          75,
+          66,
+          20
+        ]
+      },
+      "41": {
+        verses: [
+          45,
+          28,
+          35,
+          41,
+          43,
+          56,
+          37,
+          38,
+          50,
+          52,
+          33,
+          44,
+          37,
+          72,
+          47,
+          20
+        ]
+      },
+      "42": {
+        verses: [
+          80,
+          52,
+          38,
+          44,
+          39,
+          49,
+          50,
+          56,
+          62,
+          42,
+          54,
+          59,
+          35,
+          35,
+          32,
+          31,
+          37,
+          43,
+          48,
+          47,
+          38,
+          71,
+          56,
+          53
+        ]
+      },
+      "43": {
+        verses: [
+          51,
+          25,
+          36,
+          54,
+          47,
+          71,
+          53,
+          59,
+          41,
+          42,
+          57,
+          50,
+          38,
+          31,
+          27,
+          33,
+          26,
+          40,
+          42,
+          31,
+          25
+        ]
+      },
+      "44": {
+        verses: [
+          26,
+          47,
+          26,
+          37,
+          42,
+          15,
+          60,
+          40,
+          43,
+          48,
+          30,
+          25,
+          52,
+          28,
+          41,
+          40,
+          34,
+          28,
+          41,
+          38,
+          40,
+          30,
+          35,
+          27,
+          27,
+          32,
+          44,
+          31
+        ]
+      },
+      "45": {
+        verses: [
+          32,
+          29,
+          31,
+          25,
+          21,
+          23,
+          25,
+          39,
+          33,
+          21,
+          36,
+          21,
+          14,
+          23,
+          33,
+          27
+        ]
+      },
+      "46": {
+        verses: [
+          31,
+          16,
+          23,
+          21,
+          13,
+          20,
+          40,
+          13,
+          27,
+          33,
+          34,
+          31,
+          13,
+          40,
+          58,
+          24
+        ],
+        startNumber: 1
+      },
+      "47": {
+        verses: [
+          24,
+          17,
+          18,
+          18,
+          21,
+          18,
+          16,
+          24,
+          15,
+          18,
+          33,
+          21,
+          14
+        ],
+        startNumber: 2
+      },
+      "48": {
+        verses: [
+          24,
+          21,
+          29,
+          31,
+          26,
+          18
+        ]
+      },
+      "49": {
+        verses: [
+          23,
+          22,
+          21,
+          32,
+          33,
+          24
+        ]
+      },
+      "50": {
+        verses: [
+          30,
+          30,
+          21,
+          23
+        ]
+      },
+      "51": {
+        verses: [
+          29,
+          23,
+          25,
+          18
+        ]
+      },
+      "52": {
+        verses: [
+          10,
+          20,
+          13,
+          18,
+          28
+        ],
+        startNumber: 1
+      },
+      "53": {
+        verses: [
+          12,
+          17,
+          18
+        ],
+        startNumber: 2
+      },
+      "54": {
+        verses: [
+          20,
+          15,
+          16,
+          16,
+          25,
+          21
+        ],
+        startNumber: 1
+      },
+      "55": {
+        verses: [
+          18,
+          26,
+          17,
+          22
+        ],
+        startNumber: 2
+      },
+      "56": {
+        verses: [
+          16,
+          15,
+          15
+        ]
+      },
+      "57": {
+        verses: [
+          25
+        ]
+      },
+      "58": {
+        verses: [
+          14,
+          18,
+          19,
+          16,
+          14,
+          20,
+          28,
+          13,
+          28,
+          39,
+          40,
+          29,
+          25
+        ]
+      },
+      "59": {
+        verses: [
+          27,
+          26,
+          18,
+          17,
+          20
+        ]
+      },
+      "60": {
+        verses: [
+          25,
+          25,
+          22,
+          19,
+          14
+        ],
+        startNumber: 1
+      },
+      "61": {
+        verses: [
+          21,
+          22,
+          18
+        ],
+        startNumber: 2
+      },
+      "62": {
+        verses: [
+          10,
+          29,
+          24,
+          21,
+          21
+        ],
+        startNumber: 1
+      },
+      "63": {
+        verses: [
+          13
+        ],
+        startNumber: 2
+      },
+      "64": {
+        verses: [
+          14
+        ],
+        startNumber: 3
+      },
+      "65": {
+        verses: [
+          25
+        ]
+      },
+      "66": {
+        verses: [
+          20,
+          29,
+          22,
+          11,
+          14,
+          17,
+          17,
+          13,
+          21,
+          11,
+          19,
+          17,
+          18,
+          20,
+          8,
+          21,
+          18,
+          24,
+          21,
+          15,
+          27,
+          21
+        ]
+      }
     };
+  }
+});
+
+// node_modules/.pnpm/bible-book-names-intl@2.1.4/node_modules/bible-book-names-intl/dist/data/translations/en.json
+var require_en = __commonJS({
+  "node_modules/.pnpm/bible-book-names-intl@2.1.4/node_modules/bible-book-names-intl/dist/data/translations/en.json"(exports, module2) {
+    module2.exports = {
+      language: "en",
+      "1": {
+        name: "Genesis",
+        shortNames: [
+          "Ge",
+          "Gen"
+        ],
+        startNumber: 0
+      },
+      "2": {
+        name: "Exodus",
+        shortNames: [
+          "Ex",
+          "Exo"
+        ],
+        startNumber: 0
+      },
+      "3": {
+        name: "Leviticus",
+        shortNames: [
+          "Le",
+          "Lev"
+        ],
+        startNumber: 0
+      },
+      "4": {
+        name: "Numbers",
+        shortNames: [
+          "Nu",
+          "Num"
+        ],
+        startNumber: 0
+      },
+      "5": {
+        name: "Deuteronomy",
+        shortNames: [
+          "Dt",
+          "Deut",
+          "Deu",
+          "De"
+        ],
+        startNumber: 0
+      },
+      "6": {
+        name: "Joshua",
+        shortNames: [
+          "Js",
+          "Jos",
+          "Josh"
+        ],
+        startNumber: 0
+      },
+      "7": {
+        name: "Judges",
+        shortNames: [
+          "Jg",
+          "Jud",
+          "Jdg",
+          "Ju",
+          "Jdgs",
+          "Judg"
+        ],
+        startNumber: 0
+      },
+      "8": {
+        name: "Ruth",
+        shortNames: [
+          "Ru",
+          "Rut"
+        ],
+        startNumber: 0
+      },
+      "9": {
+        name: "Samuel",
+        shortNames: [
+          "Sa",
+          "Sam"
+        ],
+        startNumber: 1
+      },
+      "10": {
+        name: "Samuel",
+        shortNames: [
+          "Sa",
+          "Sam"
+        ],
+        startNumber: 2
+      },
+      "11": {
+        name: "Kings",
+        shortNames: [
+          "Ki",
+          "King",
+          "Kin",
+          "Kngs"
+        ],
+        startNumber: 1
+      },
+      "12": {
+        name: "Kings",
+        shortNames: [
+          "Ki",
+          "King",
+          "Kin",
+          "Kngs"
+        ],
+        startNumber: 2
+      },
+      "13": {
+        name: "Chronicles",
+        shortNames: [
+          "Ch",
+          "Chr",
+          "Chron"
+        ],
+        startNumber: 1
+      },
+      "14": {
+        name: "Chronicles",
+        shortNames: [
+          "Ch",
+          "Chr",
+          "Chron"
+        ],
+        startNumber: 2
+      },
+      "15": {
+        name: "Ezra",
+        shortNames: [
+          "Ez",
+          "Ezr"
+        ],
+        startNumber: 0
+      },
+      "16": {
+        name: "Nehemiah",
+        shortNames: [
+          "Ne",
+          "Neh"
+        ],
+        startNumber: 0
+      },
+      "17": {
+        name: "Esther",
+        shortNames: [
+          "Es",
+          "Est",
+          "Esth",
+          "Ester"
+        ],
+        startNumber: 0
+      },
+      "18": {
+        name: "Job",
+        shortNames: [
+          "Jb"
+        ],
+        startNumber: 0
+      },
+      "19": {
+        name: "Psalm",
+        shortNames: [
+          "Ps",
+          "Psa",
+          "Pss",
+          "Psalms"
+        ],
+        startNumber: 0
+      },
+      "20": {
+        name: "Proverbs",
+        shortNames: [
+          "Pr",
+          "Prov",
+          "Pro"
+        ],
+        startNumber: 0
+      },
+      "21": {
+        name: "Ecclesiastes",
+        shortNames: [
+          "Ec",
+          "Ecc"
+        ],
+        startNumber: 0
+      },
+      "22": {
+        name: "Song of Solomon",
+        shortNames: [
+          "SOS",
+          "Song of Songs",
+          "SongOfSongs"
+        ],
+        startNumber: 0
+      },
+      "23": {
+        name: "Isaiah",
+        shortNames: [
+          "Isa"
+        ],
+        startNumber: 0
+      },
+      "24": {
+        name: "Jeremiah",
+        shortNames: [
+          "Je",
+          "Jer"
+        ],
+        startNumber: 0
+      },
+      "25": {
+        name: "Lamentations",
+        shortNames: [
+          "La",
+          "Lam",
+          "Lament"
+        ],
+        startNumber: 0
+      },
+      "26": {
+        name: "Ezekiel",
+        shortNames: [
+          "Ek",
+          "Ezek",
+          "Eze"
+        ],
+        startNumber: 0
+      },
+      "27": {
+        name: "Daniel",
+        shortNames: [
+          "Da",
+          "Dan",
+          "Dl",
+          "Dnl"
+        ],
+        startNumber: 0
+      },
+      "28": {
+        name: "Hosea",
+        shortNames: [
+          "Ho",
+          "Hos"
+        ],
+        startNumber: 0
+      },
+      "29": {
+        name: "Joel",
+        shortNames: [
+          "Jl",
+          "Joe"
+        ],
+        startNumber: 0
+      },
+      "30": {
+        name: "Amos",
+        shortNames: [
+          "Am",
+          "Amo"
+        ],
+        startNumber: 0
+      },
+      "31": {
+        name: "Obadiah",
+        shortNames: [
+          "Ob",
+          "Oba",
+          "Obd",
+          "Odbh"
+        ],
+        startNumber: 0
+      },
+      "32": {
+        name: "Jonah",
+        shortNames: [
+          "Jh",
+          "Jon",
+          "Jnh"
+        ],
+        startNumber: 0
+      },
+      "33": {
+        name: "Micah",
+        shortNames: [
+          "Mi",
+          "Mic"
+        ],
+        startNumber: 0
+      },
+      "34": {
+        name: "Nahum",
+        shortNames: [
+          "Na",
+          "Nah"
+        ],
+        startNumber: 0
+      },
+      "35": {
+        name: "Habakkuk",
+        shortNames: [
+          "Hb",
+          "Hab",
+          "Hk",
+          "Habk"
+        ],
+        startNumber: 0
+      },
+      "36": {
+        name: "Zephaniah",
+        shortNames: [
+          "Zp",
+          "Zep",
+          "Zeph",
+          "Ze"
+        ],
+        startNumber: 0
+      },
+      "37": {
+        name: "Haggai",
+        shortNames: [
+          "Ha",
+          "Hag",
+          "Hagg"
+        ],
+        startNumber: 0
+      },
+      "38": {
+        name: "Zechariah",
+        shortNames: [
+          "Zc",
+          "Zech",
+          "Zec"
+        ],
+        startNumber: 0
+      },
+      "39": {
+        name: "Malachi",
+        shortNames: [
+          "Ml",
+          "Mal",
+          "Mlc"
+        ],
+        startNumber: 0
+      },
+      "40": {
+        name: "Matthew",
+        shortNames: [
+          "Mt",
+          "Matt",
+          "Mat"
+        ],
+        startNumber: 0
+      },
+      "41": {
+        name: "Mark",
+        shortNames: [
+          "Mk",
+          "Mrk"
+        ],
+        startNumber: 0
+      },
+      "42": {
+        name: "Luke",
+        shortNames: [
+          "Lk",
+          "Luk",
+          "Lu"
+        ],
+        startNumber: 0
+      },
+      "43": {
+        name: "John",
+        shortNames: [
+          "Jn",
+          "Joh",
+          "Jo"
+        ],
+        startNumber: 0
+      },
+      "44": {
+        name: "Acts",
+        shortNames: [
+          "Ac",
+          "Act"
+        ],
+        startNumber: 0
+      },
+      "45": {
+        name: "Romans",
+        shortNames: [
+          "Ro",
+          "Rom",
+          "Rmn",
+          "Rmns"
+        ],
+        startNumber: 0
+      },
+      "46": {
+        name: "Corinthians",
+        shortNames: [
+          "Co",
+          "Cor"
+        ],
+        startNumber: 1
+      },
+      "47": {
+        name: "Corinthians",
+        shortNames: [
+          "Co",
+          "Cor"
+        ],
+        startNumber: 2
+      },
+      "48": {
+        name: "Galatians",
+        shortNames: [
+          "Ga",
+          "Gal",
+          "Gltns"
+        ],
+        startNumber: 0
+      },
+      "49": {
+        name: "Ephesians",
+        shortNames: [
+          "Ep",
+          "Eph",
+          "Ephn"
+        ],
+        startNumber: 0
+      },
+      "50": {
+        name: "Philippians",
+        shortNames: [
+          "Phi",
+          "Phil"
+        ],
+        startNumber: 0
+      },
+      "51": {
+        name: "Colossians",
+        shortNames: [
+          "Co",
+          "Col",
+          "Colo",
+          "Cln",
+          "Clns"
+        ],
+        startNumber: 0
+      },
+      "52": {
+        name: "Thessalonians",
+        shortNames: [
+          "Th",
+          "Thess",
+          "Thes"
+        ],
+        startNumber: 1
+      },
+      "53": {
+        name: "Thessalonians",
+        shortNames: [
+          "Th",
+          "Thess",
+          "Thes"
+        ],
+        startNumber: 2
+      },
+      "54": {
+        name: "Timothy",
+        shortNames: [
+          "Ti",
+          "Tim"
+        ],
+        startNumber: 1
+      },
+      "55": {
+        name: "Timothy",
+        shortNames: [
+          "Ti",
+          "Tim"
+        ],
+        startNumber: 2
+      },
+      "56": {
+        name: "Titus",
+        shortNames: [
+          "Ti",
+          "Tit",
+          "Tt",
+          "Ts"
+        ],
+        startNumber: 0
+      },
+      "57": {
+        name: "Philemon",
+        shortNames: [
+          "Pm",
+          "Phile",
+          "Philm"
+        ],
+        startNumber: 0
+      },
+      "58": {
+        name: "Hebrews",
+        shortNames: [
+          "He",
+          "Heb",
+          "Hw"
+        ],
+        startNumber: 0
+      },
+      "59": {
+        name: "James",
+        shortNames: [
+          "Jm",
+          "Jam",
+          "Jas",
+          "Ja"
+        ],
+        startNumber: 0
+      },
+      "60": {
+        name: "Peter",
+        shortNames: [
+          "Pe",
+          "Pet",
+          "P"
+        ],
+        startNumber: 1
+      },
+      "61": {
+        name: "Peter",
+        shortNames: [
+          "Pe",
+          "Pet",
+          "P"
+        ],
+        startNumber: 2
+      },
+      "62": {
+        name: "John",
+        shortNames: [
+          "Joh",
+          "Jo",
+          "Jn",
+          "J"
+        ],
+        startNumber: 1
+      },
+      "63": {
+        name: "John",
+        shortNames: [
+          "Joh",
+          "Jo",
+          "Jn",
+          "J"
+        ],
+        startNumber: 2
+      },
+      "64": {
+        name: "John",
+        shortNames: [
+          "Joh",
+          "Jo",
+          "Jn",
+          "J"
+        ],
+        startNumber: 3
+      },
+      "65": {
+        name: "Jude",
+        shortNames: [],
+        startNumber: 0
+      },
+      "66": {
+        name: "Revelation",
+        shortNames: [
+          "Re",
+          "Rev",
+          "Rvltn"
+        ],
+        startNumber: 0
+      }
+    };
+  }
+});
+
+// node_modules/.pnpm/bible-book-names-intl@2.1.4/node_modules/bible-book-names-intl/dist/data/translations/it.json
+var require_it = __commonJS({
+  "node_modules/.pnpm/bible-book-names-intl@2.1.4/node_modules/bible-book-names-intl/dist/data/translations/it.json"(exports, module2) {
+    module2.exports = {
+      language: "it",
+      "1": {
+        name: "Genesi",
+        shortNames: [
+          "Gen"
+        ],
+        startNumber: 0
+      },
+      "2": {
+        name: "Esodo",
+        shortNames: [
+          "Es"
+        ],
+        startNumber: 0
+      },
+      "3": {
+        name: "Levitico",
+        shortNames: [
+          "Lev"
+        ],
+        startNumber: 0
+      },
+      "4": {
+        name: "Numeri",
+        shortNames: [
+          "Nu"
+        ],
+        startNumber: 0
+      },
+      "5": {
+        name: "Deuteronomio",
+        shortNames: [
+          "Deut"
+        ],
+        startNumber: 0
+      },
+      "6": {
+        name: "Giosu\xE8",
+        shortNames: [
+          "Gios",
+          "Gs"
+        ],
+        startNumber: 0
+      },
+      "7": {
+        name: "Giudici",
+        shortNames: [
+          "Gd",
+          "Gdc"
+        ],
+        startNumber: 0
+      },
+      "8": {
+        name: "Rut",
+        shortNames: [
+          "Ru"
+        ],
+        startNumber: 0
+      },
+      "9": {
+        name: "Samuele",
+        shortNames: [
+          "Sam"
+        ],
+        startNumber: 1
+      },
+      "10": {
+        name: "Samuele",
+        shortNames: [
+          "Sam"
+        ],
+        startNumber: 2
+      },
+      "11": {
+        name: "Re",
+        shortNames: [],
+        startNumber: 1
+      },
+      "12": {
+        name: "Re",
+        shortNames: [],
+        startNumber: 2
+      },
+      "13": {
+        name: "Cronache",
+        shortNames: [
+          "Cro"
+        ],
+        startNumber: 1
+      },
+      "14": {
+        name: "Cronache",
+        shortNames: [
+          "Cro"
+        ],
+        startNumber: 2
+      },
+      "15": {
+        name: "Esdra",
+        shortNames: [
+          "Esdr"
+        ],
+        startNumber: 0
+      },
+      "16": {
+        name: "Neemia",
+        shortNames: [
+          "Neem"
+        ],
+        startNumber: 0
+      },
+      "17": {
+        name: "Ester",
+        shortNames: [
+          "Est"
+        ],
+        startNumber: 0
+      },
+      "18": {
+        name: "Giobbe",
+        shortNames: [
+          "Gio"
+        ],
+        startNumber: 0
+      },
+      "19": {
+        name: "Salmi",
+        shortNames: [
+          "Sal"
+        ],
+        startNumber: 0
+      },
+      "20": {
+        name: "Proverbi",
+        shortNames: [
+          "Prov"
+        ],
+        startNumber: 0
+      },
+      "21": {
+        name: "Ecclesiaste",
+        shortNames: [
+          "Ecc"
+        ],
+        startNumber: 0
+      },
+      "22": {
+        name: "Cantico dei Cantici",
+        shortNames: [
+          "Cant",
+          "Cdc"
+        ],
+        startNumber: 0
+      },
+      "23": {
+        name: "Isaia",
+        shortNames: [
+          "Isa"
+        ],
+        startNumber: 0
+      },
+      "24": {
+        name: "Geremia",
+        shortNames: [
+          "Ger"
+        ],
+        startNumber: 0
+      },
+      "25": {
+        name: "Lamentazioni",
+        shortNames: [
+          "Lam"
+        ],
+        startNumber: 0
+      },
+      "26": {
+        name: "Ezechiele",
+        shortNames: [
+          "Eze"
+        ],
+        startNumber: 0
+      },
+      "27": {
+        name: "Daniele",
+        shortNames: [
+          "Dan"
+        ],
+        startNumber: 0
+      },
+      "28": {
+        name: "Osea",
+        shortNames: [
+          "Ose"
+        ],
+        startNumber: 0
+      },
+      "29": {
+        name: "Gioele",
+        shortNames: [
+          "Gioe"
+        ],
+        startNumber: 0
+      },
+      "30": {
+        name: "Amos",
+        shortNames: [
+          "Am"
+        ],
+        startNumber: 0
+      },
+      "31": {
+        name: "Abdia",
+        shortNames: [
+          "Abd"
+        ],
+        startNumber: 0
+      },
+      "32": {
+        name: "Giona",
+        shortNames: [],
+        startNumber: 0
+      },
+      "33": {
+        name: "Michea",
+        shortNames: [
+          "Mic"
+        ],
+        startNumber: 0
+      },
+      "34": {
+        name: "Naum",
+        shortNames: [
+          "Na"
+        ],
+        startNumber: 0
+      },
+      "35": {
+        name: "Abacuc",
+        shortNames: [
+          "Abac"
+        ],
+        startNumber: 0
+      },
+      "36": {
+        name: "Sofonia",
+        shortNames: [
+          "Sof"
+        ],
+        startNumber: 0
+      },
+      "37": {
+        name: "Aggeo",
+        shortNames: [
+          "Agg"
+        ],
+        startNumber: 0
+      },
+      "38": {
+        name: "Zaccaria",
+        shortNames: [
+          "Zac"
+        ],
+        startNumber: 0
+      },
+      "39": {
+        name: "Malachia",
+        shortNames: [
+          "Mal"
+        ],
+        startNumber: 0
+      },
+      "40": {
+        name: "Matteo",
+        shortNames: [
+          "Mat"
+        ],
+        startNumber: 0
+      },
+      "41": {
+        name: "Marco",
+        shortNames: [
+          "Mar"
+        ],
+        startNumber: 0
+      },
+      "42": {
+        name: "Luca",
+        shortNames: [
+          "Luc"
+        ],
+        startNumber: 0
+      },
+      "43": {
+        name: "Giovanni",
+        shortNames: [
+          "Giov"
+        ],
+        startNumber: 0
+      },
+      "44": {
+        name: "Atti degli Apostoli",
+        shortNames: [
+          "Atti"
+        ],
+        startNumber: 0
+      },
+      "45": {
+        name: "Romani",
+        shortNames: [
+          "Rom"
+        ],
+        startNumber: 0
+      },
+      "46": {
+        name: "Corinzi",
+        shortNames: [
+          "Cor"
+        ],
+        startNumber: 1
+      },
+      "47": {
+        name: "Corinzi",
+        shortNames: [
+          "Cor"
+        ],
+        startNumber: 2
+      },
+      "48": {
+        name: "Galati",
+        shortNames: [
+          "Gal"
+        ],
+        startNumber: 0
+      },
+      "49": {
+        name: "Efesini",
+        shortNames: [
+          "Ef"
+        ],
+        startNumber: 0
+      },
+      "50": {
+        name: "Filippesi",
+        shortNames: [
+          "Fil"
+        ],
+        startNumber: 0
+      },
+      "51": {
+        name: "Colossesi",
+        shortNames: [
+          "Col"
+        ],
+        startNumber: 0
+      },
+      "52": {
+        name: "Tessalonicesi",
+        shortNames: [
+          "Tess"
+        ],
+        startNumber: 1
+      },
+      "53": {
+        name: "Tessalonicesi",
+        shortNames: [
+          "Tess"
+        ],
+        startNumber: 2
+      },
+      "54": {
+        name: "Timoteo",
+        shortNames: [
+          "Tim"
+        ],
+        startNumber: 1
+      },
+      "55": {
+        name: "Timoteo",
+        shortNames: [
+          "Tim"
+        ],
+        startNumber: 2
+      },
+      "56": {
+        name: "Tito",
+        shortNames: [],
+        startNumber: 0
+      },
+      "57": {
+        name: "Filemone",
+        shortNames: [
+          "Filem"
+        ],
+        startNumber: 0
+      },
+      "58": {
+        name: "Ebrei",
+        shortNames: [
+          "Ebr"
+        ],
+        startNumber: 0
+      },
+      "59": {
+        name: "Giacomo",
+        shortNames: [
+          "Giac"
+        ],
+        startNumber: 0
+      },
+      "60": {
+        name: "Pietro",
+        shortNames: [
+          "Piet"
+        ],
+        startNumber: 1
+      },
+      "61": {
+        name: "Pietro",
+        shortNames: [
+          "Piet"
+        ],
+        startNumber: 2
+      },
+      "62": {
+        name: "Giovanni",
+        shortNames: [
+          "Giov"
+        ],
+        startNumber: 1
+      },
+      "63": {
+        name: "Giovanni",
+        shortNames: [
+          "Giov"
+        ],
+        startNumber: 2
+      },
+      "64": {
+        name: "Giovanni",
+        shortNames: [
+          "Giov"
+        ],
+        startNumber: 3
+      },
+      "65": {
+        name: "Giuda",
+        shortNames: [],
+        startNumber: 0
+      },
+      "66": {
+        name: "Apocalisse",
+        shortNames: [
+          "Apo"
+        ],
+        startNumber: 0
+      }
+    };
+  }
+});
+
+// node_modules/.pnpm/bible-book-names-intl@2.1.4/node_modules/bible-book-names-intl/dist/data/translations/jp.json
+var require_jp = __commonJS({
+  "node_modules/.pnpm/bible-book-names-intl@2.1.4/node_modules/bible-book-names-intl/dist/data/translations/jp.json"(exports, module2) {
+    module2.exports = {
+      note: "this is generated in ChatGPT, need extra review",
+      language: "jp",
+      "1": {
+        name: "\u5275\u4E16\u8A18",
+        shortNames: [
+          "\u5275",
+          "\u5275\u4E16"
+        ]
+      },
+      "2": {
+        name: "\u51FA\u30A8\u30B8\u30D7\u30C8\u8A18",
+        shortNames: [
+          "\u51FA",
+          "\u30A8\u30B8\u30D7\u30C8"
+        ]
+      },
+      "3": {
+        name: "\u30EC\u30D3\u8A18",
+        shortNames: [
+          "\u30EC\u30D3"
+        ]
+      },
+      "4": {
+        name: "\u6C11\u6570\u8A18",
+        shortNames: [
+          "\u6C11\u6570"
+        ]
+      },
+      "5": {
+        name: "\u7533\u547D\u8A18",
+        shortNames: [
+          "\u7533\u547D"
+        ]
+      },
+      "6": {
+        name: "\u30E8\u30B7\u30E5\u30A2\u8A18",
+        shortNames: [
+          "\u30E8\u30B7\u30E5\u30A2"
+        ]
+      },
+      "7": {
+        name: "\u58EB\u5E2B\u8A18",
+        shortNames: [
+          "\u58EB\u5E2B"
+        ]
+      },
+      "8": {
+        name: "\u30EB\u30C4\u8A18",
+        shortNames: [
+          "\u30EB\u30C4"
+        ]
+      },
+      "9": {
+        name: "\u30B5\u30E0\u30A8\u30EB\u8A18\u4E0A",
+        shortNames: [
+          "\u30B5\u30E0\u4E0A"
+        ]
+      },
+      "10": {
+        name: "\u30B5\u30E0\u30A8\u30EB\u8A18\u4E0B",
+        shortNames: [
+          "\u30B5\u30E0\u4E0B"
+        ]
+      },
+      "11": {
+        name: "\u5217\u738B\u8A18\u4E0A",
+        shortNames: [
+          "\u5217\u4E0A"
+        ]
+      },
+      "12": {
+        name: "\u5217\u738B\u8A18\u4E0B",
+        shortNames: [
+          "\u5217\u4E0B"
+        ]
+      },
+      "13": {
+        name: "\u6B74\u4EE3\u8A8C\u4E0A",
+        shortNames: [
+          "\u6B74\u4E0A"
+        ]
+      },
+      "14": {
+        name: "\u6B74\u4EE3\u8A8C\u4E0B",
+        shortNames: [
+          "\u6B74\u4E0B"
+        ]
+      },
+      "15": {
+        name: "\u30A8\u30BA\u30E9\u8A18",
+        shortNames: [
+          "\u30A8\u30BA\u30E9"
+        ]
+      },
+      "16": {
+        name: "\u30CD\u30D8\u30DF\u30E4\u8A18",
+        shortNames: [
+          "\u30CD\u30D8\u30DF\u30E4"
+        ]
+      },
+      "17": {
+        name: "\u30A8\u30B9\u30C6\u30EB\u8A18",
+        shortNames: [
+          "\u30A8\u30B9\u30C6\u30EB"
+        ]
+      },
+      "18": {
+        name: "\u30E8\u30D6\u8A18",
+        shortNames: [
+          "\u30E8\u30D6"
+        ]
+      },
+      "19": {
+        name: "\u8A69\u7BC7",
+        shortNames: [
+          "\u8A69"
+        ]
+      },
+      "20": {
+        name: "\u7BB4\u8A00",
+        shortNames: [
+          "\u7BB4"
+        ]
+      },
+      "21": {
+        name: "\u4F1D\u9053\u8005\u306E\u66F8",
+        shortNames: [
+          "\u4F1D\u9053\u8005"
+        ]
+      },
+      "22": {
+        name: "\u96C5\u6B4C",
+        shortNames: []
+      },
+      "23": {
+        name: "\u30A4\u30B6\u30E4\u66F8",
+        shortNames: [
+          "\u30A4\u30B6\u30E4"
+        ]
+      },
+      "24": {
+        name: "\u30A8\u30EC\u30DF\u30E4\u66F8",
+        shortNames: [
+          "\u30A8\u30EC\u30DF\u30E4"
+        ]
+      },
+      "25": {
+        name: "\u54C0\u6B4C",
+        shortNames: []
+      },
+      "26": {
+        name: "\u30A8\u30BC\u30AD\u30A8\u30EB\u66F8",
+        shortNames: [
+          "\u30A8\u30BC\u30AD\u30A8\u30EB"
+        ]
+      },
+      "27": {
+        name: "\u30C0\u30CB\u30A8\u30EB\u66F8",
+        shortNames: [
+          "\u30C0\u30CB\u30A8\u30EB"
+        ]
+      },
+      "28": {
+        name: "\u30DB\u30BB\u30A2\u66F8",
+        shortNames: [
+          "\u30DB\u30BB\u30A2"
+        ]
+      },
+      "29": {
+        name: "\u30E8\u30A8\u30EB\u66F8",
+        shortNames: [
+          "\u30E8\u30A8\u30EB"
+        ]
+      },
+      "30": {
+        name: "\u30A2\u30E2\u30B9\u66F8",
+        shortNames: [
+          "\u30A2\u30E2\u30B9"
+        ]
+      },
+      "31": {
+        name: "\u30AA\u30D0\u30C7\u30E4\u66F8",
+        shortNames: [
+          "\u30AA\u30D0\u30C7\u30E4"
+        ]
+      },
+      "32": {
+        name: "\u30E8\u30CA\u66F8",
+        shortNames: [
+          "\u30E8\u30CA"
+        ]
+      },
+      "33": {
+        name: "\u30DF\u30AB\u66F8",
+        shortNames: [
+          "\u30DF\u30AB"
+        ]
+      },
+      "34": {
+        name: "\u30CA\u30DB\u30E0\u66F8",
+        shortNames: [
+          "\u30CA\u30DB\u30E0"
+        ]
+      },
+      "35": {
+        name: "\u30CF\u30D0\u30AF\u30AF\u66F8",
+        shortNames: [
+          "\u30CF\u30D0\u30AF\u30AF"
+        ]
+      },
+      "36": {
+        name: "\u30BC\u30D1\u30CB\u30E4\u66F8",
+        shortNames: [
+          "\u30BC\u30D1\u30CB\u30E4"
+        ]
+      },
+      "37": {
+        name: "\u30CF\u30AC\u30A4\u66F8",
+        shortNames: [
+          "\u30CF\u30AC\u30A4"
+        ]
+      },
+      "38": {
+        name: "\u30BC\u30AB\u30EA\u30E4\u66F8",
+        shortNames: [
+          "\u30BC\u30AB\u30EA\u30E4"
+        ]
+      },
+      "39": {
+        name: "\u30DE\u30E9\u30AD\u66F8",
+        shortNames: [
+          "\u30DE\u30E9\u30AD"
+        ]
+      },
+      "40": {
+        name: "\u30DE\u30BF\u30A4\u306E\u798F\u97F3\u66F8",
+        shortNames: [
+          "\u30DE\u30BF\u30A4"
+        ]
+      },
+      "41": {
+        name: "\u30DE\u30EB\u30B3\u306E\u798F\u97F3\u66F8",
+        shortNames: [
+          "\u30DE\u30EB\u30B3"
+        ]
+      },
+      "42": {
+        name: "\u30EB\u30AB\u306E\u798F\u97F3\u66F8",
+        shortNames: [
+          "\u30EB\u30AB"
+        ]
+      },
+      "43": {
+        name: "\u30E8\u30CF\u30CD\u306E\u798F\u97F3\u66F8",
+        shortNames: [
+          "\u30E8\u30CF\u30CD"
+        ]
+      },
+      "44": {
+        name: "\u4F7F\u5F92\u884C\u4F1D",
+        shortNames: [
+          "\u4F7F\u5F92"
+        ]
+      },
+      "45": {
+        name: "\u30ED\u30FC\u30DE\u66F8",
+        shortNames: [
+          "\u30ED\u30FC\u30DE"
+        ]
+      },
+      "46": {
+        name: "\u30B3\u30EA\u30F3\u30C8\u306E\u4FE1\u5F92\u3078\u306E\u624B\u7D19\u4E00",
+        shortNames: [
+          "\u30B3\u30EA\u30F3\u30C8\u4E00"
+        ]
+      },
+      "47": {
+        name: "\u30B3\u30EA\u30F3\u30C8\u306E\u4FE1\u5F92\u3078\u306E\u624B\u7D19\u4E8C",
+        shortNames: [
+          "\u30B3\u30EA\u30F3\u30C8\u4E8C"
+        ]
+      },
+      "48": {
+        name: "\u30AC\u30E9\u30C6\u30E4\u306E\u4FE1\u5F92\u3078\u306E\u624B\u7D19",
+        shortNames: [
+          "\u30AC\u30E9\u30C6\u30E4"
+        ]
+      },
+      "49": {
+        name: "\u30A8\u30DA\u30BD\u306E\u4FE1\u5F92\u3078\u306E\u624B\u7D19",
+        shortNames: [
+          "\u30A8\u30DA\u30BD"
+        ]
+      },
+      "50": {
+        name: "\u30D5\u30A3\u30EA\u30D4\u306E\u4FE1\u5F92\u3078\u306E\u624B\u7D19",
+        shortNames: [
+          "\u30D5\u30A3\u30EA\u30D4"
+        ]
+      },
+      "51": {
+        name: "\u30B3\u30ED\u30B5\u30A4\u306E\u4FE1\u5F92\u3078\u306E\u624B\u7D19",
+        shortNames: [
+          "\u30B3\u30ED\u30B5\u30A4"
+        ]
+      },
+      "52": {
+        name: "\u30C6\u30B5\u30ED\u30CB\u30B1\u306E\u4FE1\u5F92\u3078\u306E\u624B\u7D19\u4E00",
+        shortNames: [
+          "\u30C6\u30B5\u30ED\u30CB\u30B1\u4E00"
+        ]
+      },
+      "53": {
+        name: "\u30C6\u30B5\u30ED\u30CB\u30B1\u306E\u4FE1\u5F92\u3078\u306E\u624B\u7D19\u4E8C",
+        shortNames: [
+          "\u30C6\u30B5\u30ED\u30CB\u30B1\u4E8C"
+        ]
+      },
+      "54": {
+        name: "\u30C6\u30E2\u30C6\u3078\u306E\u624B\u7D19\u4E00",
+        shortNames: [
+          "\u30C6\u30E2\u30C6\u4E00"
+        ]
+      },
+      "55": {
+        name: "\u30C6\u30E2\u30C6\u3078\u306E\u624B\u7D19\u4E8C",
+        shortNames: [
+          "\u30C6\u30E2\u30C6\u4E8C"
+        ]
+      },
+      "56": {
+        name: "\u30C6\u30C8\u30B9\u3078\u306E\u624B\u7D19",
+        shortNames: [
+          "\u30C6\u30C8\u30B9"
+        ]
+      },
+      "57": {
+        name: "\u30D5\u30A3\u30EC\u30E2\u30F3\u3078\u306E\u624B\u7D19",
+        shortNames: [
+          "\u30D5\u30A3\u30EC\u30E2\u30F3"
+        ]
+      },
+      "58": {
+        name: "\u30D8\u30D6\u30E9\u30A4\u4EBA\u3078\u306E\u624B\u7D19",
+        shortNames: [
+          "\u30D8\u30D6\u30E9\u30A4\u4EBA"
+        ]
+      },
+      "59": {
+        name: "\u30E4\u30B3\u30D6\u306E\u624B\u7D19",
+        shortNames: [
+          "\u30E4\u30B3\u30D6"
+        ]
+      },
+      "60": {
+        name: "\u30DA\u30C6\u30ED\u306E\u624B\u7D19\u4E00",
+        shortNames: [
+          "\u30DA\u30C6\u30ED\u4E00"
+        ]
+      },
+      "61": {
+        name: "\u30DA\u30C6\u30ED\u306E\u624B\u7D19\u4E8C",
+        shortNames: [
+          "\u30DA\u30C6\u30ED\u4E8C"
+        ]
+      },
+      "62": {
+        name: "\u30E8\u30CF\u30CD\u306E\u624B\u7D19\u4E00",
+        shortNames: [
+          "\u30E8\u30CF\u30CD\u4E00"
+        ]
+      },
+      "63": {
+        name: "\u30E8\u30CF\u30CD\u306E\u624B\u7D19\u4E8C",
+        shortNames: [
+          "\u30E8\u30CF\u30CD\u4E8C"
+        ]
+      },
+      "64": {
+        name: "\u30E8\u30CF\u30CD\u306E\u624B\u7D19\u4E09",
+        shortNames: [
+          "\u30E8\u30CF\u30CD\u4E09"
+        ]
+      },
+      "65": {
+        name: "\u30E6\u30C0\u306E\u624B\u7D19",
+        shortNames: [
+          "\u30E6\u30C0"
+        ]
+      },
+      "66": {
+        name: "\u9ED9\u793A\u9332",
+        shortNames: []
+      }
+    };
+  }
+});
+
+// node_modules/.pnpm/bible-book-names-intl@2.1.4/node_modules/bible-book-names-intl/dist/index.js
+var require_dist = __commonJS({
+  "node_modules/.pnpm/bible-book-names-intl@2.1.4/node_modules/bible-book-names-intl/dist/index.js"(exports) {
+    "use strict";
+    var __importDefault = exports && exports.__importDefault || function(mod) {
+      return mod && mod.__esModule ? mod : { "default": mod };
+    };
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.getTranslationBooks = void 0;
+    var utils_1 = require_utils3();
+    var base_json_1 = __importDefault(require_base());
+    var en_json_1 = __importDefault(require_en());
+    var it_json_1 = __importDefault(require_it());
+    var jp_json_1 = __importDefault(require_jp());
+    var allTranslations = [
+      en_json_1.default,
+      it_json_1.default,
+      jp_json_1.default
+    ];
+    var translationsDict = /* @__PURE__ */ new Map();
+    allTranslations.forEach((translation) => {
+      const books = [];
+      for (let i = 0; i < 66; i++) {
+        const rawBookInfo = translation["" + (i + 1)];
+        const bookBaseData = base_json_1.default["" + (i + 1)];
+        let newCombinedNames = rawBookInfo.shortNames.concat(rawBookInfo.name);
+        if ((rawBookInfo === null || rawBookInfo === void 0 ? void 0 : rawBookInfo.startNumber) > 0) {
+          newCombinedNames = (0, utils_1.generateOrdinalNameVariations)(rawBookInfo.startNumber, newCombinedNames);
+        }
+        books.push(Object.assign(Object.assign({}, bookBaseData), { fullName: rawBookInfo.name, shortNames: rawBookInfo.shortNames, startNumber: rawBookInfo === null || rawBookInfo === void 0 ? void 0 : rawBookInfo.startNumber, names: newCombinedNames }));
+      }
+      translationsDict.set(translation.language, books);
+    });
+    var getTranslationBooks = (language) => {
+      if (!translationsDict.has(language)) {
+        const msg = `No translation found for language ${language}`;
+        console.error(msg);
+        throw new Error(msg);
+      }
+      return translationsDict.get(language);
+    };
+    exports.getTranslationBooks = getTranslationBooks;
+    var MultipleLanguageBibleBooks = [];
+    for (let i = 0; i < 66; i++) {
+      const book = {
+        // @ts-ignore
+        fullName: translationsDict === null || translationsDict === void 0 ? void 0 : translationsDict.get("en")[i].fullName,
+        // @ts-ignore
+        verses: translationsDict === null || translationsDict === void 0 ? void 0 : translationsDict.get("en")[i].verses,
+        names: [],
+        shortNames: []
+      };
+      translationsDict.forEach((books) => {
+        book["shortNames"] = [...new Set(book["shortNames"].concat(books[i].shortNames))];
+        book["names"] = [...new Set(book["names"].concat(books[i].fullName))];
+      });
+      book["names"] = [...book["names"], ...book["shortNames"]];
+      MultipleLanguageBibleBooks.push(book);
+    }
+    exports.default = MultipleLanguageBibleBooks;
+  }
+});
+
+// node_modules/.pnpm/bible-reference-toolkit@2.1.1/node_modules/bible-reference-toolkit/dist/lib/books.js
+var require_books = __commonJS({
+  "node_modules/.pnpm/bible-reference-toolkit@2.1.1/node_modules/bible-reference-toolkit/dist/lib/books.js"(exports) {
+    "use strict";
+    var __importDefault = exports && exports.__importDefault || function(mod) {
+      return mod && mod.__esModule ? mod : { "default": mod };
+    };
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.BibleBooks = exports.getTranslationBooks = void 0;
+    var bible_book_names_intl_1 = __importDefault(require_dist());
+    var bible_book_names_intl_2 = require_dist();
+    Object.defineProperty(exports, "getTranslationBooks", { enumerable: true, get: function() {
+      return bible_book_names_intl_2.getTranslationBooks;
+    } });
+    exports.BibleBooks = bible_book_names_intl_1.default;
+  }
+});
+
+// node_modules/.pnpm/bible-reference-toolkit@2.1.1/node_modules/bible-reference-toolkit/dist/lib/reference.js
+var require_reference = __commonJS({
+  "node_modules/.pnpm/bible-reference-toolkit@2.1.1/node_modules/bible-reference-toolkit/dist/lib/reference.js"(exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.Reference = void 0;
+    var books_1 = require_books();
+    var Reference3 = class {
+      constructor(reference) {
+        let book;
+        let chapter;
+        let verse;
+        if (typeof reference === "string") {
+          reference = reference.replace(/\./g, "");
+          this.source = reference;
+          const referenceParts = reference.match(/(.+[A-Za-z])\s+(.+)/);
+          if (!(referenceParts === null || referenceParts === void 0 ? void 0 : referenceParts.length) || (referenceParts === null || referenceParts === void 0 ? void 0 : referenceParts.length) < 3) {
+            throw new Error('You must supply a Bible reference, either a string (i.e. "Mark 2") or an object (i.e. { book: 1, chapter: 2, verse: 1 })');
+          }
+          const bookName = referenceParts[1];
+          const chapterAndVerse = referenceParts[2];
+          book = Reference3.bookIdFromName(bookName);
+          const chapterAndVerseParts = chapterAndVerse.split(":");
+          chapter = Number(chapterAndVerseParts[0]);
+          verse = chapterAndVerseParts[1] ? Number(chapterAndVerseParts[1]) : void 0;
+        } else if ((reference === null || reference === void 0 ? void 0 : reference.book) >= 0 && (reference === null || reference === void 0 ? void 0 : reference.chapter) >= 0 && (!(reference === null || reference === void 0 ? void 0 : reference.verse) || (reference === null || reference === void 0 ? void 0 : reference.verse) >= 0)) {
+          book = reference.book;
+          chapter = reference.chapter;
+          verse = reference === null || reference === void 0 ? void 0 : reference.verse;
+        } else {
+          throw new Error('You must supply a Bible reference, either a string (i.e. "Mark 2") or an object (i.e. { book: 1, chapter: 2, verse: 1 })');
+        }
+        this.book = book;
+        this.chapter = chapter;
+        this.verse = verse;
+      }
+      // Given a string of a book name (shortened or full length), get the book id
+      static bookIdFromName(name) {
+        name = name.toLowerCase();
+        const relativeBooks = books_1.BibleBooks.filter((book) => {
+          const bookNames = book.names.map((n) => {
+            return n.toLowerCase();
+          });
+          return bookNames.indexOf(name) > -1;
+        });
+        if (relativeBooks === null || relativeBooks === void 0 ? void 0 : relativeBooks.length) {
+          return books_1.BibleBooks.indexOf(relativeBooks[0]) + 1;
+        }
+        throw new Error('No book matched "' + name + '"');
+      }
+      // Like moment.js startOf - ref.startOf('chapter') sets the ref to the first
+      // Given a book id, get the full length book name
+      static bookNameFromId(id) {
+        const book = books_1.BibleBooks[id - 1];
+        if (!book) {
+          throw new Error("Book id out of range (no such book)");
+        }
+        return book.names[0];
+      }
+      // that number chapter
+      static fromChapterId(chapterId) {
+        let chaptersRemaining = chapterId;
+        let bookIndex = 0;
+        while (chaptersRemaining > 0) {
+          const chaptersInThisBook = books_1.BibleBooks[bookIndex].verses.length;
+          if (chaptersRemaining - chaptersInThisBook <= 0) {
+            return new Reference3({
+              book: bookIndex + 1,
+              chapter: chaptersRemaining
+            });
+          }
+          chaptersRemaining -= chaptersInThisBook;
+          bookIndex += 1;
+        }
+        throw new Error("There was a problem creating the a reference from chapter id " + chapterId);
+      }
+      // Create a Reference from a verse id
+      static fromVerseId(verseId) {
+        let versesRemaining = verseId;
+        let bookIndex = 0;
+        while (versesRemaining > 0) {
+          const versesInThisBook = Reference3.versesInBookId(bookIndex + 1);
+          if (versesRemaining - versesInThisBook < 0) {
+            const book = books_1.BibleBooks[bookIndex];
+            let chapterIndex = 0;
+            while (versesRemaining > 0) {
+              const versesInThisChapter = book.verses[chapterIndex];
+              if (versesRemaining - versesInThisChapter < 0) {
+                return new Reference3({
+                  book: bookIndex + 1,
+                  chapter: chapterIndex + 1,
+                  verse: versesRemaining
+                });
+              }
+              versesRemaining -= versesInThisChapter;
+              chapterIndex += 1;
+            }
+          }
+          versesRemaining -= versesInThisBook;
+          bookIndex += 1;
+        }
+        throw new Error("There was a problem creating the a reference from verse id " + verseId);
+      }
+      // Get the number of verses in the given book id
+      static versesInBookId(bookId) {
+        return books_1.BibleBooks[bookId - 1].verses.reduce(function sum(a, b) {
+          return a + b;
+        });
+      }
+      // Get the number of verses in the given chapter id
+      static versesInChapterId(chapterId) {
+        const reference = Reference3.fromChapterId(chapterId);
+        return books_1.BibleBooks[reference.book - 1].verses[reference.chapter - 1];
+      }
+      // Get the number of chapters in the given book id
+      static chaptersInBookId(bookId) {
+        return books_1.BibleBooks[bookId - 1].verses.length;
+      }
+      // Get the number of verses up to the start of the given book id
+      static versesUpToBookId(bookId) {
+        let count = 0;
+        let booksLeft = bookId - 1;
+        while (booksLeft > 0) {
+          count += Reference3.versesInBookId(booksLeft);
+          booksLeft -= 1;
+        }
+        return count;
+      }
+      // Get the number of verses up to the start of the given chapter id
+      static versesUpToChapterId(chapterId) {
+        let count = 0;
+        let chaptersLeft = chapterId - 1;
+        while (chaptersLeft > 0) {
+          count += Reference3.versesInChapterId(chaptersLeft);
+          chaptersLeft -= 1;
+        }
+        return count;
+      }
+      // Get the number of chapters up to the start of the given book id
+      static chaptersUpToBookId(bookId) {
+        let count = 0;
+        let booksLeft = bookId - 1;
+        while (booksLeft > 0) {
+          count += Reference3.chaptersInBookId(booksLeft);
+          booksLeft -= 1;
+        }
+        return count;
+      }
+      // Is a Chapter level reference (no verse)
+      isChapter() {
+        return this.verse == null;
+      }
+      // go to start of given unit, will make change to this reference
+      startOf(unit, clone = this) {
+        if (unit === "chapter") {
+          clone.verse = 1;
+        } else if (unit === "book") {
+          clone.verse = 1;
+          clone.chapter = 1;
+        } else {
+          throw new Error("Unknown unit " + unit + ' supplied to startOf() - supported units are: "book", "chapter"');
+        }
+        return clone;
+      }
+      // Create a clone of this reference, and set it to the start of the given unit
+      cloneToStartOf(unit) {
+        const clone = this.clone();
+        return this.startOf(unit, clone);
+      }
+      clone() {
+        return new Reference3(this.toString());
+      }
+      toString() {
+        const bookName = books_1.BibleBooks[this.book - 1].names[0];
+        let tmpString = bookName + " " + this.chapter;
+        if (this.verse) {
+          tmpString += ":" + this.verse;
+        }
+        return tmpString;
+      }
+      // Get the verse id for this reference
+      toVerseId() {
+        let verseCount = 0;
+        let bookIndex = this.book - 1;
+        while (bookIndex >= 1) {
+          verseCount += Reference3.versesInBookId(bookIndex);
+          bookIndex -= 1;
+        }
+        var chapterIndex = this.chapter - 1;
+        while (chapterIndex >= 1) {
+          verseCount += Reference3.versesInBookId(bookIndex);
+          verseCount += books_1.BibleBooks[this.book - 1].verses[chapterIndex];
+        }
+        if (this.verse != null) {
+          verseCount += this.verse;
+        }
+        return verseCount;
+      }
+      // Get the chapter id for this reference
+      toChapterId() {
+        const previousBookChapters = Reference3.chaptersUpToBookId(this.book);
+        return previousBookChapters + this.chapter;
+      }
+      // Get the book id for this reference
+      toBookId() {
+        return this.book;
+      }
+      // When doing math, use verse id as the value
+      valueOf() {
+        return this.toVerseId();
+      }
+    };
+    exports.Reference = Reference3;
+    exports.default = Reference3;
   }
 });
 
@@ -9234,23 +12001,6 @@ var import_obsidian = require("obsidian");
 
 // src/provider/FeatureFlag.ts
 var import_flagsmith_nodejs = __toESM(require_build());
-var flagsmith = new import_flagsmith_nodejs.default({
-  environmentKey: "NJTKgnNToZxbe6TCksAcmD"
-});
-var FlagService = class {
-  static getInstace() {
-    if (!FlagService.instance) {
-      FlagService.instance = new FlagService();
-    }
-    return FlagService.instance;
-  }
-  async init() {
-    this.flags = await flagsmith.getEnvironmentFlags();
-  }
-  isFeatureEnabled(feature) {
-    return this.flags.isFeatureEnabled(feature);
-  }
-};
 
 // node_modules/.pnpm/ackee-tracker@5.1.0/node_modules/ackee-tracker/src/scripts/main.js
 var import_platform = __toESM(require_platform());
@@ -9510,12 +12260,13 @@ var EVENTS = {
   // settings, NIV 1
   changeVersion: "4504d174-6535-426e-8d54-c6e49d27d537",
   changeVerseFormatting: "af3fb034-a428-4a52-a2c4-556d61f95602",
-  others: "e5751880-71c9-4dc5-9ba6-2d6d81828463"
+  others: "e5751880-71c9-4dc5-9ba6-2d6d81828463",
   // changeLinkPosition: '',
   // changeVerseNumberFormatting: '',
   // changeCollapsible: '',
   // changeBookTagging: '',
   // changeChapterTagging: '',
+  errors: "0d3fad56-4293-4691-b810-9a32cd1f6117"
 };
 var Logger = class {
   constructor() {
@@ -9564,6 +12315,9 @@ var Logger = class {
       this.fireEvent(this.getEventId(eventName), actionAttributes);
     }
   }
+  async logError(eventName, actionAttributes) {
+    this.fireEvent(this.getEventId(eventName), actionAttributes);
+  }
   async fireEvent(eventId, actionAttributes) {
     Logger.instance.ackeeTracker.action(eventId, actionAttributes);
   }
@@ -9574,6 +12328,38 @@ tracker.init(
   "f73c4c66-05ae-4c79-921e-fd0848d15d35"
 );
 var EventStats = tracker;
+
+// src/provider/FeatureFlag.ts
+var flagsmith = new import_flagsmith_nodejs.default({
+  environmentKey: "NJTKgnNToZxbe6TCksAcmD"
+});
+var FlagService = class {
+  static getInstace() {
+    if (!FlagService.instance) {
+      FlagService.instance = new FlagService();
+    }
+    return FlagService.instance;
+  }
+  async init(id) {
+    if (id) {
+      this.flags = await flagsmith.getIdentityFlags(id);
+    } else {
+      this.flags = await flagsmith.getEnvironmentFlags();
+    }
+  }
+  isFeatureEnabled(feature) {
+    return this.flags.isFeatureEnabled(feature);
+  }
+  getFeatureValue(feature) {
+    try {
+      const value = this.flags.getFlag(feature).value;
+      return JSON.parse(value);
+    } catch (e) {
+      console.error("get feature flag value error");
+      EventStats.logError("errors", { key: "featureflag", value: 1 });
+    }
+  }
+};
 
 // src/ui/BibleReferenceSettingTab.ts
 var BibleReferenceSettingTab = class extends import_obsidian.PluginSettingTab {
@@ -9742,7 +12528,7 @@ var BibleReferenceSettingTab = class extends import_obsidian.PluginSettingTab {
     };
     this.setUpOptOutEventsOptions = (containerEl) => {
       new import_obsidian.Setting(containerEl).setName("Opt Out of Events Logging").setDesc(
-        "We used events logging to improve the plugin, this is very helpful for us, but if you want to opt out, you can do it here"
+        "We used events logging to improve the plugin, this is very helpful for us, but if you want to opt out, you can do it here. (Excluding Errors Logs))"
       ).addToggle(
         (toggle) => {
           var _a;
@@ -9895,6 +12681,7 @@ var BaseBibleAPIProvider = class {
     } catch (e) {
       console.error("error while querying", e);
       new import_obsidian2.Notice(`Error while querying ${url}`);
+      EventStats.logError("errors", { key: url, value: 1 });
       return await Promise.reject(e);
     }
   }
@@ -9944,7 +12731,7 @@ var BibleAPIDotComProvider = class extends BaseBibleAPIProvider {
 };
 
 // src/provider/BollyLifeProvider.ts
-var import_biblejs_name_converter = __toESM(require_biblejs_name_converter());
+var import_reference = __toESM(require_reference());
 var BollyLifeProvider = class extends BaseBibleAPIProvider {
   constructor(bibleVersion) {
     super();
@@ -9958,7 +12745,7 @@ var BollyLifeProvider = class extends BaseBibleAPIProvider {
   }
   buildRequestURL(bookName, chapter, verses, versionName) {
     const baseUrl = this._chapterApiUrl;
-    const book = import_biblejs_name_converter.Reference.bookIdFromName(bookName);
+    const book = import_reference.default.bookIdFromName(bookName);
     this._queryUrl = `${baseUrl}/${versionName == null ? void 0 : versionName.toUpperCase()}/${book}/${chapter}/`;
     return this._queryUrl;
   }
@@ -10079,7 +12866,7 @@ var BaseVerseFormatter = class {
   }
   get head() {
     var _a;
-    let head = `> [!Bible]`;
+    let head = `> [!bible]`;
     if ((_a = this.settings) == null ? void 0 : _a.collapsibleVerses) {
       head += "+";
     }
@@ -10143,12 +12930,14 @@ var VerseSuggesting = class extends BaseVerseFormatter {
     this.bibleVersion = settings.bibleVersion;
   }
   get bottom() {
-    var _a, _b;
+    var _a, _b, _c, _d;
     let bottom = super.bottom;
-    bottom += " %%";
-    bottom += ((_a = this.settings) == null ? void 0 : _a.bookTagging) ? ` #${this.verseReference.bookName}` : "";
-    bottom += ((_b = this.settings) == null ? void 0 : _b.chapterTagging) ? ` #${this.verseReference.bookName + this.verseReference.chapterNumber}` : "";
-    bottom += " %%";
+    if (((_a = this.settings) == null ? void 0 : _a.bookTagging) || ((_b = this.settings) == null ? void 0 : _b.chapterTagging)) {
+      bottom += " %%";
+      bottom += ((_c = this.settings) == null ? void 0 : _c.bookTagging) ? ` #${this.verseReference.bookName}` : "";
+      bottom += ((_d = this.settings) == null ? void 0 : _d.chapterTagging) ? ` #${this.verseReference.bookName + this.verseReference.chapterNumber}` : "";
+      bottom += " %%";
+    }
     return bottom;
   }
   /**
@@ -10187,7 +12976,7 @@ var VerseSuggesting = class extends BaseVerseFormatter {
 };
 
 // src/utils/getSuggestionsFromQuery.ts
-var import_biblejs_name_converter2 = __toESM(require_biblejs_name_converter());
+var import_reference2 = __toESM(require_reference());
 var getSuggestionsFromQuery = async (query, settings) => {
   console.debug("get suggestion for query ", query.toLowerCase());
   const matchResults = query.match(BOOK_REG);
@@ -10201,8 +12990,8 @@ var getSuggestionsFromQuery = async (query, settings) => {
   const chapterNumber = parseInt(numbers[0].trim());
   const verseNumber = parseInt(numbers[1]);
   const verseEndNumber = numbers.length === 3 ? parseInt(numbers[2]) : void 0;
-  const bookId = import_biblejs_name_converter2.Reference.bookIdFromName(rawBookName);
-  const bookName = import_biblejs_name_converter2.Reference.bookNameFromId(bookId);
+  const bookId = import_reference2.default.bookIdFromName(rawBookName);
+  const bookName = import_reference2.default.bookNameFromId(bookId);
   const suggestingVerse = new VerseSuggesting(
     settings,
     bookName,
@@ -10267,7 +13056,10 @@ var VerseEditorSuggester = class extends import_obsidian3.EditorSuggest {
     );
     EventStats.logLookup(
       "verseLookUp",
-      { key: `${this.settings.bibleVersion}-${context.query.toLowerCase()}`, value: 1 },
+      {
+        key: `${this.settings.bibleVersion}-${context.query.toLowerCase()}`,
+        value: 1
+      },
       this.settings.optOutToEvents
     );
     return suggestions;
@@ -10305,7 +13097,10 @@ var VerseLookupSuggestModal = class extends import_obsidian4.SuggestModal {
       console.debug("trigger on", query);
       EventStats.logLookup(
         "verseLookUp",
-        { key: `${this.settings.bibleVersion}-${match.toLowerCase()}`, value: 1 },
+        {
+          key: `${this.settings.bibleVersion}-${match.toLowerCase()}`,
+          value: 1
+        },
         this.settings.optOutToEvents
       );
       return getSuggestionsFromQuery(`--${query}`, this.settings);
@@ -10468,15 +13263,23 @@ var BibleReferencePlugin = class extends import_obsidian7.Plugin {
     this.verseLookUpModal = new VerseLookupSuggestModal(this, this.settings);
     this.addVerseLookupCommand();
     this.addRibbonButton();
-    this.verseOfDayModal = new VerseOfDayModal(this, this.settings);
     const flagService = FlagService.getInstace();
-    await flagService.init();
+    await flagService.init("obsidian-app");
     if (FlagService.instance.isFeatureEnabled("vod")) {
       console.debug("vod feature flag enabled");
-      this.registerEditorSuggest(
-        new VerseOfDayEditorSuggester(this, this.settings)
-      );
-      this.addVerseOfDayCommands();
+      const featureValues = FlagService.instance.getFeatureValue("vod");
+      if (featureValues == null ? void 0 : featureValues.editor) {
+        this.registerEditorSuggest(
+          new VerseOfDayEditorSuggester(this, this.settings)
+        );
+      }
+      if (featureValues == null ? void 0 : featureValues.insert) {
+        this.verseOfDayModal = new VerseOfDayModal(this, this.settings);
+        this.addVerseOfDayInsertCommand();
+      }
+      if (featureValues == null ? void 0 : featureValues.notice) {
+        this.addVerseOfDayNoticeCommand();
+      }
     }
     EventStats.logRecord(this.settings.optOutToEvents);
   }
@@ -10523,7 +13326,7 @@ var BibleReferencePlugin = class extends import_obsidian7.Plugin {
       }
     });
   }
-  addVerseOfDayCommands() {
+  addVerseOfDayNoticeCommand() {
     this.addCommand({
       id: "obr-vod-view-verses-of-day",
       name: "Verse Of The Day - Notice (10 Seconds)",
@@ -10541,6 +13344,8 @@ var BibleReferencePlugin = class extends import_obsidian7.Plugin {
         );
       }
     });
+  }
+  addVerseOfDayInsertCommand() {
     this.addCommand({
       id: "obs-vod-insert-verse-of-day",
       name: "Verse Of The Day - Insert To Current Note",
