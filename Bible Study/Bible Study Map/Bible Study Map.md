@@ -3,8 +3,7 @@
 - **[[Bible Books]]**
 - **[[Literary Structure]]**
 - **[[Locations & Nations]]**
-- **Misc**
-	- [[Book of Enoch]]
+- **[[Misc]]**
 - **[[Occupation]]**
 - **People - Characters**
 	- **Main People**

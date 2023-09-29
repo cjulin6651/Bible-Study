@@ -4,69 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "f369f9731f089a8c",
-        "type": "split",
+        "id": "18533e5b6354a85e",
+        "type": "tabs",
         "children": [
           {
-            "id": "c2fd00cfb95a9f59",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "80b40e27e1e580e6",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Bible Study Map/People - Characters/Main People/Rephaim.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
+            "id": "be40dba1f17da675",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bible Study Map/Bible Study Map.md",
+                "mode": "source",
+                "source": false
               }
-            ]
-          },
-          {
-            "id": "18533e5b6354a85e",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "19671f197916bd18",
-                "type": "leaf",
-                "state": {
-                  "type": "localgraph",
-                  "state": {
-                    "options": {
-                      "collapse-filter": true,
-                      "search": "",
-                      "localJumps": 1,
-                      "localBacklinks": true,
-                      "localForelinks": true,
-                      "localInterlinks": false,
-                      "showTags": false,
-                      "showAttachments": false,
-                      "hideUnresolved": false,
-                      "collapse-color-groups": true,
-                      "colorGroups": [],
-                      "collapse-display": true,
-                      "showArrow": false,
-                      "textFadeMultiplier": 0,
-                      "nodeSizeMultiplier": 1,
-                      "lineSizeMultiplier": 1,
-                      "collapse-forces": true,
-                      "centerStrength": 0.518713248970312,
-                      "repelStrength": 10,
-                      "linkStrength": 1,
-                      "linkDistance": 250,
-                      "scale": 0.14464572768403916,
-                      "close": true
-                    }
-                  }
-                }
-              }
-            ]
+            }
           }
-        ],
-        "direction": "horizontal"
+        ]
       },
       {
         "id": "b2a8057e8953a4da",
@@ -217,8 +170,9 @@
   },
   "active": "f3dba99dcb519401",
   "lastOpenFiles": [
-    "Bible Study Map/People - Characters/Main People/Rephaim.md",
+    "Bible Study Map/Misc/Misc.md",
     "Bible Study Map/Bible Study Map.md",
+    "Bible Study Map/People - Characters/Main People/Rephaim.md",
     "Bible Study Map/People - Characters/Main People/The Divine Council.md",
     "Bible Study Map/People - Characters/Main People/sons of God.md",
     "Bible Study Map/Words/Strongs/Hebrew/H7496.md",
@@ -242,7 +196,6 @@
     "Bible Study Map/Bible Books/2 - New Testament/Books/40 - Matthew/Matthew17.md",
     "Bible Study Map/People - Characters/Main People/Zamzummim.md",
     "Bible Study Map/Words/English/demon.md",
-    "Bible Study Map/People - Characters/Main People/Nephilim.md",
     "Bible Study Map/People - Characters/Main People",
     "Bible Study Map/People - Characters",
     "Bible Study Map/Misc",
