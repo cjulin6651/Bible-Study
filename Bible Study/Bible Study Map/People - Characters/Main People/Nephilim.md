@@ -6,7 +6,6 @@ The Fallen Ones
 [[1 - Old Testament]]
 
 ### Also Known As:
-[[Nephilim]]
 [[Anakim]]
 [[Emim]]
 [[Zuzim]]
