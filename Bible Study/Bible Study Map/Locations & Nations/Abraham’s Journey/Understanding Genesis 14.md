@@ -39,5 +39,6 @@ The third occasion is when Moses' ark is covered in pitch and bitumin.
 
 I believe there is certainly a connection here, but I'm not sure what it is. Perhaps a connection between the sins of Babel connected to the Kings of Sodom and Gomorrah? Perhaps a connection to the fact that Babylon is causing the scattering of nations again here?
 
-A report is brought to Abram about lot
+A report is brought to Abram about [[Lot]]. He takes group of 318men from Hebron and hunts down the Babylonian armies and defeats them, pursuing them as far as [[Hobeh]]. 
 
+I believe what we see in this passage is that God is able to take a small army run by a man who, at least as we see, never runs another military campaign in his life (and may have never run one before) and use it to defeat the Giant destroying army of the current world-power, [[Babylon]].
