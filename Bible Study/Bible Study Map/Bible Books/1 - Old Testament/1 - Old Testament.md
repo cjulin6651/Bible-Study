@@ -16,9 +16,9 @@
 		- [[Genesis13]]
 		- [[Genesis14]]
 		- [[Genesis19]]
-		- [[Genesis26]]
 	- **2 - Exodus**
 		- [[Exodus]]
+		- [[Exodus2]]
 		- [[Exodus12]]
 	- **3 - Leviticus**
 		- [[Leviticus]]
@@ -66,9 +66,7 @@
 		- [[Job1]]
 		- [[Job38]]
 	- **19 - Psalms**
-		- [[Psalm49]]
 		- [[Psalms]]
-		- [[Psalms1]]
 		- [[Psalms29]]
 		- [[Psalms82]]
 		- [[Psalms89]]

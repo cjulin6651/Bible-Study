@@ -166,7 +166,7 @@
       "name": "Eng/Greek/Hebrew Word",
       "type": "Template",
       "command": false,
-      "templatePath": "Back up file/Templates/Eng-Heb-Greek Word.md",
+      "templatePath": "Templates/Eng-Heb-Greek Word.md",
       "fileNameFormat": {
         "enabled": false,
         "format": ""

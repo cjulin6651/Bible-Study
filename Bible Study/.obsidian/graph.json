@@ -36,7 +36,7 @@
       }
     },
     {
-      "query": "path:\"Bible Study Map/People\"  ",
+      "query": "path:\"Bible Study Map/People - Characters\"  ",
       "color": {
         "a": 1,
         "rgb": 16746522
@@ -83,9 +83,16 @@
         "a": 1,
         "rgb": 4521728
       }
+    },
+    {
+      "query": "path:\"Bible Study Map/Misc.\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 7371197
+      }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": true,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
@@ -95,6 +102,6 @@
   "repelStrength": 9.87467447916667,
   "linkStrength": 0.848795572916667,
   "linkDistance": 281,
-  "scale": 0.13570827608435107,
-  "close": false
+  "scale": 0.3166601352435701,
+  "close": true
 }

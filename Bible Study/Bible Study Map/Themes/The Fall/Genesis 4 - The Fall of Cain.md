@@ -13,7 +13,10 @@
 ### Notes
 Cain falls because of a fruit. He is the embodiment of the curse because he is one who “Toils the Ground”. He is given a choice ([[The Test]]) and chooses to kill his brother, sending him back to the dust where his blood cries out. His curse is that the ground wouldn’t yield him more fruit (a ground related curse). He is exiled to [[The East]]  where he “knows his wife” just as [[Adam]] did [[Eve]], after the fall. 
 
-This chapter shows humanities descent into sin because [[Lamech]] takes 2 wives rather than one and kills a man but brags about how his sin was 7 times as bad as Cain’s. 
+This chapter shows humanities descent into sin because [[Lamech]] takes 2 wives rather than one and kills a man but brags about how if Cain was punished 7-fold, then Lamech should be punished 70x7.
+
+> [!bible]+ [Genesis 4:23-24 - NIV](https://bolls.life/NIV/1/4/)
+>  <sup> **23** </sup>Lamech said to his wives,<br/>“Adah and Zillah, listen to me;<br/>wives of Lamech, hear my words.<br/>I have killed a man for wounding me,<br/>a young man for injuring me. <sup> **24** </sup>If Cain is avenged seven times,<br/>then Lamech seventy-seven times.”
 
 ### Relevant Tags:
 #TheFall #TheEast #TheTest #Themes 

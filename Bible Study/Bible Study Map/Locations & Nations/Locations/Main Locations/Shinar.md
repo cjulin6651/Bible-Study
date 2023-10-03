@@ -1,6 +1,7 @@
 ## Also Known As:
 Sennar
 [[Babylon]]
+Babel
 ## Location:
 In the region of modern day Iraq
 ![[Gen 14 Map.png]]

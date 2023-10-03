@@ -18,6 +18,7 @@
 		- [[Shinar]]
 		- [[Sodom]]
 		- [[The Valley of Siddim]]
+		- [[Tower of Babel]]
 		- [[Ur]]
 		- [[Zeboyim]]
 		- [[Zoar]]

@@ -6,7 +6,7 @@
  %% %%
 
 ### Notes
-We are told in verse 2 that they were "moving from the east." Possibly indicating mankind's move into sin. 
+We are told in verse 2 that they were "moving from the east." Possibly indicating mankind's move into sin. What this leads to is the rebellion through the building of the[[Tower of Babel]].
 
 ### Relevant Tags:
 #TheEast #Themes 

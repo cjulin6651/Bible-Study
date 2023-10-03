@@ -17,6 +17,6 @@ Interesting to note that man was made from [[dust]] as are bricks. This story al
 > [!Bible]- [Ezekiel 28:14 - NIV](https://bolls.life/NIV/26/28/) [[Ezekiel]] [[Ezekiel28]]
 >  <sup> **14** </sup>You were anointed as a guardian cherub,<br/>for so I ordained you.<br/>You were on the holy mount of God;<br/>you walked among the fiery stones.
 ### Relevant Tags:
-InsertTagHere #Themes 
+#CreationAccount  #Themes 
 
 2023-09-09

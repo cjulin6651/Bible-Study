@@ -8,7 +8,8 @@
   "chapterTagging": false,
   "enableBibleVerseLookupRibbon": false,
   "optOutToEvents": false,
-  "bibleTagging": false,
   "bookBacklinking": true,
-  "chapterBacklinking": true
+  "chapterBacklinking": true,
+  "bibleTagging": false,
+  "advancedSettings": true
 }

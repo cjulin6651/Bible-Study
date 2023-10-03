@@ -1,6 +1,7 @@
 %% Begin Waypoint %%
 - **English**
 	- [[atonement]]
+	- [[bitumin]]
 	- [[Covering]]
 	- [[demon]]
 	- [[Fame]]
