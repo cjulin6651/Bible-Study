@@ -4,40 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7b49487f799699b1",
+        "id": "bd468d595e64c2fd",
         "type": "tabs",
         "children": [
           {
-            "id": "0c76224728d8e61d",
+            "id": "106ffe4c3675a0fe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bible Study Map/Bible Study Map.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "87be9b5dcd68b687",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bible Study Map/Words/English/side.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "082904953535baf2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bible Study Map/Words/Strongs/Hebrew/H6763.md",
+                "file": "Bible Study Map/Themes/Covenant/Genesis 15 - God's Covenant with Abram.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Bible Study Map/Bible Study Map.md",
+            "file": "Bible Study Map/Themes/Covenant/Genesis 15 - God's Covenant with Abram.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -126,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Bible Study Map/Bible Study Map.md",
+            "file": "Bible Study Map/Themes/Covenant/Genesis 15 - God's Covenant with Abram.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -138,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Bible Study Map/Bible Study Map.md"
+            "file": "Bible Study Map/Themes/Covenant/Genesis 15 - God's Covenant with Abram.md"
           }
         }
       }
@@ -158,11 +134,12 @@
       "obsidian-bible-reference:Bible Verse Lookup": false
     }
   },
-  "active": "0c76224728d8e61d",
+  "active": "106ffe4c3675a0fe",
   "lastOpenFiles": [
+    "Templates/Eng-Heb-Greek Word.md",
+    "Bible Study Map/Bible Study Map.md",
     "Bible Study Map/Words/Strongs/Hebrew/H6763.md",
     "Bible Study Map/Words/English/side.md",
-    "Bible Study Map/Bible Study Map.md",
     "Bible Study Map/Words/English/Help.md",
     "Bible Study Map/Words/Strongs/Hebrew/H5828.md",
     "Bible Study Map/Words/Hebrew/ezer.md",
@@ -186,7 +163,6 @@
     "Bible Study Map/Misc./Misc.md",
     "Bible Study Map/Bible Books/2 - New Testament/Books/51 - Colossians/Colossians1.md",
     "Bible Study Map/Bible Books/1 - Old Testament/Books/23 - Isaiah/Isaiah24.md",
-    "Bible Study Map/Bible Books/1 - Old Testament/Books/19 - Psalms/Psalms82.md",
     "Attachments/Gen 14 Map 2.png",
     "Attachments/Babylonian Empire.png",
     "Attachments/Gen 14 Map.png",

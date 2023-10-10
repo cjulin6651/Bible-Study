@@ -139,7 +139,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -399,7 +400,7 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "43a7094289b74c9b",
+  "active": "880a0ea0092d6865",
   "lastOpenFiles": [
     "Bible Study Map/Bible Study Map.md",
     "Bible Study Map/Themes/Covenant/Genesis 15 - God's Covenant with Abram.md",
