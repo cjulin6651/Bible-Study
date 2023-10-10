@@ -13,7 +13,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Bible Study Map/Bible Study Map.md",
+                "file": "Bible Study Map/Themes/Covenant/Genesis 15 - God's Covenant with Abram.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -133,13 +133,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bible Study Map/Bible Study Map.md",
+                "file": "Bible Study Map/Themes/Covenant/Genesis 15 - God's Covenant with Abram.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -191,7 +192,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Bible Study Map/Bible Study Map.md",
+                "file": "Bible Study Map/Themes/Covenant/Genesis 15 - God's Covenant with Abram.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -325,7 +326,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bible Study Map/Bible Study Map.md",
+                "file": "Bible Study Map/Themes/Covenant/Genesis 15 - God's Covenant with Abram.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -342,7 +343,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bible Study Map/Bible Study Map.md",
+                "file": "Bible Study Map/Themes/Covenant/Genesis 15 - God's Covenant with Abram.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -365,7 +366,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bible Study Map/Bible Study Map.md"
+                "file": "Bible Study Map/Themes/Covenant/Genesis 15 - God's Covenant with Abram.md"
               }
             }
           },
@@ -399,10 +400,10 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "43a7094289b74c9b",
+  "active": "a332c55c91db8631",
   "lastOpenFiles": [
-    "Bible Study Map/Themes/Covenant/Genesis 15 - God's Covenant with Abram.md",
     "Bible Study Map/Bible Study Map.md",
+    "Bible Study Map/Themes/Covenant/Genesis 15 - God's Covenant with Abram.md",
     "Bible Study Map/Words/Strongs/Hebrew/H5828.md",
     "Bible Study Map/Words/English/Help.md",
     "Bible Study Map/Words/Hebrew/ezer.md",
