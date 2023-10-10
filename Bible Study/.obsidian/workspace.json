@@ -18,7 +18,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Bible Study Map/Locations & Nations/Abraham’s Journey/Understanding Genesis 14.md",
+                    "file": "Bible Study Map/Bible Study Map.md",
                     "mode": "source",
                     "source": false
                   }
@@ -37,7 +37,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "Bible Study Map/Locations & Nations/Abraham’s Journey/Understanding Genesis 14.md",
+                    "file": "Bible Study Map/Bible Study Map.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -145,7 +145,7 @@
                       "repelStrength": 10,
                       "linkStrength": 1,
                       "linkDistance": 250,
-                      "scale": 0.36699765187146693,
+                      "scale": 0.6869933673394207,
                       "close": true
                     }
                   }
@@ -220,7 +220,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Bible Study Map/Locations & Nations/Abraham’s Journey/Understanding Genesis 14.md",
+                "file": "Bible Study Map/Bible Study Map.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -354,7 +354,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bible Study Map/Locations & Nations/Abraham’s Journey/Understanding Genesis 14.md",
+                "file": "Bible Study Map/Bible Study Map.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -371,7 +371,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bible Study Map/Locations & Nations/Abraham’s Journey/Understanding Genesis 14.md",
+                "file": "Bible Study Map/Bible Study Map.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -394,7 +394,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bible Study Map/Locations & Nations/Abraham’s Journey/Understanding Genesis 14.md"
+                "file": "Bible Study Map/Bible Study Map.md"
               }
             }
           },
@@ -428,8 +428,19 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "d3ffa5d640badace",
+  "active": "1d8de236435975f2",
   "lastOpenFiles": [
+    "Bible Study Map/Bible Books/1 - Old Testament/Books/1 - Genesis/Genesis15.md",
+    "Bible Study Map/Words/Strongs/Hebrew/H5828.md",
+    "Bible Study Map/Words/English/side.md",
+    "Bible Study Map/Words/English/Help.md",
+    "Bible Study Map/Words/English/deep sleep.md",
+    "Bible Study Map/Words/Strongs/Hebrew/H8639.md",
+    "12327-PhotoboothButtons_TS_samesize-02.png",
+    "Untitled.md",
+    "Bible Study Map/Themes/Chaos Waters/Chaos Waters.md",
+    "Bible Study Map/Themes/Seeing and Taking/Seeing and Taking.md",
+    "Bible Study Map/Plants, Animals, Food & Objects/Plants/olive tree.md",
     "Bible Study Map/Bible Study Map.md",
     "Test.md",
     "Bible Study Map/Plants, Animals, Food & Objects/Food & Drink/wine.md",
@@ -446,16 +457,6 @@
     "Bible Study Map/Locations & Nations/Locations/Main Locations/Tower of Babel.md",
     "Bible Study Map/Words/Strongs/Hebrew/H2564.md",
     "Bible Study Map/Words/English/bitumin.md",
-    "Bible Study Map/Bible Books/1 - Old Testament/Books/2 - Exodus/Exodus2.md",
-    "Bible Study Map/Themes/The Fall/Genesis 4 - The Fall of Cain.md",
-    "Bible Study Map/Themes/Creation Account/Genesis 8 - Re-creation.md",
-    "Bible Study Map/Themes/Creation Account/Creation Account.md",
-    "Bible Study Map/Themes/Creation Account/Genesis 11 - Creation of Babel.md",
-    "Bible Study Map/People - Characters/People - Characters.md",
-    "Bible Study Map/Misc./Misc.md",
-    "Bible Study Map/People - Characters/Main People/Rephaim.md",
-    "Bible Study Map/Bible Books/2 - New Testament/Books/51 - Colossians/Colossians1.md",
-    "Bible Study Map/Bible Books/2 - New Testament/Books/51 - Colossians/Colossians.md",
     "Bible Study Map/Misc.",
     "Attachments/Gen 14 Map.png",
     "Attachments/Gen 14 Map 2.png",
@@ -474,7 +475,6 @@
     "Attachments/Genesis Triads.png",
     "Attachments/Red Thread.png",
     "Attachments/Elevation Map of Israel.png",
-    "Back up file/Attachments/Elevation Map of Israel.png",
-    "Back up file/Attachments/Red Thread.png"
+    "Back up file/Attachments/Elevation Map of Israel.png"
   ]
 }

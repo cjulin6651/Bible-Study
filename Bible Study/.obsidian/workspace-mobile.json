@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1ab367a07d1095e2",
+        "id": "31cf0f61732fc0cb",
         "type": "tabs",
         "children": [
           {
-            "id": "70f3b2575038fa45",
+            "id": "003cede1b4b4f8dd",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -134,7 +134,7 @@
       "obsidian-bible-reference:Bible Verse Lookup": false
     }
   },
-  "active": "70f3b2575038fa45",
+  "active": "003cede1b4b4f8dd",
   "lastOpenFiles": [
     "Test.md",
     "Bible Study Map/Bible Study Map.md",

@@ -6,6 +6,7 @@
 	- [[Genesis 1 - Stars as Signs]]
 	- [[Genesis 4 - God's Covenant with Cain]]
 	- [[Genesis 9 - God's Covenant with Noah]]
+	- [[Genesis 15 - God's Covenant with Abram]]
 - **[[Creation Account]]**
 	- [[Genesis 8 - Re-creation]]
 	- [[Genesis 9 - Noah and the command to Adam]]

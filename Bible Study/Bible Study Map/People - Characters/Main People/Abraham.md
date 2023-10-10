@@ -1,3 +1,7 @@
+---
+aliases:
+  - Abram
+---
 ### Name Meaning:
 Abram - [[High Father]]
 Abraham - [[Father of a Multitude]]
