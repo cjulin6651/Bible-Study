@@ -15,6 +15,7 @@
 		- [[Genesis12]]
 		- [[Genesis13]]
 		- [[Genesis14]]
+		- [[Genesis15]]
 		- [[Genesis19]]
 	- **2 - Exodus**
 		- [[Exodus]]

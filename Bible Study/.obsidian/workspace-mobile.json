@@ -4,16 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "31cf0f61732fc0cb",
+        "id": "7b49487f799699b1",
         "type": "tabs",
         "children": [
           {
-            "id": "003cede1b4b4f8dd",
+            "id": "0c76224728d8e61d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Bible Study Map/Bible Study Map.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "87be9b5dcd68b687",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bible Study Map/Words/English/side.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "082904953535baf2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bible Study Map/Words/Strongs/Hebrew/H6763.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,10 +158,21 @@
       "obsidian-bible-reference:Bible Verse Lookup": false
     }
   },
-  "active": "003cede1b4b4f8dd",
+  "active": "0c76224728d8e61d",
   "lastOpenFiles": [
-    "Test.md",
+    "Bible Study Map/Words/Strongs/Hebrew/H6763.md",
+    "Bible Study Map/Words/English/side.md",
     "Bible Study Map/Bible Study Map.md",
+    "Bible Study Map/Words/English/Help.md",
+    "Bible Study Map/Words/Strongs/Hebrew/H5828.md",
+    "Bible Study Map/Words/Hebrew/ezer.md",
+    "Bible Study Map/Words/Strongs/Hebrew/H8639.md",
+    "Bible Study Map/Words/Hebrew/tardêmâh.md",
+    "Bible Study Map/Words/English/deep sleep.md",
+    "12327-PhotoboothButtons_TS_samesize-02.png",
+    "Bible Study Map/Themes/Covenant/Genesis 15 - God's Covenant with Abram.md",
+    "Bible Study Map/Bible Books/1 - Old Testament/Books/1 - Genesis/Genesis15.md",
+    "Test.md",
     "Bible Study Map/Locations & Nations/Locations/Main Locations/Tower of Babel.md",
     "H875.md",
     "Bible Study Map/Words/Strongs/Hebrew/H2564.md",
@@ -152,16 +187,6 @@
     "Bible Study Map/Bible Books/2 - New Testament/Books/51 - Colossians/Colossians1.md",
     "Bible Study Map/Bible Books/1 - Old Testament/Books/23 - Isaiah/Isaiah24.md",
     "Bible Study Map/Bible Books/1 - Old Testament/Books/19 - Psalms/Psalms82.md",
-    "Bible Study Map/Bible Books/1 - Old Testament/Books/24 - Jeremiah/Jeremiah23.md",
-    "Bible Study Map/Bible Books/1 - Old Testament/Books/18 - Job/Job38.md",
-    "Bible Study Map/Bible Books/1 - Old Testament/Books/19 - Psalms/Psalms29.md",
-    "Bible Study Map/Bible Books/1 - Old Testament/Books/19 - Psalms/Psalms89.md",
-    "Bible Study Map/Bible Books/2 - New Testament/Books/65 - Jude/Jude1.md",
-    "Bible Study Map/Bible Books/2 - New Testament/Books/61 - 2 Peter/2Peter2.md",
-    "Bible Study Map/Bible Books/1 - Old Testament/Books/4 - Numbers/Numbers13.md",
-    "Bible Study Map/People - Characters/Main People/Zamzummim.md",
-    "Bible Study Map/Bible Books/1 - Old Testament/Books/5 - Deuteronomy/Deuteronomy2.md",
-    "Bible Study Map/Bible Books/1 - Old Testament/Books/6 - Joshua/Joshua21.md",
     "Attachments/Gen 14 Map 2.png",
     "Attachments/Babylonian Empire.png",
     "Attachments/Gen 14 Map.png",
