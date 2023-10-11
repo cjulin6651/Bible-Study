@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "bd468d595e64c2fd",
+        "id": "a786b838b9ca7462",
         "type": "tabs",
         "children": [
           {
-            "id": "106ffe4c3675a0fe",
+            "id": "f5f7ae5d6da81e8d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bible Study Map/Themes/Covenant/Genesis 15 - God's Covenant with Abram.md",
+                "file": "Bible Study Map/Themes/Covenant/The Creation of God's Ezer.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Bible Study Map/Themes/Covenant/Genesis 15 - God's Covenant with Abram.md",
+            "file": "Bible Study Map/Themes/Covenant/The Creation of God's Ezer.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Bible Study Map/Themes/Covenant/Genesis 15 - God's Covenant with Abram.md",
+            "file": "Bible Study Map/Themes/Covenant/The Creation of God's Ezer.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Bible Study Map/Themes/Covenant/Genesis 15 - God's Covenant with Abram.md"
+            "file": "Bible Study Map/Themes/Covenant/The Creation of God's Ezer.md"
           }
         }
       }
@@ -134,16 +134,16 @@
       "obsidian-bible-reference:Bible Verse Lookup": false
     }
   },
-  "active": "106ffe4c3675a0fe",
+  "active": "b9011c49ad04dd0d",
   "lastOpenFiles": [
-    "Templates/Eng-Heb-Greek Word.md",
     "Bible Study Map/Bible Study Map.md",
+    "Bible Study Map/Words/Strongs/Hebrew/H8639.md",
+    "Templates/Eng-Heb-Greek Word.md",
     "Bible Study Map/Words/Strongs/Hebrew/H6763.md",
     "Bible Study Map/Words/English/side.md",
     "Bible Study Map/Words/English/Help.md",
     "Bible Study Map/Words/Strongs/Hebrew/H5828.md",
     "Bible Study Map/Words/Hebrew/ezer.md",
-    "Bible Study Map/Words/Strongs/Hebrew/H8639.md",
     "Bible Study Map/Words/Hebrew/tardêmâh.md",
     "Bible Study Map/Words/English/deep sleep.md",
     "12327-PhotoboothButtons_TS_samesize-02.png",

@@ -21,6 +21,7 @@
 		- [[Exodus]]
 		- [[Exodus2]]
 		- [[Exodus12]]
+		- [[Exodus14]]
 	- **3 - Leviticus**
 		- [[Leviticus]]
 		- [[Leviticus17]]

@@ -5922,9 +5922,9 @@ var require_quick_format_unescaped = __commonJS({
   }
 });
 
-// node_modules/.pnpm/pino@8.15.3/node_modules/pino/browser.js
+// node_modules/.pnpm/pino@8.16.0/node_modules/pino/browser.js
 var require_browser2 = __commonJS({
-  "node_modules/.pnpm/pino@8.15.3/node_modules/pino/browser.js"(exports, module2) {
+  "node_modules/.pnpm/pino@8.16.0/node_modules/pino/browser.js"(exports, module2) {
     "use strict";
     var format = require_quick_format_unescaped();
     module2.exports = pino;
@@ -8429,9 +8429,9 @@ var require_platform = __commonJS({
   }
 });
 
-// node_modules/.pnpm/bible-book-names-intl@3.0.5/node_modules/bible-book-names-intl/dist/data/base.json
+// node_modules/.pnpm/bible-book-names-intl@3.0.7/node_modules/bible-book-names-intl/dist/data/base.json
 var require_base = __commonJS({
-  "node_modules/.pnpm/bible-book-names-intl@3.0.5/node_modules/bible-book-names-intl/dist/data/base.json"(exports, module2) {
+  "node_modules/.pnpm/bible-book-names-intl@3.0.7/node_modules/bible-book-names-intl/dist/data/base.json"(exports, module2) {
     module2.exports = {
       "1": {
         verses: [
@@ -9907,9 +9907,9 @@ var require_base = __commonJS({
   }
 });
 
-// node_modules/.pnpm/bible-book-names-intl@3.0.5/node_modules/bible-book-names-intl/dist/data/translations/en.json
+// node_modules/.pnpm/bible-book-names-intl@3.0.7/node_modules/bible-book-names-intl/dist/data/translations/en.json
 var require_en = __commonJS({
-  "node_modules/.pnpm/bible-book-names-intl@3.0.5/node_modules/bible-book-names-intl/dist/data/translations/en.json"(exports, module2) {
+  "node_modules/.pnpm/bible-book-names-intl@3.0.7/node_modules/bible-book-names-intl/dist/data/translations/en.json"(exports, module2) {
     module2.exports = {
       language: "en",
       "1": {
@@ -10499,9 +10499,9 @@ var require_en = __commonJS({
   }
 });
 
-// node_modules/.pnpm/bible-book-names-intl@3.0.5/node_modules/bible-book-names-intl/dist/data/translations/it.json
+// node_modules/.pnpm/bible-book-names-intl@3.0.7/node_modules/bible-book-names-intl/dist/data/translations/it.json
 var require_it = __commonJS({
-  "node_modules/.pnpm/bible-book-names-intl@3.0.5/node_modules/bible-book-names-intl/dist/data/translations/it.json"(exports, module2) {
+  "node_modules/.pnpm/bible-book-names-intl@3.0.7/node_modules/bible-book-names-intl/dist/data/translations/it.json"(exports, module2) {
     module2.exports = {
       language: "it",
       "1": {
@@ -10963,9 +10963,9 @@ var require_it = __commonJS({
   }
 });
 
-// node_modules/.pnpm/bible-book-names-intl@3.0.5/node_modules/bible-book-names-intl/dist/data/translations/jp.json
+// node_modules/.pnpm/bible-book-names-intl@3.0.7/node_modules/bible-book-names-intl/dist/data/translations/jp.json
 var require_jp = __commonJS({
-  "node_modules/.pnpm/bible-book-names-intl@3.0.5/node_modules/bible-book-names-intl/dist/data/translations/jp.json"(exports, module2) {
+  "node_modules/.pnpm/bible-book-names-intl@3.0.7/node_modules/bible-book-names-intl/dist/data/translations/jp.json"(exports, module2) {
     module2.exports = {
       note: "this is generated in ChatGPT, need extra review",
       language: "jp",
@@ -11365,9 +11365,9 @@ var require_jp = __commonJS({
   }
 });
 
-// node_modules/.pnpm/bible-book-names-intl@3.0.5/node_modules/bible-book-names-intl/dist/data/translations/sp.json
+// node_modules/.pnpm/bible-book-names-intl@3.0.7/node_modules/bible-book-names-intl/dist/data/translations/sp.json
 var require_sp = __commonJS({
-  "node_modules/.pnpm/bible-book-names-intl@3.0.5/node_modules/bible-book-names-intl/dist/data/translations/sp.json"(exports, module2) {
+  "node_modules/.pnpm/bible-book-names-intl@3.0.7/node_modules/bible-book-names-intl/dist/data/translations/sp.json"(exports, module2) {
     module2.exports = {
       language: "sp",
       "1": {
@@ -11760,9 +11760,9 @@ var require_sp = __commonJS({
   }
 });
 
-// node_modules/.pnpm/bible-book-names-intl@3.0.5/node_modules/bible-book-names-intl/dist/index.js
+// node_modules/.pnpm/bible-book-names-intl@3.0.7/node_modules/bible-book-names-intl/dist/index.js
 var require_dist = __commonJS({
-  "node_modules/.pnpm/bible-book-names-intl@3.0.5/node_modules/bible-book-names-intl/dist/index.js"(exports) {
+  "node_modules/.pnpm/bible-book-names-intl@3.0.7/node_modules/bible-book-names-intl/dist/index.js"(exports) {
     "use strict";
     var __importDefault = exports && exports.__importDefault || function(mod) {
       return mod && mod.__esModule ? mod : { "default": mod };
@@ -11809,9 +11809,9 @@ var require_dist = __commonJS({
   }
 });
 
-// node_modules/.pnpm/bible-reference-toolkit@2.3.0/node_modules/bible-reference-toolkit/dist/lib/utils.js
+// node_modules/.pnpm/bible-reference-toolkit@2.3.1/node_modules/bible-reference-toolkit/dist/lib/utils.js
 var require_utils3 = __commonJS({
-  "node_modules/.pnpm/bible-reference-toolkit@2.3.0/node_modules/bible-reference-toolkit/dist/lib/utils.js"(exports) {
+  "node_modules/.pnpm/bible-reference-toolkit@2.3.1/node_modules/bible-reference-toolkit/dist/lib/utils.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.generateOrdinalNameVariations = void 0;
@@ -11837,9 +11837,9 @@ var require_utils3 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/bible-reference-toolkit@2.3.0/node_modules/bible-reference-toolkit/dist/lib/books.js
+// node_modules/.pnpm/bible-reference-toolkit@2.3.1/node_modules/bible-reference-toolkit/dist/lib/books.js
 var require_books = __commonJS({
-  "node_modules/.pnpm/bible-reference-toolkit@2.3.0/node_modules/bible-reference-toolkit/dist/lib/books.js"(exports) {
+  "node_modules/.pnpm/bible-reference-toolkit@2.3.1/node_modules/bible-reference-toolkit/dist/lib/books.js"(exports) {
     "use strict";
     var __importDefault = exports && exports.__importDefault || function(mod) {
       return mod && mod.__esModule ? mod : { "default": mod };
@@ -11876,9 +11876,9 @@ var require_books = __commonJS({
   }
 });
 
-// node_modules/.pnpm/bible-reference-toolkit@2.3.0/node_modules/bible-reference-toolkit/dist/lib/reference.js
+// node_modules/.pnpm/bible-reference-toolkit@2.3.1/node_modules/bible-reference-toolkit/dist/lib/reference.js
 var require_reference = __commonJS({
-  "node_modules/.pnpm/bible-reference-toolkit@2.3.0/node_modules/bible-reference-toolkit/dist/lib/reference.js"(exports) {
+  "node_modules/.pnpm/bible-reference-toolkit@2.3.1/node_modules/bible-reference-toolkit/dist/lib/reference.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.Reference = void 0;
@@ -12120,9 +12120,9 @@ var require_reference = __commonJS({
   }
 });
 
-// node_modules/.pnpm/bible-reference-toolkit@2.3.0/node_modules/bible-reference-toolkit/dist/lib/range.js
+// node_modules/.pnpm/bible-reference-toolkit@2.3.1/node_modules/bible-reference-toolkit/dist/lib/range.js
 var require_range2 = __commonJS({
-  "node_modules/.pnpm/bible-reference-toolkit@2.3.0/node_modules/bible-reference-toolkit/dist/lib/range.js"(exports) {
+  "node_modules/.pnpm/bible-reference-toolkit@2.3.1/node_modules/bible-reference-toolkit/dist/lib/range.js"(exports) {
     "use strict";
     var __importDefault = exports && exports.__importDefault || function(mod) {
       return mod && mod.__esModule ? mod : { "default": mod };
@@ -12155,9 +12155,9 @@ var require_range2 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/bible-reference-toolkit@2.3.0/node_modules/bible-reference-toolkit/dist/index.js
+// node_modules/.pnpm/bible-reference-toolkit@2.3.1/node_modules/bible-reference-toolkit/dist/index.js
 var require_dist2 = __commonJS({
-  "node_modules/.pnpm/bible-reference-toolkit@2.3.0/node_modules/bible-reference-toolkit/dist/index.js"(exports) {
+  "node_modules/.pnpm/bible-reference-toolkit@2.3.1/node_modules/bible-reference-toolkit/dist/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.AllBibleBooksInAllSupportedLanguages = exports.getTranslationBooks = exports.Range = exports.Reference = void 0;
@@ -13050,13 +13050,21 @@ var BibleReferenceSettingTab = class extends import_obsidian2.PluginSettingTab {
           });
         }
       );
+      const getOutgoingLinkPosition = (linkingPostion) => {
+        let value = linkingPostion;
+        if (!value) {
+          value = OutgoingLinkPositionEnum.None;
+        } else if (value === true) {
+          value = OutgoingLinkPositionEnum.Header;
+        }
+        return value;
+      };
       new import_obsidian2.Setting(this.expertSettingContainer).setName("Add a Book Outgoing Link").setDesc("Makes an outgoing link for the book, for example [[John]]").addDropdown((dropdown) => {
-        var _a, _b, _c;
+        var _a;
         Object.keys(OutgoingLinkPositionEnum).forEach((name) => {
           dropdown.addOption(name, name);
         });
-        const defaultPosition = ((_a = this.plugin.settings) == null ? void 0 : _a.bookBacklinking) === true ? OutgoingLinkPositionEnum.Header : OutgoingLinkPositionEnum.None;
-        const value = ((_b = this.plugin.settings) == null ? void 0 : _b.bookBacklinking) && ((_c = this.plugin.settings) == null ? void 0 : _c.bookBacklinking) !== true ? this.plugin.settings.bookBacklinking : defaultPosition;
+        const value = getOutgoingLinkPosition((_a = this.plugin.settings) == null ? void 0 : _a.bookBacklinking);
         dropdown.setValue(value);
         dropdown.onChange(async (value2) => {
           this.plugin.settings.bookBacklinking = value2;
@@ -13066,12 +13074,11 @@ var BibleReferenceSettingTab = class extends import_obsidian2.PluginSettingTab {
       new import_obsidian2.Setting(this.expertSettingContainer).setName("Add a Chapter Outgoing Links").setDesc(
         "Makes an outgoing link for the chapter, for example [[John1]] "
       ).addDropdown((dropdown) => {
-        var _a, _b, _c;
+        var _a;
         Object.keys(OutgoingLinkPositionEnum).forEach((name) => {
           dropdown.addOption(name, name);
         });
-        const defaultPosition = ((_a = this.plugin.settings) == null ? void 0 : _a.chapterBacklinking) === true ? OutgoingLinkPositionEnum.Header : OutgoingLinkPositionEnum.None;
-        const value = ((_b = this.plugin.settings) == null ? void 0 : _b.chapterBacklinking) && ((_c = this.plugin.settings) == null ? void 0 : _c.chapterBacklinking) !== true ? this.plugin.settings.chapterBacklinking : defaultPosition;
+        const value = getOutgoingLinkPosition((_a = this.plugin.settings) == null ? void 0 : _a.chapterBacklinking);
         dropdown.setValue(value);
         dropdown.onChange(async (value2) => {
           this.plugin.settings.chapterBacklinking = value2;
@@ -13650,7 +13657,7 @@ var VerseSuggesting = class extends BaseVerseFormatter {
       bottom += ((_g = this.settings) == null ? void 0 : _g.bookBacklinking) === OutgoingLinkPositionEnum.Bottom ? ` [[${this.verseReference.bookName}]]` : "";
       bottom += ((_h = this.settings) == null ? void 0 : _h.chapterBacklinking) === OutgoingLinkPositionEnum.Bottom ? ` [[${this.verseReference.bookName} ${this.verseReference.chapterNumber}]]` : "";
     }
-    return bottom;
+    return bottom + "\n";
   }
   /**
    * Render for use in editor/modal suggest
